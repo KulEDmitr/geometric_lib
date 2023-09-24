@@ -96,4 +96,17 @@ print ( area( x ) )
 print ( perimetr( x ) )
 #вызов функции вычисления периметра квадрата с длиной x = 10
 ```
-
+## История изменения проекта
+1. **L-03: Circle and square added**
+- 8ba9aeb3cea847b63a91ac378a2a6db758682460
+- Добавлен 2 файла : Circle and Square
+2. **L-03: Docs added**
+- d078c8d9ee6155f3cb0e577d28d337b791de28e2
+- Добавлен файл docs : Readme.md
+3. **added rectangle.py**
+- 078e2b502f27f0d9a50c6a64e0fcd2b5e57815a8
+- Добавлен 1 файл : rectangle.py
+4. **added triangle.py and edited rectangle.py**
+- fa8cacd573e947e91e5a4f438b5b55978f984d17
+- Добавлен 1 файл : triangle.py
+- Изменен 1 файл : rectangle.py
