@@ -1,3 +1,32 @@
-# A first-level heading
-## A second-level heading
-### A third-level heading
+# **Описание решения Лабы №1 по ИСРПО**
+### **Необходимые функции**
+```
+git clone - клонировать репозиторий в новый каталог
+git branch - список, создание или удаление ветвей
+git checkout - переключить ветки или восстановить файлы рабочего дерева
+git add - добавляет файл в репозиторий
+git commit - записать изменения в репозиторий
+git log - показать журналы коммитов
+git show - показать коммиты по хэшу
+git merge - слияние веток
+git push - отправить данные на удаленный репозиторий
+```
+### **Шаги работы**
+- Клонируем репозиторий с помощью `git clone`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/f4dc1718-7791-498d-bfb0-9c535a82aba3)
+- Переходим в папку,создаем веточку и переходим на неё с помощью `git branch` и `git checkout`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/0a4ccba5-1039-4cd0-a544-3fd49f244153)
+- Добавляем первый файл, который был подготовлен заранее с помощью `git add`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/73c1aada-aa88-481b-856c-7b32c22706a4)
+- Коммитим с помощью `git commit`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/d5674c2f-0a08-4eeb-9ebf-e90f171af075)
+- Добавляем файл с исправленной ошибкой и коммитим 
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/1aa07404-e0cd-41fe-b587-2139f3494b02)
+- Строим граф всего репозитория с помощью `git log`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/dcc817bf-d454-4fe3-9338-ea5dbd3b5908)
+- Строим граф текущей ветки 
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/b24cbbcd-a4ee-4d17-b7db-d89b6e1a1dbc)
+- Берем хэши 2 последних изменений и смотрим их с помощью `git show`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/b19645e2-1b12-4027-ae4f-b37c20639b26)
+- Мерджим в ветку мастер с помощью `git merge`
+![image](https://github.com/ssnchk/geometric_lib/assets/143999705/2356b830-13e3-4378-84fb-2f2ffa7315ba)
