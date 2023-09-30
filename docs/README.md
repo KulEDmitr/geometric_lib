@@ -1,10 +1,21 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+# Описание проекта
+В данном репозитории находятся файлы, написанные на языке программирования python и содержащие функции для вычисления геометрических данных некоторых фигур, а именно: 
+- Площадь и периметр [круга](https://github.com/GuySky/geometric_lib/blob/main/circle.py);
+- Площадь и периметр [прямоугольника](https://github.com/GuySky/geometric_lib/blob/main/rectangle.py);
+- Площадь и периметр [квадрата](https://github.com/GuySky/geometric_lib/blob/main/square.py);
+- Площадь и периметр [треугольника](https://github.com/GuySky/geometric_lib/blob/main/triangle.py).
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+В коде к каждой функции приложен __комментарий__ с описанием её работы.
+
+Также в данном репозитории находится папка [docs](https://github.com/GuySky/geometric_lib/tree/main/docs) со всей необходимой документацией, включая историю изменений и описания работы функций.
+
+## Используемые математические формулы
+### Площадь:
+- Круг: S = πR²
+- Прямоугольник: S = ab
+- Квадрат: S = a²
+
+### Периметр:
+- Круг: P = 2πR
+- Прямоугольник: P = 2a + 2b
+- Квадрат: P = 4a
