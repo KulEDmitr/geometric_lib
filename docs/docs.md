@@ -76,3 +76,34 @@ _**area(5)**_ --> _25_
 _**area(5,4)**_ --> _10_
 
 **_perimeter(5,10,15)_** --> _30_
+
+## История Коммитов 
+<sup>  (сверху вниз) </sup>
+- L-03: Circle and square added
+> 8ba9aeb
+- L-03: Docs added
+> d078c8d
+- added rectangle
+> 57f9e0d
+- added triangle + error fixed
+> 59f3b89
+- rectangle.py commited
+> c1cb85a
+- square comited
+> e3032e2
+- triangle.py commited
+> efc8c83
+- circle.py commited
+> 8b162b1
+- Create docs.md
+> d2913fe
+- docs added to docs
+> dcf0559
+- Delete docs.md (i already have one)
+> 2f7df17
+- Update 1 docs.md
+> 7f19c40
+- Update 2 docs.md
+> 6e65dce
+- Update 3 docs.md
+> 61f30c2
