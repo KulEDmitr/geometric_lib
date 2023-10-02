@@ -1,4 +1,3 @@
-
 def area(a):
     """
     Return the area of the square.
