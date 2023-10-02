@@ -8,6 +8,11 @@ def area(a, h):
 
         Возвращаемое значение:
         area (int) - Площадь треугольника в десятичном формате
+
+        Примеры вызова:
+        print(area(2, 1))    \\ 1
+        print(area(4, 3))    \\ 6
+        print(area(5, 10))   \\ 25
     '''
     return a * h / 2
 
@@ -22,6 +27,11 @@ def perimeter(a, b, c):
 
         Возвращаемое значение:
         perimeter (int) - периметр треугольника в десятичном формате
+
+        Примеры вызова:
+        print(perimeter(2, 5, 4))   \\ 11
+        print(perimeter(4, 4, 1))   \\ 9
+        print(perimeter(5, 5, 3))   \\ 13
     '''
     return a + b + c
 

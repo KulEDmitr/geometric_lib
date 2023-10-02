@@ -7,6 +7,11 @@ def area(a):
 
         Возвращаемое значение:
         area (int) - Площадь квадрата в десятичном формате
+
+        Примеры вызова:
+        print(area(2))   \\ 4
+        print(area(4))   \\ 16
+        print(area(5))   \\ 25  
     '''
     return a * a
 
@@ -20,5 +25,10 @@ def perimeter(a):
 
         Возвращаемое значение:
         perimeter (int) - периметр квадрата в десятичном формате
+
+        Примеры вызова:
+        print(perimeter(2))   \\ 8
+        print(perimeter(4))   \\ 16
+        print(perimeter(5))   \\ 20
     '''
     return 4 * a
