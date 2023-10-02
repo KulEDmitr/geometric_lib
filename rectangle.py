@@ -8,7 +8,7 @@ def area(a, b):
     Return values:
         returns float -- area S of the rectangle
     Example:
-        print(area(5, 2)) // prints S of rectangle with sides 5 and 2
+        print(area(5, 2)) // prints S (=10) of rectangle with sides 5 and 2
     '''
     return a * b
 
@@ -22,6 +22,6 @@ def perimeter(a, b):
     Return values:
         returns float -- perimeter P of the rectangle
     Example:
-        print(area(5, 2)) // prints P of rectangle with sides 5 and 2
+        print(area(5, 2)) // prints P (=14) of rectangle with sides 5 and 2
     '''
     return (a + b) * 2

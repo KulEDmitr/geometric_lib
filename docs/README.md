@@ -21,7 +21,7 @@ import circle
 r = 3
 P = circle.perimeter(r)
 S = circle.area(r)
-print("Perimeter is", P, "and area is", S) # prints perimeter and area of circle with radius 3
+print("Perimeter is", P, "and area is", S) # prints perimeter (=18.84956) and area (=28.27433) of circle with radius 3
 ```
 
 ### Square
@@ -31,7 +31,7 @@ import square
 a = 3 # length of side
 P = square.perimeter(a)
 S = square.area(a)
-print("Perimeter is", P, "and area is", S) # prints perimeter and area of square with side 3
+print("Perimeter is", P, "and area is", S) # prints perimeter (=12) and area (=9) of square with side 3
 ```
 
 ### Rectangle
@@ -42,18 +42,20 @@ a = 3 # length of the first side
 b = 5 # length of the second side
 P = rectangle.perimeter(a, b)
 S = rectangle.area(a, b)
-print("Perimeter is", P, "and area is", S) # prints perimeter and area of rectangle with sides 3 and 5
+print("Perimeter is", P, "and area is", S) # prints perimeter (=16) and area (=15) of rectangle with sides 3 and 5
 ```
 
 ### Triangle
 has two methods: area and perimeter, that count area and perimeter using length of side and height to this side
 ```python
-import rectangle
+import triangle
 a = 3 # length of the first side
+b = 2
+c = 5
 h = 4 # length of the second side
-P = rectangle.perimeter(a, h)
-S = rectangle.area(a, h)
-print("Perimeter is", P, "and area is", S) # prints perimeter and area of triangle with side 3 and height 4
+P = triangle.perimeter(a, b, c)
+S = triangle.area(a, h)
+print("Perimeter is", P, "and area is", S) # prints perimeter (=10) with sides 3, 2, 5 and area (=6) of triangle with side 3 and height 4
 ```
 
 ## Development
