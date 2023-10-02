@@ -5,6 +5,9 @@ def area(a, b):
     Args:
         a (int): rectangle length.
         b (int): rectangle width.
+
+    Example:
+        area(2, 4) --> 8
     """
     return a * b
 
@@ -16,5 +19,8 @@ def perimeter(a, b):
     Args:
         a (int): rectangle length.
         b (int): rectangle width.
+
+    Example:
+        perimeter(2, 4) --> 12
     """
     return 2 * (a + b)

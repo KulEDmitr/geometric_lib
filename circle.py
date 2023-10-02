@@ -7,6 +7,9 @@ def area(r):
 
     Args:
         r (int): circle radius.
+
+    Example:
+        area(5) --> 78.53981633974483
     """
     return math.pi * r * r
 
@@ -17,8 +20,9 @@ def perimeter(r):
 
     Args:
         r (int): circle radius.
+
+    Example:
+        perimeter(5) --> 31.41592653589793
     """
     return 2 * math.pi * r
 
-
-print(perimeter(5))

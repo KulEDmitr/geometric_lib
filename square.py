@@ -5,6 +5,9 @@ def area(a):
 
     Args:
         a (int): square side length.
+
+    Example:
+        area(3) --> 9
     """
     return a * a
 
@@ -15,5 +18,8 @@ def perimeter(a):
 
     Args:
         a (int): square side length.
+
+    Example:
+        perimeter(3) --> 12
     """
     return 4 * a
