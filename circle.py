@@ -2,11 +2,25 @@ import math
 
 
 def area(r):
-    ''' Принимает радиус круга r и возвращает его площадь '''
+    ''' Returning area of the circle.
+    
+            Accepts:
+                r (int): Radius of the circle
+
+            Return:
+                area (r): Area of the circle
+    '''
     return math.pi * r * r
 
 
 def perimeter(r):
-    ''' Принимает радиус круга r и возвращает длину окружности '''
+    ''' Returning length of the circle
+
+            Accepts:
+                r (int): Radius of the circle
+
+            Return:
+                perimiter (r): Perimiter of the circle
+    '''
     return 2 * math.pi * r
 
