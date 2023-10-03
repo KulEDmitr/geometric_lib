@@ -15,5 +15,5 @@
 ## circle
 ### area()
 Return area of the circle
-> area(1)
+> area(1)\n
 > 3.14....
