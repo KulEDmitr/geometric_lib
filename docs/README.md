@@ -158,7 +158,7 @@
     return a * h / 2
 
 - def perimeter(a, b, c):
-    '''
+
     Возвращает периметр треугольника со сторонами a, b, c.
 
         Параметры:
@@ -173,30 +173,30 @@
             perimeter(3, 4, 5) = 12
             perineter(10, 10, 2.5) = 22.5
             perimiter(23, 10, 15) = 48
-    '''
+            
     return a + b + c
 
 ## История изменения проекта
 - commit 29ad6ccc2f0390c6b428cef18083cf2f4894c2f5
-Author: Kseniia Alekkhina <kaleh1na@mail.ru>
-Date:   Wed Sep 13 09:22:52 2023 +0300
+* Author: Kseniia Alekkhina <kaleh1na@mail.ru>
+* Date:   Wed Sep 13 09:22:52 2023 +0300
 
 > added triangle.py and fixed bug in rectangle.py
 
  - commit 979a7e35e56f5f10f9547411ce42cb91ba786bc0
-Author: Kseniia Alekkhina <kaleh1na@mail.ru>
-Date:   Wed Sep 13 09:19:47 2023 +0300
+* Author: Kseniia Alekkhina <kaleh1na@mail.ru>
+* Date:   Wed Sep 13 09:19:47 2023 +0300
 
 > added rectangle.py
 
 - commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:55:29 2021 +0300
+* Author: smartiqa <info@smartiqa.ru>
+* Date:   Thu Mar 4 14:55:29 2021 +0300
 
 > L-03: Docs added
 
 - commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:54:08 2021 +0300
+* Author: smartiqa <info@smartiqa.ru>
+* Date:   Thu Mar 4 14:54:08 2021 +0300
 
 > L-03: Circle and square added
