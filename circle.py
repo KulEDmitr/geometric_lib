@@ -2,7 +2,7 @@ import math
 
 
 def area(r):
-    ''' Returning area of the circle.
+    ''' Return area of the circle.
     
             Accepts:
                 r (int): Radius of the circle
@@ -14,7 +14,7 @@ def area(r):
 
 
 def perimeter(r):
-    ''' Returning length of the circle
+    ''' Return length of the circle
 
             Accepts:
                 r (int): Radius of the circle
