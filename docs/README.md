@@ -29,44 +29,39 @@
 > circle.py использует встроенную библиотеку math для получения числа pi
 
 - def area(r):
-    '''
+    
     Возвращает площадь круга радиуса r.
 
         Параметры:
             r: радиус круга
         
         Возвращаемое значение:
-            area: площадь круга с радиусом r.   
+            area = math.pi * r * r: площадь круга с радиусом r.   
 
         Примеры вызова:
             area(2) = 12.566370614359172
             area(10.5) = 346.36059005827474
             area(0) = 0.0
-    '''
-    return math.pi * r * r
-
 
 - def perimeter(r):
-    '''
+    
     Возвращает периметр круга (длину окружности) радиуса r.
 
         Параметры:
             r: радиус круга
         
         Возвращаемое значение:
-            perimeter: периметр круга (длина окружности) с радиусом r. 
+            perimeter = 2 * math.pi * r: периметр круга (длина окружности) с радиусом r. 
 
         Примеры вызова:
             perimeter(2) = 12.566370614359172
             perimeter(10.5) = 65.97344572538566
             perimeter(0) = 0.0
-    '''
-    return 2 * math.pi * r
 
 ### rectangle.py
 
 - def area(a, b): 
-    '''
+    
     Возвращает площадь прямоугольника со сторонами a и b.
 
         Параметры:
@@ -74,17 +69,15 @@
             b: длина смежной к первой стороне стороны прямоугольника
         
         Возвращаемое значение:
-            area: площадь прямоугольника со сторонами a и b    
+            area = a * b: площадь прямоугольника со сторонами a и b    
 
         Примеры вызова:
             area(23, 10.5) = 241.5
             area(5, 5) = 25
-            area(1, 30) = 30  
-    '''
-    return a * b 
+            area(1, 30) = 30
 
 - def perimeter(a, b): 
-    '''
+    
     Возвращает периметр прямоугольника со сторонами a и b.
 
         Параметры:
@@ -92,55 +85,49 @@
             b: длина смежной к первой стороне стороны прямоугольника
         
         Возвращаемое значение:
-            perimeter: периметр прямоугольника со сторонами a и b   
+            perimeter = 2 * (a + b): периметр прямоугольника со сторонами a и b   
         
         Примеры вызова:
             perimeter(23, 10.5) = 67.0
             perimeter(5, 5) = 20
             perimeter(1, 30) = 62
-    '''
-    return 2 * (a + b)
 
 ### square.py
 
 - def area(a):
-    '''
+    
     Возвращает площадь квадрата со стороной a.
 
         Параметры:
             a: длина стороны квадрата
         
         Возвращаемое значение:
-            area: площадь квадрата со стороной a.   
+            area = a * a: площадь квадрата со стороной a.   
         
         Примеры вызова:
             area(4) = 16
             area(2.5) = 6.25
             area(0) = 0
-    '''
-    return a * a
 
 - def perimeter(a):
-    '''
+    
     Возвращает периметр квадрата со стороной a.
 
         Параметры:
             a: длина стороны квадрата
         
         Возвращаемое значение:
-            perimeter: периметр квадрата со стороной a.   
+            perimeter = 4 * a: периметр квадрата со стороной a.   
         
         Примеры вызова:
             perimeter(4) = 16
             perimeter(2.5) = 10.0
             perimeter(0) = 0
-    '''
-    return 4 * a
 
 ### triangle.py
 
 - def area(a, h):
-    '''
+
     Возвращает площадь треугольника со стороной a и высотой h.
 
         Параметры:
@@ -148,14 +135,12 @@
             h: длина высоты треугольника, проведенной к стороне стреугольника длиной a
         
         Возвращаемое значение:
-            area: площадь треугольника со стороной a и высотой h
+            area = a * h / 2: площадь треугольника со стороной a и высотой h
         
         Примеры вызова:
             area(3, 1.5) = 2.25
             area(5, 5) = 12.5
             area(2, 10) = 10
-    '''
-    return a * h / 2
 
 - def perimeter(a, b, c):
 
@@ -167,36 +152,43 @@
             с: длина третьей стороны треугольника
         
         Возвращаемое значение:
-            perimeter: периметр треугольника со сторонами a, b, c
+            perimeter = a + b + c: периметр треугольника со сторонами a, b, c
         
         Примеры вызова:
             perimeter(3, 4, 5) = 12
             perineter(10, 10, 2.5) = 22.5
             perimiter(23, 10, 15) = 48
-            
-    return a + b + c
 
 ## История изменения проекта
+
 - commit 29ad6ccc2f0390c6b428cef18083cf2f4894c2f5
-* Author: Kseniia Alekkhina <kaleh1na@mail.ru>
-* Date:   Wed Sep 13 09:22:52 2023 +0300
+
+Author: Kseniia Alekkhina <kaleh1na@mail.ru>
+
+Date:   Wed Sep 13 09:22:52 2023 +0300
 
 > added triangle.py and fixed bug in rectangle.py
 
  - commit 979a7e35e56f5f10f9547411ce42cb91ba786bc0
-* Author: Kseniia Alekkhina <kaleh1na@mail.ru>
-* Date:   Wed Sep 13 09:19:47 2023 +0300
+
+Author: Kseniia Alekkhina <kaleh1na@mail.ru>
+
+Date:   Wed Sep 13 09:19:47 2023 +0300
 
 > added rectangle.py
 
 - commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
-* Author: smartiqa <info@smartiqa.ru>
-* Date:   Thu Mar 4 14:55:29 2021 +0300
+
+Author: smartiqa <info@smartiqa.ru>
+
+Date:   Thu Mar 4 14:55:29 2021 +0300
 
 > L-03: Docs added
 
 - commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-* Author: smartiqa <info@smartiqa.ru>
-* Date:   Thu Mar 4 14:54:08 2021 +0300
+
+Author: smartiqa <info@smartiqa.ru>
+
+Date:   Thu Mar 4 14:54:08 2021 +0300
 
 > L-03: Circle and square added
