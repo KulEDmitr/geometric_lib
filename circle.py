@@ -20,7 +20,7 @@ def perimeter(r):
                 r (int): radius of the circle
 
             Return:
-                perimiter (int): perimiter of the circle
+                perimeter (int): perimeter of the circle
     '''
     return 2 * math.pi * r
 
