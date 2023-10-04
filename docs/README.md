@@ -49,32 +49,32 @@
 # История комитов
 
 - commit 1e49967a5008d4bad96161f8de3ffd3bff230724 (HEAD -> main, origin/main, origin/HEAD)
-  Author: Jovenavr0 <vvkarpenko2005@mail.ru>
-  Date:   Thu Sep 14 09:48:43 2023 +0300
+Author: Jovenavr0 <vvkarpenko2005@mail.ru>
+Date:   Thu Sep 14 09:48:43 2023 +0300
 
       correct mistake
 
 - commit 1f40aed550a2a3b3bb66879856ee386a67efdf6c
-  Author: Jovenavr0 <vvkarpenko2005@mail.ru>
-  Date:   Thu Sep 14 09:47:56 2023 +0300
+Author: Jovenavr0 <vvkarpenko2005@mail.ru>
+Date:   Thu Sep 14 09:47:56 2023 +0300
 
       create new file triangle
 
 - commit 5677a33e2843b06bbe77ea12ed0248af142578fe
-  Author: Jovenavr0 <vvkarpenko2005@mail.ru>
-  Date:   Thu Sep 14 09:46:55 2023 +0300
+Author: Jovenavr0 <vvkarpenko2005@mail.ru>
+Date:   Thu Sep 14 09:46:55 2023 +0300
 
       create new file rectangle
 
 - commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
-  Author: smartiqa <info@smartiqa.ru>
-  Date:   Thu Mar 4 14:55:29 2021 +0300
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
 
       L-03: Docs added
 
 - commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-  Author: smartiqa <info@smartiqa.ru>
-  Date:   Thu Mar 4 14:54:08 2021 +0300
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
 
       L-03: Circle and square added
 
