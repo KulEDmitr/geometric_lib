@@ -52,21 +52,14 @@
 
 # История комитов
 
-1. - commit 1e49967a5008d4bad96161f8de3ffd3bff230724 (HEAD -> main, origin/main, origin/HEAD)
-   - Author: Jovenavr0 <vvkarpenko2005@mail.ru>
-   - Date:   Thu Sep 14 09:48:43 2023 +0300
-
-
-    correct mistake
-
-2. - commit 1f40aed550a2a3b3bb66879856ee386a67efdf6c
+1. - commit 1f40aed550a2a3b3bb66879856ee386a67efdf6c
    - Author: Jovenavr0 <vvkarpenko2005@mail.ru>
    - Date:   Thu Sep 14 09:47:56 2023 +0300
 
   
     create new file triangle
 
-3. - commit 5677a33e2843b06bbe77ea12ed0248af142578fe
+2. - commit 5677a33e2843b06bbe77ea12ed0248af142578fe
    - Author: Jovenavr0 <vvkarpenko2005@mail.ru>
    - Date:   Thu Sep 14 09:46:55 2023 +0300
 
