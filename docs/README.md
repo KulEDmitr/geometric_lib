@@ -1,10 +1,15 @@
+# About geometric_lib
+Using geometric formulas for a circle, rectangle, square and triangle, the area and perimeter are calculated.
+
 # Math formulas
 ## Area
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
+- Triangle: S = ah / 2
 
 ## Perimeter
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
+- Triange: P = a + b + c
