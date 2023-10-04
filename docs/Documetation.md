@@ -3,39 +3,55 @@
 # *Description of functions*
 ## rectangle.py
 ### def area(a, b):
-    Takes sides of the rectangle and returns its area
-    Example:
+Takes sides of the rectangle and returns its area
+
+Example:
+
     Print(area(5,5)) // 25
 ### def perimeter(a, b):
-    Takes sides of the rectangle and returns its perimeter
-    Example:
+Takes sides of the rectangle and returns its perimeter
+
+Example:
+
     Print(area(5,5)) // 20
 ## circle.py
 ### def area(r):
-    Takes the radius of a circle and returns its area
-    Example:
+Takes the radius of a circle and returns its area
+
+Example:
+
     print(area(5)) // 78.53981633974483
 ### def perimeter(r):
-    Takes the radius of a circle and returns its perimeter
-    Example:
+Takes the radius of a circle and returns its perimeter
+
+Example:
+    
     print(perimeter(5)) // 31.41592653589793
 ## square.py
 ### def area(a):
-    Takes side of the square and returns its area
-    Example:
+Takes side of the square and returns its area
+
+Example:
+
     Print(area(5)) // 25
 ### def perimeter(a):
-    Takes side of the square and returns its perimeter
-    Example:
+Takes side of the square and returns its perimeter
+
+Example:
+
     Print(perimeter(5)) // 20
 ## triangle.py
 ### def area(a, h):
-    Takes base and height the triangle and returns its area
-    Example:
+Takes base and height the triangle and returns its area
+
+Example:
+
     Print(perimeter(10,5)) // 25
 ### def perimeter(a, b, c):
-    Takes sides the triangle and returns its perimeter
-    Example:
+Takes sides the triangle and returns its perimeter
+
+Example:
+
     Print(perimeter(5,5,5)) // 15
 # *project modification history*
 commit fd54bcd211f8f3565827c30c5d83f977e43b4b1d
