@@ -104,3 +104,5 @@
         perimeter(3, 4, 5) --> 12
 
 ![img.png](img.png)
+
+![img_1.png](img_1.png)
