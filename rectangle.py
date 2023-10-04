@@ -1,5 +1,15 @@
 def area(a, b):
+    """
+    Возвращает произведение двух чисел a и b
+    """
     return a * b
 
-def perimeter(a, b):
-    return (a + b) * 2
+def perimeter(f, b):
+    """
+    Возвращает значение периметра прямоугольника со сторонами f и b
+
+    :param f: одна сторона
+    :param b: вторая сторона
+    :return: 2*(f + b)
+    """
+    return (f + b) * 2
