@@ -3,7 +3,7 @@
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
-- Triangle: S = ah
+- Triangle: S = 0.5*ah
 
 ## Perimeter
 - Circle: P = 2πR
