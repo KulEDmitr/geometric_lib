@@ -117,4 +117,3 @@ return: 12
 - `d74356d` - добавлен новый файл rectangle.py
 - `e7c776f` - исправлен файл rectangle.py
 
-
