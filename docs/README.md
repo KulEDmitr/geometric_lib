@@ -76,48 +76,7 @@ h - длину его высоты.
 Пример вызова: **perimeter(2, 4) --> 12**
 ## История изменений
 
-1. Коммит **_8ba9aeb3_**. Добавлены файлы: 
-- circle.py
-
-```
-import math
-
-
-def area(r):
-    return math.pi * r * r
-
-
-def perimeter(r):
-    return 2 * math.pi * r
-
-```
-- square.py
-
-```
-
-def area(a):
-    return a * a
-
-
-def perimeter(a):
-    return 4 * a
-
-```
-2. Коммит **_d078c8d9_**. Добавлен файл:
-- README.md
-```
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
-
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
-```
-3. Коммит **_fb47d642_**. Добавлен файл:
+1. Коммит **_fb47d642_**. Добавлен файл:
 - rectangle.py
 ```
 def area(a, b): 
@@ -127,7 +86,7 @@ def perimeter(a, b):
     return a + b 
 
 ```
-4. Коммит **_0b1b0db8_**. Добавлен файл:
+2.  Коммит **_0b1b0db8_**. Добавлен файл:
 - triangle.py
 ```
 def area(a, h): 
@@ -137,7 +96,7 @@ def perimeter(a, b, c):
     return a + b + c 
 
 ```
-5. Коммит **_52443615_**. Изменен файл:
+3.  Коммит **_52443615_**. Изменен файл:
 - rectangle.py
 ```
 return a + b -->  return (a + b) * 2 
