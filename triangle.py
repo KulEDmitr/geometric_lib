@@ -1,11 +1,11 @@
 def area(a, h):
-    '''Принимает на вход числа a и h - длина стороны и
-    проведенной к ней высоты в треугольнике соответсвенно,
-    возвращает площадь треугольника с заданными параметрами.'''
+    '''Accepts numbers a and h - side length and
+    height drawn to it in the triangle, respectively,
+    returns the area of a triangle with the given parameters.'''
     return a * h / 2 
 
 
 def perimeter(a, b, c):
-    '''Принимает на вход числа a, b, c - длины сторон треугольникка,
-    возвращает периметр треугольника с заданными параметрами.'''
+    '''Accepts numbers a, b, c - the lengths of the sides of the triangle,
+    returns the perimeter of a triangle with the given parameters.'''
     return a + b + c

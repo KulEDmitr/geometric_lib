@@ -1,10 +1,10 @@
 def area(a, b):
-    '''Принимает на вход числа a и b - длины соседних сторон прямоугольника,
-    возвращает площадь прямоугольника со сторонами a и b.'''
+    '''Accepts numbers a and b - the lengths of sides of the rectangle,
+    returns area of a rectangle with sides a and b.'''
     return a * b 
 
 
 def perimeter(a, b):
-    '''Принимает на вход числа a и b - длины соседних сторон прямоугольника,
-    возвращает периметр прямоугольника со сторонами a и b.'''
+    '''Accepts numbers a and b - the lengths of sides of the rectangle,
+    returns the perimeter of a rectangle with sides a and b.'''
     return (a + b) * 2
