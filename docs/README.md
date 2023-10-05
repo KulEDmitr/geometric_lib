@@ -96,15 +96,17 @@
 
 Latest changes:
 
-- 827ec18f59c992b5471f08f76b8cc2473639f27b Func comments translated
-- 3c9df2992f90759d8731d078db1bcfb074fc1d54 Func comments added
+- [b8e7e9a](https://github.com/ITheLestI/geometric_lib/commit/b8e7e9a5add079e2d01e1890c79c8cfcccd19e05) Docs for every function + history
+- [827ec18](https://github.com/ITheLestI/geometric_lib/commit/827ec18f59c992b5471f08f76b8cc2473639f27b) Func comments translated
+
 
 <details>
 <summary>Later commits</summary>
 
-- e6b71ab3f3530f7ff3d5e3fbf2ff4c0959798081 Fixed rectangle.py, added triangle.py
-- 588a982e49730c1ad1c42dd43dbdb0e8ebab7b98 Added rectangle.py
-- d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
-- 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
+- [3c9df29](https://github.com/ITheLestI/geometric_lib/commit/3c9df2992f90759d8731d078db1bcfb074fc1d54) Func comments added
+- [e6b71ab](https://github.com/ITheLestI/geometric_lib/commit/e6b71ab3f3530f7ff3d5e3fbf2ff4c0959798081) Fixed rectangle.py, added triangle.py
+- [588a982](https://github.com/ITheLestI/geometric_lib/commit/588a982e49730c1ad1c42dd43dbdb0e8ebab7b98) Added rectangle.py
+- [d078c8d](https://github.com/ITheLestI/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2) L-03: Docs added
+- [8ba9aeb](https://github.com/ITheLestI/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460) L-03: Circle and square added
 
 </details>
