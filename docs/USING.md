@@ -47,8 +47,8 @@ $\large \color {#FFB1F9} \sf Квадрат$
 ```py
 import geometric_lib.square as square
 
-print(square.area(10)) # 314.1592653589793                                                   
-print(square.perimeter(10)) # 62.83185307179586
+print(square.area(10)) # 100                                                 
+print(square.perimeter(10)) # 40
 ```
 
 ### Площадь
@@ -88,8 +88,8 @@ $\large \color {#FFB1F9} \sf Прямоугольник$
 ```py
 import geometric_lib.rectangle as rectangle
 
-print(rectangle.area(10)) # 314.1592653589793                                                   
-print(rectangle.perimeter(10)) # 62.83185307179586
+print(rectangle.area(10, 5)) # 50                                                   
+print(rectangle.perimeter(10, 5)) # 30
 ```
 
 ### Площадь
@@ -131,13 +131,13 @@ $\large \color {#FFB1F9} \sf Треугольник$
 ```py
 import geometric_lib.triangle as triangle
 
-print(triangle.area(10)) # 314.1592653589793                                                   
-print(triangle.perimeter(10)) # 62.83185307179586
+print(triangle.area(10, 5)) # 25                                                   
+print(triangle.perimeter(10, 10, 10)) # 30
 ```
 
 ### Площадь
 ```py
-triangle.area(a, b)
+triangle.area(a, h)
 
 Возвращает площадь треугольника с указанной стороной и высотой, проведенной к ней
 
@@ -153,7 +153,7 @@ triangle.area(a, b)
 
 ### Периметр
 ```py
-triangle.perimeter(a, b)
+triangle.perimeter(a, b, c)
 
 Возвращает периметр треугольника с указанными сторонами
 
