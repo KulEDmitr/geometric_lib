@@ -37,3 +37,16 @@ Using geometric formulas for a circle, rectangle, square and triangle, the area 
 > a = 5; b = 6; c = 10
 >
 > perimeter = 21
+
+# History of project changes with comit hashes
+- 8ba9aeb - Circle and square added
+- d078c8d - Docs added
+- 36b77fa - Rectangle.py added
+- 2a794d5 - Triangle added
+- f974a0b - Fixed a bug in rectangle.py
+- fe74de1 - Added comments in circle.py
+- 0ddc8bb - Added comments in rectangle.py
+- 301caaf - Added comments in square.py
+- 2f29441 - Added comments in triangle.py
+- 71f7ab1 - Added "About" in docs
+- c190257 - Added "description of each function with call examples" in docs
