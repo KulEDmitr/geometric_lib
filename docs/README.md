@@ -94,6 +94,13 @@ We calculate the perimeter of a triangle using the formula **S = a + b + c**
    
 # Project change history with commit hashes
 
+**commit b2624f0c7b6b1f9eb3cfb3e5217c231c91845387\
+Author: NicroNn <85504595+NicroNn@users.noreply.github.com>\7
+Date:   Mon Sep 11 10:36:43 2023 +0300**
+
+    fixed rectangle perimetr calculation
+
+
 **commit 42f5bc4650eafb384fac465459e6228ce0a1a0e3\
 Author: NicroNn <85504595+NicroNn@users.noreply.github.com>\
 Date:   Mon Sep 11 10:34:37 2023 +0300**
