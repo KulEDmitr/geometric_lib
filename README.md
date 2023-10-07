@@ -7,10 +7,13 @@ Contains functions for 4 geometric figures:
     
 ### 1. Square
     - 'def area' Receives number **side** and returns area of square.
+    > Example: user inputs 2, function returns 4.
     - 'def perimeter' Receives number **side** and returns perimeter of square. 
+    > Example: user inputs 2, function returns 8.
 
 ### 2. Rectangle
     - 'def area' Receives numbers **2 sides** and returns area of rectangle.
+    > Example: user inputs 2, 3, function returns 6.
     - 'def perimeter' Receives numbers **2 sides** and returns perimeter of rectangle.
     
 ### 3. Circle
