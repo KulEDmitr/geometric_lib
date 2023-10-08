@@ -84,7 +84,8 @@
     ``` 
   
 ## Project change history
-* **1fdb837** (HEAD -> main, origin/main, origin/HEAD) Updated README.md
+* **df5c9ef** (HEAD -> main, origin/main, origin/HEAD) Added last commits to project change history list in README.md
+* **1fdb837** Updated README.md
 * **f57eaaa** updated readme.md file: added description and examples of all functions from .py fies in the project, added project change history.
 * **3aceafd** added comments to functions in all .py files
 * **c2aa33d** (origin/main, origin/HEAD) Created triangle.py and fixed bug in calculating perimeter in rectangle.py
