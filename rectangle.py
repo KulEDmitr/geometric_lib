@@ -1,5 +1,7 @@
-def area(a, b): 
-    return a * b 
+def area(a, b):
+    """Принимает число a и число b, возвращает произведение этих чисел"""
+    return a * b
 
-def perimeter(a, b): 
+def perimeter(a, b):
+    """Принимает число a и число b, возвращает удвоенную суммму этих чисел"""
     return 2*(a + b)
