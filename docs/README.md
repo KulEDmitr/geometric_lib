@@ -142,6 +142,36 @@
 
 # История изменения проекта с хешами комитов
 
+commit d3970973bcfe0e8b57740e420f97bf327947c16c (HEAD -> main)
+Author: nikita <nkarbofos@gmail.com>
+Date:   Sun Oct 8 09:17:44 2023 +0300
+
+    declarations fixed
+
+commit dedf52d0d81e788592451d29ff2210680bfd05af
+Author: nikita <nkarbofos@gmail.com>
+Date:   Sun Oct 8 08:44:45 2023 +0300
+
+    square.py fixed
+
+commit b9602d6e2f44ee3e85e20fc66111e2079aed8ef5
+Author: nikita <nkarbofos@gmail.com>
+Date:   Sun Oct 8 08:41:20 2023 +0300
+
+    actions.py fixed
+
+commit 979a638337efb51a8bd9b3365e411d1c9b814f74
+Author: nikita <nkarbofos@gmail.com>
+Date:   Thu Oct 5 21:39:08 2023 +0300
+
+    documentation made
+
+commit 30bc50f945de74ec2985fab0eeb9911d76376e44
+Author: nikita <nkarbofos@gmail.com>
+Date:   Thu Oct 5 13:19:48 2023 +0300
+
+    circle, triangle fixed
+
 commit 2b6f1d2cb3df221b4aeba6295a242cde829ba3e8
 Author: nikita <nkarbofos@gmail.com>
 Date:   Wed Oct 4 21:33:42 2023 +0300
