@@ -79,13 +79,26 @@
 > ___
 > 8
 
+# История репозитория:
+1. (8ba9aeb) создание репозитория
+2. (d078c8d) L-03: Docs added
+3. (fa02a71) добавлен файл rectangle.py
+4. (946af79) исправлена ошибка вычисления периметра в rectangle.py и добавлен файл triangle.py
+5. (dd2e25a) Update README.md  
+             Добавлено описание всех функций
+6. (df00ca7) Добавлениы описания функций
+7. (ded1b43) Merge https://github.com/remix292/geometric_lib
+8. (e37315c) Переделал комментарии
+
 # Math formulas
 ## Area
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
+- Triangle: S = ah \ 2
 
 ## Perimeter
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
+- Triangle: P = a + b + c
