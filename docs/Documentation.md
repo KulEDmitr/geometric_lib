@@ -10,24 +10,28 @@
 `circle.py` содержит в себе функции вычисления _площади круга_, которая вычисляется по формуле  $\pi r^2$, и _периметра круга_, который вычисляется по формуле $2\pi r$, где $r$ - радиус круга, заданный на входе каждой из функций, `math.pi` - значение числа $\pi$ в библиотеке `math` в Python
 
 Пример использования:
+
 <a href="https://ibb.co/6gvMCvL"><img src="https://i.ibb.co/dGbTYbx/image.png" alt="image" border="0" /></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/hcX9MjQ/image.png" alt="image" border="0" /></a>
 
 `rectangle.py` содержит в себе функции вычисления _площади прямоугольника_ , которая вычисляется как $ab$, и _периметра прямоугольника_, который вычисляется как $2(a+b)$, где $a$ и $b$ являются сторонами прямоугольника и заданы на входе каждой из функций
 
 Пример использования:
+
 <a href="https://ibb.co/m55GyRM"><img src="https://i.ibb.co/N22sNFH/image.png" alt="image" border="0" /></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/6PYtWcG/image.png" alt="image" border="0" /></a>
 
 `square.py` содержит в себе функции вычисления _площади квадрата_, которая вычисляется как $a^2$, и _периметра квадрата_, который вычисляется как $4a$, где $a$ - сторона квадрата,  заданная на входе каждой из функций
 
 Пример использования:
+
 <a href="https://ibb.co/WPvN5qV"><img src="https://i.ibb.co/dL4sM1m/image.png" alt="image" border="0" /></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/26X62xH/image.png" alt="image" border="0" /></a>
 
 `triangle.py` содержите в себе функции вычисления _площади треугольника_, которая вычисляется как $ah/2$, где $a$ - сторона прямоугольника и $h$ - высота, опущенная на сторону $a$ из противоположной стороне вершины треугольника, и _периметра треугольника_, который вычисляется как $a+b+c$, где $a,b,c$ - стороны треугольника
 
 Пример использования:
+
 <a href="https://ibb.co/TRxNmr8"><img src="https://i.ibb.co/mtVP6Sq/image.png" alt="image" border="0" /></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/sWL7MDk/image.png" alt="image" border="0" /></a>
 
