@@ -79,8 +79,8 @@
   * Возвращаемое значение:  
         p(float): вещественное число - периметр прямоугольника  
   # История изменений
-  8ba9ae - L-03: Circle and square added  
-  d078c8 - L-03: Docs added  
-  f072608- rectangle.py was added  
-  a03918 - triangle.py was added, rectangle.py was modified  
-  e16b519 - triangle.py edited  
+  [8ba9ae](https://github.com/ashlixx/geometric_lib/tree/8ba9aeb3cea847b63a91ac378a2a6db758682460) - L-03: Circle and square added  
+  [d078c8](https://github.com/ashlixx/geometric_lib/tree/d078c8d9ee6155f3cb0e577d28d337b791de28e2) - L-03: Docs added  
+  [f072608](https://github.com/ashlixx/geometric_lib/tree/f072608c5fbdb9a4021b1b85f3e93482f8c6c39b)- rectangle.py was added  
+  [a03918](https://github.com/ashlixx/geometric_lib/tree/a03918eb9845bfc33e75c47e56ca309647af8130) - triangle.py was added, rectangle.py was modified  
+  [e16b519](https://github.com/ashlixx/geometric_lib/tree/a03918eb9845bfc33e75c47e56ca309647af8130) - triangle.py edited  
