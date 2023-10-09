@@ -39,6 +39,6 @@ def perimeter(a, b):
     print(f"The perimeter of a rectangle with sides {side_a} and {side_b} is: {rectangle_perimeter}")
     
     Output:
-    print(f"The perimeter of a rectangle with sides 4.5 and 2.7 is: 7.2")
+    print(f"The perimeter of a rectangle with sides 4.5 and 2.7 is: 14.4")
     """
     return 2 * (a + b)
