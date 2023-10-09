@@ -6,6 +6,9 @@ def area(a: int, h: int) -> float:
 			h (int): height to given side of triangle
 		Returns:
 			area (float): area of rectangle
+
+		Example:
+		     triangle.area(2, 3) = 3.0
 		"""
     return a * h / 2
 
@@ -19,5 +22,8 @@ def perimeter(a: int, b: int, c: int) -> int:
 			c (int): third side of triangle
 		Returns:
 			perimeter (int): perimeter of triangle
+
+		Example:
+		    triangle.perimeter(1, 2, 3) = 6
 	"""
     return a + b + c

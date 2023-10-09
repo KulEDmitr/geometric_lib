@@ -138,3 +138,4 @@ Example
 - `5580e9d`: added rectangle.py
 - `9abb177`: added triangle.py
 - `20b0f05`: fixed perimeter in rectangle.py
+- `3a12410`: added documentation
