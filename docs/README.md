@@ -53,3 +53,17 @@
 - Triangle: P = a + b + c
 
 # История изменения
+### commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Добавлены circle.py и square.py
+
+### commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Добавлен каталог Docs
+
+### commit 1099e6bc30d7282f7a219030ee4700ad7e3fcbba
+Добавлен rectangle.py
+
+### commit e58d7181bdede286fe3075a0034662d2cff177a6
+Добавлен triangle.py и исправлена ошибка в rectangle.py
+
+### commit 4fda308492cc486f6453f1142127f3ec18700c44
+Добавлена документация
