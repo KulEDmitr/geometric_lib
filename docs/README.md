@@ -232,15 +232,18 @@ The perimeter of a triangle with sides 4.5, 2.7, and 3.8 is: 11.0
 - Triangle: P = a + b + c
 
 ## Commit history
-- a5688e6c973e4806c9e9f61ed6f8dd34ee5c08a2 - bialger, : Updated README with documentation
-- f995529ccc73521d3cfb3321e1c10f23aa54a0bb - bialger, : Fixed comments in triangle.py
-- 880662baed38c6646f73ef3536f9b4a439bd2453 - bialger, : Added comments to triangle.py
-- b7c0c5e4b483deafa9dca713d4db72275083b41c - bialger, : Added comments to square.py
-- 52fa93ed78065fd4e769c2f8c350a5c5e4445453 - bialger, : Fixed comments to rectangle.py
-- 95d11a85c974e6b199f5c202def9c24ae4d30ab2 - bialger, : Added comments to rectangle.py
-- 29d40341f9c650a697ebd1576d35f822a592eb87 - bialger, : Added comments to cirle.py
-- e0203ac56eb0d8541d4e563f0d5be16d4544329c - bialger, : Fixed first file
-- d2d38f4176ee30484dc7250968c8e75d26029090 - bialger, : Added second file
-- 88729ccf10e2f6f1c4bc69b193aefa4dfb12732a - bialger, : Added first file
-- d078c8d9ee6155f3cb0e577d28d337b791de28e2 - smartiqa, : L-03: Docs added
-- 8ba9aeb3cea847b63a91ac378a2a6db758682460 - smartiqa, : L-03: Circle and square added
+- 60368fc50d4082dca71beb2a891022b84e1bd6bc - bialger: Fixed comments in all .py files
+- 090747fb4061055c4e297d27af929380cde8e582 - bialger: Fixed README - with usage examples
+- 793f35fdf97a889f9a49b82cee54e225d4368a40 - bialger: Fixed README
+- a5688e6c973e4806c9e9f61ed6f8dd34ee5c08a2 - bialger: Updated README with documentation
+- f995529ccc73521d3cfb3321e1c10f23aa54a0bb - bialger: Fixed comments in triangle.py
+- 880662baed38c6646f73ef3536f9b4a439bd2453 - bialger: Added comments to triangle.py
+- b7c0c5e4b483deafa9dca713d4db72275083b41c - bialger: Added comments to square.py
+- 52fa93ed78065fd4e769c2f8c350a5c5e4445453 - bialger: Fixed comments to rectangle.py
+- 95d11a85c974e6b199f5c202def9c24ae4d30ab2 - bialger: Added comments to rectangle.py
+- 29d40341f9c650a697ebd1576d35f822a592eb87 - bialger: Added comments to cirle.py
+- e0203ac56eb0d8541d4e563f0d5be16d4544329c - bialger: Fixed first file
+- d2d38f4176ee30484dc7250968c8e75d26029090 - bialger: Added second file
+- 88729ccf10e2f6f1c4bc69b193aefa4dfb12732a - bialger: Added first file
+- d078c8d9ee6155f3cb0e577d28d337b791de28e2 - smartiqa: L-03: Docs added
+- 8ba9aeb3cea847b63a91ac378a2a6db758682460 - smartiqa: L-03: Circle and square added
