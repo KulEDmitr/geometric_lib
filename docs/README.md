@@ -89,6 +89,16 @@ def perimeter(a, b, c): # Вовзвращает периметр треугол
 Input: 6, 8, 10
 Output: 24
 ```
+# История изменения проекта:
+```
+* 10429f7a9d79acf7a3358a42369ef5ad63a4807d (HEAD -> main) Добавил описания работы функций для файлов: rectangle.py, triangle.py, circle.py и square.py. Также описал пример вызова каждой функции из каждого файла.
+* ad2926eb5f879bf1921f7d78808cbd7b3c51e68a Добавил комментарии к функциям в файле Rectangle.py и сделал вывод данных функций.
+* d6541236a112cfd8a255fff1e438c9d9081cb15c (origin/main, origin/HEAD) Добавлен файл: triangle.py и исправлена ошибка в вычислении периеметра в файле: rectangle.py
+* 6c2b8300ad086886b4b08bce0779340a4f2103bd Добавил новый файл: rectangle.py
+* d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
+* 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
+```
+
 
 # Math formulas
 ## Area
