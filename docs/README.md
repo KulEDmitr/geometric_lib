@@ -6,6 +6,218 @@ The geometric library is a comprehensive collection of functions that perform ca
 - Rectangles are handled by functions that compute the area by multiplying the side lengths and the perimeter by multiplication of added side lengths and two.
 - Squares can have their area calculated using one side length multiplied by self and perimeter using one side length multiplied by four.
 
+## How to use
+### Circle
+#### Area
+Calculate the area of a circle given its radius.
+
+Parameters:
+
+r (float): The radius of the circle.
+
+Returns:
+
+float: The calculated area of the circle.
+    
+Usage example:
+
+```python
+from circle import area
+
+radius = 2.5
+circle_area = area(radius)
+print(f"The area of a circle with radius {radius} is: {circle_area}")
+```
+Output:
+
+The area of a circle with radius 2.5 is: 19.634954084936208
+
+#### Perimeter
+Calculate the perimeter (circumference) of a circle given its radius.
+
+Parameters:
+
+r (float): The radius of the circle.
+
+Returns:
+
+float: The calculated perimeter of the circle.
+    
+Usage example:
+
+```python
+from circle import perimeter
+
+radius = 3.5
+circle_perimeter = perimeter(radius)
+print(f"The perimeter of a circle with radius {radius} is: {circle_perimeter}")
+```
+Output:
+
+The perimeter of a circle with radius 3.5 is: 21.991148575128552
+
+### Rectangle
+#### Area
+Calculate the area of a rectangle given its sides.
+    
+Parameters:
+
+a (float): The length of one side of the rectangle.
+
+b (float): The length of the other side of the rectangle.
+    
+Returns:
+
+float: The calculated area of the rectangle.
+    
+Usage example:
+
+```python
+from rectangle import area
+
+side_a = 4.5
+side_b = 2.7
+rectangle_area = area(side_a, side_b)
+print(f"The area of a rectangle with sides {side_a} and {side_b} is: {rectangle_area}")
+```
+Output:
+
+The area of a rectangle with sides 4.5 and 2.7 is: 12.15
+
+#### Perimeter
+Calculate the perimeter of a rectangle given its sides.
+    
+Parameters:
+
+a (float): The length of one side of the rectangle.
+
+b (float): The length of the other side of the rectangle.
+    
+Returns:
+
+float: The calculated perimeter of the rectangle.
+    
+Usage example:
+
+```python
+from rectangle import perimeter
+
+side_a = 4.5
+side_b = 2.7
+rectangle_perimeter = perimeter(side_a, side_b)
+print(f"The perimeter of a rectangle with sides {side_a} and {side_b} is: {rectangle_perimeter}")
+```
+Output:
+
+The perimeter of a rectangle with sides 4.5 and 2.7 is: 14.4
+
+### Square
+#### Area
+Calculate the area of a square given its side.
+    
+Parameters:
+
+a (float): The length of a side of the square.
+    
+Returns:
+
+float: The calculated area of the square.
+    
+Usage example:
+
+```python
+from square import area
+
+side_a = 2.5
+square_area = area(side_a)
+print(f"The area of a square with side {side_a} is: {square_area}")
+```
+Output:
+
+The area of a square with side 2.5 is: 6.25
+
+#### Perimeter
+Calculate the perimeter of a square given its side.
+    
+Parameters:
+
+a (float): The length of a side of the square.
+    
+Returns:
+
+float: The calculated perimeter of the square.
+    
+Usage example:
+
+```python
+from square import perimeter
+
+side_a = 2.5
+square_perimeter = perimeter(side_a)
+print(f"The perimeter of a square with side {side_a} is: {square_perimeter}")
+```
+Output:
+
+The perimeter of a square with side 2.5 is: 10.0
+
+### Trinagle
+#### Area
+Calculate the area of a triangle given its base and height.
+
+Parameters:
+
+a (float): The base length of the triangle.
+
+h (float): The height of the triangle.
+
+Returns:
+
+float: The calculated area of the triangle.
+    
+Usage example:
+
+```python
+from triangle import area
+
+base = 4.5
+height = 2.7
+triangle_area = area(base, height)
+print(f"The area of a triangle with base {base} and height {height} is: {triangle_area}")
+```
+Output:
+
+The area of a triangle with base 4.5 and height 2.7 is: 6.075
+
+#### Perimeter
+Calculate the perimeter of a triangle given its three side lengths.
+
+Parameters:
+
+a (float): The length of side 'a' of the triangle.
+
+b (float): The length of side 'b' of the triangle.
+
+c (float): The length of side 'c' of the triangle.
+
+Returns:
+
+float: The calculated perimeter of the triangle.
+    
+Usage example:
+
+```python
+from triangle import perimeter
+
+side_a = 4.5
+side_b = 2.7
+side_c = 3.8
+triangle_perimeter = perimeter(side_a, side_b, side_c)
+print(f"The perimeter of a triangle with sides {side_a}, {side_b}, and {side_c} is: {triangle_perimeter}")
+```
+Output:
+
+The perimeter of a triangle with sides 4.5, 2.7, and 3.8 is: 11.0
+
 ## Math formulas
 ### Area
 - Circle: S = πR²
