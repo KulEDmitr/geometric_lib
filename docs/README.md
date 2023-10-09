@@ -67,23 +67,5 @@ return: 6
 
 | Hash  | Commit | Branch |
 | ---------| ----------------------------------------------------------| ------------------------------- |
-| d078c8   | Update README.md                                          | -                               |
-| 8ba9ae   | Update README.md                                          | -                               |
-| d3aa15   | Update README.md                                          | -                               |
-| 63fb83   | Update README.md                                          | -                               |
-| dc69d3   | Update README.md                                          | -                               |
-| 5e071d   | Update README.md                                          | -                               |  
-| ac2c59   | Update circle.py                                          | -                               |
-| 261ec4   | Update rectangle.py                                       | -                               |
-| e5bae3   | Update triangle.py                                        | -                               |
-| d078c8   | Update circle.py                                          | -                               |
-| 8ba9ae   | Update square.py                                          | -                               |
-| d3aa15   | Update circle.py                                          | -                               |
-| 63fb83   | Update rectangle.py                                       | -                               |
-| dc69d3   | Update circle.py                                          | -                               |
-| 5e071d   | Update triangle.py                                        | -                               |
-| ac2c59   | Update square.py                                          | -                               |
-| 261ec4   | Update circle.py                                          | -                               |
-| e5bae3   | Update rectangle.py                                       | -                               |
-| a3b43e   | fix perimeter bug rectangle.py and new file triangle.py   | -                               |
-| b22e3a   | rectangle.py                                              | main                            |
+| a3b43e   | fix perimeter bug rectangle.py and new file triangle.py   | main                            |
+| b22e3a   | rectangle.py                                              | -                               |
