@@ -50,3 +50,8 @@ Using geometric formulas for a circle, rectangle, square and triangle, the area 
 - 2f29441 - Added comments in triangle.py
 - 71f7ab1 - Added "About" in docs
 - c190257 - Added "description of each function with call examples" in docs
+- 2b00267 - Added history of project changes with comit hashes
+- 949693c - Fixed comments in circle.py
+- fa0f4a7 - Fixed comments in rectangle.py
+- f841212 - Fixed comments in square.py
+- ff0e1d8 - Fixed comments in triangle.py
