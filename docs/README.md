@@ -19,7 +19,8 @@ The geometric library is a comprehensive collection of functions that perform ca
 - Square: P = 4a
 - Triangle: P = a + b + c
 
-### Commit history
+## Commit history
+- a5688e6c973e4806c9e9f61ed6f8dd34ee5c08a2 - bialger, : Updated README with documentation
 - f995529ccc73521d3cfb3321e1c10f23aa54a0bb - bialger, : Fixed comments in triangle.py
 - 880662baed38c6646f73ef3536f9b4a439bd2453 - bialger, : Added comments to triangle.py
 - b7c0c5e4b483deafa9dca713d4db72275083b41c - bialger, : Added comments to square.py
