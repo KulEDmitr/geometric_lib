@@ -18,6 +18,7 @@ def area(a, b):
     Output:
     print(f"The area of a rectangle with sides 4.5 and 2.7 is: 12.15")
     """
+    
     return a * b
 
 
@@ -41,4 +42,5 @@ def perimeter(a, b):
     Output:
     print(f"The perimeter of a rectangle with sides 4.5 and 2.7 is: 14.4")
     """
+    
     return 2 * (a + b)

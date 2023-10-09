@@ -16,6 +16,7 @@ def area(a):
     Output:
     print(f"The area of a square with side 2.5 is: 6.25")
     """
+    
     return a * a
 
 
@@ -37,4 +38,5 @@ def perimeter(a):
     Output:
     print(f"The perimeter of a square with side 2.5 is: 10.0")
     """
+    
     return 4 * a

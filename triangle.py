@@ -18,6 +18,7 @@ def area(a, h):
     Output:
     print(f"The area of a triangle with base 4.5 and height 2.7 is: 6.075")
     """
+    
     return a * h / 2 
 
 
@@ -43,4 +44,5 @@ def perimeter(a, b, c):
     Output:
     print(f"The perimeter of a triangle with sides 4.5, 2.7, and 3.8 is: 11.0")
     """
+    
     return a + b + c 
