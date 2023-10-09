@@ -2,7 +2,7 @@
 Geometric_Lib предоставляет возможность работать со следующими геометрическими фигурами:
 - [Круг](https://github.com/Artem010999/geometric_lib#Круг)
 - [Квадрат](https://github.com/Artem010999/geometric_lib#Квадрат)
-- [Прямоугольник](https://github.com/Artem010999/geometric_lib#КПрямоугольник)
+- [Прямоугольник](https://github.com/Artem010999/geometric_lib#Прямоугольник)
 - [Треугольник](https://github.com/Artem010999/geometric_lib#Треугольник)
 
 # Круг
