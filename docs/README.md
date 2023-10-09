@@ -5,6 +5,7 @@
 **geometric_lib** дает возможность выполнить вычисление _площади_ и _периметра_ для основных геометрических фигур на плоскости: круга, прямоугольника, квадрата и треугольника.
 
 Проект содержит следующие файлы:
+
 - "circle.py" - содержит в себе функции, позволяющие вычислить площадь и периметр круга
 - "rectangle.py" - содержит в себе функции, позволяющие вычислить площадь и периметр прямоугольника
 - "square.py" - содержит в себе функции, позволяющие вычислить площадь и периметр квадрата
@@ -13,11 +14,13 @@
 ## Математические формулы, используемые для выполнения функций проекта
 
 ### Area
+
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
 
 ### Perimeter
+
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
@@ -162,33 +165,21 @@
 ## История изменения проекта
 
 - commit 29ad6ccc2f0390c6b428cef18083cf2f4894c2f5
-
 Author: Kseniia Alekkhina <kaleh1na@mail.ru>
-
 Date:   Wed Sep 13 09:22:52 2023 +0300
-
-> added triangle.py and fixed bug in rectangle.py
+    > added triangle.py and fixed bug in rectangle.py
 
  - commit 979a7e35e56f5f10f9547411ce42cb91ba786bc0
-
 Author: Kseniia Alekkhina <kaleh1na@mail.ru>
-
 Date:   Wed Sep 13 09:19:47 2023 +0300
-
-> added rectangle.py
+    > added rectangle.py
 
 - commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
-
 Author: smartiqa <info@smartiqa.ru>
-
 Date:   Thu Mar 4 14:55:29 2021 +0300
-
-> L-03: Docs added
+    > L-03: Docs added
 
 - commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-
-Author: smartiqa <info@smartiqa.ru>
-
+Author: smartiqa <info@smartiqa.ru> 
 Date:   Thu Mar 4 14:54:08 2021 +0300
-
-> L-03: Circle and square added
+    > L-03: Circle and square added
