@@ -105,7 +105,7 @@ def perimeter(a, b, c):
 #output: 16
 ```
 # История коммитов
-| Коммит |Дата|
-| ----------- | ------------|
-| 4b5332c    |20.09.2023   |
-| 8b46836    |19.09.2023   |
+| Коммит |Дата|Ссылка на коммит|
+| ----------- | ----------- | ----------- |
+| 4b5332c    |20.09.2023   |https://github.com/KulEDmitr/geometric_lib/commit/4b5332c78d202dcda75c3042ef856166723a6deb|
+| 8b46836    |19.09.2023   |https://github.com/KulEDmitr/geometric_lib/commit/8b46836837050ff60ad96eede52245bf0237e082|
