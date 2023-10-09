@@ -69,7 +69,7 @@
 
 ## Commit history
 **Commit history** in ***hash/message*** format, last to first. 
-* **7eeeecb** | triangle.py added and rectangle.py fixed
-* **71386ec** | rectangle.py
-* **d078c8d** | L-03: Docs added
-* **8ba9aeb** | L-03: Circle and square added
+* **[7eeeecb](https://github.com/KulEDmitr/geometric_lib/commit/7eeeecbf58663a811086ff3c56efc6d3d506075e)** | triangle.py added and rectangle.py fixed
+* **[71386ec](https://github.com/KulEDmitr/geometric_lib/commit/71386ecd8497795a605ea098730d7afecf81fc75)** | rectangle.py
+* **[d078c8d](https://github.com/smartiqaorg/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2)** | L-03: Docs added
+* **[8ba9aeb](https://github.com/smartiqaorg/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460)** | L-03: Circle and square added

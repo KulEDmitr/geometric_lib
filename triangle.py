@@ -9,6 +9,9 @@ def area(a, h):
 
 		Returned value:
 			a * h / 2 (int) : area of a square with given base and height
+
+	Usage:
+  		area(10, 7) = 10 * 7 / 2 = 35
 	'''
 	return a * h / 2
 	
@@ -24,5 +27,8 @@ def perimeter(a, b, c):
 
 		Returned value:
 			a + b + c (int) : perimeter of the triangle with 3 given sides
+
+	Usage:
+  		perimeter(4, 5, 6) = 4 + 5 + 6 = 15
 	'''
 	return a + b + c

@@ -9,6 +9,9 @@ def area(a, b):
 
 		Returned value:
 			a * b (int) : area of a rectangle with given sides 
+
+	Usage:
+  		area(3, 4) = 3 * 4 = 12	
 	'''
 	return a * b
 
@@ -23,5 +26,8 @@ def perimeter(a, b):
 
 		Returned value:
 			(a + b) * 2 (int) : perimeter of a rectangle with given sides 
+
+	Usage:
+ 		perimeter(3, 4) = (3 + 4) * 2 = 14
 	'''
 	return (a + b) * 2

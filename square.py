@@ -8,6 +8,9 @@ def area(a):
 
 		Returned value:
 			a * a (int) : area of a square with given side length
+
+	Usage:
+  		area(5) = 5 * 5 = 25
 	'''
     return a * a
 
@@ -21,5 +24,8 @@ def perimeter(a):
 
 		Returned value:
 			4 * a (int) : perimeter of a square with given side length
+	
+	Usage:
+  		perimeter(5) = 4 * 5 = 20
 	'''
     return 4 * a
