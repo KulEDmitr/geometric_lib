@@ -16,8 +16,7 @@ def area(a, b):
     print(f"The area of a rectangle with sides {side_a} and {side_b} is: {rectangle_area}")
     
     Output:
-    print(f"The area of a rectangle with sides 4.5 and 2.7 is: 12.15
-")
+    print(f"The area of a rectangle with sides 4.5 and 2.7 is: 12.15")
     """
     return a * b
 
