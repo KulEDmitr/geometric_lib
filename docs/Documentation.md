@@ -39,6 +39,4 @@
 
 [commit c63b0fd](https://github.com/VyacheslavAtamanyuk/geometric_lib/commit/c63b0fd9555420054a1d1c37f0bb049ea431dffb) - добавление функций вычисления периметра и площади для прямоугольника
 
-[commit d078c8d](https://github.com/VyacheslavAtamanyuk/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2) - добавление `README.md` в папку .docs
-
 [commit 8ba9aeb](https://github.com/VyacheslavAtamanyuk/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460) - добавление функций вычисления площади и периметра для круга и квадрата
