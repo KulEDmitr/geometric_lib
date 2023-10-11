@@ -1,5 +1,8 @@
-def area(a, h): 
+def area(a, h):
+    '''Принимает числа a и h, возвращает площадь треугольника со стороной a и высотой h'''
     return a * h / 2 
 
-def perimeter(a, b, c): 
+def perimeter(a, b, c):
+    '''Принимает числа a, b и c, возвращает перимитр треугольника со сторонами a, b и c'''
     return a + b + c 
+print(perimeter(6,6,4))
