@@ -9,6 +9,10 @@ def area(a, h):
 	Возвращаемое значение:
 	    area (float): площадь искомого треугольника
 
+    Пример вызова:
+        triangle_area = area(5, 10)
+    Результат:
+        triangle_area = 25.0
     '''
     return a * h / 2 
 
@@ -24,5 +28,9 @@ def perimeter(a, b, c):
 	Возвращаемое значение:
 	    perimeter (int): периметр искомого треугольника
 
+    Пример вызова:
+        triangle_perimeter = perimeter(5, 10, 6)
+    Результат:
+        triangle_perimeter = 21
     '''
     return a + b + c

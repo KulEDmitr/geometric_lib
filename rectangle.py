@@ -9,6 +9,10 @@ def area(a, b):
 	Возвращаемое значение:
 	    area (int): площадь искомого прямоугольника
 
+    Пример вызова:
+        rectangle_area = area(5, 4)
+    Результат:
+        rectangle_area = 20
     '''
     return a * b 
 
@@ -23,5 +27,9 @@ def perimeter(a, b):
 	Возвращаемое значение:
 	    perimeter (int): периметр искомого прямоугольника
 
+	Пример вызова:
+        rectangle_perimeter = perimeter(5, 4)
+    Результат:
+        rectangle_perimeter = 18
     '''
     return 2 * (a + b)
