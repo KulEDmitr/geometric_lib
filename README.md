@@ -84,9 +84,9 @@ a,b
  - Возвращаемое значение:
 	- perimetr(a): периметр треугольника со сторонами a,b,c
  - int(a) = 3, int(b) = 4, int(c) = 5; a + b + c = 12
-# История изменений проекта:
-4df22582c92dc6053acf2d97bd1f8bd791
-53d95a31090f84dbec7fb47c7fbc4eb85139427a
-d078c8d9ee6155f3cb0e577d28d337b791de28e2
-8ba9aeb3cea847b63a91ac378a2a6db758682460
-0c41bc213fc6fa38173cf8b2c21a76ab313149d7
+# История изменений проекта по хешам:
+4df22582c92dc6053acf2d97bd1f8bd791;
+53d95a31090f84dbec7fb47c7fbc4eb85139427a;
+d078c8d9ee6155f3cb0e577d28d337b791de28e2;
+8ba9aeb3cea847b63a91ac378a2a6db758682460;
+0c41bc213fc6fa38173cf8b2c21a76ab313149d7;
