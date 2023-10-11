@@ -1,5 +1,5 @@
 # Solutions:
-## Add functions for circle, rectangle, square and triangle
+## В данной библиотеке присутствуют функции для вычисления площади и периметра квадрата, прямоугольнмка, круго и треугольника
 
 # Description of functions:
 ## Circle:
@@ -7,74 +7,89 @@
 
 import math
 
-- Подключаем библиотеку math для работы с числом Pi
+>Подключаем библиотеку math для работы с числом Pi
 
 def area(r):
-- Принимает число r, возращает произведение из квадрата r и числа Pi   
-    return math.pi * r * r
+>Принимает число r, возращает произведение из квадрата r и числа Pi;
+> Например: area(10) вернет 314.15...
+   
+ return math.pi * r * r
 
 
 def perimeter(r):
- - Принимает число r, возращает произведение из 2*r и числа Pi 
-    return 2 * math.pi * r
+>Принимает число r, возращает произведение из 2*r и числа 
+> Например: perimetr(8) вернет 16 * 3,1415.. 
+   
+ return 2 * math.pi * r
 
 ## Rectangle:
 
 
 
 def area(a, b): 
-- Функция принимает две стороны прямоугольника, возвращает его площадь
-    return a * b 
+> Функция принимает две стороны прямоугольника, возвращает его площадь;
+> Например: area(5, 8) вернет 40"
+    
+return a * b 
 
 def perimeter(a, b): 
-- Функция принимает две стороны прямоугольника, возвращает его периметр`
-    return 2*(a + b) 
+>Функция принимает две стороны прямоугольника, возвращает его периметр;
+> Например: perimetr(5, 8) вернет 36`
+    
+return 2*(a + b) 
 
 
 ## Square:
 
 def area(a, b): 
-- Принимает числа a и b, возвращает произведение a на b
+>Принимает числа a и b, возвращает произведение a на b ;
+> Например: area(5) вернет 25
     return a * b 
 
 def perimeter(a, b): 
-- Принимает числа a и b, возвращает произведение удвоенное a на b
-    return 2*a + 2*b 
+>Принимает числа a и b, возвращает произведение удвоенное a на b;
+> Например: perimetr(8) вернет 32
+    
+return 2*a + 2*b 
 
 
 ## Triangle:
-''' python
-def area(a):
- - Принимает число a, возращает квадрат a  
-    return a * a
+def area(a, h): 
+>Функция принимает два катета треугольника, возвращает его площад;  
+> Например: area(5, 8) вернет 20
+    
+return a * h / 2 
 
+def perimeter(a, b, c):
+>Функция принимает три стороны треугольника, возвращает его периметр; 
+> Например: perimetr(5, 8, 4) вернет 17
 
-def perimeter(a):
- - Принимает число a, прозведение 4 на a  
-    return 4 * a
+    
+return a + b + c
 
 
 # History with commits hashes:
-commit 059bcc3ca4cff3652ca783d641f35b7e239eb56e (HEAD -> main, origin/main, origin/HEAD)
-Author: rudik157 <144426377+rudik157@users.noreply.github.com>
-Date:   Thu Sep 21 22:56:06 2023 +0300
+```
+commit fe166492f18d681e2180bec5b70536421d55b913 (origin/main, origin/HEAD)
+Author: unknown <gligaandrej@gmail.com>
+Date:   Sat Sep 30 14:41:01 2023 +0300
 
-    corrected mistake in rectangle.py
+    Исправил ошибку в файле rectangle.py
 
-commit 05131862823049ac3d46fe698eb92122937b2d4a
-Author: rudik157 <144426377+rudik157@users.noreply.github.com>
-Date:   Thu Sep 21 22:42:13 2023 +0300
+commit 7bdaea2e1c1a32f2cf8e085fdd45611d6a955bcd (new_features_408448)
+Author: unknown <gligaandrej@gmail.com>
+Date:   Fri Sep 22 14:40:02 2023 +0300
 
-    new fail added
+    fixed error
 
-commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:55:29 2021 +0300
+commit 823d20bcf394a223b091acac7d60f090e4daf262
+Author: unknown <gligaandrej@gmail.com>
+Date:   Fri Sep 22 14:07:07 2023 +0300
 
-    L-03: Docs added
+    fixed error
 
-commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:54:08 2021 +0300
+commit c8addd81a777e94388ec070e6a5af8717a8cd2b8
+Author: unknown <gligaandrej@gmail.com>
+Date:   Fri Sep 22 14:04:36 2023 +0300
 
-    L-03: Circle and square added
+    added new file```
