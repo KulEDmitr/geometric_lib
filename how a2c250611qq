@@ -1,0 +1,35 @@
+* [33mcommit fe166492f18d681e2180bec5b70536421d55b913[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[31m|[m Author: unknown <gligaandrej@gmail.com>
+[31m|[m Date:   Sat Sep 30 14:41:01 2023 +0300
+[31m|[m 
+[31m|[m     Исправил ошибку в файле rectangle.py
+[31m|[m 
+* [33mcommit 7bdaea2e1c1a32f2cf8e085fdd45611d6a955bcd[m[33m ([m[1;32mnew_features_408448[m[33m)[m
+[31m|[m Author: unknown <gligaandrej@gmail.com>
+[31m|[m Date:   Fri Sep 22 14:40:02 2023 +0300
+[31m|[m 
+[31m|[m     fixed error
+[31m|[m 
+* [33mcommit 823d20bcf394a223b091acac7d60f090e4daf262[m
+[31m|[m Author: unknown <gligaandrej@gmail.com>
+[31m|[m Date:   Fri Sep 22 14:07:07 2023 +0300
+[31m|[m 
+[31m|[m     fixed error
+[31m|[m 
+* [33mcommit c8addd81a777e94388ec070e6a5af8717a8cd2b8[m
+[31m|[m Author: unknown <gligaandrej@gmail.com>
+[31m|[m Date:   Fri Sep 22 14:04:36 2023 +0300
+[31m|[m 
+[31m|[m     added new file
+[31m|[m 
+* [33mcommit d078c8d9ee6155f3cb0e577d28d337b791de28e2[m
+[31m|[m Author: smartiqa <info@smartiqa.ru>
+[31m|[m Date:   Thu Mar 4 14:55:29 2021 +0300
+[31m|[m 
+[31m|[m     L-03: Docs added
+[31m|[m 
+* [33mcommit 8ba9aeb3cea847b63a91ac378a2a6db758682460[m
+  Author: smartiqa <info@smartiqa.ru>
+  Date:   Thu Mar 4 14:54:08 2021 +0300
+  
+      L-03: Circle and square added
