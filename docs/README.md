@@ -3,10 +3,10 @@
   **Geometric_lib** предоставляет набр функций
 для вычисления плоплощади и перриметра различных геометрических фигур.
 
-1. link 1
-2. link 2
-3. link 3
-4. link 4
+1. <a href = https://github.com/tsoydeniis/geometric_lib/blob/main/docs/circle.md>circle<a/>
+2. <a href = https://github.com/tsoydeniis/geometric_lib/blob/main/docs/rectangle.md>rectangle<a/>
+3. <a href = https://github.com/tsoydeniis/geometric_lib/blob/main/docs/square.md>square<a/>
+4. <a href = https://github.com/tsoydeniis/geometric_lib/blob/main/docs/triangle.md>triangle<a/>
 
 - ## История изменений:
 
