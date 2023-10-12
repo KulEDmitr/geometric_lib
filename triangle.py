@@ -5,3 +5,10 @@ def area(a, h):
 def perimeter(a, b, c):
     ''' Принимает длины трёх сторон треугольника, возвращает его периметр'''
     return a + b + c
+
+"""
+print(area(10, 3))
+print(perimeter(10, 6, 7))
+15
+23
+"""
