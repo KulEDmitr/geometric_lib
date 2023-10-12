@@ -55,7 +55,11 @@
 # Project modification history
 
 d67dc3e9c5f80336a9c38ec50224f23301921903 (test) test
+
 b3168b36e4c2f7be59a331fee237b208d0554676 (test2, new_features_408647) Fixed error in calculating the perimeter
+
 5dd10c349f675aa53f296cad45391c84974a7915 Created rectangle.py
+
 d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
+
 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
