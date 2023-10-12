@@ -41,16 +41,17 @@ return 2*(a + b)
 
 ## Square:
 
-def area(a, b): 
->Принимает числа a и b, возвращает произведение a на b ;
+def area(a): 
+>Принимает числo a, возвращает произведение a на a ;
 > Например: area(5) вернет 25
-    return a * b 
 
-def perimeter(a, b): 
->Принимает числа a и b, возвращает произведение удвоенное a на b;
+return a * a
+
+def perimeter(a: 
+>Принимает числo a, возвращает произведение удвоенное a + a;
 > Например: perimetr(8) вернет 32
     
-return 2*a + 2*b 
+return 2 * (a + a)) 
 
 
 ## Triangle:
