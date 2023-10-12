@@ -2,13 +2,13 @@
 ## General description
 **This library presents basic functions to find such geometric parameters as area and perimeter. Each shape has its own file.py with _area and perimeter functions_**
 ## Functions
-```
+```python
 def area(params) {
     params: shape's params
     return value: area of a shape
 }
 ```
-```
+```python
 def perimeter(params) {
     params: shape's params
     return value: perimeter of a shape
