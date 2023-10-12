@@ -14,6 +14,26 @@ def perimeter(params) {
     return value: perimeter of a shape
 }
 ```
+### Circle
+```python
+area(3) #returns 28.26
+perimeter(3) #returns 18.84
+```
+### Rectangle
+```python
+area(3, 4) #returns 12
+perimeter(3, 4) #returns 14
+```
+### Square
+```python
+area(3) #returns 9
+perimeter(3) #returns 12
+```
+### Triangle
+```python
+area(3, 2) #returns 3
+perimeter(3, 3, 3) #returns 9
+```
 ## History of commits
 * [8ba9aeb](https://github.com/voldemar64/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460) Circle and square added
 * [d078c8d](https://github.com/voldemar64/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2) Docs added
