@@ -6,7 +6,7 @@ Geometric_Lib предоставляет возможность работать
 - [Треугольник](https://github.com/Artem010999/geometric_lib#Треугольник)
 
 # Круг
-Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/circle.py) 
+Для круга выполнены следующие операции: вычислении площади и периметра круга. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/circle.py) 
 ```python
 import math 
 
@@ -28,7 +28,7 @@ Output: 62.83185307179586
 ```
 
 # Квадрат
-Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/square.py)
+Для квадрата выполнены следующие операции: вычислении площади и периметра квадрата. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/square.py)
 ```python
 def area(a): # Возвращает площадь квадрата
     return a * a
@@ -46,7 +46,7 @@ Output: 16
 ```
 
 # Прямоугольник
-Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/rectangle.py)
+Для прямоугольника выполнены следующие операции: вычислении площади, периметра прямоугольника, а также его диагональ. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/rectangle.py)
 ```python
 def area(a, b): # Возвращает площадь прямоугольника
     return a * b
@@ -73,7 +73,7 @@ Output: 5
 ```
 
 # Треугольник
-Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/triangle.py)
+Для треугольника выполнены следующие операции: вычислении площади и периметра треугольника. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/triangle.py)
 ```python
 def area(a, h): # Возвращает площадь треугольника
 	return a * h / 2
