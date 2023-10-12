@@ -1,4 +1,20 @@
+
 # Solution
+## Library for calculating geometric data
+## Math formulas
+## Area
+- Circle: S = πR²
+- Rectangle: S = ab
+- Square: S = a²
+- Triangle: S = ah
+
+## Perimeter
+- Circle: P = 2πR
+- Rectangle: P = 2a + 2b
+- Square: P = 4a
+- Triangle: P = a + b + c
+
+# Project description:
 
 ## File circle.py contains 2 formulas:
 - Function **area(r)** that calculates area of circle with radius **r**
@@ -79,18 +95,6 @@
   > print(p)
   - Output:
   > 12
-
-
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
-
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
 
 # Project history
 1. Circle.py and square.py added
