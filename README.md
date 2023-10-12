@@ -10,11 +10,13 @@
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
+- Triangle: S = 0.5ah
 
 ## Perimeter
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
+- Triangle: P = a + b + c
 
 # Описание функций с примерами вывода
 
@@ -85,8 +87,19 @@ a,b
 	- perimetr(a): периметр треугольника со сторонами a,b,c
  - int(a) = 3, int(b) = 4, int(c) = 5; a + b + c = 12
 # История изменений проекта по хешам:
-4df22582c92dc6053acf2d97bd1f8bd791;
-53d95a31090f84dbec7fb47c7fbc4eb85139427a;
-d078c8d9ee6155f3cb0e577d28d337b791de28e2;
-8ba9aeb3cea847b63a91ac378a2a6db758682460;
-0c41bc213fc6fa38173cf8b2c21a76ab313149d7;
+4df22582c92dc6053acf2d97bd1f8bd791: добавлена документация;
+
+d078c8d9ee6155f3cb0e577d28d337b791de28e2: L-03: docs added;
+
+8ba9aeb3cea847b63a91ac378a2a6db758682460:  L-03: Circle and square added;
+
+53d95a31090f84dbec7fb47c7fbc4eb85139427a: создан новый файл triangle.py;
+
+4df22582c92dc6053acf2d97bd1f8bd79111455a: исправлена ошибка в файле rectangle.py;
+
+0c41bc213fc6fa38173cf8b2c21a76ab313149d7: добавлена документация проекта;
+
+
+
+
+
