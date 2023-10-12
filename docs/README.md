@@ -3,34 +3,81 @@
 **This library presents basic functions to find such geometric parameters as area and perimeter. Each shape has its own file.py with _area and perimeter functions_**
 ## Functions
 ```python
-def area(params) {
+def area(params):
     params: shape's params
     return value: area of a shape
-}
 ```
 ```python
-def perimeter(params) {
+def perimeter(params):
     params: shape's params
     return value: perimeter of a shape
-}
 ```
 ### Circle
 ```python
+def area(r):
+    '''
+    Parameter: r (int): circle radius
+    Return value: area of a circle with radius r
+    '''
+def perimeter(r):
+    '''
+    Parameter: r (int): circle radius
+    Return value: perimeter of a circle with radius r
+    '''
+
 area(3) #returns 28.26
 perimeter(3) #returns 18.84
 ```
 ### Rectangle
 ```python
+def area(a, b): 
+    '''
+    Parameter: a (int): first integer number
+    Parameter: b (int): second integer number
+    Return value: area of rectangle with sides a and b
+    '''
+def perimeter(a, b): 
+    '''
+    Parameter: a (int): first integer number
+    Parameter: b (int): second integer number
+    Return value: perimeter of rectangle with sides a and b
+    '''
+
 area(3, 4) #returns 12
 perimeter(3, 4) #returns 14
 ```
 ### Square
 ```python
+def area(a): 
+    '''
+    Parameter: a (int): integer number
+    Return value: area of square with side a
+    '''
+def perimeter(a): 
+    '''
+    Parameter: a (int): integer number
+    Return value: area of square with side a
+    '''
+    
 area(3) #returns 9
 perimeter(3) #returns 12
 ```
 ### Triangle
 ```python
+def area(a, h):
+'''
+    Parameter: a (int): first integer number
+    Parameter: h (int): second integer number
+    Return value: area of triangle with side a and height h
+'''
+def perimeter(a, b, c):
+'''
+    Parameter: a (int): first integer number
+    Parameter: b (int): second integer number
+    Parameter: c (int): third integer number
+    Return value: area of square with sides a, b and c
+'''
+
 area(3, 2) #returns 3
 perimeter(3, 3, 3) #returns 9
 ```
