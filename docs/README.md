@@ -4,11 +4,13 @@
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
+- Triangle: S = a * h / 2
 
 ## Perimeter
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
+- Triangle: P = a + b + c
 
 # Work Directory
 ## circle.py
@@ -16,40 +18,40 @@
 - При помощи него вы сможете посчитать периметр **def perimiter(r: int) -> float** и площадь **def area(r: int) -> float** заданного круга.
 
 
-    Примеры вызова функций:
+Примеры вызова функций:
 
-    1. S = area(r)
-    2. P = perimeter(r)
+ 1. circle_area = area(5) circle_area = 78.53981633974483
+ 2. circle_perimeter = perimeter(5) circle_perimeter = 31.41592653589793
 
 ## rectangle.py
 - Этот файл вы сможете найти по ссылке [rectangle.py](https://github.com/Jovenavr0/geometric_lib/blob/main/rectangle.py)
 - При помощи него вы сможете посчитать периметр **def perimiter(a: int, b: int) -> int** и площадь **def area(a: int, b: int) -> int** заданного прямоугольника.
 
 
-    Примеры вызова функций:
+Примеры вызова функций:
 
-    1. S = area(a, b)
-    2. P = perimeter(a, b)
+ 1. rectangle_area = area(5, 4) rectangle_area = 20
+ 2. rectangle_perimeter = perimeter(5, 4) rectangle_perimeter = 18
 
 ## square.py
 - Этот файл вы сможете найти по ссылке [square.py](https://github.com/Jovenavr0/geometric_lib/blob/main/square.py)
 - При помощи него вы сможете посчитать периметр **def perimiter(a: int) -> int** и площадь **def area(a: int) -> int** заданного квадрата.
 
 
-    Примеры вызова функций:
+Примеры вызова функций:
 
-    1. S = area(a)
-    2. P = perimeter(a)
+  1. square_area = area(5) square_area = 25
+  2. square_perimeter = perimeter(5) square_perimeter = 20
 
 ## triangle.py
 - Этот файл вы сможете найти по ссылке [triangle.py](https://github.com/Jovenavr0/geometric_lib/blob/main/triangle.py)
 - При помощи него вы сможете посчитать периметр **def perimiter(a: int, b: int, c: int) -> int** и площадь **def area(a: int, h: int) -> float** заданного треугольника.
 
 
-    Примеры вызова функций:
+Примеры вызова функций:
 
-    1. S = area(a, h)
-    2. P = perimeter(a, b, c)
+  1. triangle_area = area(5, 10) triangle_area = 25.0
+  2. triangle_perimeter = perimeter(5, 10, 6) triangle_perimeter = 21
 
 # История комитов
 
