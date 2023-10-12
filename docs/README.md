@@ -45,10 +45,6 @@ def perimeter(a, b):
     ''' Принимает длины сторон прямоугольника, возвращает его периметр '''
     return  2 * (a + b)
 
-
-print(area(10, 5))
-print(perimeter(10, 7))
-
 ### Пример работы программы
 print(area(10, 5))
 print(perimeter(10, 7))
