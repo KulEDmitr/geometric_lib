@@ -13,4 +13,9 @@ def perimeter(a):
     return 4 * a
 
 
+<<<<<<< HEAD
 fffff
+=======
+some shit
+S
+>>>>>>> 3e99db4 (d1)
