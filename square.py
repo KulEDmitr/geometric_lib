@@ -14,6 +14,12 @@ def area(a):
 
     :param a: Длина стороны квадрата.
     :return: Площадь квадрата.
+
+    Примеры:
+    >>> area(2)
+    4
+    >>> area(5)
+    25
     """
     return a * a
 
@@ -23,6 +29,12 @@ def perimeter(a):
 
     :param a: Длина стороны квадрата.
     :return: Периметр квадрата.
+
+    Примеры:
+    >>> perimeter(2)
+    8
+    >>> perimeter(5)
+    20
     """
     return 4 * a
 

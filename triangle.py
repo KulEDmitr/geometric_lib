@@ -15,7 +15,14 @@ def area(a, h):
     :param a: Длина основания треугольника.
     :param h: Высота треугольника.
     :return: Площадь треугольника.
+
+    Примеры:
+    >>> area(4, 6)
+    12.0
+    >>> area(7, 5)
+    17.5
     """
+
     return a * h / 2
 
 def perimeter(a, b, c):
@@ -26,6 +33,13 @@ def perimeter(a, b, c):
     :param b: Длина второй стороны.
     :param c: Длина третьей стороны.
     :return: Периметр треугольника.
+
+    Примеры:
+    >>> perimeter(3, 4, 5)
+    12
+    >>> perimeter(5, 12, 13)
+    30
     """
+
     return a + b + c
 
