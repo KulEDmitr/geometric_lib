@@ -1,4 +1,4 @@
-# Документаци репозитория geometric_lib
+# Документация репозитория geometric_lib
 ## 1. Общее описание решения
 В данном репозитории находятся файлы, содержащие функции для вычисления площади и периметра некоторых геометрических фигур:
 *   круга (файл _circle.py_)
@@ -129,7 +129,7 @@
 Добавление файлов circle.py и squary.py
 > 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
 
-Добавление папки docs
+Добавление папки
 > d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD) L-03: Docs added
 ### Коммиты репозитория после клонирования
 Добавление rectangle.py в репозиторий
@@ -141,6 +141,7 @@
 Добавление документации в файлы проекта
 > 677d50708e2be4200e82300f21547df3c8a72f25 (HEAD -> main) Documentary was added in project files
 
-
+Добавление Unit-тестов в circle.py, rectangle.py, square.py, triangle.py
+>7a4f9921f7b69d4ea66220cba2d0f67be7407f4b Added unit tests to circle.py, rectangle.py, square.py, triangle.py
 
 
