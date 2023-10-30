@@ -24,4 +24,3 @@ def perimeter(r):
         print(perimeter(3)) // prints the perimeter (=18.84956) of the circle with radius 3
     '''
     return 2 * math.pi * r
-
