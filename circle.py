@@ -9,6 +9,8 @@ def area(r):
 
     :return: area of the circle
     :rtype: float
+
+    area(1.0) = 3.14159265358
     """
 
     return math.pi * r * r
@@ -22,6 +24,8 @@ def perimeter(r):
 
     :return: perimeter of the circle
     :rtype: float
+
+    perimeter(0.5) = 3.14159265358
     """
 
     return 2 * math.pi * r

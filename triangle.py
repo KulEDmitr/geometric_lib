@@ -9,6 +9,8 @@ def area(a, h):
 
     :return: area of the triangle
     :rtype: float
+
+    area(1.0, 4) = 2.0
     """
 
     return a * h / 2 
@@ -27,6 +29,8 @@ def perimeter(a, b, c):
 
     :return: perimeter of the triangle
     :rtype: float
+
+    perimeter(11.9, 12.1, 10.2) = 34.2
     """
 
     return a + b + c 

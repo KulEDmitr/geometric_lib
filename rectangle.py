@@ -9,6 +9,8 @@ def area(a, b):
 
     :return: area of the rectangle
     :rtype: float
+
+    area(1.0, 3.5) = 3.5
     """
 
     return a * b 
@@ -24,6 +26,8 @@ def perimeter(a, b):
 
     :return: perimeter of the rectangle
     :rtype: float
+
+    perimeter(32, 1) = 66
     """
 
     return (a + b)  * 2
