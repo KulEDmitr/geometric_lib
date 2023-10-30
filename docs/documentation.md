@@ -110,3 +110,5 @@
 - 11.09.2023 14:46 by karcist bug fixed
     - исправлена ошибка в формуле в файле `rectangle.py`
 > b8c82fb190b2c3590476f53856bfe3f0689b0757
+- 30.10.2023 11:30 by Karcist45 test: added unit tests to all functions
+>c452467e76a3095a80c7a801896cc62040335bfa
