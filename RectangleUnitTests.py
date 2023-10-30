@@ -29,6 +29,14 @@ class RectangleTestCase(unittest.TestCase):
         res = area(10, 0)
         self.assertEqual(res, 0)
 
+    def test_area_string_value(self):
+        res = area(10, "ab")
+        self.assertEqual(res, TypeError)
+
+    def test_area_negative_value(self):
+        res = area(-10, 5)
+        self.assertEqual(res, TypeError)
+
     # block for perimeter test
     def test_perimeter_int_value_one(self):
         res = perimeter(10, 2)
@@ -53,6 +61,14 @@ class RectangleTestCase(unittest.TestCase):
     def test_perimeter_zero_value(self):
         res = perimeter(0, 0)
         self.assertEqual(res, 0)
+
+    def test_perimeter_string_value(self):
+        res = perimeter(10, "ab")
+        self.assertEqual(res, TypeError)
+
+    def test_perimeter_negative_value(self):
+        res = perimeter(-10, 5)
+        self.assertEqual(res, TypeError)
 
 
 if __name__ == '__main__':
