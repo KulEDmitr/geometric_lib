@@ -1,5 +1,5 @@
 import math
-
+import validation
 
 def area(r):
     '''
@@ -15,6 +15,9 @@ def area(r):
         >>> area(10)
         314.1592653589793
     '''
+
+    validation.check_args(r)
+
     return math.pi * r * r
 
 
@@ -32,5 +35,8 @@ def perimeter(r):
         >>> perimeter(10)
         62.83185307179586
     '''
+
+    validation.check_args(r)
+
     return 2 * math.pi * r
 

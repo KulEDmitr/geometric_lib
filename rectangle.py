@@ -1,3 +1,5 @@
+import validation
+
 def area(a, b):
     '''
     Возвращает площадь прямоугольника с заданными сторонами a и b
@@ -13,6 +15,9 @@ def area(a, b):
         >>> area(3, 9)
         27
     '''
+
+    validation.check_args(a, b)
+
     return a * b
 
 def perimeter(a, b):
@@ -30,4 +35,7 @@ def perimeter(a, b):
         >>> perimeter(3, 9)
         24
     '''
+
+    validation.check_args(a, b)
+
     return 2 * (a + b)

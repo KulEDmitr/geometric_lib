@@ -1,3 +1,5 @@
+import validation
+
 def area(a):
     '''
     Возвращает площадь квадрата с заданной стороной a
@@ -12,6 +14,9 @@ def area(a):
         >>> area(9)
         81
     '''
+
+    validation.check_args(a)
+
     return a * a
 
 
@@ -29,4 +34,7 @@ def perimeter(a):
         >>> perimeter(9)
         36
     '''
+
+    validation.check_args(a)
+
     return 4 * a

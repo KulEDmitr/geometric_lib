@@ -1,3 +1,5 @@
+import validation
+
 def area(a, h):
     '''
     Возвращает площадь треугольника с заданными основанием a и высотой h
@@ -13,6 +15,9 @@ def area(a, h):
         >>> area(3, 9)
         13.5
     '''
+
+    validation.check_args(a, h)    
+
     return a * h / 2
 
 def perimeter(a, b, c):
@@ -31,4 +36,7 @@ def perimeter(a, b, c):
         >>> perimeter(6, 8, 10)
         24
     '''
+
+    validation.check_args(a, b, c)
+
     return a + b + c
