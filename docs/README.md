@@ -40,6 +40,7 @@ def get_rectangle_measurements(a, b, c, h):
   return (triangle.area(a, h), circle.perimeter(a, b, c))
 ```
 ## Update history
+* d272c84 Unittesting added
 * 6ba42c5 Docstrings added
 * 74bcc29 Add triangle.py, fix perimeter func
 * 597d589 Add rectangle.py
