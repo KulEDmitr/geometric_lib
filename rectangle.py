@@ -1,3 +1,6 @@
+import wolframalpha, unittest
+
+
 def area(a, b):
     '''
     Принимает значения двух переменных(стороны фигуры(прямоугольника)) и выводит площадь(прямоугольника)
@@ -20,3 +23,18 @@ def perimeter(a, b):
     '''
 
     return (a + b) * 2
+
+
+class RectangleTestCase(unittest.TestCase):
+
+    def test_rectangle_wolfram(self):
+        app_id = "QHP654-RUKEQ9LT5L"
+        client = wolframalpha.Client(app_id)
+        for a in range(2):
+            for b in range(2):
+                test_result = area(a, b)
+                res = next(client.query(f'area of rectangle {a}, {b} = ').results).text
+                self.assertEqual(test_result, int(res))
+                test_result = perimeter(a, b)
+                res = next(client.query(f'perimeter of rectangle {a}, {b} = ').results).text
+                self.assertEqual(test_result, int(res))

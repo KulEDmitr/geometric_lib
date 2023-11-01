@@ -1,4 +1,4 @@
-import math
+import math, unittest, wolframalpha
 
 '''
     Библиотека математических функций, констант  и т.д.
@@ -24,3 +24,22 @@ def perimeter(r):
             Пример вызова: print(perimeter(4)) -> 25.12
     '''
     return 2 * math.pi * r
+
+
+class CircleTestCase(unittest.TestCase):
+
+    def test_circle_area_wolfram(self):
+        app_id = "QHP654-RUKEQ9LT5L"
+        client = wolframalpha.Client(app_id)
+        for a in range(2, 10):
+            test_result = round(area(a))
+            res = next(client.query(f'area of circle with radius {a}').results).text
+            self.assertEqual(test_result, round(float(res[res.rfind("≈") + 1::])))
+
+    def test_circle_perimeter_wolfram(self):
+        app_id = "QHP654-RUKEQ9LT5L"
+        client = wolframalpha.Client(app_id)
+        for a in range(2, 10):
+            test_result = round(perimeter(a))
+            res = next(client.query(f'perimeter of circle with radius {a}').results).text
+            self.assertEqual(test_result, round(float(res[res.rfind("≈") + 1::])))
