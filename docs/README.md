@@ -106,3 +106,17 @@ ____
 - `ced14e8` **added rectangle.py**
 - `d078c8d` **Docs added**
 - `8ba9aeb` **Circle and square added**
+
+# Testing
+____
+
+There are testing modules:
+
+- **test_rectangle.py**
+- **test_square.py**
+- **test_triangle.py**
+- **test_circle.py**
+
+They test the appropriate modules for value matching and check the correctness of values.
+
+As a result of the testing, it was found that in case of correct data the functions work correctly, but in case of incorrect data the function outputs incorrect values instead of outputting an error.
