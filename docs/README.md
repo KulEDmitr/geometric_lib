@@ -117,6 +117,6 @@ There are testing modules:
 - **test_triangle.py**
 - **test_circle.py**
 
-They test the appropriate modules for value matching and check the correctness of values.
+They test the appropriate modules for value matching and check the correctness of values and errors types.
 
-As a result of the testing, it was found that in case of correct data the functions work correctly, but in case of incorrect data the function outputs incorrect values instead of outputting an error.
+As a result of the testing, it was found that in case of correct data the functions work correctly, but in case of incorrect data the function almost always outputs incorrect values instead of outputting an error.
