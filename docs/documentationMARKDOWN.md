@@ -97,6 +97,12 @@ def perimeter(a, b, c):
     '''
     return a + b + c  
 ```
+## **Также проект содержит набор тестов для каждой фигуры**
+- [Треугольник](https://github.com/hizu77/geometric_lib/blob/main/triangle_test.py)
+- [Круг](https://github.com/hizu77/geometric_lib/blob/main/circle_test.py)
+- [Прямоугольник](https://github.com/hizu77/geometric_lib/blob/main/rectangle_test.py)
+- [Квадрат](https://github.com/hizu77/geometric_lib/blob/main/square_test.py)
+
 ## История изменения проекта
 1. **L-03: Circle and square added**
 - 8ba9aeb3cea847b63a91ac378a2a6db758682460
@@ -111,3 +117,6 @@ def perimeter(a, b, c):
 - fa8cacd573e947e91e5a4f438b5b55978f984d17
 - Добавлен 1 файл : triangle.py
 - Изменен 1 файл : rectangle.py
+5. **added tests**
+- 0dc66c56399c976b339bcd462a60436891cbd8ed
+- Добавлены 4 файла : наборы тестов для каждой функции
