@@ -67,5 +67,7 @@ return: 6
 
 | Hash  | Commit | Branch |
 | ---------| ----------------------------------------------------------| ------------------------------- |
-| a3b43e   | fix perimeter bug rectangle.py and new file triangle.py   | main                            |
+| 330ec5   | added unit tests                                          | main                            |
+| a3b43e   | fix perimeter bug rectangle.py and new file triangle.py   | -                               |
 | b22e3a   | rectangle.py                                              | -                               |
+

@@ -2,7 +2,7 @@ def area(a, h):
     '''
     Return area of the triangle
 
-            Accepts:
+            Accept:
                 a (int): side of the triangle
                 h (int): height of the triangle
             Return:
@@ -10,7 +10,7 @@ def area(a, h):
                                 
     Example:
 
-            Accepts:
+            Accept:
                 area(2, 3)
 
             Return:
@@ -22,7 +22,7 @@ def perimeter(a, b, c):
     '''
     Return perimeter of the triangle
 
-        Accepts:
+        Accept:
             a (int): first side of the triangle
             b (int): second side of the triangle
             c (int): third side of the triangle
@@ -31,7 +31,7 @@ def perimeter(a, b, c):
                             
     Example:
 
-            Accepts:
+            Accept:
                 perimeter(1, 2, 3)
 
             Return:

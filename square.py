@@ -3,14 +3,14 @@ def area(a):
     '''
     Return area of the square
 
-            Accepts:
+            Accept:
                 a (int): side of the square
             Return:
                 area(int): area of the square
                                 
     Example:
 
-            Accepts:
+            Accept:
                 area(4)
 
             Return:
@@ -23,14 +23,14 @@ def perimeter(a):
     '''
     Return perimeter of the square
 
-            Accepts:
+            Accept:
                 a (int): side of the square
             Return:
                 perimeter (int): perimeter of the square
                                 
     Example:
 
-            Accepts:
+            Accept:
                 perimeter(3)
 
             Return:

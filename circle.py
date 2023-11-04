@@ -5,7 +5,7 @@ def area(r):
     '''
     Return area of the circle.
     
-            Accepts:
+            Accept:
                 r (int): radius of the circle
 
             Return:
@@ -13,7 +13,7 @@ def area(r):
                 
     Example:
 
-            Accepts:
+            Accept:
                 area(1)
 
             Return:
@@ -26,7 +26,7 @@ def perimeter(r):
     '''
     Return length of the circle
 
-            Accepts:
+            Accept:
                 r (int): radius of the circle
 
             Return:
@@ -34,7 +34,7 @@ def perimeter(r):
                 
     Example:
 
-            Accepts:
+            Accept:
                 perimeter(1);
 
             Return:
