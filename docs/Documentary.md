@@ -144,4 +144,8 @@
 Добавление Unit-тестов в circle.py, rectangle.py, square.py, triangle.py
 >7a4f9921f7b69d4ea66220cba2d0f67be7407f4b Added unit tests to circle.py, rectangle.py, square.py, triangle.py
 
+Добавил коммит с Unit тестами в историю проета
+>8b0e0c131ae355f27a89fd3debd50118018cfdac
 
+Добавил больше тестов
+>7ed3e3ae5e1ee09c3d3f7403c7e3e083de3bdffb
