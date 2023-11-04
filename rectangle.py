@@ -2,7 +2,7 @@ def area(a, b):
     '''
     Return area of the rectangle
 
-            Accepts:
+            Accept:
                 a (int): first side of the rectangle
                 b (int): second side of the rectangle
             Return:
@@ -10,7 +10,7 @@ def area(a, b):
                                 
     Example:
 
-            Accepts:
+            Accept:
                 area(3, 4)
 
             Return:
@@ -22,7 +22,7 @@ def perimeter(a, b):
     '''
     Return perimeter of the rectangle
 
-            Accepts:
+            Accept:
                 a (int): first side of the rectangle
                 b (int): second side of the rectangle
             Return:
@@ -30,10 +30,10 @@ def perimeter(a, b):
                                 
     Example:
 
-            Accepts:
+            Accept:
                 perimeter(3, 4)
 
             Return:
                 14
     '''
-    return 2*(a + b) 
+    return 2*(a + b)
