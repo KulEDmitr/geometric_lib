@@ -132,6 +132,69 @@ Example
 6
 ```
 
+# Tests
+## circle
+### area
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ✅               | 04.11.2023 | error                           | error                           |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+### perimeter
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ✅               | 04.11.2023 | error                           | error                           |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+## rectangle
+### area
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ❌               | 04.11.2023 | error                           | string multiplied by number     |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+### perimeter
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ❌               | 04.11.2023 | error                           | string multiplied by number     |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+## square
+### area
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ✅               | 04.11.2023 | error                           | error                           |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+### perimeter
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ❌               | 04.11.2023 | error                           | string multiplied by number     |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+## triangle
+### area
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ✅               | 04.11.2023 | error                           | error                           |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+### perimeter
+| Possible value       | Works correctly | Date       | Expected result                 | Real Result                     |
+|----------------------|-----------------|------------|---------------------------------|---------------------------------|
+| non-negative numbers | ✅               | 04.11.2023 | correct result given by formula | correct result given by formula |
+| negative numbers     | ❌               | 04.11.2023 | error                           | random result                   |
+| strings              | ❌               | 04.11.2023 | error                           | string multiplied by number     |
+| complex objects      | ✅               | 04.11.2023 | error                           | error                           |
+
+
 # Commits
 - `8ba9aeb`: L-03: Circle and square added
 - `d078c8d`: L-03: Docs added
@@ -139,3 +202,4 @@ Example
 - `9abb177`: added triangle.py
 - `20b0f05`: fixed perimeter in rectangle.py
 - `3a12410`: added documentation
+- `52eb7cb`: fixed documentation
