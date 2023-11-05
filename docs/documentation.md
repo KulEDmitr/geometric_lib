@@ -178,8 +178,8 @@ Date:   Mon, Oct 9, 2023
 
     Добавил примеры вызова функций к файлам
 ---
-commit 9b1952dbb7fd480fc16bbecf4a436411c208cd6b
-Author: Misha <misha.balakirsky@gmail.com>
+commit 9b1952dbb7fd480fc16bbecf4a436411c208cd6b  
+Author: Misha <misha.balakirsky@gmail.com>  
 Date: Mon, Nov 6, 2023
 
     Tests have been added
