@@ -171,3 +171,14 @@ Author: Misha <misha.balakirsky@gmail.com>
 Date:   Mon, Oct 9, 2023
 
     Поправил комментарий к triangle.py
+<<<<<<< HEAD
+=======
+---
+commit 98b5861c1d0b603b57a2ee9f454d01500b26ea3b  
+Author: Misha <misha.balakirsky@gmail.com>  
+Date:   Mon, Oct 9, 2023
+
+    Добавил примеры вызова функций к файлам
+
+[^1]: в хронологическом порядке
+>>>>>>> d703398ae47833c0d07c17a4958a4c310257a35b
