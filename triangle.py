@@ -47,6 +47,10 @@ class TriangleTestCase(unittest.TestCase):
         res = area(0, 10)
         self.assertEqual(res, 0)
 
+    def test_area_regular(self):
+        res = area(10, 10)
+        self.assertEqual(res, 50)
+
     def test_area_string(self):
         res = area("10", "10")
         self.assertEqual(res, 50)
