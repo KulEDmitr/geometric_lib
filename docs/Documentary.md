@@ -155,3 +155,9 @@
 
 Добавил тестов со строками
 >79ca8ff40f4d348b373bddb460c7cffe02a283fc
+
+Обновил Documentary.md
+>cc6c231b9f8d9d57cbb385af1869f60f14829f5e
+
+Добавил тест в  triangle.py
+>b5c5454302282c0572f55549a0526071fc022984
