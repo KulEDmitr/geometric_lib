@@ -114,3 +114,5 @@
 >c452467e76a3095a80c7a801896cc62040335bfa
 - 05.11.2023 22:38 by Karcist45: added new tests
 >bccc94e54856d099beeff07f9b9863d6ed819910
+- 06.11.2023 10:22 by Karcist45: added long and double tests
+>f3369ab6e8d305a20a98b1ccc96782a4abc95cd9
