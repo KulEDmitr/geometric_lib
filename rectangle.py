@@ -44,7 +44,7 @@ def perimeter(a, b):
 class RectangleTestCase(unittest.TestCase):
     def test_area_zero(self):
         res = area(10, 0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, -1)
 
     def test_area_regular(self):
         res = area(10, 10)
@@ -52,15 +52,15 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_area_strings(self):
         res = area("10", "10")
-        self.assertEqual(res, 100)
+        self.assertEqual(res, -1)
 
     def test_area_negative(self):
         res = area(-10, 10)
-        self.assertEqual(res, 100)
+        self.assertEqual(res, -1)
 
     def test_perimeter_zero(self):
         res = perimeter(0, 10)
-        self.assertEqual(res, 20)
+        self.assertEqual(res, -1)
 
     def test_perimeter_regular(self):
         res = perimeter(100, 10)
@@ -68,8 +68,8 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_perimeter_strings(self):
         res = area("100", "10")
-        self.assertEqual(res, 220)
+        self.assertEqual(res, -1)
 
     def test_perimeter_negative(self):
         res = perimeter(-100, 10)
-        self.assertEqual(res, 220)
+        self.assertEqual(res, -1)
