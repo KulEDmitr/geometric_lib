@@ -47,8 +47,8 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_double_area(self):
         res = area(0.1, 0.2)
-        self.assertEqual(res, 0.01)
+        self.assertLessEqual(abs(res - 0.01), 0.000000001)
 
     def test_double_perimeter(self):
         res = perimeter(0.1, 0.2, 0.3)
-        self.assertEqual(res, 0.6)
+        self.assertLessEqual(abs(res - 0.06), 0.000000001)

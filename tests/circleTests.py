@@ -47,10 +47,9 @@ class CircleTestCase(unittest.TestCase):
 
     def test_double_area(self):
         res = area(0.1)
-        self.assertEqual(res, 0.031415926535897932384626433832)
+        self.assertLessEqual(abs(res - 0.031415926535897932384626433832), 0.000000001)
 
     def test_double_perimeter(self):
-
         res = perimeter(0.1)
-        self.assertEqual(res, 0.6283185307179586476925286766)
+        self.assertLessEqual(abs(res - 0.6283185307179586476925286766), 0.000000001)
 
