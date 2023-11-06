@@ -149,3 +149,9 @@
 
 Добавил больше тестов
 >7ed3e3ae5e1ee09c3d3f7403c7e3e083de3bdffb
+
+Обновил Documentary.md
+>69ff383eaa1eef7496e1a3e572a79c19820ae0b7
+
+Добавил тестов со строками
+>79ca8ff40f4d348b373bddb460c7cffe02a283fc
