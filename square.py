@@ -53,3 +53,27 @@ class SquareTestCase(unittest.TestCase):
     def test_zero_perimeter(self):
         res = perimeter(0)
         self.assertEqual(res, 0)
+
+    def test_huge_perimeter(self):
+        res = perimeter(12738495757192482917)
+        self.assertEqual(res, 50953983028769931668)
+
+    def test_huge_area(self):
+        res = area(878545256984)
+        self.assertEqual(res, 771841768569082600776256)
+
+    def test_unparsable_area(self):
+        res = area("10u81h")
+        self.assertEqual(res, 100)
+
+    def test_unparsable_perimeter(self):
+        res = perimeter("10nfk34ngi")
+        self.assertEqual(res, 40)
+
+    def test_double_area(self):
+        res = area(0.1)
+        self.assertEqual(res, 0.01)
+
+    def test_double_perimeter(self):
+        res = perimeter(0.1)
+        self.assertEqual(res, 0.4)
