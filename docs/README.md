@@ -50,6 +50,10 @@
 
     area(3) -> 18.84955592153876
 
+- ### tests
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/8aefa83a-62ba-4ef2-966b-850714e2bddb)
+
+
 
 
 ### Rectangle
@@ -82,6 +86,10 @@
 
     area(5, 6) -> 22
 
+- ### tests
+  ![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/aa6b9623-88fe-4e31-a61a-b5df7d81d8d7)
+
+
 
 ### Square
 
@@ -110,6 +118,9 @@
 Примеры вызова:
 
     area(5) -> 20
+
+- ### tests
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/7b67ca48-c303-4493-a328-56a53b0f01e5)
 
 
 ### Triangle
@@ -142,6 +153,10 @@
 Примеры вызова:
 
     area(3, 4, 5) -> 12
+
+- ### tests
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/3da60a0e-54f6-4cc1-bb1a-8db9de527650)
+
 
 ## Hashs of commits
 * a49dbe8 fixed rectangle's perimeter formula
