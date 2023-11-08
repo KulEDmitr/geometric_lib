@@ -36,6 +36,8 @@
 Для всех вычислительных функций написаны юнит тесты в соответствующих этим вычислительным функциям файлах
 
 ## История изменения проекта
+[commit 515c333](https://github.com/VyacheslavAtamanyuk/geometric_lib/commit/515c33307e26dfa42e3233471bfc6618dbe987e7) - обновление юнит тестов
+
 [commit c8e3963](https://github.com/VyacheslavAtamanyuk/geometric_lib/commit/c8e3963f18c708d94536f1a2b203029cdfc1157a) - добавление юнит тестов
 
 [commit 1c0dcdb](https://github.com/VyacheslavAtamanyuk/geometric_lib/commit/1c0dcdb5f7f82ce5e6bc523adfbde2d60818f6b8) - исправление функции вычисления периметра для прямоугольника
