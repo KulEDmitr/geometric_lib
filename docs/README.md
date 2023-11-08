@@ -51,8 +51,7 @@
     area(3) -> 18.84955592153876
 
 - ### tests
-![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/8aefa83a-62ba-4ef2-966b-850714e2bddb)
-
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/f18c117d-f30b-41ae-aa9b-04b8f1a50485)
 
 
 
@@ -87,7 +86,7 @@
     area(5, 6) -> 22
 
 - ### tests
-  ![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/aa6b9623-88fe-4e31-a61a-b5df7d81d8d7)
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/dfafcd4d-bd6c-4bf3-a389-2d20ef1de72b)
 
 
 
@@ -120,7 +119,8 @@
     area(5) -> 20
 
 - ### tests
-![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/7b67ca48-c303-4493-a328-56a53b0f01e5)
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/c15d8a84-4465-4a64-ae00-07e9fa94dba9)
+
 
 
 ### Triangle
@@ -155,7 +155,8 @@
     area(3, 4, 5) -> 12
 
 - ### tests
-![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/3da60a0e-54f6-4cc1-bb1a-8db9de527650)
+![image](https://github.com/Aram-schoolboy/geometric_lib/assets/52756403/6dcc3216-53b4-4c6a-b2ae-05c58f741e90)
+
 
 
 ## Hashs of commits
