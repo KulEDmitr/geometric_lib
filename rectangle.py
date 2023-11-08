@@ -37,7 +37,10 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(res, 12)
 
     def test_perimeter_1(self):
-        self.assertRaises(TypeError, perimeter, 2, '5')
+        self.assertEqual(5757, perimeter('5', '7'))
 
     def test_perimeter_2(self):
+        self.assertRaises(TypeError, perimeter, 2, '5')
+
+    def test_perimeter_3(self):
         self.assertEqual(perimeter(-2,-2), -8)

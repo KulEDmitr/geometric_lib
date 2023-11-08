@@ -25,6 +25,9 @@ class CircleTestCase(unittest.TestCase):
         res = area(2)
         self.assertEqual(res, 4*math.pi)
 
+    def test_area_3(self):
+        self.assertRaises(TypeError, area, '5')
+
     def test_perimeter_0(self):
         res = perimeter(0)
         self.assertEqual(res, 0)
@@ -37,5 +40,8 @@ class CircleTestCase(unittest.TestCase):
         res = perimeter(17.23)
         self.assertEqual(res, 34.46 * math.pi)
 
-    def test_perimeter(self):
+    def test_perimeter_3(self):
         self.assertEqual(perimeter(-1), -2*math.pi)
+
+    def test_perimeter_4(self):
+        self.assertRaises(TypeError, perimeter, '5')

@@ -16,8 +16,8 @@ class SquareTestCase(unittest.TestCase):
         self.assertEqual(res, 0)
 
     def test_area_1(self):
-        res = area(1)
-        self.assertEqual(res, 1)
+        res = area(2)
+        self.assertEqual(res, 4)
 
     def test_area_2(self):
         self.assertRaises(TypeError, area, '5')
@@ -33,4 +33,7 @@ class SquareTestCase(unittest.TestCase):
     def test_perimeter_2(self):
         res = perimeter(-2)
         self.assertEqual(res, -8)
+
+    def test_perimeter_3(self):
+        self.assertEqual('5555', perimeter('5'))
 

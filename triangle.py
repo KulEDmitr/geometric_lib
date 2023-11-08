@@ -35,5 +35,9 @@ class TriangleTestCase(unittest.TestCase):
         self.assertEqual(res, 20)
 
     def test_perimeter_2(self):
-        self.assertRaises(TypeError, perimeter, 2, 3, '7')
+        self.assertRaises(TypeError, perimeter, 1, 2, '3')
+
+    def test_perimeter_3(self):
+        self.assertEqual('123', perimeter('1','2','3'))
+
 
