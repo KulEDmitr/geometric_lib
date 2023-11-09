@@ -67,5 +67,5 @@ d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
 
 # Tests to check the functionality of the program (Runtests: python.exe -m unittest filename)
 
-## Rectangle
+
     
