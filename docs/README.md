@@ -109,3 +109,6 @@
 1. File triangle.py added and error in rectangle.py got fixed
    - **Commit message**: "triangle added + rectangle fixed"
    - **Hash**: ce10616
+1. Created new branch for unittests and pulled all files in a separate directory
+  - **Commit message**: "pulled library in a separate directory and added unittest tests"
+  - **Hash**: 0ad78c4
