@@ -110,5 +110,8 @@
    - **Commit message**: "triangle added + rectangle fixed"
    - **Hash**: ce10616
 1. Created new branch for unittests and pulled all files in a separate directory
-  - **Commit message**: "pulled library in a separate directory and added unittest tests"
-  - **Hash**: 0ad78c4
+   - **Commit message**: "pulled library in a separate directory and added unittest tests"
+   - **Hash**: 0ad78c4
+1. Merged unittest's branch with main
+   - **Commit message**: "merged unittest_branch and updated docs"
+   - **Hash**: 69112b9
