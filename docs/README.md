@@ -124,5 +124,7 @@ print(perimeter(5, 5, 3))   \\ 13
 3. `6bd60b5` added rectangle.py
 4. `bf7ed26` fixed rectangle.py and added triangle.py
 5. `6e2e3f8` added comments in all files
+6. `ae46853` added examples in comments
+7. `e14f22d` Добавлены unit-тесты и отчёты
 
 
