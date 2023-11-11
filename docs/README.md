@@ -110,6 +110,14 @@ print(perimeter(2, 5, 4))   \\ 11
 print(perimeter(4, 4, 1))   \\ 9
 print(perimeter(5, 5, 3))   \\ 13
 ```
+
+# Tests
+- All files have test classes, made with [unittest](https://docs.python.org/3/library/unittest.html#) you can run it by 
+    ```
+    python -m unittest <figure>.py
+    ```
+- This tests aren't testing all varians, they just prevent you from simple mistakes, you can use it for your versions of this project, or modify it if you need
+
 # Project history
 1. `8ba9aeb` Circle and square added
 2. `d078c8d` Docs added
