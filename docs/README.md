@@ -66,4 +66,9 @@ Date:   Fri Sep 22 01:52:09 2023 +0300
 Author: Souffl <kta.berendugina@mail.ru>
 Date:   Fri Sep 22 01:56:45 2023 +0300
     Исправлена ошибка и добавлен файл
+5. commit a17f52247c7106eb3ebeb56eff653f620c66d589 (HEAD -> main)
+Author: Souffl <kta.berendugina@mail.ru>
+Date:   Sun Nov 12 20:59:12 2023 +0300
+    Были добавлены тесты для всех функций
+
 
