@@ -2,7 +2,7 @@ import math
 import unittest
 import random
 
-def area(r:int):
+def area(r):
     '''
     Возвращает площадь круга в десятичном формате
 
@@ -17,12 +17,10 @@ def area(r:int):
         print(area(4))  \\ 50,265482457436692
         print(area(5))  \\ 78,539816339744831
     '''
-    if r < 0:
-        raise ValueError("radius cannot be negative")
     return math.pi * r * r
 
 
-def perimeter(r:int):
+def perimeter(r):
     '''
     Возвращает периметр круга в десятичном формате
 
@@ -37,8 +35,6 @@ def perimeter(r:int):
         print(perimeter(4))  \\ 25,132741228718346
         print(perimeter(5))  \\ 31,415926535897932
     '''
-    if r < 0:
-        raise ValueError("radius cannot be negative")
     return 2 * math.pi * r
 
 class CircleTestCase(unittest.TestCase):

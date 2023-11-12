@@ -1,7 +1,7 @@
 import unittest
 import random
 
-def area(a:int, h:int):
+def area(a, h):
     '''
     Возвращает площадь треугольника в десятичном формате
 
@@ -17,11 +17,9 @@ def area(a:int, h:int):
         print(area(4, 3))    \\ 6
         print(area(5, 10))   \\ 25
     '''
-    if a < 0 or h < 0:
-        raise ValueError("Sides cannot be less than zero")
     return a * h / 2
 
-def perimeter(a:int, b:int, c:int):
+def perimeter(a, b, c):
     '''
     Возвращает периметр треугольника в десятичном формате
 
@@ -38,10 +36,6 @@ def perimeter(a:int, b:int, c:int):
         print(perimeter(4, 4, 1))   \\ 9
         print(perimeter(5, 5, 3))   \\ 13
     '''
-    if a < 0 or b < 0 or c < 0:
-        raise ValueError("Sides cannot be less than zero")
-    if a == 0 or b == 0 or c == 0:
-        return 0
     return a + b + c
 
 class TriangleTestCase(unittest.TestCase):

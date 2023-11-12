@@ -1,7 +1,7 @@
 import random
 import unittest
 
-def area(a:int):
+def area(a):
     '''
     Возвращает площадь квадрата в десятичном формате
 
@@ -16,8 +16,6 @@ def area(a:int):
         print(area(4))   \\ 16
         print(area(5))   \\ 25  
     '''
-    if a < 0:
-        raise ValueError("Side cannot be negative")
     return a * a
 
 
@@ -36,8 +34,6 @@ def perimeter(a:int):
         print(perimeter(4))   \\ 16
         print(perimeter(5))   \\ 20
     '''
-    if a < 0:
-        raise ValueError("Side cannot be negative")
     return 4 * a
 
 class SquareTestCase(unittest.TestCase):

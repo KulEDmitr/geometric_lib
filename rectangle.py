@@ -1,7 +1,7 @@
 import random
 import unittest
 
-def area(a:int, b:int):
+def area(a, b):
     '''
     Возвращает площадь прямоугольника в десятичном формате
 
@@ -17,12 +17,10 @@ def area(a:int, b:int):
         print(area(4, 1.5)) \\ 6
         print(area(5, 5))   \\ 25
     '''
-    if a < 0 or b < 0:
-        raise ValueError("Sides cannot be negative")
     return a * b
 
 
-def perimeter(a:int, b:int):
+def perimeter(a, b):
     '''
     Возвращает периметр прямоугольника в десятичном формате
 
@@ -38,10 +36,6 @@ def perimeter(a:int, b:int):
         print(perimeter(4, 1.5)) \\ 15
         print(perimeter(5, 5))   \\ 20
     '''
-    if a < 0 or b < 0:
-        raise ValueError("Sides cannot be negative")
-    if a == 0 or b == 0:
-        return 0
     return 2 * (a + b)
 
 class RectangleTestCase(unittest.TestCase):
