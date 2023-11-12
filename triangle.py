@@ -32,17 +32,26 @@ class TriangleTestCase(unittest.TestCase):
         self.assertEqual(res, 0)
         res = area(494, 0)
         self.assertEqual(res, 0)
+        res = area("0", "129")
+        self.assertEqual(res, 0)
 
     def test_area(self):
         res = area(2, 123)
         self.assertEqual(res, 123)
         res = area(1, 111)
         self.assertEqual(res, 55.5)
+        res = area("4", "2")
+        self.assertEqual(res, 4)
 
     def test_zero_perimeter(self):
         res = perimeter(0, 0, 0)
         self.assertEqual(res, 0)
+        res = perimeter(0, "0", "0")
+        self.assertEqual(0, res)
 
     def test_perimeter(self):
         res = perimeter(0, 1034, 32)
         self.assertEqual(res, 1066)
+        res = perimeter("1", "2", "3")
+        res = perimeter(2, 3, 100)
+        self.assertRaises(Exception)
