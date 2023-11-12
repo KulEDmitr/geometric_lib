@@ -1,5 +1,5 @@
-  import math
-
+import math
+import unittest
 
 def area(r):
     '''
@@ -9,7 +9,6 @@ def area(r):
     
     '''
     return math.pi * r * r
-    
 
 
 def perimeter(r):
@@ -20,4 +19,24 @@ def perimeter(r):
     
     '''
     return 2 * math.pi * r
+
+class CircleTestCase(unittest.TestCase):
+    def test_zero_arg(self):
+        with self.assertRaises(ValueError):
+            area(0)
+            perimeter(0)
+    def test_random(self):
+        self.assertEqual(area(650), math.pi*650*650)
+        self.assertEqual(perimeter(650), 2*math.pi*650)
+    def test_wrong_value(self):
+        with self.assertRaises(ValueError):
+            area('dkkd')
+        with self.assertRaises(ValueError):
+            perimeter('dkkd')
+    def test_negative_value(self):
+        with self.assertRaises(ValueError):
+            area(-100)
+        with self.assertRaises(ValueError):
+            perimeter(-100)
+
 
