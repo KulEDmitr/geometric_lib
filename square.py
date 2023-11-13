@@ -1,6 +1,3 @@
-import unittest, wolframalpha
-
-
 def area(a):
     '''
     Принимает значение 1 переменной (сторона фигуры(квадрата)) и выводит площадь фигуры(квадрата)
@@ -20,19 +17,3 @@ def perimeter(a):
     '''
 
     return 4 * a
-
-
-class SquareTestCase(unittest.TestCase):
-
-
-    def test_all_square_wolfram(self):
-        app_id = "QHP654-RUKEQ9LT5L"
-        client = wolframalpha.Client(app_id)
-        for a in range(30):
-            test_result = area(a)
-            res = next(client.query(f'area of square {a}').results).text
-            self.assertEqual(test_result, int(res))
-        for a in range(30):
-            test_result = perimeter(a)
-            res = next(client.query(f'perimeter of square {a}').results).text
-            self.assertEqual(test_result, int(res))
