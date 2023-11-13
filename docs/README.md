@@ -94,6 +94,7 @@ Project contains modules for finding area and perimeter of geometry figures
    ```
    
 ## Commits
+* **3ec953c9: danyarmarkin**  add tests
 * **65d37149: danyarmarkin**  fix bug with rect perimeter
 * **ee837feb: danyarmarkin**  add new file rectangle.py
 * **d078c8d9: smartiqa** L-03: Docs added
