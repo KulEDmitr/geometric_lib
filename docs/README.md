@@ -98,3 +98,10 @@ Project contains modules for finding area and perimeter of geometry figures
 * **ee837feb: danyarmarkin**  add new file rectangle.py
 * **d078c8d9: smartiqa** L-03: Docs added
 * **8ba9aeb3: smartiqa** L-03: Circle and square added
+
+## Testing
+Modules tested with *unittest*. Testing cases:
+1. Null numbers
+1. Big numbers
+1. Float numbers
+1. Not-normal input data (ex. str)
