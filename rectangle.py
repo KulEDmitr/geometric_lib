@@ -1,6 +1,9 @@
 def area(a, b):
     """
     Возвращает произведение двух чисел a и b
+
+    Пример запуска:
+        area(3, 2) --> 6
     """
     return a * b
 
@@ -11,5 +14,8 @@ def perimeter(f, b):
     :param f: одна сторона
     :param b: вторая сторона
     :return: 2*(f + b)
+
+    Пример запуска:
+        perimeter(3, 4) --> 14
     """
     return (f + b) * 2
