@@ -108,6 +108,7 @@
 
 ## Project history
 
+* **9c92455** added unittests
 * **c1d7b61** new addded file triangle.py and fixed bug in rectangle.py
 * **91e4ed5** new added file rectangle.py
 * **d078c8d** L-03: Docs added
