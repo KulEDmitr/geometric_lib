@@ -1,6 +1,5 @@
 import math
 
-
 def area(r):
     '''
     Получает на вход радиус окружности и выводит её площадь
@@ -41,4 +40,3 @@ def perimeter(r):
 
     '''
     return 2 * math.pi * r
-
