@@ -60,8 +60,7 @@ area(4, 5)
 return: 20
 ```
 ```
-perimeter(5, 6)
-return: 22
+2
 ```
 
 ### square.py
@@ -116,3 +115,4 @@ return: 12
 - `d078c8d` - добавлена директория docs
 - `d74356d` - добавлен новый файл rectangle.py
 - `e7c776f` - исправлен файл rectangle.py
+- `82a43cf` - добавлены unittests
