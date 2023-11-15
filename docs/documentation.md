@@ -93,6 +93,27 @@
 > 
 > print(perimeter_result) # >> 12
 
+### Тестирование проекта
+В файле **unit_tests.py** представлены unit тесты для проверки каждой функции в файлах проекта.
+``` 
+class [FILENAME]TestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = [FILENAME].area(int, int)
+        self.assertEqual(res, true_res)
+
+    def test_square_mul(self):
+        res = [FILENAME].area(int, int)
+        self.assertEqual(res, true_res)
+
+    def test_zero_perimeter(self):
+        res = [FILENAME].perimeter(int, int)
+        self.assertEqual(res, true_res)
+
+    def test_positive_perimeter(self):
+        res = [FILENAME].perimeter(int, int)
+        self.assertEqual(res, true_res) 
+```
+
 ### История изминения проекта
 ![Список внесенных изменений с указанной датой внесения](history_of_changes.png)
 **Хэши коммитов**

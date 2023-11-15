@@ -9,7 +9,7 @@ def area(a):
 
 def perimeter(a):
     """Принимает сторону квадрата (int)
-        возвращает его периметр (float)
+        возвращает его периметр (int)
 
         print(perimeter(10)) --> 40"""
     return 4 * a
