@@ -54,6 +54,12 @@ Example:
 
     Print(perimeter(5,5,5)) // 15
 # *project modification history*
+
+commit f189670355277ad1a5e4838135973f35bdda6229
+Date:   Thu Oct 5 11:09:41 2023 +0300
+
+    Edit comments in code
+
 commit fd54bcd211f8f3565827c30c5d83f977e43b4b1d
 Date:   Thu Sep 7 19:08:00 2023 +0300
 
