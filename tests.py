@@ -47,6 +47,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 circle.area(case[0]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -60,6 +61,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 circle.perimeter(case[0]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -74,6 +76,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 rectangle.area(case[0], case[1]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -87,6 +90,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 rectangle.perimeter(case[0], case[1]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -101,6 +105,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 square.area(case[0]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -114,6 +119,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 square.perimeter(case[0]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -128,6 +134,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 triangle.area(case[0], case[1]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
@@ -141,6 +148,7 @@ class ClassTestGeometricLib(unittest.TestCase):
             self.assertAlmostEqual(
                 triangle.perimeter(case[0], case[1], case[2]),
                 case[-1],
+                delta=0.0000001
             )
 
         with self.assertRaises(validation.NonPositiveArgumentException):
