@@ -53,7 +53,11 @@ S = triangle.area(a,h)
 P = triangle.perimeter(a,b,c)
 print("Area is equal to", S, "and perimeter is equal to", P) # Output: "Area is equal to 50 and perimeter is equal to 30"
 ```
+### Tests
+Project contains test.py file with unittests for the library.
+Usage: python -m unittest tests.py
 ## Project commits history
 1. [Added a new file rectangle.py](https://github.com/KulEDmitr/geometric_lib/tree/8be08e9febb6462e49e3589d43d5771dcab545b1) (SHA: 8be08e9febb6462e49e3589d43d5771dcab545b1). 
 2. [Added triangle.py and fixed error in calculations in rectangle.py](https://github.com/KulEDmitr/geometric_lib/tree/4e22d8080aa3d4b84f352e1a5e6449888a447761) (SHA: 4e22d8080aa3d4b84f352e1a5e6449888a447761). 
 3. [Actual commit of rectangle.py](https://github.com/KulEDmitr/geometric_lib/tree/6972d23beb0936ec7b5289387e9eddecd537df90) (SHA: 6972d23beb0936ec7b5289387e9eddecd537df90).
+4. [Tests added](https://github.com/KulEDmitr/geometric_lib/commit/381468f95ce749017d8ce51c924904a8afbc0c20) (SHA: 381468f95ce749017d8ce51c924904a8afbc0c20).
