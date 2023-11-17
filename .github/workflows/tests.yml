@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
           architecture: "x64"
       - name: run tests
-        run: python tests/tests.py
+        run: python -m unittest tests/tests.py
   test_shindows:
     runs-on: windows-latest
     steps:
@@ -31,4 +31,4 @@ jobs:
           python-version: "3.12"
           architecture: "x64"
       - name: run tests
-        run: python tests/tests.py
+        run: python -m unittest tests/tests.py
