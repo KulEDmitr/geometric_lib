@@ -3,7 +3,7 @@ import math
 
 def area(r: int) -> int:
 	"""
-	Gets radius of circle, returns area
+	Gets radius of circle, returns it's area
 
 	Example:
 		circle.area(2) = 12.566370614359172
