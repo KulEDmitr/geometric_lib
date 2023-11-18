@@ -12,6 +12,50 @@
 - Square: P = 4a
 - Triangle: P = a + b + c
 
+# В проекте присутствуют Unit тесты 
+Пример корректного запуска тестов
+```
+$ python -m unittest unittests.py
+........................................
+----------------------------------------------------------------------
+Ran 40 tests in 0.004s
+
+OK
+```
+
+# Возможные ошибки
+- `ValueError`
+```
+ValueError: Radius must be greater than or equal to zero!
+```
+```
+ValueError: Side must be greater than or equal to zero!
+```
+```
+ValueError: Height must be greater than or equal to zero!
+```
+```
+VaueError: Side and height must be greater than or equal to zero!
+```
+```
+VaueError: Sides must be greater than or equal to zero!
+```
+- `TypeError`
+```
+TypeError: Radius must be set as an integer!
+```
+```
+TypeError: Side must be set as an integer!
+```
+```
+TypeError: Height must be set as an integer!
+```
+```
+TypeError: Side and height must be set as an integer!
+```
+```
+TypeError: Sides must be set as an integer!
+```
 
 # Описание каждой функции с примерами вызова
 
