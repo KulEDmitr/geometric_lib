@@ -78,6 +78,14 @@ def perimeter(a, b, c):
     return a + b + c 
 ```
 
+## <a id="tests" href="https://github.com/franchescooo/geometric_lib/blob/main/docs/TESTS.md"> Проведенные тесты </a>
+|                  Компонента                 |                Результаты тестирования                  |
+| ------------------------------------------- | :-----------------------------------------------------: |
+| $\color {#FFB1F9} \normalsize \sf circle$   | $\quad \color {#F5D033} \bf 50\%$                       |
+| $\color {#FFB1F9} \normalsize \sf rectangle$| $\quad \color {#92000A} \bf Тестирование\ не\ проведено$|
+| $\color {#FFB1F9} \normalsize \sf square$   | $\quad \color {#92000A} \bf Тестирование\ не\ проведено$|
+| $\color {#FFB1F9} \normalsize \sf triangle$ | $\quad \color {#92000A} \bf Тестирование\ не\ проведено$|
+
 ## <a id="math" href="https://github.com/franchescooo/geometric_lib/blob/main/docs/MATHFORMULS.md"> Математика </a>
 $\large \color {#BCFF57} \sf Площадь$
 |                    Фигура                         |                         Формула                            |
