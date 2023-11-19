@@ -30,7 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run tests
         run: |
-          pythom -m unittest CircleUnitTests.py
-          pythom -m unittest TriangleUnitTests.py
-          pythom -m unittest RectangleUnitTests.py
-          pythom -m unittest SquareUnitTests.py
+          python -m unittest CircleUnitTests.py
+          python -m unittest TriangleUnitTests.py
+          python -m unittest RectangleUnitTests.py
+          python -m unittest SquareUnitTests.py
