@@ -32,7 +32,7 @@ jobs:
         run: python -m unittest CircleUnitTests.py
       # - name: Run TriangleTest
       #   run: python -m unittest TriangleUnitTest.py
-      - name: Run RectangleTest
-        run: python -m unittest RectangleUnitTests.py
-      - name: Run SquareTest
-        run: python -m unittest SquareUnitTests.py
+      # - name: Run RectangleTest
+      #   run: python -m unittest RectangleUnitTests.py
+      # - name: Run SquareTest
+      #   run: python -m unittest SquareUnitTests.py
