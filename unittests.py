@@ -15,7 +15,7 @@ class RectangleTestCase(unittest.TestCase):
         res = rectangle.area(0, 0)
         self.assertEqual(0, res)
 
-    def test_square_mul(self):
+    def test_normal_mul(self):
         res = rectangle.area(10, 7)
         self.assertEqual(70, res)
         res = rectangle.area(7, 10)
@@ -46,7 +46,7 @@ class RectangleTestCase(unittest.TestCase):
         res = rectangle.perimeter(0, 0)
         self.assertEqual(0, res)
 
-    def test_square_per(self):
+    def test_normal_per(self):
         res = rectangle.perimeter(10, 7)
         self.assertEqual(34, res)
         res = rectangle.perimeter(7, 10)
@@ -221,8 +221,6 @@ class TriangleTestCase(unittest.TestCase):
             triangle.perimeter(1, 'b', 1)
         with self.assertRaises(TypeError):
             triangle.perimeter(1, 1, 'c')
-        with self.assertRaises(TypeError):
-            triangle.perimeter(1, 1, 1)
 
     def test_negative_per(self):
         with self.assertRaises(ValueError):
@@ -239,8 +237,6 @@ class TriangleTestCase(unittest.TestCase):
             triangle.perimeter(1, -5, 1)
         with self.assertRaises(ValueError):
             triangle.perimeter(1, 1, -5)
-        with self.assertRaises(ValueError):
-            triangle.perimeter(1, 1, 1)
 
 
 if __name__ == '__main__':
