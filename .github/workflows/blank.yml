@@ -31,6 +31,6 @@ jobs:
       - name: Run tests
         run: |
           python -m unittest CircleUnitTests.py
-          python -m unittest TriangleUnitTests.py
+          python -m unittest TriangleUnitTest.py
           python -m unittest RectangleUnitTests.py
           python -m unittest SquareUnitTests.py
