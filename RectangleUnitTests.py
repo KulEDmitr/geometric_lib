@@ -64,11 +64,11 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_perimeter_string_value(self):
         res = perimeter(10, "ab")
-        self.assertEqual(res, TypeError)
+        self.assertRaises(res, TypeError)
 
     def test_perimeter_negative_value(self):
         res = perimeter(-10, 5)
-        self.assertEqual(res, TypeError)
+        self.assertRaises(res, TypeError)
 
 
 if __name__ == '__main__':

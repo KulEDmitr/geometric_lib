@@ -114,3 +114,4 @@ There have been added tests for handle unit testing.
 They are aimed to test lib for its functional and efficiency. Each group tests each function of each object on int, float, zero and big value.
 Furthermore, rectangle is also tested on string and negative values.
 Note that tests succeed on ints, zero, big value, but don't print errors on invalid arguments. Also lib tends to fail in ceil of float args. 
+
