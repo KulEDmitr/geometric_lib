@@ -5,3 +5,5 @@
 * "triangle added"
 ## change 3 (commit 14c99187)
 * "bug fixed in rectangle.py"
+## change 4 (commit 30c74931)
+* "Unit test files added" - библиотека была протестирована
