@@ -96,13 +96,14 @@
 
 Latest changes:
 
-- [0aca4a5](https://github.com/ITheLestI/geometric_lib/commit/0aca4a5acaa5c33cdf05a695d5cce9631ba4267c) Additions to commit history
-- [8284520](https://github.com/ITheLestI/geometric_lib/commit/8284520736971cf65bec29342d58ee214ff77a66) Examples to func comments
+- [161c270](https://github.com/ITheLestI/geometric_lib/commit/161c270c2de2a3a1fab3280a9dd941f487325983) Styling changes
 
 
 <details>
 <summary>Later commits</summary>
 
+- [0aca4a5](https://github.com/ITheLestI/geometric_lib/commit/0aca4a5acaa5c33cdf05a695d5cce9631ba4267c) Additions to commit history
+- [8284520](https://github.com/ITheLestI/geometric_lib/commit/8284520736971cf65bec29342d58ee214ff77a66) Examples to func comments
 - [7ce8e1d](https://github.com/ITheLestI/geometric_lib/commit/7ce8e1dd0b22cbadaae9a0fce5f3641ac2dca309) Fixed readme urls
 - [b8e7e9a](https://github.com/ITheLestI/geometric_lib/commit/b8e7e9a5add079e2d01e1890c79c8cfcccd19e05) Docs for every function + history
 - [827ec18](https://github.com/ITheLestI/geometric_lib/commit/827ec18f59c992b5471f08f76b8cc2473639f27b) Func comments translated
