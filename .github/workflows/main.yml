@@ -25,6 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
+        
     - name: Test rectangle.py
       run: |
         python3 test_rectangle.py
