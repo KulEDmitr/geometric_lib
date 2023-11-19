@@ -91,7 +91,10 @@ We calculate the perimeter of a triangle using the formula **S = a + b + c**
 1. - in : ``25 30 10``
    - out : ``65``
    
-   
+
+# Added tests of all functionality
+Each function does not pass all tests and requires improvement
+
 # Project change history with commit hashes
 
 **commit b2624f0c7b6b1f9eb3cfb3e5217c231c91845387\
