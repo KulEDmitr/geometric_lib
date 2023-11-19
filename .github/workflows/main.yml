@@ -11,7 +11,10 @@ on:
 jobs:
   test:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+        matrix:
+            os: [ubuntu-latest, windows-latest]
 
     steps:
     - uses: actions/checkout@v3
@@ -19,11 +22,21 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
-    - name: Test with pytest
+    - name: Test rectangle.py
       run: |
         python3 test_rectangle.py
 
-    - name: Test with pytest 2
+    - name: Test circle.py
       if: always()
       run: |
         python3 test_circle.py
+
+    - name: Test triangle.py
+      if: always()
+      run: |
+        python3 test_triangle.py
+
+    - name: Test square.py
+      if: always()
+      run: |
+        python3 test_square.py
