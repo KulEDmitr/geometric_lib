@@ -14,42 +14,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-            os: [ubuntu-latest]
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python3 -m pip install --upgrade pip
-    - name: Test rectangle.py
-      run: |
-        python3 test_rectangle.py
-
-    - name: Test circle.py
-      if: always()
-      run: |
-        python3 test_circle.py
-
-    - name: Test triangle.py
-      if: always()
-      run: |
-        python3 test_triangle.py
-
-    - name: Test square.py
-      if: always()
-      run: |
-        python3 test_square.py
-
-  test_windows:
-
-    runs-on: ${{ matrix.os }}
-    strategy:
-        matrix:
-            os: [windows-latest]
+            os: [ubuntu-latest, windows-latest]
 
     steps:
     - uses: actions/checkout@v3
