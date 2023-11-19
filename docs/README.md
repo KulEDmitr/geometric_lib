@@ -92,6 +92,15 @@
 8.064
 ```
 
+# Тесты
+Тесты `python unittest` хранятся в папке `tests`.
+```
+circle.py: 10/12
+rectangle.py: 10/14
+square.py: 9/12
+triangle.py: 12/15
+```
+
 # История изменения проекта
 - commit `8ba9aeb3cea847b63a91ac378a2a6db758682460`
 L-03: Circle and square added
@@ -104,3 +113,9 @@ Added rectangle.py
 
 - commit `a43ac941bac55065f6e4097ede6f1acc94080fdb`
 Added triangle.py and fixed rectangle.py
+
+- commit `e002627a0b7cd69b947d53f5136160edc23a1fd3`
+Added documentation
+
+- commit `ba9bf346abc70e5916271778ded38ac4444b2d84`
+added tests
