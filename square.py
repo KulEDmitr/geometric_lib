@@ -11,8 +11,10 @@ class SquareTestCase(unittest.TestCase):
 
 
 def area(a):
+    '''Принимает длину сторон квадрата, возвращает площадь квадрата'''
     return a * a
 
 
 def perimeter(a):
+    '''Принимает длину сторон квадрата, возвращает периметр квадрата'''
     return 4 * a

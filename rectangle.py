@@ -10,7 +10,9 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(res, 100)
 
 def area(a, b): 
+    '''Принимает длины сторон прямоугольника, возвращает площадь прямоугольника'''
     return a * b 
 
 def perimeter(a, b): 
+    '''Принимает длины сторон прямоугольника, возвращает периметр прямоугольника'''
     return 2 * (a + b) 
