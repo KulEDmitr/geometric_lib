@@ -97,8 +97,33 @@ Each function does not pass all tests and requires improvement
 
 # Project change history with commit hashes
 
+**commit e89e139c33d225e933d11e840a33374161cac6b6\
+Author: NicroNn <silica2010ak@gmail.com>\
+Date:   Sun Nov 19 15:39:38 2023 +0300**
+
+    added unittests and modified readme.md
+
+**commit 4aad08f0da20e2e71584796a7c3ac97400a2e7fc\
+Author: NicroNn <nicronn@niuitmo.ru>\
+Date:   Fri Oct 6 15:43:59 2023 +0300**
+
+    history extended
+
+**commit e8accf79f8cf3f1a63c5dc7981873a342eff35b2\
+Author: NicroNn <nicronn@niuitmo.ru>\
+Date:   Fri Oct 6 15:42:34 2023 +0300**
+
+    deleted extra func call
+
+**commit 400bf2463bfe4203f6a606ba197c898ccab45df3\
+Author: NicroNn <nicronn@niuitmo.ru>\
+Date:   Thu Oct 5 13:06:58 2023 +0300**
+
+    added comments and extended docs
+
+
 **commit b2624f0c7b6b1f9eb3cfb3e5217c231c91845387\
-Author: NicroNn <85504595+NicroNn@users.noreply.github.com>\7
+Author: NicroNn <85504595+NicroNn@users.noreply.github.com>\
 Date:   Mon Sep 11 10:36:43 2023 +0300**
 
     fixed rectangle perimetr calculation
