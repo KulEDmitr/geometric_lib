@@ -231,6 +231,10 @@ The perimeter of a triangle with sides 4.5, 2.7, and 3.8 is: 11.0
 - Square: P = 4a
 - Triangle: P = a + b + c
 
+## Testing
+
+All modules tested with unittest, you cand find tests in [tests](./../tests) directory.
+
 ## Commit history
 - 60368fc50d4082dca71beb2a891022b84e1bd6bc - bialger: Fixed comments in all .py files
 - 090747fb4061055c4e297d27af929380cde8e582 - bialger: Fixed README - with usage examples
