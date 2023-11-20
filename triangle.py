@@ -89,6 +89,10 @@ class TriangleTestCase(unittest.TestCase):
         res = area(22, 0)
         self.assertEquals(res, 0)
 
+    def test_nine_area(self):
+        res = area(8327589247586248952948.65,2385689234659246592465862456)
+        self.assertEquals(res, 9933520009315304724209978443784393936274443265442.2)
+
     def test_zero_perimeter(self):
         res = perimeter(124, 62,9)
         self.assertEquals(res, 195)
@@ -136,3 +140,7 @@ class TriangleTestCase(unittest.TestCase):
         with self.assertRaises(SystemExit) as cm:
             res = perimeter(1, 324, "sgws")
         self.assertNotEquals(cm.exception.code, 1)
+
+    def test_ten_perimeter(self):
+        res = perimeter(3725745, 8327589247586248952948.65,2385689234659246592465862456)
+        self.assertEquals(res, 2385697562248494178718541149.65)

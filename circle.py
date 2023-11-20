@@ -69,6 +69,10 @@ class CircleTestCase(unittest.TestCase):
             res = area("vsdv")
         self.assertEquals(cm.exception.code, 1)
 
+    def test_six_area(self):
+        res = area(831476896)
+        self.assertEquals(res, 2171952108903743652.119829357913088)
+
     def test_zero_perimeter(self):
         res = perimeter(0)
         self.assertEquals(res, 0.0)
@@ -94,3 +98,7 @@ class CircleTestCase(unittest.TestCase):
         with self.assertRaises(SystemExit) as cm:
             res = area("vsdv")
         self.assertEquals(cm.exception.code, 1)
+
+    def test_six_perimeter(self):
+        res = perimeter(8314768963523535256)
+        self.assertEquals(res, 52243234184203911768.279021194484016)

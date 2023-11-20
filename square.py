@@ -69,6 +69,10 @@ class SquareTestCase(unittest.TestCase):
         res = area(1 + math.sqrt(2))
         self.assertEquals(res, 3 + 2 * math.sqrt(2))
 
+    def test_six_area(self):
+        res = area(652658726578436738467893567398)
+        self.assertEquals(res, 425963413378986645934690275612521931828688925860426768490404)
+
     def test_zero_perimeter(self):
         res = perimeter(62)
         self.assertEquals(res, 248)
@@ -92,5 +96,9 @@ class SquareTestCase(unittest.TestCase):
         self.assertEquals(res, 4 * math.sqrt(2))
 
     def test_five_perimeter(self):
-        res = area(0)
+        res = perimeter(0)
         self.assertEquals(res, 0)
+
+    def test_six_perimeter(self):
+        res = perimeter(652658726578436738467893567398)
+        self.assertEquals(res, 2610634906313746953871574269592)

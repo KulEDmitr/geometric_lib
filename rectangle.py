@@ -86,6 +86,14 @@ class RectangleTestCase(unittest.TestCase):
             res = area(21, "vsdv")
         self.assertEquals(cm.exception.code, 1)
 
+    def test_nine_area(self):
+        res = area(4316341825378568967, 2325231)
+        self.assertEquals(res, 10036491818966835297706377)
+
+    def test_ten_area(self):
+        res = area(43163418253785.68967, 23252.31)
+        self.assertEquals(res, 1003649181896683529.7706377)
+
     def test_zero_perimeter(self):
         res = perimeter(0, 23)
         self.assertEquals(res, 46)
@@ -125,3 +133,11 @@ class RectangleTestCase(unittest.TestCase):
         with self.assertRaises(SystemExit) as cm:
             res = perimeter(21, "vsdv")
         self.assertEquals(cm.exception.code, 1)
+
+    def test_nine_perimeter(self):
+        res = perimeter(48376089168964363288888888888888888889489132857823758237587258, 265986286134873489698347656)
+        self.assertEquals(res, 2 * 48376089168964363288888888888888889155475418992697247935934914)
+
+    def test_ten_perimeter(self):
+        res = perimeter(4837608916896436328888888888888888888948913285782375.8237587258, 26598628613487348.9698347656)
+        self.assertEquals(res, 2 * 4837608916896436328888888888888888915547541899269724.7935934914)
