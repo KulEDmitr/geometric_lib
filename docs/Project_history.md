@@ -21,3 +21,9 @@
 - ### bda1c71 README.md renamed to Math_formulas.md
 - ### 67c8776 new file - Function_description.md
 - ### 7f556b4 new file - Solve_description.md
+- ### d06feec new file - Project_history.md
+- ### 81b732f Delete README.md use Math_formulas.md instead
+- ### b764279 function descriptions updated
+- ### 5b2e3d1 Merge branch 'main' of https://github.com/DDD340/geometric_lib
+## Лабораторная работа №4:
+- ### 723b615 unittests added in 4 files
