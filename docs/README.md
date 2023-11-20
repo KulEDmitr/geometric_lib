@@ -204,3 +204,6 @@ r = 7
         - return a + b
         + return 2*(a + b)
 Добавлен файл triangle.py, содержащий формулы площади и периметра треугольника
+### [test(rectangle.py, triangle.py, square.py, circle.py) add unittests](https://github.com/KulEDmitr/geometric_lib/commit/1340038c2243f6c7f3acd90f75f5cde1c7670f8a)
+Хеш: 1340038c2243f6c7f3acd90f75f5cde1c7670f8a
+Добавлены Unit тесты функций area и perimeter для rectangle.py, triangle.py, square.py и circle.py.
