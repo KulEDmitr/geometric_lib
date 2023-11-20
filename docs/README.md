@@ -233,7 +233,13 @@ The perimeter of a triangle with sides 4.5, 2.7, and 3.8 is: 11.0
 
 ## Testing
 
-All modules tested with unittest, you cand find tests in [tests](./../tests) directory.
+All modules tested with unittest, you cand find tests in [tests](./../tests) directory. You can run it with command:
+```bash
+python3 -m unittest circle_tests.py
+python3 -m unittest rectangle_tests.py
+python3 -m unittest square_tests.py
+python3 -m unittest triangle_tests.py
+```
 
 ## Commit history
 - 60368fc50d4082dca71beb2a891022b84e1bd6bc - bialger: Fixed comments in all .py files
