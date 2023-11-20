@@ -10,6 +10,18 @@ class CircleTestCase(unittest.TestCase):
         res = area(10)
         self.assertEqual(res, math.pi * 20)
 
+    def test_perim_13(self):
+        res = perimeter(13)
+        self.assertEqual(res, math.pi * 169)
+    
+    def test_perim_1(self):
+        res = perimeter(1)
+        self.assertEqual(res, math.pi)
+
+    def test_perim_0(self):
+        res = perimeter(0)
+        self.assertEqual(res, 0)
+
 def area(r):
     '''Принимает радиус круга, возвращает площадь круга'''
     return math.pi * r * r

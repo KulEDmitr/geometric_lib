@@ -9,6 +9,18 @@ class TriangleTestCase(unittest.TestCase):
         res = area(10, 10)
         self.assertEqual(res, 50)
 
+    def test_perim_13_12_5(self):
+        res = perimeter(13, 12, 5)
+        self.assertEqual(res, 30)
+    
+    def test_perim_1_1_1(self):
+        res = perimeter(1, 1, 1)
+        self.assertEqual(res, 3)
+
+    def test_perim_zero(self):
+        res = perimeter(0, 0, 0)
+        self.assertEqual(res, 0)
+
 def area(a, h): 
     '''Принимает сторону и опущенную на неё высоту треугольника, возвращает площадь треугольника'''
     return a * h / 2 
