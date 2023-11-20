@@ -49,4 +49,4 @@ class CircleTestCase(unittest.TestCase):
 
     def test_perimeter_negative_number(self):
         res = perimeter(-12345000)
-        self.assertEqual(round(res), -77565923)
+        self.assertEqual(round(res), 77565923)

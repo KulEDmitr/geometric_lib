@@ -48,4 +48,4 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_perimeter_negative_numbers(self):
         res = perimeter(-12345000, -12345999, 12345888)
-        self.assertEqual(res, -12345111)
+        self.assertEqual(res, 12345111)

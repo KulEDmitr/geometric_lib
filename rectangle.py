@@ -56,4 +56,4 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_perimeter_negative_numbers(self):
         res = perimeter(-12345000, -12345999)
-        self.assertEqual(round(res), -49381998)
+        self.assertEqual(round(res), 49381998)

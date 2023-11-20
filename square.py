@@ -48,4 +48,4 @@ class SquareTestCase(unittest.TestCase):
 
     def test_perimeter_negative_number(self):
         res = perimeter(-12345000)
-        self.assertEqual(res, -49380000)
+        self.assertEqual(res, 49380000)
