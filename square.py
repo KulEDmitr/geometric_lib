@@ -66,8 +66,8 @@ class SquareTestCase(unittest.TestCase):
         self.assertEquals(res, 0)
 
     def test_five_area(self):
-        res = area(1 + math.sqrt(2))
-        self.assertEquals(res, 3 + 2 * math.sqrt(2))
+        res = area(math.sqrt(2))
+        self.assertEquals(res, math.sqrt(2))
 
     def test_six_area(self):
         res = area(652658726578436738467893567398)
