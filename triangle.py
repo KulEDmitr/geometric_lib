@@ -1,5 +1,5 @@
 import unittest
-class TestRectangleMethods(unittest.TestCase):
+class TestTriangleMethods(unittest.TestCase):
     def tests_normal_data(self):
         self.assertEqual(area(4, 2), 4)
         self.assertEqual(area(5, 2), 5)

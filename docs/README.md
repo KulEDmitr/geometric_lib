@@ -96,6 +96,7 @@
 
 Latest changes:
 
+- [20bc260](https://github.com/ITheLestI/geometric_lib/commit/20bc260814894777d82562b42a78183aba9f2850) Unit tests added
 - [161c270](https://github.com/ITheLestI/geometric_lib/commit/161c270c2de2a3a1fab3280a9dd941f487325983) Styling changes
 
 

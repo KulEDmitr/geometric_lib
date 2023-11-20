@@ -1,5 +1,5 @@
 import unittest
-class TestRectangleMethods(unittest.TestCase):
+class TestSquareMethods(unittest.TestCase):
     def tests_normal_data(self):
         self.assertEqual(area(3), 9)
         self.assertEqual(area(4), 16)

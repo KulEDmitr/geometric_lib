@@ -1,6 +1,6 @@
 import math
 import unittest
-class TestRectangleMethods(unittest.TestCase):
+class TestCircleMethods(unittest.TestCase):
     def tests_normal_data(self):
         self.assertAlmostEqual(area(1), 3.14159265)
         self.assertAlmostEqual(area(3), 28.27433388)
