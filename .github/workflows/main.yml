@@ -10,10 +10,10 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: "Run Tests"
-      run: python -m unittest rectangle.py
+      run:  python -m unittest circle.py
       
   testUbuntu:
     runs-on: ubuntu-latest
     steps:
     - name: "Run Tests"
-      run: python -m unittest rectangle.py
+      run: python -m unittest circle.py
