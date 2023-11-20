@@ -8,15 +8,15 @@ class CircleTestCase(unittest.TestCase):
 
     def test_square_mul(self):
         res = area(10)
-        self.assertEqual(res, math.pi * 20)
+        self.assertEqual(res, math.pi * 100)
 
     def test_perim_13(self):
         res = perimeter(13)
-        self.assertEqual(res, math.pi * 169)
+        self.assertEqual(res, math.pi * 26)
     
     def test_perim_1(self):
         res = perimeter(1)
-        self.assertEqual(res, math.pi)
+        self.assertEqual(res, math.pi * 2)
 
     def test_perim_0(self):
         res = perimeter(0)
