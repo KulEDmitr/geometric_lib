@@ -6,10 +6,7 @@ on:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        runners: [ ubuntu-latest, windows-latest ]
-    run-on: ${{ matrix.runners }}
+    run-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install python
