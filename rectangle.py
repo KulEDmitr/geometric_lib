@@ -1,5 +1,5 @@
 def area(a, b):
-'''
+	'''
 	This func eval area of rectangle
 	Parameters:
 	   a (int): first side of rectangle
@@ -11,7 +11,7 @@ def area(a, b):
 '''
 	return a*b
 def perimeter(a, b):
-'''
+	'''
 	This func eval perimeter of rectangle 
 	Parameters:
 	   a (int): first side of rectangle

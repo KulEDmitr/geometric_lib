@@ -1,6 +1,6 @@
 
 def area(a):
-'''
+	'''
 	This func eval area of square
 	Parameters:
 	  a: side of square
@@ -8,11 +8,11 @@ def area(a):
 	  area: area of square
 	Examle of call:
            area(1) : 1
-'''
+	'''
 	return a * a
 
 def perimeter(a):
-'''
+	'''
 	This func eval perimeter of square
         Parameters:
           a: side of square

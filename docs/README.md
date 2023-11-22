@@ -112,3 +112,8 @@ print(a)
   - Date:   Thu Mar 4 14:54:08 2021 +0300
 
     `L-03: Circle and square added`
+# Тесты
+- [circle_test](../circle_test.py)
+- [rectangle_test](../rectangle_test.py)
+- [triangle_test](../triangle_test.py)
+- [square_test](../square_test.py)

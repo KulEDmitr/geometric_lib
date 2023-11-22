@@ -2,7 +2,7 @@ import math
 
 
 def area(r):
-'''
+	'''
  This function eval area of circle
         Parameters:
                 r: radius of circle
@@ -14,7 +14,7 @@ def area(r):
 	return math.pi * r * r
 
 def perimeter(r):
-'''
+	'''
 This function eval perimeter of circle
 	 Parameters:
  	 	r: radius of circle
