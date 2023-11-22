@@ -15,6 +15,10 @@ class СircleTestCase(unittest.TestCase):
         res = perimeter(0)
         self.assertEqual(res, 0)
 
+    def test_perimeter_zero(self):
+        res = perimeter(0)
+        self.assertEqual(res, 1)    
+
     def test_perimeter_mul(self):
         res = perimeter(10)
         self.assertEqual(res, 62.83185307179586)
