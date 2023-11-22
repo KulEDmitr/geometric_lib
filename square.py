@@ -16,7 +16,6 @@ def perimeter(a):
     """
     return 4 * a
 
-
 class RectangleTestCase(unittest.TestCase):
     def test_zero_mul(self):
         res = area(0)
@@ -33,3 +32,4 @@ class RectangleTestCase(unittest.TestCase):
     def test_typical_perim(self):
         res = perimeter(5)
         self.assertEqual(res, 20)
+
