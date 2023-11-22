@@ -1,4 +1,6 @@
 # Math formulas
+[- ![Build Status](https://github.com/egorstar555/geometric_lib/actions/workflows/main.yml/badge.svg)](https://github.com/egorstar555/geometric_lib/actions/workflows/main.yml)
+
 ## Area
 - Circle: S = πR²
 - Rectangle: S = ab
