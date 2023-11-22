@@ -1,4 +1,51 @@
-def area(a, h): 
+import unittest
+
+class TriangleTestCase(unittest.TestCase):
+
+    def test_zero_value_area(self):
+        result = area(0, 0)
+        self.assertEqual(result, 0)
+
+    def test_integer_value_area(self):
+        result = area(5, 6)
+        self.assertEqual(result, 15)
+
+    def test_float_value_area(self):
+        result = area(2.5, 2.6)
+        self.assertEqual(result, 3.25)
+
+    @unittest.expectedFailure
+    def test_string_value_area(self):
+        result = area("a", "b")
+        self.assertEqual(result, TypeError)
+
+    @unittest.expectedFailure
+    def test_one_string_value_area(self):
+        result = area(6, "a")
+        self.assertEqual(result, TypeError)
+
+    def test_zero_value_perimeter(self):
+        result = perimeter(0, 0, 0)
+        self.assertEqual(result, 0)
+
+    def test_integer_value_perimeter(self):
+        result = perimeter(5, 6, 7)
+        self.assertEqual(result, 18)
+
+    def test_float_value_perimeter(self):
+        result = perimeter(5.5, 6.5, 7.5)
+        self.assertEqual(result, 19.5)
+
+    def test_string_value_perimeter(self):
+        result = perimeter("a", "b", "c")
+        self.assertEqual(result, TypeError)
+
+    @unittest.expectedFailure
+    def test_one_string_value_perimeter(self):
+        result = perimeter("a", 2, 3)
+        self.assertEqual(result, TypeError)
+
+def area(a, h):
     '''
     Возвращает площадь заданого треугольника
 	
