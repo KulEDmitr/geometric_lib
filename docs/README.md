@@ -85,23 +85,39 @@ cодержащие формулы для вычисление площадей 
  > Выходные данные: P = 12
 ## Тесты
 Для проверки корректности работы вышеописанных функций были созданы unit-тесты для каждой фигуры:
+
  > circle_test.py
+
  > rectangle_test.py
+
  > square_test.py
+
  > triangle_test.py
 
 Виды тестов:
+
  > test_area_null
+
  > test_area_equal
+
  > test_area_not_equal
+
  > test_area_string
+
  > test_area_negative
+
  > test_perimeter_null
+
  > test_perimeter_equal
+
  > test_perimeter_not_equal
+
  > test_perimeter_string
+
  > test_perimeter_negative
+
 Тесты показали, что функции работают корректно на корректных входных данных, не учитывая возможный неправильный ввод.
+
 ## История коммитов
 * commit 05166d9d8b9f0d9b4755b6d6ac0fe8bae4abbc13 (origin/main, main)
 
