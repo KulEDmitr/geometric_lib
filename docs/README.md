@@ -53,30 +53,42 @@
   1. triangle_area = area(5, 10) triangle_area = 25.0
   2. triangle_perimeter = perimeter(5, 10, 6) triangle_perimeter = 21
 
+Вызов unit тестов:
+
+   python.exe -m unittest filename  
+
 # История комитов
 
-1. - commit 1f40aed550a2a3b3bb66879856ee386a67efdf6c
+1. - commit 5b1350428dd971a7d12793398b2482aca8827575 (HEAD -> main, origin/main, origin/HEAD)
+   - Author: Jovenavr0 <vvkarpenko2005@mail.ru>
+   - Date:   Wed Nov 22 14:58:30 2023 +0300
+
+       
+    add unittest for all file in work directory
+
+
+2. - commit 1f40aed550a2a3b3bb66879856ee386a67efdf6c
    - Author: Jovenavr0 <vvkarpenko2005@mail.ru>
    - Date:   Thu Sep 14 09:47:56 2023 +0300
 
   
     create new file triangle
 
-2. - commit 5677a33e2843b06bbe77ea12ed0248af142578fe
+3. - commit 5677a33e2843b06bbe77ea12ed0248af142578fe
    - Author: Jovenavr0 <vvkarpenko2005@mail.ru>
    - Date:   Thu Sep 14 09:46:55 2023 +0300
 
     
     create new file rectangle
 
-3. - commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 
+4. - commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 
    - Author: smartiqa <info@smartiqa.ru>
    - Date:   Thu Mar 4 14:55:29 2021 +0300
 
 
     L-03: Docs added
 
-4. - commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+5. - commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
    - Author: smartiqa <info@smartiqa.ru>
    - Date:   Thu Mar 4 14:54:08 2021 +0300
 
