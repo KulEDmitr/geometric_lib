@@ -12,7 +12,7 @@ class SquareTestCase(unittest.TestCase):
         self.assertEqual(area(3), 9)
 
     def test_area_not_equal(self):
-        self.assertNotEqual(area(7),47 )
+        self.assertNotEqual(area(7),47)
         self.assertFalse(area(10) == 10)
 
     def test_area_string(self):
