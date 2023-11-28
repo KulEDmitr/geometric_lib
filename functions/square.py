@@ -10,6 +10,8 @@ def area(a):
          Example of call:
             result = area(7.77)
             print(result)  # Выведет: 60.3729'''
+    if a<0:
+        return 0
     return a * a
 
 
@@ -24,4 +26,6 @@ def perimeter(a):
          Example of call:
             result = area(7.77)
             print(result)  # Выведет: 31.08'''
+    if a<0:
+        return 0
     return 4 * a
