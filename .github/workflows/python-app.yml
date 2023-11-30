@@ -1,0 +1,30 @@
+name: Python tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Run tests for circle
+        run: python circle_test.py
+      - name: Run tests for Square
+        run: python square_test.py
+      - name: Run tests for rectangle
+        run: python rectangle_test.py
+      - name: Run tests for Triangle
+        run: python triangle_test.py
