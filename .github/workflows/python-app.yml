@@ -3,8 +3,6 @@ name: Python tests
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
     
 jobs:
   build:
@@ -21,10 +19,14 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run tests for circle
+        if: always()
         run: python -m unittest circle_test.py
       - name: Run tests for Square
+        if: always()
         run: python -m unittest square_test.py
       - name: Run tests for rectangle
+        if: always()
         run: python -m unittest rectangle_test.py
       - name: Run tests for Triangle
+        if: always()
         run: python -m unittest triangle_test.py
