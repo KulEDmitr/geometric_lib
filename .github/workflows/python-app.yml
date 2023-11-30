@@ -21,10 +21,10 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run tests for circle
-        run: python circle_test.py
+        run: python -m unittest circle_test.py
       - name: Run tests for Square
-        run: python square_test.py
+        run: python -m unittest square_test.py
       - name: Run tests for rectangle
-        run: python rectangle_test.py
+        run: python -m unittest rectangle_test.py
       - name: Run tests for Triangle
-        run: python triangle_test.py
+        run: python -m unittest triangle_test.py
