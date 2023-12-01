@@ -32,7 +32,7 @@ jobs:
           python -m unittest tests/unittests_triangle.py
     
   build_windows:
-    runs-on: windows_latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
