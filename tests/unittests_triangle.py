@@ -1,7 +1,7 @@
 import unittest
 
-from ISRPO_Unittests.src.triangle import tri_area
-from ISRPO_Unittests.src.triangle import tri_perimeter
+from src.triangle import tri_area
+from src.triangle import tri_perimeter
 
 
 class TriangleTestCase(unittest.TestCase):
