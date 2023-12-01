@@ -1,7 +1,7 @@
 import unittest
 
-from ISRPO_Unittests.src.rectangle import rect_area
-from ISRPO_Unittests.src.rectangle import rect_perimeter
+from src.rectangle import rect_area
+from src.rectangle import rect_perimeter
 
 
 class RectangleTestCase(unittest.TestCase):
