@@ -30,7 +30,7 @@ jobs:
           python -m unittest tests/unittests_rectangle.py
           python -m unittest tests/unittests_square.py
           python -m unittest tests/unittests_triangle.py
-          echo test, and deploy your project
+    
   build_windows:
     runs-on: windows_latest
     steps:
@@ -41,4 +41,4 @@ jobs:
           python -m unittest tests/unittests_rectangle.py
           python -m unittest tests/unittests_square.py
           python -m unittest tests/unittests_triangle.py
-          echo test, and deploy your project
+          
