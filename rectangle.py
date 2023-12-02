@@ -4,6 +4,7 @@ def area(a, b):
     Parameter: b (int): second integer number
     Return value: area of rectangle with sides a and b
     area(3, 4) #returns 12
+    test commit/push, delete this line after test
     '''
 
     return a * b 
