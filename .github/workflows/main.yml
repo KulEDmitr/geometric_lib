@@ -28,7 +28,13 @@ jobs:
         with:
           python-version: 3.12.0
       - run: python -m unittest tests/rectangleTests.py
-        name: Unit testing
+        name: Rectangle testing
+      - run: python -m unittest tests/squareTests.py
+        name: Square testing
+      - run: python -m unittest tests/triangleTests.py
+        name: Triangle testing
+      - run: python -m unittest tests/circleTests.py
+        name: Circle testing
 
   WindowsTest:
     # The type of runner that the job will run on
@@ -42,4 +48,11 @@ jobs:
         with:
           python-version: 3.12.0
       - run: python.exe -m unittest tests/rectangleTests.py
-        name: Unit testing
+        name: Rectangle testing
+      - run: python.exe -m unittest tests/squareTests.py
+        name: Square testing
+      - run: python.exe -m unittest tests/triangleTests.py
+        name: Triangle testing
+      - run: python.exe -m unittest tests/circleTests.py
+        name: Circle testing
+

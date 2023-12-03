@@ -1,7 +1,7 @@
 import unittest
 
 from triangle import area
-from geometric_lib.triangle import perimeter
+from triangle import perimeter
 
 
 class TriangleTestCase(unittest.TestCase):
