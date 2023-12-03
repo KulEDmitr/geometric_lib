@@ -1,6 +1,6 @@
 import unittest
 
-from geometric_lib.triangle import area
+from triangle import area
 from geometric_lib.triangle import perimeter
 
 
