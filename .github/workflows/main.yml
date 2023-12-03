@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [ 3.1X ]
+        python-version: [ 3.10 ]
     steps:
       - uses: actions/checkout@v3
       - name: Starting Python 3
@@ -25,7 +25,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        python-version: [ 3.1X ]
+        python-version: [ 3.10 ]
     steps:
       - uses: actions/checkout@v3
       - name: Starting Python 3
