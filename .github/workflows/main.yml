@@ -20,7 +20,7 @@ jobs:
           python-version: ${{matrix.python-version}}
           architecture: "x64"
       - name: Run tests
-        run: python unittests/test.py
+        run: python unittests/tests.py
   test_windows:
     runs-on: windows-latest
     strategy:
@@ -34,4 +34,4 @@ jobs:
           python-version: ${{matrix.python-version}}
           architecture: "x64"
       - name: Run tests
-        run: python unittests/test.py
+        run: python unittests/tests.py
