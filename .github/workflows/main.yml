@@ -20,10 +20,10 @@ jobs:
     
     - name: Test
       run: |
-        python.exe -m unittest circle.py
-        python.exe -m unittest triangle.py
-        python.exe -m unittest square.py
-        python.exe -m unittest rectangle.py
+        Python -m unittest circle.py
+        Python -m unittest triangle.py
+        Python -m unittest square.py
+        Python -m unittest rectangle.py
         
   WindowsTest:
 
