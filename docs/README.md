@@ -112,9 +112,13 @@ print(perimeter(5, 5, 3))   \\ 13
 ```
 
 # Tests
-- All files have test classes, made with [unittest](https://docs.python.org/3/library/unittest.html#) you can run it by 
+- All files have test classes, made with [unittest](https://docs.python.org/3/library/unittest.html#) you can run it separetely by 
     ```
-    python -m unittest <figure>.py
+    python -m unittest <figure>/<figure>_test.py
+    ```
+- Or run all tests together by 
+   ```
+    python -m unittest all_tests.py
     ```
 - This tests aren't testing all varians, they just prevent you from simple mistakes, you can use it for your versions of this project, or modify it if you need
 
