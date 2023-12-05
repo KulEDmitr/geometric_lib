@@ -130,5 +130,6 @@ print(perimeter(5, 5, 3))   \\ 13
 5. `6e2e3f8` added comments in all files
 6. `ae46853` added examples in comments
 7. `e14f22d` Добавлены unit-тесты и отчёты
+8. `89c37be` Updated test to run it all together
 
 
