@@ -131,5 +131,6 @@ print(perimeter(5, 5, 3))   \\ 13
 6. `ae46853` added examples in comments
 7. `e14f22d` Добавлены unit-тесты и отчёты
 8. `89c37be` Updated test to run it all together
+9. `97dd00a`q Added auto-tests in workflow
 
 
