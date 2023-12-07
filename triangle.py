@@ -36,20 +36,26 @@ print(perimeter(1000000, 23456789, 12345678))
 
 
 class TriangleTestCase(unittest.TestCase):
-    def test_zero_mul(self):
+    def test_zero_mul_area(self):
         res1 = area(0, 56)
-        res2 = perimeter(0, 1, 2)
         self.assertEqual(res1, 0)
+
+    def test_zero_mul_perimeter(self):
+        res2 = perimeter(0, 1, 2)
         self.assertEqual(res2, 3)
 
-    def test_mul(self):
+    def test_mul_area(self):
         res1 = area(1, 2)
-        res2 = perimeter(1, 2, 3)
         self.assertEqual(res1, 1)
+
+    def test_mul_perimeter(self):
+        res2 = perimeter(1, 2, 3)
         self.assertEqual(res2, 6)
 
-    def test_big_mul(self):
+    def test_big_mul_area(self):
         res1 = area(1000000, 123456789)
-        res2 = perimeter(1000000, 23456789, 12345678)
         self.assertEqual(res1, 61728394500000)
+
+    def test_big_mul_perimeter(self):
+        res2 = perimeter(1000000, 23456789, 12345678)
         self.assertEqual(res2, 36802467)
