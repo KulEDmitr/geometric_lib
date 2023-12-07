@@ -4,6 +4,7 @@ Geometric_Lib предоставляет возможность работать
 - [Квадрат](https://github.com/Artem010999/geometric_lib#Квадрат)
 - [Прямоугольник](https://github.com/Artem010999/geometric_lib#Прямоугольник)
 - [Треугольник](https://github.com/Artem010999/geometric_lib#Треугольник)
+  
 Также в нём реализована проверка работы функций с помощью тестов:
 - [Unittest's](https://github.com/Artem010999/geometric_lib#Unittest's)
 
