@@ -4,9 +4,10 @@ Geometric_Lib предоставляет возможность работать
 - [Квадрат](https://github.com/Artem010999/geometric_lib#Квадрат)
 - [Прямоугольник](https://github.com/Artem010999/geometric_lib#Прямоугольник)
 - [Треугольник](https://github.com/Artem010999/geometric_lib#Треугольник)
+- [Unittest's](https://github.com/Artem010999/geometric_lib#Unittest's)
 
 # Круг
-Для круга выполнены следующие операции: вычислении площади и периметра круга. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/circle.py) 
+Для круга выполнены следующие операции: вычислении площади и периметра круга. Ссылка на [полный код](https://github.com/Artem010999/geometric_lib/blob/main/circle.py) 
 ```python
 import math 
 
@@ -28,7 +29,7 @@ Output: 62.83185307179586
 ```
 
 # Квадрат
-Для квадрата выполнены следующие операции: вычислении площади и периметра квадрата. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/square.py)
+Для квадрата выполнены следующие операции: вычислении площади и периметра квадрата. Ссылка на [полный код](https://github.com/Artem010999/geometric_lib/blob/main/square.py)
 ```python
 def area(a): # Возвращает площадь квадрата
     return a * a
@@ -46,7 +47,7 @@ Output: 16
 ```
 
 # Прямоугольник
-Для прямоугольника выполнены следующие операции: вычислении площади, периметра прямоугольника, а также его диагональ. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/rectangle.py)
+Для прямоугольника выполнены следующие операции: вычислении площади, периметра прямоугольника, а также его диагональ. Ссылка на [полный код](https://github.com/Artem010999/geometric_lib/blob/main/rectangle.py)
 ```python
 def area(a, b): # Возвращает площадь прямоугольника
     return a * b
@@ -73,7 +74,7 @@ Output: 5
 ```
 
 # Треугольник
-Для треугольника выполнены следующие операции: вычислении площади и периметра треугольника. Ссылка на [код](https://github.com/Artem010999/geometric_lib/blob/main/triangle.py)
+Для треугольника выполнены следующие операции: вычислении площади и периметра треугольника. Ссылка на [полный код](https://github.com/Artem010999/geometric_lib/blob/main/triangle.py)
 ```python
 def area(a, h): # Возвращает площадь треугольника
 	return a * h / 2
@@ -89,6 +90,59 @@ def perimeter(a, b, c): # Вовзвращает периметр треугол
 Input: 6, 8, 10
 Output: 24
 ```
+
+# Unittest's
+Также покрыл выполнение данных функций для всех геометрических фигур unit-тестами, используя соответствующую библиотеку. Пример использования для файла triangle.py:
+```python
+import unittest
+
+
+class TriangleTestCase(unittest.TestCase):
+
+	def test_0_area(self):
+		area_result = area(11, 0)
+		self.assertEqual(area_result, 0)
+
+	def test_1_area(self):
+		area_result = area(123456789, 9876543210)
+		self.assertEqual(area_result, (123456789 * 9876543210) / 2)
+
+	@unittest.expectedFailure
+	def test_2_area(self):
+		area_result = area("abcd", 1)
+		self.assertEqual(area_result, TypeError)
+
+	@unittest.expectedFailure
+	def test_3_area(self):
+		area_result = area("ab", "cd")
+		self.assertEqual(area_result, TypeError)
+
+	def test_4_area(self):
+		area_result = area(11, -1)
+		self.assertEqual(area_result, TypeError)
+
+	def test_0_perimeter(self):
+		perimeter_result = perimeter(0, 0, 0)
+		self.assertEqual(perimeter_result, 0)
+
+	def test_1_perimeter(self):
+		perimeter_result = perimeter(123456789, 9876543210, 1)
+		self.assertEqual(perimeter_result, 123456789 + 9876543210 + 1)
+
+	def test_2_perimeter(self):
+		perimeter_result = perimeter("a", "b", "c")
+		self.assertEqual(perimeter_result, TypeError)
+
+	@unittest.expectedFailure
+	def test_3_perimeter(self):
+		perimeter_result = perimeter("a", 2, "c")
+		self.assertEqual(perimeter_result, TypeError)
+
+	def test_4_perimeter(self):
+		perimeter_result = perimeter(1, -2, 3)
+		self.assertEqual(perimeter_result, TypeError)
+```
+
 # История изменения проекта:
 ```
 * 10429f7a9d79acf7a3358a42369ef5ad63a4807d (HEAD -> main) Добавил описания работы функций для файлов: rectangle.py, triangle.py, circle.py и square.py. Также описал пример вызова каждой функции из каждого файла.
