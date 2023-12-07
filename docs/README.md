@@ -6,7 +6,7 @@ Geometric_Lib предоставляет возможность работать
 - [Треугольник](https://github.com/Artem010999/geometric_lib#Треугольник)
   
 Также в нём реализована проверка работы функций с помощью тестов:
-- [Unittest's](https://github.com/Artem010999/geometric_lib#Unittest's)
+- [Unittests](https://github.com/Artem010999/geometric_lib#Unittests)
 
 # Круг
 Для круга выполнены следующие операции: вычислении площади и периметра круга. Ссылка на [полный код](https://github.com/Artem010999/geometric_lib/blob/main/circle.py) 
@@ -93,7 +93,7 @@ Input: 6, 8, 10
 Output: 24
 ```
 
-# Unittest's
+# Unittests
 Также покрыл выполнение данных функций для всех геометрических фигур unit-тестами, используя соответствующую библиотеку. Пример использования для файла triangle.py:
 ```python
 import unittest
