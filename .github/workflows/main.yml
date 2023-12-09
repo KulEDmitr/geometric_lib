@@ -2,7 +2,7 @@ name: Run Tests (lab-5)
 
 on:
   push:
-    branches: [tests_408569]
+    branches: [tests_408569-1]
 
 jobs:
   test:
