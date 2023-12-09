@@ -15,7 +15,7 @@ def area(a, b):
         print(area(4, 1.5)) \\ 6
         print(area(5, 5))   \\ 25
     '''
-    return a * b
+    return a * b        # TODO исправить ошибки
 
 
 def perimeter(a, b):
@@ -34,4 +34,4 @@ def perimeter(a, b):
         print(perimeter(4, 1.5)) \\ 15
         print(perimeter(5, 5))   \\ 20
     '''
-    return 2 * (a + b)
+    return 2 * (a + b)      # TODO исправить ошибки

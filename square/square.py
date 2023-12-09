@@ -14,7 +14,7 @@ def area(a):
         print(area(4))   \\ 16
         print(area(5))   \\ 25  
     '''
-    return a * a
+    return a * a        # TODO исправить ошибки
 
 
 def perimeter(a:int):
@@ -32,4 +32,4 @@ def perimeter(a:int):
         print(perimeter(4))   \\ 16
         print(perimeter(5))   \\ 20
     '''
-    return 4 * a
+    return 4 * a        # TODO исправить ошибки
