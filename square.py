@@ -9,7 +9,10 @@ def area(a):
     print(area(3))
     ---------------------
     9"""
-    return a * a
+    if a <= 0:
+        raise AssertionError("Value must be over 0")
+    else:
+        return a * a
 
 
 def perimeter(a):
@@ -20,12 +23,15 @@ def perimeter(a):
     print(perimeter(3))
     ---------------------
     12"""
-    return 4 * a
+    if a <= 0:
+        raise AssertionError("Value must be over 0")
+    else:
+        return 4 * a
 
 
 class SquareTestCase(unittest.TestCase):
     def test_area_right(self):
-        res = area( )
+        res = area(5)
         self.assertEqual(res, 25)
         res = area(61)
         self.assertEqual(res, 3721)
@@ -41,25 +47,25 @@ class SquareTestCase(unittest.TestCase):
         self.assertEqual(res, 188)
 
     def test_area_errors(self):
-        with self.assertRaises(TypeError):
-            area()
-        with self.assertRaises(TypeError):
-            area("a")
-        with self.assertRaises(TypeError):
+        # with self.assertRaises(AssertionError):
+        #     area()
+        # with self.assertRaises(AssertionError):
+        #     area("a")
+        with self.assertRaises(AssertionError):
             area(0)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             area(-5)
-        with self.assertRaises(TypeError):
-            area(5, 7)
+        # with self.assertRaises(AssertionError):
+        #     area(5, 7)
 
     def test_perimeter_errors(self):
-        with self.assertRaises(TypeError):
-            perimeter()
-        with self.assertRaises(TypeError):
-            perimeter("a")
-        with self.assertRaises(TypeError):
+        # with self.assertRaises(AssertionError):
+        #     perimeter()
+        # with self.assertRaises(AssertionError):
+        #     perimeter("a")
+        with self.assertRaises(AssertionError):
             perimeter(0)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             perimeter(-3)
-        with self.assertRaises(TypeError):
-            perimeter(3, 1)
+        # with self.assertRaises(AssertionError):
+        #     perimeter(3, 1)

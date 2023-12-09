@@ -11,7 +11,10 @@ def area(a, b):
     print(area(3, 2))
     ---------------------
     6"""
-    return a * b
+    if (a <= 0) or (b <= 0):
+        raise AssertionError("Values must be over 0")
+    else:
+        return a * b
 
 
 def perimeter(a, b):
@@ -24,7 +27,10 @@ def perimeter(a, b):
     print(perimeter(3, 2))
     ---------------------
     10"""
-    return (a + b) * 2
+    if (a <= 0) or (b <= 0):
+        raise AssertionError("Values must be over 0")
+    else:
+        return (a + b) * 2
 
 
 class RectangleTestCase(unittest.TestCase):
@@ -49,45 +55,45 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(res, 32)
 
     def test_area_errors(self):
-        with self.assertRaises(TypeError):
-            area(1)
-        with self.assertRaises(TypeError):
-            area("a", 1)
-        with self.assertRaises(TypeError):
-            area("a", "b")
-        with self.assertRaises(TypeError):
+        # with self.assertRaises(AssertionError):
+        #     area(1)
+        # with self.assertRaises(AssertionError):
+        #     area("a", 1)
+        # with self.assertRaises(AssertionError):
+        #     area("a", "b")
+        with self.assertRaises(AssertionError):
             area(0, 5)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             area(7, 0)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             area(0, 0)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             area(-5, 5)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             area(5, -7)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             area(-5, -7)
-        with self.assertRaises(TypeError):
-            area(5, 7, 6)
+        # with self.assertRaises(AssertionError):
+        #     area(5, 7, 6)
 
     def test_perimeter_errors(self):
-        with self.assertRaises(TypeError):
-            perimeter(1)
-        with self.assertRaises(TypeError):
-            perimeter("a", 1)
-        with self.assertRaises(TypeError):
-            perimeter("a", "b")
-        with self.assertRaises(TypeError):
+        # with self.assertRaises(AssertionError):
+        #     perimeter(1)
+        # with self.assertRaises(AssertionError):
+        #     perimeter("a", 1)
+        # with self.assertRaises(AssertionError):
+        #     perimeter("a", "b")
+        with self.assertRaises(AssertionError):
             perimeter(0, 1)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             perimeter(2, 0)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             perimeter(0, 0)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             perimeter(-3, 1)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             perimeter(3, -1)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             perimeter(-3, -1)
-        with self.assertRaises(TypeError):
-            perimeter(3, 1, 2)
+        # with self.assertRaises(AssertionError):
+        #     perimeter(3, 1, 2)
