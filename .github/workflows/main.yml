@@ -2,7 +2,7 @@ name: Python tests of geometric shapes
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 defaults:
   run: 
     shell: bash
