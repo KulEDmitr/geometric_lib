@@ -25,7 +25,7 @@ def perimeter(a):
 
 class SquareTestCase(unittest.TestCase):
     def test_area_right(self):
-        res = area(5)
+        res = area( )
         self.assertEqual(res, 25)
         res = area(61)
         self.assertEqual(res, 3721)
