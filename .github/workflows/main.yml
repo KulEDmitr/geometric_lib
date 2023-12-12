@@ -1,0 +1,36 @@
+name: 'unit testing'
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-ubuntu:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run unittests
+        run: |
+          python -m unittest tests/unittests_circle.py        
+          python -m unittest tests/unittests_rectangle.py        
+          python -m unittest tests/unittests_square.py
+          python -m unittest tests/unittests_triangle.py
+
+  build-windows:
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run unittests
+        run: |
+          python -m unittest tests/unittests_circle.py        
+          python -m unittest tests/unittests_rectangle.py        
+          python -m unittest tests/unittests_square.py
+          python -m unittest tests/unittests_triangle.py
+        
+        
+      
