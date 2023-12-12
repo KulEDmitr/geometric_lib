@@ -1,0 +1,15 @@
+name: 'Unit Tests'
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run UnitTests
+      run: python -m unittest docs/circle/test_circle.py
