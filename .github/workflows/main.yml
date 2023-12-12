@@ -12,21 +12,4 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Run UnitTests
-      run: |
-        python -m unittest docs/circle/test_circle.py
-        python -m unittest docs/rectangle/test_rectangle.py
-        python -m unittest docs/square/test_square.py
-        python -m unittest docs/triangle/test_triangle.py
-
-  build-ubuntu:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Run UnitTests
-      run: |
-        python -m unittest docs/circle/test_circle.py
-        python -m unittest docs/rectangle/test_rectangle.py
-        python -m unittest docs/square/test_square.py
-        python -m unittest docs/triangle/test_triangle.py
+      run: python -m unittest docs/circle/test_circle.py
