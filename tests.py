@@ -3,28 +3,31 @@ import unittest
 
 class SquareTestCase(unittest.TestCase):
     def test_zero_mul(self):
-        from square import area
-        res = area(0)
-        self.assertEqual(res, 0)
         '''
             Происходит проверка расчета площади при поданом в функцию нуле
         '''
+        from square import area
+        res = area(0)
+        self.assertEqual(res, 0)
+
 
     def test_square_mul(self):
+        '''
+            Проверяет расчет площади при подаче ненулевого аргумента в функию
+        '''
         from square import area
         res = area(10)
         self.assertEqual(res, 100)
-        '''
-            Проверяет расчет площади при подаче ненулевого аргумента в функию    
-        '''
+
 
     def test_square_perimeter(self):
+        '''
+            Проверяет расчет периметра при подаче ненулевого аргумента в функию
+        '''
         from square import perimeter
         res = perimeter(10)
         self.assertEqual(res, 40)
-        '''
-            Проверяет расчет периметра при подаче ненулевого аргумента в функию    
-        '''
+
 
     def test_zero_perimeter(self):
         from square import perimeter
