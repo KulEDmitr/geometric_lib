@@ -1,6 +1,9 @@
+
 name: Run Unit Tests
 
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
 
 jobs:
   test:
@@ -11,8 +14,8 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v3
+      
+      - uses: actions/checkout@v3
 
-    - name: Run tests  # Запуск тестов
-      run: 
-         python -m unittest tests.py
+      - name: Run a one-line script
+        run: python -m unittest test.py
