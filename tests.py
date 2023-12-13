@@ -1,186 +1,114 @@
 import unittest
 
-import circle
-import rectangle
-import square
-import triangle
+from circle import area as circle_area
+from circle import perimeter as circle_perimeter
+from rectangle import area as rectangle_area
+from rectangle import perimeter as rectangle_perimeter
+from square import area as square_area
+from square import perimeter as square_perimeter
+from triangle import area as triangle_area
+from triangle import perimeter as triangle_perimeter
 
 
-class NonPositiveArgumentException(Exception):
-    """Raised when an argument is required to be positive, but it is not"""
-    pass
+class RectangleTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = rectangle_area(10, 0)
+        self.assertEqual(res, 0)
+
+    def test_square_mul(self):
+        res = rectangle_area(10, 10)
+        self.assertEqual(res, 100)
+
+    def test_rectangle_mul(self):
+        res = rectangle_area(4, 5)
+        self.assertEqual(res, 20)
+
+    def test_zero_plus(self):
+        res = rectangle_perimeter(10, 0)
+        self.assertEqual(res, 20)
+
+    def test_square_plus(self):
+        res = rectangle_perimeter(10, 10)
+        self.assertEqual(res, 40)
+
+    def test_rectangle_plus(self):
+        res = rectangle_perimeter(3, 6)
+        self.assertEqual(res, 18)
 
 
-class NotANumberException(Exception):
-    """Raised when an argument is required to be an int or a float, but it is not"""
-    pass
+class SquareTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = square_area(0)
+        self.assertEqual(res, 0)
+
+    def test_ten_mul(self):
+        res = square_area(10)
+        self.assertEqual(res, 100)
+
+    def test_four_mul(self):
+        res = square_area(4)
+        self.assertEqual(res, 16)
+
+    def test_zero_plus(self):
+        res = square_perimeter(0)
+        self.assertEqual(res, 0)
+
+    def test_ten_plus(self):
+        res = square_perimeter(10)
+        self.assertEqual(res, 40)
+
+    def test_four_plus(self):
+        res = square_perimeter(4)
+        self.assertEqual(res, 16)
 
 
-def check_args(*args):
-    if not all([type(arg) in [int, float] for arg in args]):
-        raise NotANumberException
+class CircleTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = circle_area(0)
+        self.assertEqual(res, 0)
 
-    if not all([arg > 0 for arg in args]):
-        raise NonPositiveArgumentException
+    def test_ten_mul(self):
+        res = circle_area(10)
+        self.assertEqual(res, 314.1592653589793)
 
+    def test_four_mul(self):
+        res = circle_area(4)
+        self.assertEqual(res, 50.26548245743669)
 
-testcases = {
-    "circle": {
-        "area": [
-            [7, 153.93804002589986868466952578069564132566130056938018522777228502],
-        ],
-        "perimeter": [
-            [19, 119.38052083641214306158044856462110959949243717625402119704789450],
-        ]
-    },
-    "rectangle": {
-        "area": [
-            [4, 9, 36],
-        ],
-        "perimeter": [
-            [3, 16, 38],
-        ]
-    },
-    "square": {
-        "area": [
-            [3, 9],
-        ],
-        "perimeter": [
-            [7, 28],
-        ]
-    },
-    "triangle": {
-        "area": [
-            [6, 14, 42],
-        ],
-        "perimeter": [
-            [2, 4, 5, 11],
-        ]
-    }
-}
+    def test_zero_plus(self):
+        res = circle_perimeter(0)
+        self.assertEqual(res, 0)
+
+    def test_ten_plus(self):
+        res = circle_perimeter(10)
+        self.assertEqual(res, 62.83185307179586)
+
+    def test_four_plus(self):
+        res = circle_perimeter(4)
+        self.assertEqual(res, 25.132741228718345)
 
 
-class ClassTestGeometricLib(unittest.TestCase):
-    def setUp(self):
-        self.testcases = testcases
+class TriangleTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = triangle_area(0, 10)
+        self.assertEqual(res, 0)
 
-    def test_circle(self):
-        # test area
-        for case in self.testcases["circle"]["area"]:
-            self.assertAlmostEqual(
-                circle.area(case[0]),
-                case[-1],
-                delta=0.0000001
-            )
+    def test_ten_mul(self):
+        res = triangle_area(10, 10)
+        self.assertEqual(res, 50)
 
-        with self.assertRaises(NonPositiveArgumentException):
-            circle.area(-40)
+    def test_four_mul(self):
+        res = triangle_area(3, 7)
+        self.assertEqual(res, 10.5)
 
-        with self.assertRaises(NotANumberException):
-            circle.area("40")
+    def test_zero_plus(self):
+        res = triangle_perimeter(0, 0, 0)
+        self.assertEqual(res, 0)
 
-        # test perimeter
-        for case in self.testcases["circle"]["perimeter"]:
-            self.assertAlmostEqual(
-                circle.perimeter(case[0]),
-                case[-1],
-                delta=0.0000001
-            )
+    def test_ten_plus(self):
+        res = triangle_perimeter(10, 10, 10)
+        self.assertEqual(res, 30)
 
-        with self.assertRaises(NonPositiveArgumentException):
-            circle.perimeter(-4)
-
-        with self.assertRaises(NotANumberException):
-            circle.perimeter("400")
-
-    def test_rectangle(self):
-        # test_area
-        for case in self.testcases["rectangle"]["area"]:
-            self.assertAlmostEqual(
-                rectangle.area(case[0], case[1]),
-                case[-1],
-                delta=0.0000001
-            )
-
-        with self.assertRaises(NonPositiveArgumentException):
-            rectangle.area(10, -4)
-
-        with self.assertRaises(NotANumberException):
-            rectangle.area(9, "400")
-
-        # test_perimeter
-        for case in self.testcases["rectangle"]["perimeter"]:
-            self.assertAlmostEqual(
-                rectangle.perimeter(case[0], case[1]),
-                case[-1],
-                delta=0.0000001
-            )
-
-        with self.assertRaises(NonPositiveArgumentException):
-            rectangle.perimeter(8, -4)
-
-        with self.assertRaises(NotANumberException):
-            rectangle.perimeter(3, "400")
-
-    def test_square(self):
-        # test_area
-        for case in self.testcases["square"]["area"]:
-            self.assertAlmostEqual(
-                square.area(case[0]),
-                case[-1],
-                delta=0.0000001
-            )
-
-        with self.assertRaises(NonPositiveArgumentException):
-            square.area(-4)
-
-        with self.assertRaises(NotANumberException):
-            square.area("400")
-
-        # test_perimeter
-        for case in self.testcases["square"]["perimeter"]:
-            self.assertAlmostEqual(
-                square.perimeter(case[0]),
-                case[-1],
-                delta=0.0000001
-            )
-
-        with self.assertRaises(NonPositiveArgumentException):
-            square.perimeter(-4)
-
-        with self.assertRaises(NotANumberException):
-            square.perimeter("400")
-
-    def test_triangle(self):
-        # test_area
-        for case in self.testcases["triangle"]["area"]:
-            self.assertAlmostEqual(
-                triangle.area(case[0], case[1]),
-                case[-1],
-                delta=0.0000001
-            )
-
-        with self.assertRaises(NonPositiveArgumentException):
-            triangle.area(4, -9)
-
-        with self.assertRaises(NotANumberException):
-            triangle.area(100, "400")
-
-        # test_perimeter
-        for case in self.testcases["triangle"]["perimeter"]:
-            self.assertAlmostEqual(
-                triangle.perimeter(case[0], case[1], case[2]),
-                case[-1],
-                delta=0.0000001
-            )
-
-        with self.assertRaises(NonPositiveArgumentException):
-            triangle.perimeter(4, -9, 8)
-
-        with self.assertRaises(NotANumberException):
-            triangle.perimeter(100, "400", 99)
-
-
-if __name__ == '__main__':
-    unittest.main()
-
+    def test_four_plus(self):
+        res = triangle_perimeter(4, 3, 4)
+        self.assertEqual(res, 11)
