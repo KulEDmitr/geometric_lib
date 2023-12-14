@@ -9,17 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: install_python
-        run: sudo apt-get install python3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.8'
           
-      - name: test_circle
-        run: python -m unittest test_circle.py
-      - name: test_rectangle
-        run: python -m unittest test_rectangle.py
-      - name: test_square
-        run: python -m unittest test_square.py
-      - name: test_triangle
-        run: python -m unittest test_triangle.py
+      - name: test
+        run: |
+          python -m unittest test_circle.py
+          python -m unittest test_rectangle.py
+          python -m unittest test_square.py
+          python -m unittest test_triangle.py
 
 
   test_windows:
@@ -30,13 +29,11 @@ jobs:
         with:
           python-version: '3.8'
 
-      - name: test_circle
-        run: python -m unittest test_circle.py
-      - name: test_rectangle
-        run: python -m unittest test_rectangle.py
-      - name: test_square
-        run: python -m unittest test_square.py
-      - name: test_triangle
-        run: python -m unittest test_triangle.py
+      - name: test
+        run: |
+          python.exe -m unittest test_circle.py
+          python.exe -m unittest test_rectangle.py
+          python.exe -m unittest test_square.py
+          python.exe -m unittest test_triangle.py
   
     
