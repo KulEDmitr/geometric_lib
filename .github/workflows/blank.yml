@@ -24,10 +24,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-            python -m unittest CircleTests.py
-            python -m unittest TriangleTests.py
-            python -m unittest RectangleTests.py
-            python -m unittest SquareTests.py
+            python -m unittest circle.py
+            python -m unittest rectangle.py
+            python -m unittest square.py
+            python -m unittest tirangle.py
   build2:
     # The type of runner that the job will run on
     runs-on: windows-latest
@@ -38,8 +38,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-            python -m unittest CircleTests.py
-            python -m unittest TriangleTests.py
-            python -m unittest RectangleTests.py
-            python -m unittest SquareTests.py
+            python -m unittest circle.py
+            python -m unittest rectangle.py
+            python -m unittest square.py
+            python -m unittest tirangle.py
           
