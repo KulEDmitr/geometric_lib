@@ -1,0 +1,23 @@
+name: Run unit tests
+
+on: [push]    
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: Run tests
+        run: |
+          python -m unittest testRectangle.py
+          python -m unittest testSquare.py
+          python -m unittest testTriangle.py
+          python -m unittest testCircle.py
