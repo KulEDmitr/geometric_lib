@@ -12,15 +12,13 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.8'
-        
+          
       - name: test
         run: |
-          python test_circle.py
-          python test_rectangle.py
-          python test_square.py
-          python test_triangle.py
-      - name: for_me
-        run: echo ubuntu tested!
+          python.exe -m unittest test_circle.py
+          python.exe -m unittest test_rectangle.py
+          python.exe -m unittest test_square.py
+          python.exe -m unittest test_triangle.py
 
   test_windows:
     runs-on: windows-latest
@@ -29,12 +27,12 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.8'
-        
+
       - name: test
         run: |
-          python test_circle.py
-          python test_rectangle.py
-          python test_square.py
-          python test_triangle.py
+          python.exe -m unittest test_circle.py
+          python.exe -m unittest test_rectangle.py
+          python.exe -m unittest test_square.py
+          python.exe -m unittest test_triangle.py
   
     
