@@ -19,6 +19,8 @@ jobs:
           python test_rectangle.py
           python test_square.py
           python test_triangle.py
+      - name: for_me
+        run: echo ubuntu tested!
 
   test_windows:
     runs-on: windows-latest
