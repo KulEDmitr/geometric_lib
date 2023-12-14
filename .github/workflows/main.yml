@@ -14,10 +14,10 @@ jobs:
           
       - name: test
         run: |
-          python.exe -m unittest test_circle.py
-          python.exe -m unittest test_rectangle.py
-          python.exe -m unittest test_square.py
-          python.exe -m unittest test_triangle.py
+          python -m unittest test_circle.py
+          python -m unittest test_rectangle.py
+          python -m unittest test_square.py
+          python -m unittest test_triangle.py
 
   test_windows:
     runs-on: windows-latest
