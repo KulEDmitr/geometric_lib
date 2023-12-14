@@ -13,11 +13,10 @@ jobs:
         run: sudo apt-get install python3
           
       - name: test
-        run: |
-          python -m unittest test_circle.py
-          python -m unittest test_rectangle.py
-          python -m unittest test_square.py
-          python -m unittest test_triangle.py
+        run: python -m unittest test_circle.py
+        run: python -m unittest test_rectangle.py
+        run: python -m unittest test_square.py
+        run: python -m unittest test_triangle.py
 
   test_windows:
     runs-on: windows-latest
