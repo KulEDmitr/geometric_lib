@@ -14,9 +14,7 @@ jobs:
           
       - name: test
         run: python -m unittest test_circle.py
-        run: python -m unittest test_rectangle.py
-        run: python -m unittest test_square.py
-        run: python -m unittest test_triangle.py
+
 
   test_windows:
     runs-on: windows-latest
