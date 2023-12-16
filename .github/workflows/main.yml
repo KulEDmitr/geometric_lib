@@ -17,17 +17,14 @@ jobs:
         run: |
           cd tests
           python3 circle_tests.py
-      - uses: actions/checkout@v3
       - name: Run square test
         run: |
           cd tests
           python3 square_tests.py
-      - uses: actions/checkout@v3
       - name: Run rectangle test
         run: |
           cd tests
           python3 rectangle_tests.py
-      - uses: actions/checkout@v3
       - name: Run triangle test
         run: |
           cd tests
@@ -41,17 +38,14 @@ jobs:
         run: |
           cd tests
           python3 circle_tests.py
-      - uses: actions/checkout@v3
       - name: Run square test
         run: |
           cd tests
           python3 square_tests.py
-      - uses: actions/checkout@v3
       - name: Run rectangle test
         run: |
           cd tests
           python3 rectangle_tests.py
-      - uses: actions/checkout@v3
       - name: Run triangle test
         run: |
           cd tests
