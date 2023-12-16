@@ -9,29 +9,32 @@ on:
   workflow_dispatch:
 
 jobs:
-  build_and_test_unittest_linux:
+  all_modules_unittest_linux:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run test
+      - name: Run circle test
         run: |
           cd tests
           python3 circle_tests.py
-          |
+      - name: Run square test
+        run: |
           cd tests
           python3 square_tests.py
-          |
+      - name: Run rectangle test
+        run: |
           cd tests
           python3 rectangle_tests.py
-          |
+      - name: Run triangle test
+        run: |
           cd tests
           python3 triangle_tests.py
 
-  build_and_test_unittest_windowa:
+  all_modules_test_unittest_windowa:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run test
+      - name: Run all tests
         run: |
           cd tests
           python3 circle_tests.py
