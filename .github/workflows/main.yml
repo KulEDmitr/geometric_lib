@@ -17,8 +17,14 @@ jobs:
         run: |
           cd tests
           python3 circle_tests.py
+          |
+          cd tests
           python3 square_tests.py
+          |
+          cd tests
           python3 rectangle_tests.py
+          |
+          cd tests
           python3 triangle_tests.py
 
   build_and_test_unittest_windowa:
