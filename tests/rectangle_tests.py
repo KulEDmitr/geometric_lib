@@ -29,6 +29,9 @@ class TestRectangleFunctions(unittest.TestCase):
     def test_perimeter_negative_sides(self):
         self.assertEqual(perimeter(-4.5, 2.7), 2 * (-4.5 + 2.7))
 
+    def test_area_negative_sides(self):
+        self.assertEqual(area(-2, -1), (-2) * (-1))
+
     def test_area_perimeter_relation(self):
         side_a = 4.5
         side_b = 2.7
