@@ -5,14 +5,14 @@ on:
 jobs:
     test_job_ubuntu:
       runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v3
-          - name: Run ubuntu tests
-            run: python -m unittest tests.py
+      steps:
+        - uses: actions/checkout@v3
+        - name: Run ubuntu tests
+          run: python -m unittest tests.py
     test_job_windows:
       runs-on: windows-latest
-        steps:
-          - uses: actions/checkout@v3
-          - name: Run windows tests
-            run: python -m unittest tests.py
+      steps:
+        - uses: actions/checkout@v3
+        - name: Run windows tests
+          run: python -m unittest tests.py
     
