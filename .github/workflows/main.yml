@@ -15,10 +15,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run test
         run: |
-          python3 tests/circle_tests.py
-          python3 tests/square_tests.py
-          python3 tests/rectangle_tests.py
-          python3 tests/triangle_tests.py
+          cd tests
+          python3 circle_tests.py
+          python3 square_tests.py
+          python3 rectangle_tests.py
+          python3 triangle_tests.py
 
   build_and_test_unittest_windowa:
     runs-on: windows-latest
@@ -26,8 +27,9 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run test
         run: |
-          python3 tests/circle_tests.py
-          python3 tests/square_tests.py
-          python3 tests/rectangle_tests.py
-          python3 tests/triangle_tests.py
+          cd tests
+          python3 circle_tests.py
+          python3 square_tests.py
+          python3 rectangle_tests.py
+          python3 triangle_tests.py
           
