@@ -1,0 +1,33 @@
+name: main
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build_and_test_unittest_linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run test
+        run: |
+          python3 tests/circle_tests.py
+          python3 tests/square_tests.py
+          python3 tests/rectangle_tests.py
+          python3 tests/triangle_tests.py
+
+  build_and_test_unittest_windowa:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run test
+        run: |
+          python3 tests/circle_tests.py
+          python3 tests/square_tests.py
+          python3 tests/rectangle_tests.py
+          python3 tests/triangle_tests.py
+          
