@@ -27,7 +27,7 @@ jobs:
         python-version: "3.11"
     - name: Test with unittest
       run: |
-        unittest tests/test_circle.py
-        unittest tests/test_rectangle.py
-        unittest tests/test_square.py
-        unittest tests/test_triangle.py
+        python -m unittest tests/test_circle.py
+        python -m unittest tests/test_rectangle.py
+        python -m unittest tests/test_square.py
+        python -m unittest tests/test_triangle.py
