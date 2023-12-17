@@ -1,24 +1,29 @@
-name: CI
+name: Run unit tests
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
-  workflow_dispatch:
 jobs:
-  linux-build:
-    runs-on: ubuntu-latest 
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Run a figures tests
-        run: echo python.exe -m unittest
-  win-build:
-      runs-on: windows-latest 
-  
-      steps:
-  
-        - name: Run a figures tests
-          run: echo python.exe -m unittest
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+
+      - name: Run tests
+        run: |
+          python -m unittest testrectangle.py
+          python -m unittest testsquare.py
+          python -m unittest testtriangle.py
+          python -m unittest testcircle.py
