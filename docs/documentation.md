@@ -93,9 +93,11 @@ print(perimeter(52, 52, 52))
 ```
 
 # История изменений
-| Коммит  | Дата                  | Содержание                                   |
-|:--------|:------------------------------:|----------------------------------:  |
-| eb6c6d5 | Sat Sep 16 11:14:46 2023 +0300 |*fixed a error in the rectangle.py*  |
-| e21e6a7 | Sat Sep 16 11:08:41 2023 +0300 | *add rectangle.py*                  |
-| d078c8d | Thu Mar 4 14:59:51 2021 +0300  | *L-03: Docs added*                  |
-| 8ba9aeb | Thu Mar 4 14:54:08 2021 +0300  | *L-03: Circle and square added*     |
+| Коммит        |    Дата     |                          Содержание |
+|:--------------|:-----------:|------------------------------------:|
+| 7c8d038       | 04.12.2023  |                     *add unittests* |
+| 7b8120a       | 08.10.2023  |                 *add documentation* |
+| eb6c6d5       | 16.09.2023  | *fixed a error in the rectangle.py* |
+| e21e6a7       | 16.09.2023  |                  *add rectangle.py* |
+| d078c8d       | 04.03.2021  |                  *L-03: Docs added* |
+| 8ba9aeb       | 0.4.03.2021 |     *L-03: Circle and square added* |
