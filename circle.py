@@ -36,3 +36,7 @@ class RectangleTestCase(unittest.TestCase):
     def test_typical_perimeter(self):
         res = perimeter(10)
         self.assertEqual(res, 20 * math.pi)
+
+    def string_test(self):
+        res = perimeter("10")
+        self.assertEqual(res, 20 * math.pi)
