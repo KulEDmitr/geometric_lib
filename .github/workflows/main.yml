@@ -12,12 +12,9 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  build-windows:
 
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
+    runs-on: windows-latest
         
     steps:
     - uses: actions/checkout@v3
@@ -31,4 +28,20 @@ jobs:
         python -m unittest tests/test_rectangle.py
         python -m unittest tests/test_square.py
         python -m unittest tests/test_triangle.py
-      continue-on-error: true  
+
+  build-ubuntu:
+
+    runs-on: ubuntu-latest
+        
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.11"
+    - name: Test with unittest
+      run: |
+        python -m unittest tests/test_circle.py
+        python -m unittest tests/test_rectangle.py
+        python -m unittest tests/test_square.py
+        python -m unittest tests/test_triangle.py
