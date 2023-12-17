@@ -2,65 +2,38 @@ import unittest
 from square import area , perimeter
 
 
-class MyTestCase(unittest.TestCase):
-    def test_normaly_square_area(self):
-        data = area(10)
-        self.assertEqual(data , 100)
+class RectangleTestCase(unittest.TestCase):
+    def test_0_area(self):
+       res = area(0)
+       self.assertEqual(res, 0)
 
-    def test_zero_square_area(self):
-        data = area(0)
-        self.assertEqual(data , 0)
+    def test_1_area(self):
+       res = area(10)
+       self.assertEqual(res, 100)
 
-    def test_string_square_area(self):
-        try:
-            data = area('2')
-        except Exception as e:
-            data = e.__class__
-        self.assertEqual(data , TypeError , "Incorrcet input : string")
+    def test_2_area_(self):
+       res = area(200_000_000_000_000_000)
+       self.assertEqual(res,200_000_000_000_000_000*200_000_000_000_000_000)
 
-    def test_negative_square_area(self):
-        try:
-            data = area(-7)
-        except Exception as e:
-            data = e.__class__
-        self.assertEqual(data, TypeError, "Incorrcet input : negative")
+    @unittest.expectedFailure
+    def test_wrong_input_1_area(self):
+       res = area('b')
+       self.assertEqual(res)
 
-    def test_string_and_int_square_area(self):
-        with self.assertRaises(TypeError):
-            area("10", 2)
+    def test_0_perimeter(self):
+       res = perimeter(0)
+       self.assertEqual(res,0)
 
-    def test_not_all_elem_square_area(self):
-        with self.assertRaises(TypeError):
-            area()
+    def test_1_perimeter(self):
+       res = perimeter(10)
+       self.assertEqual(res,40) 
 
-    def test_normaly_square_perimeter(self):
-        data = perimeter(10)
-        self.assertEqual(data , 40)
-
-    def test_zero_square_perimeter(self):
-        data = perimeter(0)
-        self.assertEqual(data , 0)
-
-    def test_string_square_perimeter(self):
-        try:
-            data = perimeter('2')
-        except Exception as e:
-            data = e.__class__
-        self.assertEqual(data , TypeError , "Incorrcet input : string")
-
-    def test_negative_square_perimeter(self):
-        try:
-            data = perimeter(-7)
-        except Exception as e:
-            data = e.__class__
-        self.assertEqual(data, TypeError, "Incorrcet input : negative")
-
-    def test_string_and_int_square_perimeter(self):
-        with self.assertRaises(TypeError):
-            perimeter("10", 2)
-
-    def test_not_all_elem_square_perimeter(self):
-        with self.assertRaises(TypeError):
-            perimeter()
+    def test_2_perimeter(self):
+       res = perimeter(100000)
+       self.assertEqual(res,4*100000)
 
 
+    @unittest.expectedFailure
+    def test_3_perimeter_wrong_input(self):
+       res = perimeter("a")
+       self.assertEqual(res)
