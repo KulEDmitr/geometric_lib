@@ -9,7 +9,7 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_1_area(self):
         res = area(100_000)
-        self.assertEqual(res,math.pi*100_000*100_000)
+        self.assertEqual(res,pi*100_000*100_000)
     @unittest.expectedFailure
     def test_2_area(self):
         res = area('a')
@@ -21,7 +21,7 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_1_perimeter(self):
         res = perimeter(100_000)
-        self.assertEqual(res,2*math.pi*100_000)
+        self.assertEqual(res,2*pi*100_000)
     @unittest.expectedFailure
     def test_2_perimeter(self):
         res = perimeter('a')
