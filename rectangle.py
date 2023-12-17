@@ -13,6 +13,12 @@ def area(a, b):
 	Usage:
   		area(3, 4) = 3 * 4 = 12	
 	'''
+	if (not isinstance(a, (int, float))) or (not isinstance(b, (int, float))):
+		raise TypeError
+	
+	if a < 0 or b < 0:
+		raise ValueError
+	
 	return a * b
 
 
@@ -30,4 +36,10 @@ def perimeter(a, b):
 	Usage:
  		perimeter(3, 4) = (3 + 4) * 2 = 14
 	'''
+	if (not isinstance(a, (int, float))) or (not isinstance(b, (int, float))):
+		raise TypeError
+	
+	if a < 0 or b < 0:
+		raise ValueError
+
 	return (a + b) * 2
