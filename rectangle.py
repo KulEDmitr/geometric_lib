@@ -33,6 +33,9 @@ def perimeter(a, b):
         return (a + b) * 2
 
 
+"""Добавлент комментарий"""
+
+
 class RectangleTestCase(unittest.TestCase):
     def test_area_right(self):
         res = area(6, 10)
