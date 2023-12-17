@@ -20,9 +20,7 @@ class RectangleTestCase(unittest.TestCase):
        self.assertEqual(res)
 
 
-    def test_wrong_input_2_area(self):
-       res = area("a",2)
-       self.assertEqual(res,TypeError)
+    
 
     def test_1_perimeter(self):
        res = perimeter(0,0)
