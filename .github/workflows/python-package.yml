@@ -20,7 +20,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with unittest
       run: |
-        python -m unittest circletest.py
+        python -m unittest test_circle_area.py
         python -m unittest rectangletest.py      
         python -m unittest squaretest.py
         python -m unittest triangletest.py
