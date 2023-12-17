@@ -89,8 +89,8 @@ class TrianglePerimeterTest(unittest.TestCase):
         self.assertAlmostEqual(200.89 + 157.73 + 60.75, triangle.perimeter(200.89, 157.73, 60.75))
 
     def test_perimeter_negative_value(self):
-        self.assertRaises(ValueError, triangle.perimeter, -1, 10)
-        self.assertRaises(ValueError, triangle.perimeter, 15.10, -30.30)
+        self.assertRaises(ValueError, triangle.perimeter, -1, 10, 10)
+        self.assertRaises(ValueError, triangle.perimeter, 15.10, -30.30, 17)
 
     def test_perimeter_triangle_inequality_value(self):
         self.assertRaises(ValueError, triangle.perimeter, 10, 20, 50)
