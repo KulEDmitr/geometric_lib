@@ -14,6 +14,12 @@ def area(r):
 	Usage:
   		area(17) = pi * 17 * 17 = 907.9202768874503
 	'''
+    if not isinstance(r, (int, float)):
+        raise TypeError
+    
+    if r < 0:
+        raise ValueError
+        
     return math.pi * r * r
 
 
@@ -30,5 +36,11 @@ def perimeter(r):
 	Usage:
   		perimeter(17) = 2 * pi * r = 106.81415022205297
 	'''
+    if not isinstance(r, (int, float)):
+        raise TypeError
+
+    if r < 0:
+        raise ValueError
+
     return 2 * math.pi * r
 
