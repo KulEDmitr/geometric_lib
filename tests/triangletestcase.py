@@ -1,5 +1,6 @@
 import unittest
-from geometric_lib.triangle import area, perimeter
+from triangle import area, perimeter
+
 
 class TriangleTestCase(unittest.TestCase):
 
@@ -25,7 +26,7 @@ class TriangleTestCase(unittest.TestCase):
         self.assertRaises(TypeError, area, "hello", 5)
 
     def test_perimeter(self):
-        self.assertRaises(ValueError, perimeter,1, 2, 3)
+        self.assertRaises(ValueError, perimeter, 1, 2, 3)
         self.assertEqual(perimeter(4, 4, 5), 13)
         self.assertEqual(perimeter(7, 8, 3.5), 18.5)
         self.assertEqual(perimeter(3.5, 7.5, 4), 15)
@@ -43,4 +44,3 @@ class TriangleTestCase(unittest.TestCase):
         self.assertRaises(TypeError, perimeter, [1], 5, -10)
         self.assertRaises(TypeError, perimeter, '1', '5', 'a')
         self.assertRaises(TypeError, perimeter, "hello", 5, ['pahan'])
-

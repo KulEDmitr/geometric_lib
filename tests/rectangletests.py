@@ -1,5 +1,5 @@
 import unittest
-from geometric_lib.rectangle import area, perimeter
+from rectangle import area, perimeter
 
 
 class RectangleTestCase(unittest.TestCase):
