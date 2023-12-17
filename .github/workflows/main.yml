@@ -19,7 +19,7 @@ jobs:
       - name: test
         run: |
           python -m unittest tests/test_circle.py
-          python -m unittest tests/test_retangle.py
+          python -m unittest tests/test_rectangle.py
           python -m unittest tests/test_square.py
           python -m unittest tests/test_triangle.py
 
@@ -35,6 +35,6 @@ jobs:
       - name: test
         run: |
           python -m unittest tests/test_circle.py
-          python -m unittest tests/test_retangle.py
+          python -m unittest tests/test_rectangle.py
           python -m unittest tests/test_square.py
           python -m unittest tests/test_triangle.py
