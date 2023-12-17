@@ -18,10 +18,10 @@ jobs:
 
       - name: test
         run: |
-          python -m unittest test_circle.py
-          python -m unittest test_retangle.py
-          python -m unittest test_square.py
-          python -m unittest test_triangle.py
+          python -m unittest tests/test_circle.py
+          python -m unittest tests/test_retangle.py
+          python -m unittest tests/test_square.py
+          python -m unittest tests/test_triangle.py
 
   windows_test:
     runs-on: windows-latest
