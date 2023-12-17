@@ -20,10 +20,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with unittest
       run: |
-        python -m unittest  Unittest/circletest.py
-        python -m unittest  Unittest/rectangletest.py      
-        python -m unittest  Unittest/squaretest.py
-        python -m unittest  Unittest/triangletest.py
+        python -m unittest Unittest/circletest.py
+        python -m unittest Unittest/rectangletest.py      
+        python -m unittest Unittest/squaretest.py
+        python -m unittest Unittest/triangletest.py
         
   build-windows:
 
@@ -40,7 +40,7 @@ jobs:
         python -m pip install --upgrade pip
     - name: Test with unittest
       run: |        
-        python -m unittest  Unittest/circletest.py
-        python -m unittest  Unittest/rectangletest.py      
-        python -m unittest  Unittest/squaretest.py
-        python -m unittest  Unittest/triangletest.py
+        python -m unittest Unittest/circletest.py
+        python -m unittest Unittest/rectangletest.py      
+        python -m unittest Unittest/squaretest.py
+        python -m unittest Unittest/triangletest.py
