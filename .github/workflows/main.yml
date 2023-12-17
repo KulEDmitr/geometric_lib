@@ -1,8 +1,30 @@
-name: CI
-on: [ push ]
+name: "CI tests"
+
+on: [ push, pull_request ]
+
 jobs:
-  test:
-    runs-on: ubuntu-latest, windows-latest
+  build:
+    name: ${{ matrix.config.name }}
+    runs-on: ${{ matrix.config.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {
+            name: "Windows Latest",
+            os: windows-latest,
+          }
+          - {
+            name: "Ubuntu Latest",
+            os: ubuntu-latest,
+          }
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - name: Run Tests
+        run: pytest
