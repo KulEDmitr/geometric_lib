@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run unittests
-        run: python -m unittest tests/tests.py
+        run: python -m unittest tests/unittests.py
   unitests_windows:
     runs-on: windows-latest
     steps:
@@ -26,4 +26,4 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run unittests
-        run: python -m unittest tests/tests.py
+        run: python -m unittest tests/unittests.py
