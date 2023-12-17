@@ -1,0 +1,29 @@
+name: Python Unittests
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  unittests_linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+      - name: Run unittests
+        run: python -m unittest tests/tests.py
+  unitests_windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+      - name: Run unittests
+        run: python -m unittest tests/tests.py
