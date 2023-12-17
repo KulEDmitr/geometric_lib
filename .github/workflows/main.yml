@@ -5,10 +5,6 @@ name: Python application
 
 on:
   push:
-    
-
-permissions:
-  contents: read
 
 jobs:
   linux_build:
@@ -27,9 +23,9 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with unit tests
       run: |
-        python -m unit_tests circle_tests.py
-        python -m unit_tests rectangle_tests.py
-        python -m unit_tests square_tests.py
+        python -m unit_tests circle_tests.py,
+        python -m unit_tests rectangle_tests.py,
+        python -m unit_tests square_tests.py,
         python -m unit_tests triangle_tests.py
         
   windows_build:
@@ -48,7 +44,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with unit tests
       run: |
-        python -m unit_tests circle_tests.py
-        python -m unit_tests rectangle_tests.py
-        python -m unit_tests square_tests.py
+        python -m unit_tests circle_tests.py,
+        python -m unit_tests rectangle_tests.py,
+        python -m unit_tests square_tests.py,
         python -m unit_tests triangle_tests.py
