@@ -1,25 +1,26 @@
 name: CI
 on:
-    push:
-      branches: [ "main" ]
+  push:
+    branches: [ "main" ]
 jobs:
-    my_build_job_ubuntu:
-      runs-on: ubuntu-latest
-      steps:
-          - uses: actions/checkout@v3
-          - name: Run a multi-line script
-            run: |
-              python C:\Users\abcde\geometric_lib\unit-tests\CircleTests.py
-              python C:\Users\abcde\geometric_lib\unit-tests\RectangleTests.py
-              python C:\Users\abcde\geometric_lib\unit-tests\SquareTests.py
-              python C:\Users\abcde\geometric_lib\unit-tests\TriangleTests.py
-    my_build_job_windows:
-      runs-on: windows-latest
-      steps:
-          - uses: actions/checkout@v3
-          - name: Run a multi-line script
-            run: |
-              python C:\Users\abcde\geometric_lib\unit-tests\CircleTests.py
-              python C:\Users\abcde\geometric_lib\unit-tests\RectangleTests.py
-              python C:\Users\abcde\geometric_lib\unit-tests\SquareTests.py
-              python C:\Users\abcde\geometric_lib\unit-tests\TriangleTests.py
+  my_build_job_ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          python geometric_lib/unit-tests/CircleTests.py
+          python geometric_lib/unit-tests/RectangleTests.py
+          python geometric_lib/unit-tests/SquareTests.py
+          python geometric_lib/unit-tests/TriangleTests.py
+
+  my_build_job_windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          python geometric_lib\unit-tests\CircleTests.py
+          python geometric_lib\unit-tests\RectangleTests.py
+          python geometric_lib\unit-tests\SquareTests.py
+          python geometric_lib\unit-tests\TriangleTests.py
