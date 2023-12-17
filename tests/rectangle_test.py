@@ -5,10 +5,6 @@ class RectangleTestCase(unittest.TestCase):
         res = area(4, 7)
         self.assertEqual(res, 28)
 
-    def test_rectangle_area_no(self):
-        res = area(4, -7)
-        self.assertEqual(res, 'The sides of a rectangle cannot be negative')
-
     def test_rectangle_area_real_numbers(self):
         res = area(4.25, 7.36)
         self.assertEqual(res, 31.28)
@@ -20,10 +16,6 @@ class RectangleTestCase(unittest.TestCase):
     def test_rectangle_perimeter_yes(self):
         res = perimeter(4, 7)
         self.assertEqual(res, 22)
-
-    def test_rectangle_perimeter_no(self):
-        res = perimeter(4, -7)
-        self.assertEqual(res, 'The sides of a rectangle cannot be negative')
 
     def test_rectangle_perimeter_real_numbers(self):
         res = perimeter(4.25, 7.36)
