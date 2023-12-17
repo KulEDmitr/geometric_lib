@@ -2,6 +2,7 @@ import unittest
 from square import area, perimeter
 
 
+
 class SquareTestCase(unittest.TestCase):
 
     def test_area(self):
