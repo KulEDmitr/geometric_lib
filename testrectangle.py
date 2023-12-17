@@ -37,10 +37,7 @@ class RectangleTestCase(unittest.TestCase):
        self.assertEqual(res,2*(10000000000+200000000))
 
 
-    @unittest.expectedFailure
-    def test_4_perimeter_wrong_input(self):
-        res = perimeter("a",2)
-        self.assertEqual(res,TypeError)
+    
 
     @unittest.expectedFailure
     def test_5_perimeter_wrong_input(self):

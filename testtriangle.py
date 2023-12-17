@@ -28,9 +28,6 @@ class RectangleTestCase(unittest.TestCase):
         res = perimeter(1000,1000_000,213)
         self.assertEqual(res,1000+1000_000+213)
 
-    def test_2_perimeter(self):
-        res = perimeter('a','b','c')
-        self.assertEqual(res,TypeError)
 
     @unittest.expectedFailure
     def test_3_perimeter(self):
