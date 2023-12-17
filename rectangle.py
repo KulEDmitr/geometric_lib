@@ -33,3 +33,7 @@ class RectangleTestCase(unittest.TestCase):
     def test_typical_perimeter(self):
         res = perimeter(5, 10)
         self.assertEqual(res, 30)
+
+    def string_test(self):
+        res = perimeter("10", "5")
+        self.assertEqual(res, 30)
