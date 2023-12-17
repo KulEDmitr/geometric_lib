@@ -12,6 +12,12 @@ def area(a):
 	Usage:
   		area(5) = 5 * 5 = 25
 	'''
+    if not isinstance(a, (int, float)):
+        raise TypeError
+
+    if a < 0:
+        raise ValueError
+
     return a * a
 
 
@@ -28,4 +34,10 @@ def perimeter(a):
 	Usage:
   		perimeter(5) = 4 * 5 = 20
 	'''
+    if not isinstance(a, (int, float)):
+        raise TypeError
+
+    if a < 0:
+        raise ValueError
+
     return 4 * a
