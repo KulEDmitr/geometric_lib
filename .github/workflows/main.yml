@@ -1,0 +1,32 @@
+name: Unit Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run circle test
+        run: python.exe -m unittest CircleTest.py
+      - name: Run rectangle test
+        run: python.exe -m unittest RectangleTest.py
+      - name: Run triangle test
+        run: python.exe -m unittest TriangleTest.py
+      - name: Run square test
+        run: python.exe -m unittest SquareTest.py
