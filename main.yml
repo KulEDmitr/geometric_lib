@@ -1,4 +1,4 @@
-name: Run Unit Tests
+name: CI
 on:
   # События, которые запускают jobs
   push:
