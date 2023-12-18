@@ -3,7 +3,7 @@ from rectangle import area
 from rectangle import perimeter
 
 
-class TriangleTestCase(unittest.TestCase):
+class RectangleTestCase(unittest.TestCase):
 
     def test_area(self):
         self.assertEqual(area(3, 6), 18)
