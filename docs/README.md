@@ -55,3 +55,11 @@ Using geometric formulas for a circle, rectangle, square and triangle, the area 
 - fa0f4a7 - Fixed comments in rectangle.py
 - f841212 - Fixed comments in square.py
 - ff0e1d8 - Fixed comments in triangle.py
+- c4bdb9d - Update circle.py
+- 6e29a66 - Update rectangle.py
+- 816b611 - Update square.py
+- d7e8564 - Update triangle.py
+ 
+ 
+
+ 
