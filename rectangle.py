@@ -21,6 +21,14 @@ class RectangleTestCase(unittest.TestCase):
         res = perimeter(5, 0)
         self.assertEqual(res, 10)
 
+    def test_perim_5_1(self):
+        res = perimeter(5, 1)
+        self.assertEqual(res, 12)
+
+    def test_square_mul_1(self):
+        res = area(14, 1)
+        self.assertEqual(res, 14)
+
 def area(a, b): 
     '''Принимает длины сторон прямоугольника, возвращает площадь прямоугольника'''
     return a * b 
