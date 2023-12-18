@@ -26,4 +26,4 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip
       - name: Run Unit Tests
-        run: rectangle.RectangleTestCase
+        run: python -m unittest discover -p '*.py'
