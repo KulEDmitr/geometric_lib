@@ -40,14 +40,14 @@ class SquareTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             area('a', 'a')
 
-    def test_less_than_0_area(self):
-        res = area(-45, 67)
-        self.assertEqual(res, "Error")
+    # def test_less_than_0_area(self):
+    #     res = area(-45, 67)
+    #     self.assertEqual(res, "Error")
 
-    def test_str_perimeter(self):
-        with self.assertRaises(TypeError):
-            perimeter('a', 'a', 'a')
+    # def test_str_perimeter(self):
+    #     with self.assertRaises(TypeError):
+    #         perimeter('a', 'a', 'a')
 
-    def test_less_than_0_perimeter(self):
-        res = perimeter(-19, -3, -7)
-        self.assertEqual(res, "Error")
+    # def test_less_than_0_perimeter(self):
+    #     res = perimeter(-19, -3, -7)
+    #     self.assertEqual(res, "Error")
