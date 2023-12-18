@@ -22,13 +22,10 @@ jobs:
         python-version: "3.10"
     - name: Test rectangle package
       run: python3 -m unittest rectangle.py
-      continue-on-error: true
     - name: Test circle package
       run: python3 -m unittest circle.py
-      continue-on-error: true
     - name: Test triangle package
       run: python3 -m unittest triangle.py
-      continue-on-error: true
     - name: Test square package
       run: python3 -m unittest square.py
 
@@ -44,12 +41,9 @@ jobs:
         python-version: "3.10"
     - name: Test rectangle package
       run: python -m unittest rectangle.py
-      continue-on-error: true
     - name: Test circle package
       run: python -m unittest circle.py
-      continue-on-error: true
     - name: Test triangle package
       run: python -m unittest triangle.py
-      continue-on-error: true
     - name: Test square package
       run: python -m unittest square.py
