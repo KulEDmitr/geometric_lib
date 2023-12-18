@@ -27,10 +27,10 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Run circle test
-        run: python.exe -m unittest CircleTest.py
+        run: python -m unittest CircleTest.py
       - name: Run rectangle test
-        run: python.exe -m unittest RectangleTest.py
+        run: python -m unittest RectangleTest.py
       - name: Run triangle test
-        run: python.exe -m unittest TriangleTest.py
+        run: python -m unittest TriangleTest.py
       - name: Run square test
-        run: python.exe -m unittest SquareTest.py
+        run: python -m unittest SquareTest.py
