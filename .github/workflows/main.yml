@@ -32,4 +32,4 @@ jobs:
           python-version: 3.x
 
       - name: Run unit tests
-        run: python -m unit_tests.py
+        run: python -m unit_tests
