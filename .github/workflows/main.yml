@@ -1,0 +1,52 @@
+name: main
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  all_modules_unittest_linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run circle test
+        run: |
+          cd tests
+          python3 circle_tests.py
+      - name: Run square test
+        run: |
+          cd tests
+          python3 square_tests.py
+      - name: Run rectangle test
+        run: |
+          cd tests
+          python3 rectangle_tests.py
+      - name: Run triangle test
+        run: |
+          cd tests
+          python3 triangle_tests.py
+
+  all_modules_test_unittest_windowa:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run circle test
+        run: |
+          cd tests
+          python3 circle_tests.py
+      - name: Run square test
+        run: |
+          cd tests
+          python3 square_tests.py
+      - name: Run rectangle test
+        run: |
+          cd tests
+          python3 rectangle_tests.py
+      - name: Run triangle test
+        run: |
+          cd tests
+          python3 triangle_tests.py
