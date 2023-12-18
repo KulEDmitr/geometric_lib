@@ -159,6 +159,8 @@ class TriangleTestCase(unittest.TestCase):
                          "Fail test number 1, area(1, 2, 2)")
 
     def test_area_2(self):
+
+        
         res = triangle.area(2, 4, -1)
         self.assertEqual(res, "Фигура не существует", "Fail test number 2, area(2, 4, -1)")
 
