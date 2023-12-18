@@ -1,20 +1,30 @@
 name: Run Unit Tests
-
 on:
+  # События, которые запускают jobs
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
+# jobs запускаются параллельно, если не указана последовательность
 jobs:
-  test:
+  # Название job вы можете назвать как угодно
+  my_build_job:
+
+    # Операционная система в виртуальной машине, в которой запускаются процессы
     runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         os: [ ubuntu-latest, windows-latest ]
 
+      # Шаги
     steps:
-      - uses: actions/checkout@v2
+      # Actions от github: проверяет репозиторий, гит и т.д.
+      - uses: actions/checkout@v3
+
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.        
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -22,4 +32,4 @@ jobs:
           python-version: 3.x
 
       - name: Run unit tests
-        run: python -m unit_tests
+        run: python -m unit_tests.py
