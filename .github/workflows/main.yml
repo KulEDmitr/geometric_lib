@@ -21,11 +21,6 @@ jobs:
       # Actions от github: проверяет репозиторий, гит и т.д.
       - uses: actions/checkout@v3
 
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.        
-
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
