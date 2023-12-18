@@ -1,4 +1,4 @@
-name: Python application
+name: Python application test
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  test-linux:
 
     runs-on: ubuntu-latest
 
@@ -20,13 +20,30 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytest
-    - name: Test with pytest
-      run: |
-        python3 rectangle.py -m unittest
-        python3 circle.py -m unittest
-        python3 triangle.py -m unittest
-        python3 square.py -m unittest
+    - name: Test rectangle package
+      run: python3 -m unittest rectangle.py
+    - name: Test circle package
+      run: python3 -m unittest circle.py
+    - name: Test triangle package
+      run: python3 -m unittest triangle.py
+    - name: Test square package
+      run: python3 -m unittest square.py
+
+  test-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Test rectangle package
+      run: python -m unittest rectangle.py
+    - name: Test circle package
+      run: python -m unittest circle.py
+    - name: Test triangle package
+      run: python -m unittest triangle.py
+    - name: Test square package
+      run: python -m unittest square.py
