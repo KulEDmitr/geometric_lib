@@ -50,12 +50,12 @@
 
 Примеры вызова функций:
 
-  1. triangle_area = area(5, 10) triangle_area = 25.0
-  2. triangle_perimeter = perimeter(5, 10, 6) triangle_perimeter = 21
+    1. triangle_area = area(5, 10) triangle_area = 25.0
+    2. triangle_perimeter = perimeter(5, 10, 6) triangle_perimeter = 21
 
-Вызов unit тестов:
+# Вызов unit тестов:
 
-   python.exe -m unittest filename  
+      python.exe -m unittest filename  
 
 # История комитов
 

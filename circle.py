@@ -1,41 +1,45 @@
-import math
+from math import pi
 import unittest
 
 class CircleTestCase(unittest.TestCase):
     def test_zero_radius_area(self):
-        res = area(0);
-        self.assertEqual(res, 0)
+        res = area(0)
+        self.assertEqual(res, 0, "Incorrect on zero radius in area in circle.")
 
-    @unittest.expectedFailure
     def test_string_value_area(self):
-        res = area("abc")
-        self.assertEqual(res, TypeError)
+        try:
+            res = area("abc")
+        except Exception as error:
+            res = error.__class__
+        self.assertEqual(res, TypeError, "Incorrect catch exceptions in area in circle.")
 
     def test_integer_value_area(self):
         res = area(25)
-        self.assertEqual(res, 1963.4954084936207)
+        self.assertEqual(res, 625 * pi, "Incorrect on simple radius in area in circle.")
 
     def test_float_value_area(self):
         res = area(12.5)
-        self.assertEqual(res, 490.8738521234052)
+        self.assertEqual(res, 156.25 * pi, "Incorrect on float radius in area in circle.")
 
 
     def test_zero_value_perimeter(self):
         res = perimeter(0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 0 * 0 * pi, "Incorrect on zero radius in perimeter in circle.")
 
     def test_integer_value_perimeter(self):
         res = perimeter(25)
-        self.assertEqual(res, 157.07963267948966)
+        self.assertEqual(res, 2 * pi * 25, "Incorrect on simple radius in perimeter in circle.")
 
     def test_float_value_perimeter(self):
         res = perimeter(12.5)
-        self.assertEqual(res, 78.53981633974483)
+        self.assertEqual(res, 2 * pi * 12.5, "Incorrect on float radius in perimeter in circle.")
 
-    @unittest.expectedFailure
     def test_string_value_perimeter(self):
-        res = perimeter("abc")
-        self.assertEqual(res, TypeError)
+        try:
+            res = perimeter("abc")
+        except Exception as error:
+            res = error.__class__
+        self.assertEqual(res, TypeError, "Incorrect catch exceptions in perimeter in circle.")
 
 
 
@@ -54,7 +58,7 @@ def area(r):
     Результат:
         circle_area = 78.53981633974483
     '''
-    return math.pi * r * r
+    return pi * r * r
 
 
 def perimeter(r):
@@ -72,5 +76,5 @@ def perimeter(r):
     Результат:
         circle_perimeter = 31.41592653589793
     '''
-    return 2 * math.pi * r
+    return 2 * pi * r
 
