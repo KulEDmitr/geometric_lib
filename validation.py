@@ -7,6 +7,13 @@ class NotANumberException(Exception):
     pass
 
 def check_args(*args):
+    '''
+    Проверяет все данные аргументы на предмет соблюдения требований касательно
+    типов данных и положительности всех числовых значений.
+
+    Может выбрасывать NotANumberException либо NonPositiveArgumentException.
+    '''
+
     if not all([type(arg) in [int, float] for arg in args]):
         raise NotANumberException
 
