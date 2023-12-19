@@ -1,0 +1,19 @@
+name: Unittests autorun
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Autorun unittests
+        run: python -m unittest tests.py
