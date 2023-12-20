@@ -167,3 +167,7 @@ python3 -m unittest triangle.py
 > - *[20af8d18d3d7fa7d913d273a2e94c2582029ad21](https://github.com/nkich25kl/geometric_lib/commit/20af8d18d3d7fa7d913d273a2e94c2582029ad21)*:
 
 - add example in readme.md
+
+> - *[f1cde89274b674e0dfbc6b17448d7694d5a87645](https://github.com/nkich25kl/geometric_lib/commit/f1cde89274b674e0dfbc6b17448d7694d5a87645)*:
+
+- fix unit tests

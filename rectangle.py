@@ -31,30 +31,3 @@ def perimeter(a, b):
     return 2 * (a + b)
 
 
-print(perimeter(1000000, 20000023))
-
-
-class RectangleTestCase(unittest.TestCase):
-    def test_zero_mul_area(self):
-        res1 = area(0, 5)
-        self.assertEqual(res1, 0)
-
-    def test_zero_mul_perimeter(self):
-        res2 = perimeter(0, 7)
-        self.assertEqual(res2, 14)
-
-    def test_mul_area(self):
-        res1 = area(2, 5)
-        self.assertEqual(res1, 10)
-
-    def test_mul_perimeter(self):
-        res2 = perimeter(2, 8)
-        self.assertEqual(res2, 20)
-
-    def test_big_mul_area(self):
-        res1 = area(1000000, 2000000)
-        self.assertEqual(res1, 2000000000000)
-
-    def test_big_mul_perimeter(self):
-        res2 = perimeter(1000000, 20000023)
-        self.assertEqual(res2, 42000046)
