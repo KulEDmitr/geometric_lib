@@ -36,7 +36,7 @@ jobs:
     
        # Runs a set of commands using the runners shell
       - name: Run our triangle tests
-        run: python.exe -m unittest test-triangle.py
+        run: python.exe -m unittest geometric_lib/test-triangle.py
 
       - name: Run our circle tests
         run: python.exe -m unittest test-circle.py
