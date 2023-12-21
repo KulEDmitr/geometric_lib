@@ -1,29 +1,38 @@
-name: Run unit tests
-
+name: "unit testing"
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
-
+  ubuntu_latest_testing:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: checkout
         uses: actions/checkout@v3
-
-      - name: Set up Python
+      - name: python_install
         uses: actions/setup-python@v3
         with:
           python-version: 3.9
-
-      - name: Run tests
+      - name: run_unittests
         run: |
-          python -m tests test_rectangle.py
-          python -m tests test_square.py
-          python -m tests test_triangle.py
-          python -m tests test_circle.py
+          python -m unittest "circletest.py"
+          python -m unittest "squaretest.py"
+          python -m unittest "rectangletest.py"
+          python -m unittest "triangletest.py"
+  windows_latest_testing:
+    runs-on: windows-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: python_install
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: run_unittests
+        run: |
+          python -m unittest "circletest.py"
+          python -m unittest "squaretest.py"
+          python -m unittest "rectangletest.py"
+          python -m unittest "triangletest.py"
