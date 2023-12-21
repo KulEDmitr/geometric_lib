@@ -24,10 +24,15 @@ Contains functions for 4 geometric figures:
     - 'def area' Receives **side and height** of a triangle and returns it's area.
     - 'def perimeter' Receives **3 sides** of a triangle and returns it's perimeter.
 
-##Last commits:
-    - '6344019' (HEAD -> main, origin/main, origin/HEAD) added triangle.py and fixed bug in rectangle.py
-    - '4ef8b34' added new file
-    - 'd078c8d' L-03: Docs added
-    - '8ba9aeb' L-03: Circle and square added
+## Last commits:
+    - `4f62190` (HEAD -> main, origin/main, origin/HEAD) Uploaded error validations
+    - `2f19d29` Create main.yml
+    - `4021166` Uploaded unittests and a workflow
+    - `f2c3622` Updated documentation
+    - `00767dd` added documentation for every function and README.md
+    - `6344019` added triangle.py and fixed bug in rectangle.py
+    - `4ef8b34` added new file
+    - `d078c8d` L-03: Docs added
+    - `8ba9aeb` L-03: Circle and square added
     
 
