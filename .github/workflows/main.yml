@@ -1,0 +1,38 @@
+name: "unit testing"
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  ubuntu_latest_testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: python_install
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: run_unittests
+        run: |
+          python -m unittest "circletest.py"
+          python -m unittest "squaretest.py"
+          python -m unittest "rectangletest.py"
+          python -m unittest "triangletest.py"
+  windows_latest_testing:
+    runs-on: windows-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: python_install
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: run_unittests
+        run: |
+          python -m unittest "circletest.py"
+          python -m unittest "squaretest.py"
+          python -m unittest "rectangletest.py"
+          python -m unittest "triangletest.py"
