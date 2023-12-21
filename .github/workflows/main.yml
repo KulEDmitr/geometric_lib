@@ -1,7 +1,7 @@
 name: CI
 on: 
   push:
-    branches: [ "new_features_409369" ]
+    branches: [ "main" ]
   
 jobs: 
   ubuntu-test:
