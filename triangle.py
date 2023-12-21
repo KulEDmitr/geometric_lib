@@ -1,3 +1,6 @@
+import unittest
+
+
 def area(a, h):
     """
     Принимает длину основания треугольника a и его высоту h и возвращает его площадь.
@@ -34,3 +37,15 @@ def perimeter(a, b, c):
     :return: Периметр.
     """
     return a + b + c
+
+
+class TriangleTests(unittest.TestCase):
+    def test_area(self):
+        self.assertEqual(area(3, 4), 6.0)
+        self.assertEqual(area(0, 4), 0)
+        self.assertEqual(area(-3, 4), -6.0)
+
+    def test_perimeter(self):
+        self.assertEqual(perimeter(3, 4, 5), 12)
+        self.assertEqual(perimeter(0, 4, 5), 9)
+        self.assertEqual(perimeter(-3, 4, 5), 6)

@@ -1,3 +1,6 @@
+import unittest
+
+
 def area(a, b):
     """
     Принимает длины сторон прямоугольника a и b и возвращает его площадь.
@@ -32,3 +35,15 @@ def perimeter(a, b):
     :return: Периметр.
     """
     return (a + b) * 2
+
+
+class RectangleTests(unittest.TestCase):
+    def test_area(self):
+        self.assertEqual(area(3, 4), 12)
+        self.assertEqual(area(0, 4), 0)
+        self.assertEqual(area(-3, 4), -12)
+
+    def test_perimeter(self):
+        self.assertEqual(perimeter(3, 4), 14)
+        self.assertEqual(perimeter(0, 4), 8)
+        self.assertEqual(perimeter(-3, 4), 2)
