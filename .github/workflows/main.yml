@@ -35,8 +35,12 @@ jobs:
     steps:
     
        # Runs a set of commands using the runners shell
+#      - name: checkout
+#        uses: actions/checkout@v3
       - name: python_install
         uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
       - name: Run our tests
         run: |
           python.exe -m unittest "test-triangle.py"
