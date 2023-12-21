@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: |
-          echo python -m tests test_rectangle.py
-          echo python -m tests test_square.py
-          echo python -m tests test_triangle.py
-          echo python -m tests test_circle.py
+          python -m tests test_rectangle.py
+          python -m tests test_square.py
+          python -m tests test_triangle.py
+          python -m tests test_circle.py
