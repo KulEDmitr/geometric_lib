@@ -20,11 +20,9 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Testing Rectangle on Ubuntu
-        run: python -m unittest rectangle.py
-      - name: Testing Triangle on Ubuntu
-        run: python -m unittest triangle.py
-      - name: Testing Circle on Ubuntu
-        run: python -m unittest circle.py
-      - name: Testing Square on Ubuntu
-        run: python -m unittest square.py
+      - name: Testing Files
+        run: |
+          python -m unittest rectangle.py
+          python -m unittest triangle.py
+          python -m unittest circle.py
+          python -m unittest square.py
