@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, windows-latest]
     strategy:
       matrix:
         python-version: [3.7]
@@ -19,6 +19,11 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Testing
-        run: |
-          python -m unittest rectangle.py
+      - name: Testing Rectangle on Ubuntu
+        run: python -m unittest rectangle.py
+      - name: Testing Triangle on Ubuntu
+        run: python -m unittest triangle.py
+      - name: Testing Circle on Ubuntu
+        run: python -m unittest circle.py
+      - name: Testing Square on Ubuntu
+        run: python -m unittest square.py
