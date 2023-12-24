@@ -1,26 +1,35 @@
-name: Testing workflow
+name: Python CI/CD 
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
 
 jobs:
-  test:
-    strategy:
-      matrix:
-        os: [ ubuntu-latest, windows-latest ]
-        python-version: ["3.12"]
-    runs-on: ${{ matrix.os }}
-
+  ubuntu_os_test:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.12"
+          architecture: "x64"
+      - name: run tests
+        run: python -m unittest unittest_file
 
-      - name: Run tests
-        run: |
-          python -m unittest_file
+  windows_os_test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+          architecture: "x64"
+      - name: run tests
+        run: python -m unittest unittest_file
