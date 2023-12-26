@@ -1,5 +1,4 @@
 name: Run Tests
-{{ attach_library('wolframalpha') }}
 on:
   push:
     branches: [ "main" ]
