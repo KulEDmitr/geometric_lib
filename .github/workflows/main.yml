@@ -1,27 +1,40 @@
 name: main
+
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
 jobs:
-  test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
-        python-version: [3.9]
+  linux_tests:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
         with:
-          python-version: ${{ matrix.python-version }}
-      - name: Run unit tests for rectangle.py
-        run: python -m unittest rectangle_test.py
-      - name: Run unit tests for triangle.py
-        run: python -m unittest triangle_test.py
-      - name: Run unit tests for circle.py
-        run: python -m unittest circle_test.py
-      - name: Run unit tests for square.py
-        run: python -m unittest square_test.py
+          python-version: "3.12"
+          architecture: "x64"
+      - name: run tests
+        run: |
+          python -m unittest unittests.py
+
+  windows_tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v3
+
+        with:
+          python-version: "3.12"
+          architecture: "x64"
+      - name: run tests
+        run: |
+
+          python -m unittest unittests.py
