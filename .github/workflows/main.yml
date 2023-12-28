@@ -17,10 +17,10 @@ jobs:
           python-version: 3.9
       - name: ubuntu tests
         run:
-          python.exe -m unittest circle.py
-          python.exe -m unittest rectangle.py
-          python.exe -m unittest square.py
-          python.exe -m unittest triangle.py
+          python.exe -m unittest "circle.py"
+          python.exe -m unittest "rectangle.py"
+          python.exe -m unittest "square.py"
+          python.exe -m unittest "triangle.py"
   windows-check:
     runs-on: windows-latest
     steps:
@@ -32,7 +32,7 @@ jobs:
           python-version: 3.9
       - name: windows tests
         run:
-          python.exe -m unittest circle.py
-          python.exe -m unittest rectangle.py
-          python.exe -m unittest square.py
-          python.exe -m unittest triangle.py
+          python.exe -m unittest "circle.py"
+          python.exe -m unittest "rectangle.py"
+          python.exe -m unittest "square.py"
+          python.exe -m unittest "triangle.py"
