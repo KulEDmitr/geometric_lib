@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: 3.9
       - name: ubuntu tests
-        run:
+        run: |
           python.exe -m unittest "circle.py"
           python.exe -m unittest "rectangle.py"
           python.exe -m unittest "square.py"
@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: 3.9
       - name: windows tests
-        run:
+        run: |
           python.exe -m unittest "circle.py"
           python.exe -m unittest "rectangle.py"
           python.exe -m unittest "square.py"
