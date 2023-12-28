@@ -98,5 +98,3 @@ class SquareTestCase(unittest.TestCase):
     def test_perimeter_float(self):
         res = square.perimeter(1.5)
         self.assertEqual(res, 6)
-
-unittest.main()
