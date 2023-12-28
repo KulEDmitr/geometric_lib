@@ -1,0 +1,38 @@
+name: "Tests"
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  ubuntu-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: action/checkout@v3
+      - name: python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: ubuntu tests
+        run:
+          python.exe -m unittest circle.py
+          python.exe -m unittest rectangle.py
+          python.exe -m unittest square.py
+          python.exe -m unittest triangle.py
+  windows-check:
+    runs-on: windows-latest
+    steps:
+      - name: checkout
+        uses: action/checkout@v3
+      - name: python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - name: windows tests
+        run:
+          python.exe -m unittest circle.py
+          python.exe -m unittest rectangle.py
+          python.exe -m unittest square.py
+          python.exe -m unittest triangle.py
