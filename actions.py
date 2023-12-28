@@ -4,7 +4,7 @@ def F_sum(a, b):
 
     Пример: F_sum(3, 2) # 5
     '''
-    return a - b
+    return a + b
 
 
 def F_mult(a, b):
