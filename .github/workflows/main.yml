@@ -1,19 +1,22 @@
-name: Run Unit Tests
+name: Run unit tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   test:
+    name: Run unit tests
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
 
-    runs-on: ${{ matrix.os }}
-
     steps:
-
-      - uses: actions/checkout@v3
-      - name: Run a one-line script
-        run: python -m unittest test.py
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm test
+      - name: Run unittest
+        run: |
+          python -m unittest tests.py
