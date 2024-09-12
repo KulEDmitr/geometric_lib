@@ -1,0 +1,70 @@
+name: "Run Tests"
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  ubuntu_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run test_rectangle
+      run:
+        python.exe -m unittest rectangle.py
+    - name: Run test_triangle
+      if: always()
+      run:
+        python.exe -m unittest triangle.py
+    - name: Run test_circle
+      if: always()
+      run:
+        python.exe -m unittest circle.py
+    - name: Run test_square
+      if: always()
+      run:
+        python.exe -m unittest square.py
+  windows_tests:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run test_rectangle
+      if: always()
+      run:
+        python.exe -m unittest rectangle.py
+    - name: Run test_triangle
+      if: always()
+      run:
+        python.exe -m unittest triangle.py
+    - name: Run test_circle
+      if: always()
+      run:
+        python.exe -m unittest circle.py
+    - name: Run test_square
+      if: always()
+      run:
+        python.exe -m unittest square.py
+        
