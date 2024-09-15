@@ -1,0 +1,39 @@
+name: Python geometric_lib tests
+
+on:
+  push:
+
+jobs:
+  build-linux:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Unix Python 3.11
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.11"
+    - name: Test with unittest
+      run: |
+        python -m unittest circle_test.py
+        python -m unittest rectangle_test.py
+        python -m unittest square_tests.py
+        python -m unittest triangle_tests.py
+        
+  build-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Win Python 3.11
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.11"
+    - name: Test with unittest
+      run: |
+        python -m unittest circle_test.py
+        python -m unittest rectangle_test.py
+        python -m unittest square_tests.py
+        python -m unittest triangle_tests.py
