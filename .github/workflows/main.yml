@@ -1,0 +1,49 @@
+name: Python application test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  test-linux:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Test rectangle package
+      run: python3 -m unittest rectangle.py
+    - name: Test circle package
+      run: python3 -m unittest circle.py
+    - name: Test triangle package
+      run: python3 -m unittest triangle.py
+    - name: Test square package
+      run: python3 -m unittest square.py
+
+  test-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Test rectangle package
+      run: python -m unittest rectangle.py
+    - name: Test circle package
+      run: python -m unittest circle.py
+    - name: Test triangle package
+      run: python -m unittest triangle.py
+    - name: Test square package
+      run: python -m unittest square.py
