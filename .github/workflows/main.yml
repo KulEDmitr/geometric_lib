@@ -1,0 +1,35 @@
+name: Unit tests
+
+on:
+  push:
+    branches: 
+      - "new_features_409802"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Circle Tests
+        run: python -m unittest circle.py
+
+      - name: Square Tests
+        run: python -m unittest square.py
+
+      - name: Triangle Tests
+        run: python -m unittest triangle.py
+
+      - name: Rectangle Tests
+        run: python -m unittest rectangle.py
