@@ -1,0 +1,34 @@
+
+name: Unit tests
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test-ubuntu:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: ran tests ubuntu
+      run: python -m unittest all_tests.py
+      # run: python -m unittest all_tests.py
+
+  windows-ubuntu:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: ran tests windows
+      run: python -m unittest all_tests.py
