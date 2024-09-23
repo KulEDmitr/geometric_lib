@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-    cout<<1234;
+    int a,b,c=0;
+    cin>>a>>b;
+    c = a*b;
+    cout<<c;
     return 0;
 }
