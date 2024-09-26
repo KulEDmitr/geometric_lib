@@ -1,5 +1,6 @@
-from math import pi
 import unittest
+from math import pi
+from circle import area, perimeter
 
 class CircleTestCase(unittest.TestCase):
     def test_zero_radius_area(self):
@@ -40,41 +41,3 @@ class CircleTestCase(unittest.TestCase):
         except Exception as error:
             res = error.__class__
         self.assertEqual(res, TypeError, "Incorrect catch exceptions in perimeter in circle.")
-
-
-
-def area(r):
-    '''
-    Возрващает площадь круга
-	
-	Параметры:
-		r (int): радиус круга
-	
-	Воращаемое значение
-		area (float): площадь искомого круга
-
-	Пример вызова:
-        circle_area = area(5)
-    Результат:
-        circle_area = 78.53981633974483
-    '''
-    return pi * r * r
-
-
-def perimeter(r):
-    '''
-    Возрващает периметр круга (длина окружности)
-	
-	Параметры:
-		r (int): радиус круга
-	
-	Воращаемое значение
-		perimeter (float): периметр искомого круга (длина окружности)
-
-	Пример вызова:
-        circle_perimeter = perimeter(5)
-    Результат:
-        circle_perimeter = 31.41592653589793
-    '''
-    return 2 * pi * r
-
