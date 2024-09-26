@@ -1,0 +1,24 @@
+name: Unit Tests
+
+on: [push]
+
+jobs:
+  ubuntu:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+    - run: python -m unittest circle.py rectangle.py square.py triangle.py
+
+  windows:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+    - run: python -m unittest circle.py rectangle.py square.py triangle.py
