@@ -1,0 +1,45 @@
+name: Run Unit Tests
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+        
+    - name: Run Unit Tests
+      run: |
+          python -m unittest circle.py
+          python -m unittest triangle.py
+          python -m unittest rectangle.py
+          python -m unittest square.py
+
+        
+  test2:
+      runs-on: windows-latest
+  
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+  
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          
+      - name: Run Unit Tests
+        run: |
+          python -m unittest circle.py
+          python -m unittest triangle.py
+          python -m unittest rectangle.py
+          python -m unittest square.py
