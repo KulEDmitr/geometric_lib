@@ -1,10 +1,11 @@
-import math
+from math import pi
 
 
 def area(r):
-    return math.pi * r * r
+    """Принимает на вход радиус круга, возвращает площадь данного круга."""
+    return pi * r * r
 
 
 def perimeter(r):
-    return 2 * math.pi * r
-
+    """Принимает на вход радиус круга, возвращает периметр данного круга."""
+    return 2 * pi * r
