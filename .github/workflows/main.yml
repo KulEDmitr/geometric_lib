@@ -1,0 +1,19 @@
+name: "geometric lib CI"
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  testWindows:
+    runs-on: windows-latest
+    steps:
+    - name: "Run Tests"
+      run:  python -m unittest circle.py
+      
+  testUbuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Run Tests"
+      run: python -m unittest circle.py
