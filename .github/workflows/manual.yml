@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  my_build_job_ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          python -m unittest docs.Tests.circle_test
+          python -m unittest docs.Tests.rectangle_test
+          python -m unittest docs.Tests.square_test
+          python -m unittest docs.Tests.triangle_test
+
+  my_build_job_windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          python -m unittest docs.Tests.circle_test
+          python -m unittest docs.Tests.rectangle_test
+          python -m unittest docs.Tests.square_test
+          python -m unittest docs.Tests.triangle_test

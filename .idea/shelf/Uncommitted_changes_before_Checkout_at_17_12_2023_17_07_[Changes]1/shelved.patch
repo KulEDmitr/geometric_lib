@@ -1,0 +1,120 @@
+Index: docs/Tests/circle_test.py
+===================================================================
+diff --git a/docs/Tests/circle_test.py b/docs/Tests/circle_test.py
+deleted file mode 100644
+--- a/docs/Tests/circle_test.py	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-import math
+-import unittest
+-from circle import area, perimeter
+-
+-
+-class TriangleTestCase(unittest.TestCase):
+-
+-    def test_area_positive_values(self):
+-        self.assertEqual(area(4), math.pi * 16)
+-        self.assertEqual(area(2), 4 * math.pi)
+-
+-    def test_area_zero_value(self):
+-        self.assertEqual(area(0), 0)
+-
+-    def test_perimeter_positive_values(self):
+-        self.assertEqual(perimeter(2), 4 * math.pi)
+-        self.assertEqual(perimeter(0.5), math.pi)
+Index: docs/Tests/square_test.py
+===================================================================
+diff --git a/docs/Tests/square_test.py b/docs/Tests/square_test.py
+deleted file mode 100644
+--- a/docs/Tests/square_test.py	
++++ /dev/null	
+@@ -1,21 +0,0 @@
+-import unittest
+-from square import area, perimeter
+-
+-
+-class SquareTestCase(unittest.TestCase):
+-
+-    def test_area_positive_values(self):
+-        self.assertEqual(area(5), 25)
+-        self.assertEqual(area(0.5), 0.25)
+-
+-    def test_area_zero_value(self):
+-        self.assertEqual(area(0), 0)
+-
+-    def test_perimeter_positive_values(self):
+-        self.assertEqual(perimeter(2), 8)
+-        self.assertEqual(perimeter(0.25), 1)
+-
+-
+-
+-if __name__ == '__main__':
+-    unittest.main()
+Index: docs/Tests/triangle_test.py
+===================================================================
+diff --git a/docs/Tests/triangle_test.py b/docs/Tests/triangle_test.py
+deleted file mode 100644
+--- a/docs/Tests/triangle_test.py	
++++ /dev/null	
+@@ -1,18 +0,0 @@
+-import unittest
+-from triangle import area, perimeter
+-
+-
+-class TriangleTestCase(unittest.TestCase):
+-
+-    def test_area_positive_values(self):
+-        self.assertEqual(area(4, 3), 6)
+-        self.assertEqual(area(0.5, 0.8), 0.2)
+-
+-    def test_area_zero_value(self):
+-        self.assertEqual(area(0, 3), 0.0)
+-
+-    def test_perimeter_positive_values(self):
+-        self.assertEqual(perimeter(2, 3, 4), 9)
+-        self.assertEqual(perimeter(0.5, 1.15, 1.2), 2.85)
+-
+-
+Index: docs/Tests/rectangle_test.py
+===================================================================
+diff --git a/docs/Tests/rectangle_test.py b/docs/Tests/rectangle_test.py
+deleted file mode 100644
+--- a/docs/Tests/rectangle_test.py	
++++ /dev/null	
+@@ -1,21 +0,0 @@
+-import unittest
+-from rectangle import area, perimeter
+-
+-
+-class RectangleTestCase(unittest.TestCase):
+-
+-    def test_area_positive_values(self):
+-        self.assertEqual(area(2, 3), 6)
+-        self.assertEqual(area(4, 5), 20)
+-
+-    def test_area_zero_values(self):
+-        self.assertEqual(area(0, 3), 0)
+-        self.assertEqual(area(4, 0), 0)
+-
+-    def test_perimeter_positive_values(self):
+-        self.assertEqual(perimeter(2, 4), 12)
+-        self.assertEqual(perimeter(1, 1), 4)
+-
+-
+-if __name__ == '__main__':
+-    unittest.main()
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	
++++ b/.idea/.gitignore	
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
