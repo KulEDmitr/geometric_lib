@@ -6,5 +6,8 @@ def area(r):
 
 
 def perimeter(r):
+    """
+    Вычисляет длину окружности.
+    """
     return 2 * math.pi * r
 
