@@ -13,9 +13,11 @@
 ```
 def square(r)
 ```
-- Parameters:\n
+- Parameters:
+
 r - radius of the circle
-- Returns:.
+- Returns:
+
 square of the circle
 - Example:
 ```
@@ -23,4 +25,5 @@ S = square(5);
 # S = 78.53982
 ```
 - Explanation:
+
 The area of circle with radius 5 is 78.53982
