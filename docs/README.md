@@ -11,7 +11,7 @@
 
 # Examples
 ## Circle
-- Area:
+- Area,
 Input:
 ```Python
 print(area(4))
@@ -20,7 +20,7 @@ Output:
 ```
 50.26548245743669
 ```
--Perimeter:
+- Perimeter,
 Input:
 ```Python
 print(perimeter(4))
@@ -31,7 +31,7 @@ Output:
 ```
 
 ## Rectangle
-- Area:
+- Area,
 Input:
 ```Python
 print(area(4, 3))
@@ -40,7 +40,7 @@ Output:
 ```
 6.0
 ```
--Perimeter:
+- Perimeter,
 Input:
 ```Python
 print(perimeter(3, 4, 5))
@@ -51,7 +51,7 @@ Output:
 ```
 
 ## Square
-- Area:
+- Area,
 Input:
 ```Python
 print(area(5))
@@ -60,7 +60,7 @@ Output:
 ```
 25
 ```
--Perimeter:
+- Perimeter,
 Input:
 ```Python
 print(perimeter(5))
@@ -68,4 +68,14 @@ print(perimeter(5))
 Output:
 ```
 20
+```
+# Commit History
+```
+ac43b4c README.md modified
+e1b70e0 circle.py modified
+7f43abd file rectangle.py added
+d3fcbca square.py - added comments about functions
+14208d1 circle.py - added comments about functions
+d078c8d L-03: Docs added
+8ba9aeb L-03: Circle and square added
 ```
