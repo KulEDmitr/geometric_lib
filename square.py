@@ -1,7 +1,9 @@
 
-def area(a):
-    return a * a
+def area(a):"""area(4)"""
+    """принимает а, возвращает площадь квадрата стороной а"""
+    return a * a """16"""
 
 
-def perimeter(a):
-    return 4 * a
+def perimeter(a): """perimeter(15)"""
+    """принимает а, возвращает периметр квадрата стороной а"""
+    return 4 * a """60"""
