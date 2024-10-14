@@ -1,10 +1,12 @@
-import math
+import math """добавляем библиотеку для использования числа pi"""
+
+def area(r): """area(2)"""
+    """принимает число r, возвращает площадь круга радиусом r"""
+    return math.pi * r * r """12.566"""
 
 
-def area(r):
-    return math.pi * r * r
-
-
-def perimeter(r):
-    return 2 * math.pi * r
+def perimeter(r): """perimeter(3)"""
+    """принимает число r, возвращает периметр окружности радиусом r"""
+    
+    return 2 * math.pi * r """18.849"""
 
