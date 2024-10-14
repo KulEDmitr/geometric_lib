@@ -40,7 +40,7 @@ Returns perimetr of a triangle with sides `a` and `s1` and `s2`
 perimetr(4,3,2)
 9
 ```
-#CommitsHistory
+# CommitsHistory
 - `8ba9ae` L-03: Circle and square added
 - `d078c8` L-03: Docs added
 - `17158a` добавил файл 1.cpp  в ветку
