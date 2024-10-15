@@ -55,8 +55,9 @@ def area(a): // input: 4
     // Принимает а, возвращает площадь квадрата стороной а
     return a * a // output: 16
 
-
 def perimeter(a): // input: 15
     // Принимает а, возвращает периметр квадрата стороной а
     return 4 * a // output: 60
 ```
+## История коммитов
+![commits](https://raw.githubusercontent.com/Osaulenko-I/geometric_lib/a9696feeb2bf90e680b3691bdf331b44e5b8859d/commit%20history.png)
