@@ -10,7 +10,7 @@ def area(r):
 	area(7) #Возвращает 153.93804002589985
 	'''
 
-        return math.pi * r * r
+	return math.pi * r * r
 
 
 def perimeter(r):
@@ -19,7 +19,7 @@ def perimeter(r):
 	Принимает число r, радиус окружности. 
 
 	Пример использования:
-	area(7) #Возвращает 43.982297150257104
+	perimeter(7) #Возвращает 43.982297150257104
 	'''
 
-        return 2 * math.pi * r
+	return 2 * math.pi * r

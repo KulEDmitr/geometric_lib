@@ -6,7 +6,7 @@ def area(a, b):
 	Пример использования:
 	area(7, 8) #Возвращает 56
 	'''
-    return a * b 
+	return a * b 
 
 def perimeter(a, b): 
 	'''Находит периметр прямоугольника.
@@ -16,4 +16,4 @@ def perimeter(a, b):
 	Пример использования:
 	area(7, 8) #Возвращает 30
 	'''
-    return (a + b)*2
+	return (a + b)*2

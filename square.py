@@ -7,7 +7,7 @@ def area(a):
 	Пример использования:
 	area(7) #Возвращает 49
 	'''
-    return a * a
+	return a * a
 
 
 def perimeter(a):
@@ -19,4 +19,4 @@ def perimeter(a):
 	Пример использования:
 	area(7) #Возвращает 28
 	'''
-    return 4 * a
+	return 4 * a
