@@ -1,10 +1,25 @@
 import math
 
+def area_circle(r):
+    '''
+    Возвращает площадь круга с заданным радиусом.
 
-def area(r):
+    Параметры:
+        r (float): радиус круга
+
+    Возвращаемое значение:
+        area (float): площадь круга
+    '''
     return math.pi * r * r
 
+def perimeter_circle(r):
+    '''
+    Возвращает периметр (длину окружности) круга с заданным радиусом.
 
-def perimeter(r):
+    Параметры:
+        r (float): радиус круга
+
+    Возвращаемое значение:
+        perimeter (float): периметр круга
+    '''
     return 2 * math.pi * r
-
