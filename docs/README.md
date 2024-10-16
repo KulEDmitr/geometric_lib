@@ -1,6 +1,6 @@
-#Документация
+# Документация
 
-##Math formulas
+## Math formulas
 Area
 Circle: S = πR²
 Rectangle: S = ab
@@ -10,7 +10,7 @@ Circle: P = 2πR
 Rectangle: P = 2a + 2b
 Square: P = 4a
 
-##General description of the solution:
+## General description of the solution:
 I added comments explaining each function, committed, created a docks directory where I specified formulas in the readmi
 file and also described the actions in general terms
 
@@ -18,7 +18,7 @@ file and also described the actions in general terms
 также в общих чертах описала действия)
 
 
-##Описание ф-ций:
+## Описание ф-ций:
 def area_square(a):
     
     Вычисляет площадь квадрата по длине стороны.
@@ -76,7 +76,7 @@ def perimeter_circle(r):
         perimeter_circle(5) -> 31.41592653589793
 
 
-##Хэши
+## Хэши
 9458ba7f266c717c49c1fe361882f54b738bae20 Added .idea/workspace.xml to .gitignore
 d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
