@@ -188,7 +188,7 @@ def perimeter(a, b, c):
 Для использования функций просто скопируйте код в ваш Python-скрипт или импортируйте его в ваш проект.
 ## История изменений
 ``` 
-"3c8d66ac5b4a3e2f1g0h9i8j7k6l5m4n3o2p1q0r" (HEAD -> new_features_466067) Mistake was fixed
+"3c8d66ac5b4a3e2f1g0h9i8j7k6l5m4n3o2p1q0r" [(HEAD -> new_features_466067) Mistake was fixed](https://github.com/KulEDmitr/geometric_lib/commit/73e236ccd01ae3ed805d2ffd6ac61675ac539f54)
 "73e236cf4c5e6d7b8a9c0e1f2d3c4b5a6e7f8g9h" Added new file rectangle.py
 "d078c8d9a8b7c6d5e4f3g2h1i0j9k8l7m6n5o4p3" L-03: Docs added
 "8ba9aebc0d1e2f3a4bbc6d2e8f9g0h1i2jek4l8m" L-03: Circle ans square added
