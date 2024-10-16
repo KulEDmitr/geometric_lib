@@ -205,10 +205,10 @@ print(result)  # Вывод: 12
 
 ### Детали изменений
 
-- **Коммит `d4e5f6g`**: Исправлена формула вычисления периметра прямоугольника в функции `perimeter(a, b)` в модуле `rectangle.py`. Ранее периметр вычислялся как `a + b`, теперь исправлено на `2 * (a + b)`.
+- **Коммит `4314e53`** ([https://github.com/KulEDmitr/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177](https://github.com/KulEDmitr/geometric_lib/commit/4314e5358a33d2fce4222336fbdee62fc4fe00a3)): Исправлена формула вычисления периметра прямоугольника в функции `perimeter(a, b)` в модуле `rectangle.py`. Ранее периметр вычислялся как `a + b`, теперь исправлено на `2 * (a + b)`.
 
-- **Коммит `a7b8c9d`**: Добавлен новый модуль `triangle.py`, содержащий функции `area(a, h)` для вычисления площади треугольника и `perimeter(a, b, c)` для вычисления его периметра.
+- **Коммит `b62fee5`** ([https://github.com/KulEDmitr/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177](https://github.com/KulEDmitr/geometric_lib/commit/b62fee5cd04ab0a57f3d49a3e6426cf9f531836e)): Добавлен новый модуль `triangle.py`, содержащий функции `area(a, h)` для вычисления площади треугольника и `perimeter(a, b, c)` для вычисления его периметра.
 
-- **Коммит `e1f2g3h`**: Добавлен новый модуль `rectangle.py` с функциями `area(a, b)` и `perimeter(a, b)` для вычисления площади и периметра прямоугольника соответственно.
+- **Коммит `c06748e`** ([https://github.com/KulEDmitr/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177](https://github.com/KulEDmitr/geometric_lib/commit/c60748e97d3c97f1819427dff9e4ddeeb868df4e)): Добавлен новый модуль `rectangle.py` с функциями `area(a, b)` и `perimeter(a, b)` для вычисления площади и периметра прямоугольника соответственно.
 
-- **Коммит `i4j5k6l`**: Начальная инициализация проекта. Добавлены модули `circle.py` и `square.py` с базовыми функциями для круга и квадрата.
+- **Коммит `41fe74a`** ([https://github.com/KulEDmitr/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177](https://github.com/KulEDmitr/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177)): Начальная инициализация проекта. Добавлены модули `circle.py` и `square.py` с базовыми функциями для круга и квадрата.
