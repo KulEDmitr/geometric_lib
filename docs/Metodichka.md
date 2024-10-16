@@ -47,6 +47,8 @@ area(2) = 4
 ### Пример работы:
 area(2) = 8
 
+# Коммиты
+
 commit [bbcfb0db0c6c92a5df78a8bb46dc96fed06369d9](https://github.com/KulEDmitr/geometric_lib/commit/bbcfb0db0c6c92a5df78a8bb46dc96fed06369d9)
 Date:   Tue Oct 15 00:33:04 2024 +0300
 
