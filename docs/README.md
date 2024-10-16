@@ -9,7 +9,7 @@
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
 ---
-*Hash of the commit, which the following documentation was added in:* `[3fea8dcd2794d25b67fc722559d68d46335c3a1b](https://github.com/MurzikKrot/geometric_lib/commit/3fea8dcd2794d25b67fc722559d68d46335c3a1b)`
+*Hash of the commit, which the following documentation was added in:* [`3fea8dcd2794d25b67fc722559d68d46335c3a1b`](https://github.com/MurzikKrot/geometric_lib/commit/3fea8dcd2794d25b67fc722559d68d46335c3a1b)
 # **[Сircle.py](https://github.com/MurzikKrot/geometric_lib/blob/lab_work_2_466894/circle.py) description**
 This file contains 2 functions `area` and `perimeter`.
 ## **area**
