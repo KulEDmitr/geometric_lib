@@ -23,16 +23,22 @@
 
 
 Первое изменение проекта:
-    commit 710a24d030d231c1ce6cc76337f81adcb402d6cf
+
+    commit: 710a24d030d231c1ce6cc76337f81adcb402d6cf
+
     Author: DimaIT599 <dfedemskiy@gmail.com>
+
     Date:   Wed Oct 2 12:09:11 2024 +0300
 
     Comment: addRectangleFormuls
 
 
 Второе изменение проекта:
-    commit 0cd38addf50fc6c7936c86fd688c8a63b23a7867
+
+    commit: 0cd38addf50fc6c7936c86fd688c8a63b23a7867
+
     Author: DimaIT599 <dfedemskiy@gmail.com>
+    
     Date:   Wed Oct 2 12:11:09 2024 +0300
 
     Comment: addTriangleFormulsAndRepairRectangleFormuls
