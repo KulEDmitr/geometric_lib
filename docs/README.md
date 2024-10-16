@@ -14,5 +14,5 @@
 - Square: P = 4a
 - Triangle: P = a + b + c
 
-[Ссылка на историю изменений проекта](/PR_HISTORY.md)  
-[Ссылка на описание работы функций](/FUNC_DESCRIPTIONS.md)
+[Ссылка на историю изменений проекта](https://github.com/GuySky/geometric_lib/blob/new_features_384231/docs/PR_HISTORY.md)  
+[Ссылка на описание работы функций](https://github.com/GuySky/geometric_lib/blob/new_features_384231/docs/FUNC_DESCRIPTIONS.md)
