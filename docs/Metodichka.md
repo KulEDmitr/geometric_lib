@@ -3,7 +3,7 @@
 **area**
 **perimetr**
 Всего есть 4 программы:
-## **tringle.py**
+## [**tringle.py**](https://github.com/egorzolotarev/geometric_lib/blob/main/triangle.py)
 **tringle.py** вычисляет площадь и периметр треугольника
 
 **area** принимает a - сторону треугольника и h - высоту, проведенную к a, и возвращает S, вычисленное по формуле _S = a*h/2_ 
@@ -14,7 +14,7 @@ area(2,2) = 2
 ### Пример работы:
 area(2,2,2) = 6
 
-## **circle.py**
+## [**circle.py**](https://github.com/egorzolotarev/geometric_lib/blob/main/circle.py)
 **circle.py** вычисляет площадь и периметр окружности
 
 **area** принимает r - радиус окружности и возвращает S, вычисленное по формуле _S = pi*r*r_ 
@@ -25,7 +25,7 @@ area(2) = 4*pi
 ### Пример работы:
 area(2) = 4*pi
 
-## **square.py**
+## [**square.py**](https://github.com/egorzolotarev/geometric_lib/blob/main/square.py)
 **square.py** вычисляет площадь и периметр квадрата
 
 **area** принимает a - сторону квадрата и возвращает S, вычисленное по формуле _S = a*a_ 
@@ -36,7 +36,7 @@ area(2) = 4
 ### Пример работы:
 area(2) = 8
 
-## **rectangle.py**
+## [**rectangle.py**](https://github.com/egorzolotarev/geometric_lib/blob/main/rectangle.py)
 **rectangle.py** вычисляет площадь и периметр прямоугольника
 
 **area** принимает a, b - стороны прямоугольника и возвращает S, вычисленное по формуле _S = a*b_ 
@@ -47,12 +47,12 @@ area(2) = 4
 ### Пример работы:
 area(2) = 8
 
-commit bbcfb0db0c6c92a5df78a8bb46dc96fed06369d9
+commit [bbcfb0db0c6c92a5df78a8bb46dc96fed06369d9](https://github.com/KulEDmitr/geometric_lib/commit/bbcfb0db0c6c92a5df78a8bb46dc96fed06369d9)
 Date:   Tue Oct 15 00:33:04 2024 +0300
 
     создан triangle.py, rectangle.py изменен
 
-commit d0d4fa4cc5beff9df1f981543a2d58e4a85db9a1
+commit [d0d4fa4cc5beff9df1f981543a2d58e4a85db9a1](https://github.com/KulEDmitr/geometric_lib/commit/d0d4fa4cc5beff9df1f981543a2d58e4a85db9a1)
 Date:   Tue Oct 15 00:30:36 2024 +0300
 
     создан rectangle.py
