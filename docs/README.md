@@ -118,11 +118,13 @@
 В зависимости от исходной фигуры на вход подаются определенные данные, проанализировав которые, мы сможем определить площадь и периметр фигур.
 
 # История изменения проекта с хешами комитов:
-Добавил новый файл - rectangle.py commit 1f4149e889a82682bcc75a61a443f57203d67130
+Добавил новый файл - rectangle.py commit [1f4149e889a82682bcc75a61a443f57203d67130](https://github.com/KulEDmitr/geometric_lib/commit/1f4149e889a82682bcc75a61a443f57203d67130)
 
-Добавил новый файл - triangle.py commit e5d9c7255967c80929aed4cd31c4824325ffebc2
+Добавил новый файл - triangle.py commit [e5d9c7255967c80929aed4cd31c4824325ffebc2](https://github.com/KulEDmitr/geometric_lib/commit/e5d9c7255967c80929aed4cd31c4824325ffebc2)
 
-Исправил ошибку в файле - rectangle.py commit 38158c725c1172e179754521b88c39e6a0d81040
+Исправил ошибку в файле - rectangle.py commit [38158c725c1172e179754521b88c39e6a0d81040](https://github.com/KulEDmitr/geometric_lib/commit/38158c725c1172e179754521b88c39e6a0d81040)
+
+Добавил комментарии к каждой функции - commit [b57bc5a1c5484fddbc6c6b2362dc977e9f1270c0](https://github.com/KulEDmitr/geometric_lib/commit/b57bc5a1c5484fddbc6c6b2362dc977e9f1270c0)
 
 
 
