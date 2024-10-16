@@ -179,9 +179,9 @@ print(result)  # Вывод: 12
 ```
 
 ## История Версий
-- `fb082b59`**: Add new description and add README.md
-- `26d75c6d`**: Circle and square added
-- `4ac89ba4`**: Fix a rectangle file
-- `26d75c6d`**: Add new file rectangle.py
-- `8ba9aeb3`**: Circle and square added
+- [`fb082b59`](https://github.com/BeganovR/geometric_lib/commit/98381a23cac5a7b193e90cd135d8cbd3525f807f): Add new description and add README.md
+- [`4ac89ba4`](https://github.com/BeganovR/geometric_lib/commit/e968d33def4e581d43a6d0123bd28375d304c9d8): Fix a rectangle file
+- [`26d75c6d`](https://github.com/BeganovR/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460): Add new file rectangle.py
+- [`26d75c6d`](https://github.com/BeganovR/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460): Circle and square added
+
 
