@@ -2,12 +2,19 @@
 
 ## Math formulas
 Area
+
 Circle: S = πR²
+
 Rectangle: S = ab
+
 Square: S = a²
+
 Perimeter
+
 Circle: P = 2πR
+
 Rectangle: P = 2a + 2b
+
 Square: P = 4a
 
 ## General description of the solution:
@@ -78,12 +85,15 @@ def perimeter_circle(r):
 
 ## Хэши
 9458ba7f266c717c49c1fe361882f54b738bae20 Added .idea/workspace.xml to .gitignore
+
 d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
+
 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
 
 
 ## Ссылки на коммиты
-Добавление в гитигнор https://github.com/KulEDmitr/geometric_lib/commit/9458ba7f266c717c49c1fe361882f54b738bae20
-Удаление папки docks https://github.com/KulEDmitr/geometric_lib/commit/c28c51815e0fbb8b7bc3a7ec8a5fff9da99792f4
-Добавление новой ветки https://github.com/KulEDmitr/geometric_lib/commit/3f6df9f8f85d0aa8e7fd782e81edb16f565e2c7e
-Исправление формата readme https://github.com/KulEDmitr/geometric_lib/commit/04e61aeaed33e0ab0aeb57011cb8c57557c436bd
+
+- [Добавление в гитигнор](https://github.com/KulEDmitr/geometric_lib/commit/9458ba7f266c717c49c1fe361882f54b738bae20)
+- [Удаление папки docks](https://github.com/KulEDmitr/geometric_lib/commit/c28c51815e0fbb8b7bc3a7ec8a5fff9da99792f4)
+- [Добавление новой ветки](https://github.com/KulEDmitr/geometric_lib/commit/3f6df9f8f85d0aa8e7fd782e81edb16f565e2c7e)
+- [Исправление формата readme](https://github.com/KulEDmitr/geometric_lib/commit/04e61aeaed33e0ab0aeb57011cb8c57557c436bd)
