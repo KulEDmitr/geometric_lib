@@ -14,5 +14,5 @@
 - Square: P = 4a
 - Triangle: P = a + b + c
 
-[Ссылка на историю изменений проекта](docs/PR_HISTORY.md)
-[Ссылка на описание работы функций](docs/FUNC_DESCRIPTIONS.md)
+[Ссылка на историю изменений проекта](/PR_HISTORY.md)  
+[Ссылка на описание работы функций](/FUNC_DESCRIPTIONS.md)
