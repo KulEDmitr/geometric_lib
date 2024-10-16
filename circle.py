@@ -10,9 +10,6 @@ def area_circle(r):
 
     Возвращаемое значение:
         float: площадь окружности
-
-    Пример вызова:
-        area_circle(5) -> 78.53981633974483
     '''
     return math.pi * r * r
 
@@ -26,8 +23,5 @@ def perimeter_circle(r):
 
     Возвращаемое значение:
         float: длина окружности
-
-    Пример вызова:
-        perimeter_circle(5) -> 31.41592653589793
     '''
     return 2 * math.pi * r
