@@ -1,21 +1,21 @@
 # Документация
 
 ## Math formulas
-Area
+**Area**
 
-Circle: S = πR²
+ - Circle: S = πR²
 
-Rectangle: S = ab
+ - Rectangle: S = ab
 
-Square: S = a²
+ - Square: S = a²
 
-Perimeter
+**Perimeter**
 
-Circle: P = 2πR
+ - Circle: P = 2πR
 
-Rectangle: P = 2a + 2b
+ - Rectangle: P = 2a + 2b
 
-Square: P = 4a
+ - Square: P = 4a
 
 ## General description of the solution:
 I added comments explaining each function, committed, created a docks directory where I specified formulas in the readmi
