@@ -36,7 +36,7 @@ result = area(5)
 print(result)  # Вывод: 78.53981633974483
 ```
 
-#### `circumference(r)`
+#### `perimeter(r)`
 
 Вычисляет длину окружности круга с радиусом `r`.
 
@@ -51,9 +51,9 @@ print(result)  # Вывод: 78.53981633974483
 **Пример использования:**
 
 ```python
-from circle import circumference
+from circle import perimeter
 
-result = circumference(5)
+result = perimeter(5)
 print(result)  # Вывод: 31.41592653589793
 ```
 
