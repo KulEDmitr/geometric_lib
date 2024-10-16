@@ -196,19 +196,29 @@ print(result)  # Вывод: 12
 
 ## История изменений проекта
 
-- `d4e5f6g` Исправлена ошибка в функции `perimeter` в `rectangle.py`
-- `a7b8c9d` Добавлен модуль `triangle.py` с функциями `area` и `perimeter` для треугольника
-- `e1f2g3h` Добавлен модуль `rectangle.py` с функциями `area` и `perimeter` для прямоугольника
-- `i4j5k6l` Инициализация проекта с модулями `circle.py` и `square.py`
-
-*Примечание: Хэши коммитов являются примерными и отображают только последние 7 символов настоящих хэшей.*
+- `28fa843` Созданы unit-тесты и добавлен файл `test_report.md`
+- `0f0ccf1` Обновлён `README.md` для описания функций
+- `62f810d` Обновлён `README.md` для уточнений по функциям
+- `41fe74a` Обновлена функция `area` в `triangle.py`
+- `c60748e` Обновлена функция `area` в `square.py`
+- `b62fee5` Обновлён `rectangle.py`, добавлены функции `area` и `perimeter`
+- `4314e53` Обновлена функция `perimeter` в `circle.py` для исправления ошибки вычислений
 
 ### Детали изменений
 
-- **Коммит [`4314e53`](https://github.com/KulEDmitr/geometric_lib/commit/4314e5358a33d2fce4222336fbdee62fc4fe00a3):** Исправлена формула вычисления периметра прямоугольника в функции `perimeter(a, b)` в модуле `rectangle.py`. Ранее периметр вычислялся как `a + b`, теперь исправлено на `2 * (a + b)`.
+- **Коммит [`28fa843`](https://github.com/Mentigen/geometric_lib/commit/28fa843d1339f0e90f23cb081731cd82c71e2779):** Добавлены unit-тесты для всех функций библиотеки и создан файл `test_report.md`.
+- **Коммит [`0f0ccf1`](https://github.com/Mentigen/geometric_lib/commit/0f0ccf11b6d501f6c7f861c61a2dc6805f0a4eb4):** Обновлён `README.md`, добавлены примеры использования функций.
+- **Коммит [`62f810d`](https://github.com/Mentigen/geometric_lib/commit/62f810d74efddd466a272a56d89ecb6cf7b33400):** Уточнено описание функций и примеры в `README.md`.
+- **Коммит [`41fe74a`](https://github.com/Mentigen/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177):** Обновлена функция вычисления площади треугольника `area(a, h)` в `triangle.py`.
+- **Коммит [`c60748e`](https://github.com/Mentigen/geometric_lib/commit/c60748e97d3c97f1819427dff9e4ddeeb868df4e):** Уточнена функция вычисления площади квадрата `area(a)` в `square.py`.
+- **Коммит [`b62fee5`](https://github.com/Mentigen/geometric_lib/commit/b62fee5cd04ab0a57f3d49a3e6426cf9f531836e):** Обновлён `rectangle.py`, добавлены функции `area(a, b)` и `perimeter(a, b)` для вычисления площади и периметра прямоугольника.
+- **Коммит [`4314e53`](https://github.com/Mentigen/geometric_lib/commit/4314e5358a33d2fce4222336fbdee62fc4fe00a3):** Исправлена ошибка в функции `perimeter` для круга в модуле `circle.py`.
 
-- **Коммит [`b62fee5`](https://github.com/KulEDmitr/geometric_lib/commit/b62fee5cd04ab0a57f3d49a3e6426cf9f531836e):** Добавлен новый модуль `triangle.py`, содержащий функции `area(a, h)` для вычисления площади треугольника и `perimeter(a, b, c)` для вычисления его периметра.
 
-- **Коммит [`c06748e`](https://github.com/KulEDmitr/geometric_lib/commit/c60748e97d3c97f1819427dff9e4ddeeb868df4e):** Добавлен новый модуль `rectangle.py` с функциями `area(a, b)` и `perimeter(a, b)` для вычисления площади и периметра прямоугольника соответственно.
 
-- **Коммит [`41fe74a`](https://github.com/KulEDmitr/geometric_lib/commit/41fe74ab8d627b27024ef6bc4c3e6b388763e177):** Начальная инициализация проекта. Добавлены модули `circle.py` и `square.py` с базовыми функциями для круга и квадрата.
+
+
+
+
+
+
