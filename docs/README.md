@@ -44,14 +44,14 @@
 
 
 # История изменений проекта
-Добавил новый файл - rectangle.py
-commit e3db881c2c48f7f52e02b5d80a4be8fb1cfcbf98
+Добавил новый файл - [rectangle.py](https://github.com/Hidmund/geometric_lib/blob/lab_2_467934/rectangle.py)
+commit [e3db881c2c48f7f52e02b5d80a4be8fb1cfcbf98](https://github.com/smartiqaorg/geometric_lib/commit/e3db881c2c48f7f52e02b5d80a4be8fb1cfcbf98)
 
-Добавил новый файл - triangle.py
-commit 9eae82cb57b69572687850567dfe7786ce6909df
+Добавил новый файл - [triangle.py](https://github.com/Hidmund/geometric_lib/blob/lab_2_467934/triangle.py)
+commit [9eae82cb57b69572687850567dfe7786ce6909df](https://github.com/smartiqaorg/geometric_lib/commit/9eae82cb57b69572687850567dfe7786ce6909df)
 
-Исправил ошибку в файле - rectangle.py
-commit c4bd0023306e8cac552cf2e898c65c58bd67d9d3
+Исправил ошибку в файле - [rectangle.py](https://github.com/Hidmund/geometric_lib/blob/lab_2_467934/rectangle.py)
+commit [c4bd0023306e8cac552cf2e898c65c58bd67d9d3](https://github.com/smartiqaorg/geometric_lib/commit/c4bd0023306e8cac552cf2e898c65c58bd67d9d3)
 
 Добавил комментарии во все файлы
-commit 63079e254410c3be3b922b5df0a82a61a447e5e0
+commit [63079e254410c3be3b922b5df0a82a61a447e5e0](https://github.com/smartiqaorg/geometric_lib/commit/63079e254410c3be3b922b5df0a82a61a447e5e0)
