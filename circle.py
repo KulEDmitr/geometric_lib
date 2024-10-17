@@ -1,14 +1,13 @@
 import math
 
 
-def area(r):
+def CircleArea(r):
     """Принимает число r - радиус круга;
         Возвращает площадь круга - произведение квадрата числа r и числа Пи"""
     return math.pi * r * r
 
 
-def perimeter(r):
+def CirclePerimeter(r):
     """Принимает число r - радиус круга;
         Возвращает периметр круга - произведение удвоенного числа r и числа Пи"""
     return 2 * math.pi * r
-
