@@ -48,8 +48,12 @@
   - Пример вызова: `perimeter(5)` вернет `20`.
 
 ## История изменений
-- Хеш: ccafec5 Коммит: Added new file rectangle.py
-- Хеш: fb2ade8 Коммит: bug has been fixed
-- Хеш: 14b7813 Коммит: readme.md has been modified
-- Хеш: d600455 Коммит: Added new file triangle.py
+- Хеш: ccafec5 
+  - Коммит: Added new file rectangle.py
+- Хеш: fb2ade8 
+  - Коммит: bug has been fixed
+- Хеш: 14b7813 
+  - Коммит: readme.md has been modified
+- Хеш: d600455 
+  - Коммит: Added new file triangle.py
 
