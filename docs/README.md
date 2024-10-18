@@ -150,24 +150,24 @@ This repo contains math formulas for the areas and perimeters of : Circle, Recta
 ## History of commits
 
 - **Commit**
-    - 8ba9aeb3cea847b63a91ac378a2a6db758682460
+    - [8ba9aeb3cea847b63a91ac378a2a6db758682460](https://github.com/666mxvbee/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460)
 
     - L-03: Circle and square added
 
 
 - **Commit**
-    - d078c8d9ee6155f3cb0e577d28d337b791de28e2 
+    - [d078c8d9ee6155f3cb0e577d28d337b791de28e2](https://github.com/666mxvbee/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2)
 
     - L-03: Docs added
 
 
 - **Commit**
-    - ee4d8fb3b036550970af14d69b2364b11544db14
+    - [ee4d8fb3b036550970af14d69b2364b11544db14](https://github.com/666mxvbee/geometric_lib/commit/ee4d8fb3b036550970af14d69b2364b11544db14)
 
     - был добавлен новый файл rectangle.py
 
 
 - **Commit**
-    - 48ba5f8b377a40e52e4934cdf7d973ca2813fcde 
+    - [48ba5f8b377a40e52e4934cdf7d973ca2813fcde](https://github.com/666mxvbee/geometric_lib/commit/48ba5f8b377a40e52e4934cdf7d973ca2813fcde)
 
     - Был добавлен новый файл triangle.py. Был исправлен файл rectangle.py
