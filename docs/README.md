@@ -63,7 +63,7 @@ def area(a, b):
  	"""
  	Принимает a, b возвращает площадь прямоугольника с сторонами a, b
  	Пример
- 	input: 52 4
+ 	input: 52, 4
  	output: 208
  	"""
 	return a * b
@@ -72,7 +72,7 @@ def perimeter(a, b):
  	"""
  	Принимает a, b возвращает периметр прямоугольника с сторонами a, b
  	Пример
- 	input: 4 10
+ 	input: 4, 10
  	output: 28
  	"""
     	return 2 * (a + b)
@@ -80,13 +80,23 @@ def perimeter(a, b):
 
 ## Квадрат
 ```
-def area(a): // input: 4
-    // Принимает а, возвращает площадь квадрата стороной а
-    return a * a // output: 16
+def area(a):
+    """
+    Принимает а, возвращает площадь квадрата стороной а
+    Пример
+    input: 4
+    output: 16  
+    """
+    return a * a
 
-def perimeter(a): // input: 15
-    // Принимает а, возвращает периметр квадрата стороной а
-    return 4 * a // output: 60
+def perimeter(a):
+    """
+    Принимает а, возвращает периметр квадрата стороной а
+    Пример
+    input: 15
+    output: 60
+    """
+    return 4 * a
 ```
 ## История коммитов
 ![commits](https://raw.githubusercontent.com/Osaulenko-I/geometric_lib/a9696feeb2bf90e680b3691bdf331b44e5b8859d/commit%20history.png)
