@@ -61,3 +61,4 @@ def perimeter(a): // input: 15
 ```
 ## История коммитов
 ![commits](https://raw.githubusercontent.com/Osaulenko-I/geometric_lib/a9696feeb2bf90e680b3691bdf331b44e5b8859d/commit%20history.png)
+[commits sep 27, 2024 rect fix and trian add](https://github.com/Osaulenko-I/geometric_lib/commit/d3d3f4a32ba2bae5071abf927882f1a83ddf8236)
