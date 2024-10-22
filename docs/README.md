@@ -34,6 +34,7 @@ print(area(4)) # 50.24
 ```python
 print(perimeter(4)) # 25.12
 ```
+[<span style="color: #00BFFF;">**Открыть circle.py**</span>](https://github.com/blueXmxdnght/geometric_lib/blob/lab2_472485/circle.py)
 ## <span style="color: blue;">**rectangle.py**</span>
 ### 1. `area(a, b)`
 **Вычисляет площадь прямоугольника по его сторонам**. 
@@ -59,6 +60,7 @@ print(area(4, 2)) # 8
 ```python
 print(perimeter(4, 2)) # 12
 ```
+[<span style="color: #00BFFF;">**Открыть rectangle.py**</span>](https://github.com/blueXmxdnght/geometric_lib/blob/lab2_472485/rectangle.py)
 ## <span style="color: blue;">**triangle.py**</span>
 ### 1. `area(a, h)`
 **Вычисляет площадь треугольника по его стороне и высоте**. 
@@ -84,6 +86,7 @@ print(area(4, 2)) # 4
 ```python
 print(perimeter(4, 2, 1)) # 7
 ```
+[<span style="color: #00BFFF;">**Открыть triangle.py**</span>](https://github.com/blueXmxdnght/geometric_lib/blob/lab2_472485/triangle.py)
 ## <span style="color: red;">**square.py**</span>
 ### 1. `area(a)`
 **Вычисляет площадь квадрата по его стороне**. 
@@ -109,6 +112,7 @@ print(area(3)) # 9
 ```python
 print(perimeter(3)) # 12
 ```
+[<span style="color: #00BFFF;">**Открыть square.py**</span>](https://github.com/blueXmxdnght/geometric_lib/blob/lab2_472485/square.py)
 ## История изменений проетка
 - Добавлены комментарии к файлам  [<span style="color: #FFD700;">**17f8352**</span>] 
 - Исправлен файл **triangle.py** [<span style="color: #FFD700;">**7af93c7**</span>] 
