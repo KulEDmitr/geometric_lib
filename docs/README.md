@@ -119,7 +119,7 @@ The code will print 22
 
 ### Changelog
 Full project history
-- 59e5b85342651cb93d42c3ea8e312fd2386f09a2: Fixed the error in rectangle.py
+- 59e5b85342651cb93d42c3ea8e312fd2386f09a2: Fixed the error in rectangle.py, added triangle.
 - 622f52edb84b7577ca4d136a08815d81da06847c: Added rectangle
 - d078c8d9ee6155f3cb0e577d28d337b791de28e2: Docs added
 - 8ba9aeb3cea847b63a91ac378a2a6db758682460: Circle and square added
