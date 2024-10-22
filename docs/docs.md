@@ -42,6 +42,16 @@ Returns: (int) perimeter of the triangle
 ## History of changes
 #### Error in rectangle has been fixed
 *It works fine now*
+
+Was:
+```
+return a + b
+```
+Now:
+```
+return 2 * (a + b)
+```
+
 > commit 0e134b811d1074c917fdd10df4ae34a1deabc243
 
 #### Triangle logic has been added
