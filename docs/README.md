@@ -82,3 +82,44 @@ S = perimeter(5);
 - Explanation:
 
 The perimeter of square with side 5 is 20
+# Rectangle
+## Area
+```
+def area(a, b)
+```
+- Parameters:
+
+a - rectangle width
+
+b - rectangle height
+- Returns:
+
+rectangle area
+- Example:
+```
+S = area(5, 4);
+# S = 20
+```
+- Explanation:
+
+The area of rectangle with width 5 and height 4 is 20
+## Perimeter
+```
+def perimeter(a, b)
+```
+- Parameters:
+
+a - rectangle width
+
+b - rectangle height
+- Returns:
+
+rectangle perimeter
+- Example:
+```
+P = perimeter(5, 4);
+# P = 18
+```
+- Explanation:
+
+The perimeter of rectangle with width 5 and height 4 is 18
