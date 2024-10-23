@@ -189,9 +189,9 @@ print(perimeter(3, 4, 5))  # Output: 12
 - <g>8ba9aeb</g> Circle and square added
 - <g>d078c8d</g> Docs added
   - <o>new_features_467047</o>
-    - <g>cafb494 </g> add files with functions area calculation
-    - <g>db6c273</g>  adding comments in scripts
-    - <g>b841306 </g> change README
+    - <g>cafb494 </g> [add files with functions area calculation](https://github.com/KulEDmitr/geometric_lib/commit/cafb494b84e0804b2d138608396301afbfd10950)
+    - <g>db6c273</g>  [adding comments in scripts](https://github.com/KulEDmitr/geometric_lib/commit/db6c273a40ccb6d4742f156f2aa7d7458bb5728b)
+    - <g>b841306 </g> [change README](https://github.com/KulEDmitr/geometric_lib/commit/b84130616b1cf46f3894aacd21a0faf7130bd970)
 
 
 <style>
