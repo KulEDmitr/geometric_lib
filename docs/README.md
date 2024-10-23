@@ -168,3 +168,11 @@ P = perimeter(5, 4, 3);
 - Explanation:
 
 The perimeter of triangle with sides 5, 4, 3 is 12
+# History of commits
+- main
+- 8ba9aeb Circle and square added
+  d078c8d Docs added
+  - new_features_465409
+    - cafb494 [rectangles added](https://github.com/KulEDmitr/geometric_lib/commit/cafb494b84e0804b2d138608396301afbfd10950)
+    - db6c273 [triangle added](https://github.com/KulEDmitr/geometric_lib/commit/db6c273a40ccb6d4742f156f2aa7d7458bb5728b)
+    - b841306 [documentation added](https://github.com/KulEDmitr/geometric_lib/commit/b84130616b1cf46f3894aacd21a0faf7130bd970)
