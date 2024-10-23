@@ -131,7 +131,7 @@ perimeter(3, 2, 5)
 
 # History of project changes
 
-**Commit** ***a789aa9941a5de78197017f271e52e7b8f181ba6:***
+**Commit** ***[a789aa9941a5de78197017f271e52e7b8f181ba6](https://github.com/kseni-sch/geometric_lib/commit/a789aa9941a5de78197017f271e52e7b8f181ba6):***
 ```
 Author: kseni-sch <468150@niuitmo.ru>
 Date: Wed Sep 25 11:23:08 2024 +0300
@@ -139,7 +139,7 @@ Date: Wed Sep 25 11:23:08 2024 +0300
 	Added file rectangle.py
 ```
 
-**Commit** ***d09b839b6f1d79bdf6c7b3325e9a93b894737ed5:***
+**Commit** ***[d09b839b6f1d79bdf6c7b3325e9a93b894737ed5](https://github.com/kseni-sch/geometric_lib/commit/d09b839b6f1d79bdf6c7b3325e9a93b894737ed5):***
 ```
 Author: kseni-sch <468150@niuitmo.ru>
 Date: Wed Sep 25 11:45:11 2024 +0300
