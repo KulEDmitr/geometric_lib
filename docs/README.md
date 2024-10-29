@@ -1,10 +1,3 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
-
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+# Документация проекта
+- [для пользователей](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/docs/Documentation%20for%20users.md)
+- [для разработчиков](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/docs/Documentation%20for%20developers.md)
