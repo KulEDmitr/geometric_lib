@@ -194,8 +194,14 @@ result = perimeter(3, 4, 5)
 print(result)  # Вывод: 12
 ```
 
+## Автоматическое тестирование с GitHub Actions
+
+Для обеспечения качества и стабильности кода, в проект был добавлен workflow для автоматического запуска unit тестов с использованием GitHub Actions. Это позволяет выполнять тесты автоматически после каждого `push`, проверяя корректность всех изменений.
+
+
 ## История изменений проекта
 
+- `34cfb5c` Добавлен добавлен workflow для автоматического запуска unit тестов
 - `28fa843` Созданы unit-тесты и добавлен файл `test_report.md`
 - `0f0ccf1` Обновлён `README.md` для описания функций
 - `62f810d` Обновлён `README.md` для уточнений по функциям
@@ -206,6 +212,7 @@ print(result)  # Вывод: 12
 
 ### Детали изменений
 
+- **Коммит [`34cfb5c`](https://github.com/Mentigen/geometric_lib/commit/34cfb5cf2282b4790e232afefa9b51264ea217d4):** Добавлен добавлен workflow для автоматического запуска unit тестов.
 - **Коммит [`28fa843`](https://github.com/Mentigen/geometric_lib/commit/28fa843d1339f0e90f23cb081731cd82c71e2779):** Добавлены unit-тесты для всех функций библиотеки и создан файл `test_report.md`.
 - **Коммит [`0f0ccf1`](https://github.com/Mentigen/geometric_lib/commit/0f0ccf11b6d501f6c7f861c61a2dc6805f0a4eb4):** Обновлён `README.md`, добавлены примеры использования функций.
 - **Коммит [`62f810d`](https://github.com/Mentigen/geometric_lib/commit/62f810d74efddd466a272a56d89ecb6cf7b33400):** Уточнено описание функций и примеры в `README.md`.
@@ -213,12 +220,4 @@ print(result)  # Вывод: 12
 - **Коммит [`c60748e`](https://github.com/Mentigen/geometric_lib/commit/c60748e97d3c97f1819427dff9e4ddeeb868df4e):** Уточнена функция вычисления площади квадрата `area(a)` в `square.py`.
 - **Коммит [`b62fee5`](https://github.com/Mentigen/geometric_lib/commit/b62fee5cd04ab0a57f3d49a3e6426cf9f531836e):** Обновлён `rectangle.py`, добавлены функции `area(a, b)` и `perimeter(a, b)` для вычисления площади и периметра прямоугольника.
 - **Коммит [`4314e53`](https://github.com/Mentigen/geometric_lib/commit/4314e5358a33d2fce4222336fbdee62fc4fe00a3):** Исправлена ошибка в функции `perimeter` для круга в модуле `circle.py`.
-
-
-
-
-
-
-
-
 
