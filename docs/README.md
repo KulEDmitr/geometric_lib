@@ -83,6 +83,10 @@ def perimeter_circle(r):
         perimeter_circle(5) -> 31.41592653589793
 
 
+### Примечание
+В ходе 4 лабораторной работый были доавблены unit тесты в файл rectangle.py
+
+
 ## Хэши
 9458ba7f266c717c49c1fe361882f54b738bae20 Added .idea/workspace.xml to .gitignore
 
