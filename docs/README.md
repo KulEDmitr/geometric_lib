@@ -101,3 +101,12 @@ print(a)        #print выведет 15
 a = perimeter(5, 6, 7) 
 print(a)        #print выведет 18
 ``` 
+
+## Хэши коммитов
+1) 8ba9aeb - L-03: Circle and square added
+2) d078c8d - L-03: Docs added
+3) 239bceb - New file has been added
+4) 61e8c36 - The error was fixed and a new file was added
+5) 53ac735 - везде добавлены комментарии
+6) 67e862e - Написан файл Readme.md с полной документацией и с примерами вызова
+7) 74f84bb - lb2-Docs
