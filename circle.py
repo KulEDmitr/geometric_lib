@@ -48,7 +48,7 @@ class CircleTestCase(unittest.TestCase):
     
     def test_area_string(self):
         with self.assertRaises(TypeError):
-            area(10, 'abc')
+            area('abc')
 
     
     
