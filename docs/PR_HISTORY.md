@@ -47,4 +47,23 @@ Message: ```changed README.md```
 10. ```commit 1dd79dac9955f559bf28d859f83380d7132cccf0``` ```Tue Oct 15 14:26:27 2024 +0300```  
 Message: ```fixed README.md; add FUNC_DESCRIPTIONS.md```  
 ***Добавлены недостающие математические формулы, добавлен файл с полным описанием работы функций. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/1dd79dac9955f559bf28d859f83380d7132cccf0)***  
+  
 ---
+  
+### v_3 - Добавлены unit-тесты
+  
+11. ```commit 01a9df8a2f7f21bf796b269641856ec5775716da``` ```Wed Oct 30 23:14:48 2024 +0300```
+Message: ```add tests for rectangle.py, circle.py```
+***Добавлены тесты в файлы для прямоугольника и круга. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/01a9df8a2f7f21bf796b269641856ec5775716da)***
+
+12. ```commit d50d34e9fddcefed41cdc09f8ab51658ded1a4c8``` ```Thu Oct 31 00:31:41 2024 +0300```
+Message: ```add tests for square.py, triangle.py```
+***Добавлены тесты в файлы для квадрата и треугольника. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/d50d34e9fddcefed41cdc09f8ab51658ded1a4c8)***
+
+13. ```commit 952239cccd766efe672f27e2d11fa08a51f8e4ee``` ```Thu Oct 31 20:53:21 2024 +0300```
+Message: ```fix test_area_string in circle.py```
+***Исправлен тест на подачу строки в тест на площадь круга. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/952239cccd766efe672f27e2d11fa08a51f8e4ee)***
+
+14. ```commit 51fb1bcb7982dc95fcfb2490f32f1f3394095643``` ```Thu Oct 31 21:15:21 2024 +0300```
+Message: ```updated README.md; add TEST_REPORT.md```
+***В README добавлена заметка про тесты. Добавлен отчёт о тестах. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/51fb1bcb7982dc95fcfb2490f32f1f3394095643)***
