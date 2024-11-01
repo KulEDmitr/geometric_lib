@@ -34,14 +34,14 @@
 ### Пример вызова: area(2, 3), функция вернет 3
 
 ## Граф истории всего репозитория
-### 0f391978ecafff88c2c918ca18a89a35cb1b930c (HEAD -> new_feature_465944) была дополнена документация
-### a7c1e057380ffe40e213040c31f276f5407da9db (HEAD -> new_feature_465944) были дополнены комментарии
-### a1a50539ded8a74474f74c7fb0b39d6f9aee7df2 (origin/new_feature_465944) добавлена документация
+### 0f391978ecafff88c2c918ca18a89a35cb1b930c была дополнена документация
+### a7c1e057380ffe40e213040c31f276f5407da9db были дополнены комментарии
+### a1a50539ded8a74474f74c7fb0b39d6f9aee7df2 добавлена документация
 ### 25ff3bf40cd1b1fad78dccec01719104fbec868f добавлены комментарии
-### a133ce22d775c531cfdea52fc4f4126aaa486c34 (new_features_465944) была исправлен ошибка
+### a133ce22d775c531cfdea52fc4f4126aaa486c34 была исправлен ошибка
 ### 2e32f8c89a0b3f5db9d3dfc61de2c0125d569bed был добавлен новый файл
-### d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, main) L-03: Docs added
-### 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
+### d078c8d9ee6155f3cb0e577d28d337b791de28e2 Docs added
+### 8ba9aeb3cea847b63a91ac378a2a6db758682460 Circle and square added
 
 ## Ссылка на документацию
 ### [text](https://github.com/zantchris/geometric_lib/tree/new_feature_465944/docs)
