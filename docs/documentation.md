@@ -44,4 +44,4 @@
 ### 8ba9aeb3cea847b63a91ac378a2a6db758682460 Circle and square added
 
 ## Ссылка на документацию
-### [text](https://github.com/zantchris/geometric_lib/tree/new_feature_465944/docs)
+### [docs](https://github.com/zantchris/geometric_lib/tree/new_feature_465944/docs)
