@@ -146,3 +146,11 @@ Date: Wed Sep 25 11:45:11 2024 +0300
 
 	Fixed file rectangle.py and added file triangle.py
 ```
+
+**Commit** ***[1a5ecc8be2ec4ad5edb9bb5a76af61415e2e42e5](https://github.com/kseni-sch/geometric_lib/commit/1a5ecc8be2ec4ad5edb9bb5a76af61415e2e42e5):***
+```
+Author: kseni-sch <468150@niuitmo.ru>
+Date:   Tue Nov 5 02:10:03 2024 +0300
+
+    Created tests for all functions
+```
