@@ -2,5 +2,7 @@
 *.docx
 *.tmp
 
+.vscode
 sr/__pycache__
 tests/__pycache__
+tests/unit/__pycache__
