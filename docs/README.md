@@ -106,3 +106,30 @@ print(perimeter(a=1))
 - Fixed rectangle.py
 - Added triangle.py
 ```
+
+```md
+### 50478ec2443d5bf1e53819bf8c8be35aacc747f3
+
+- Update .gitignore
+```
+
+```md
+### 0844b16b15ffa8571108f410296c71b99dc4ea13
+
+- Fix .gitignore
+```
+
+```md
+### c6743ee3a26f2a04d040b416c72ca22b1695784b
+
+- Add tests
+```
+
+```md
+### d54ed069606658d5fdf56320fe5cd59355beaa74
+
+- Fix __init__.py
+```
+
+
+
