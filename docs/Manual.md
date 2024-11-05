@@ -36,6 +36,7 @@ area = triangle.area(4, 6) #Output: 12
 ```
 ## История изменения проекта
 ```
+b6304e4 Добавлены Unit тесты
 ff72acf Добавлен модуль triangle, исправлен модуль rectangle
 0161d8d Добавлен модуль rectangle
 d078c8d Добавлена папка docs
