@@ -1,3 +1,6 @@
 ~*
 *.docx
 *.tmp
+
+src\__pycache__
+tests\triangle
