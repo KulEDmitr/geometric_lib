@@ -7,6 +7,8 @@ def area(r):
         Параметры:
             r (int): Радиус круга
             math.pi (floar): Число Pi
+        Пример вызова:
+            S = area(4)
     '''
     return math.pi * r * r
 
@@ -17,6 +19,8 @@ def perimeter(r):
     Параметры:
             r (int): Радиус круга
             math.pi (floar): Число π
+    Пример вызова:
+        P = perimetr(4)
     '''
     return 2 * math.pi * r
 
