@@ -1,4 +1,4 @@
-def area(a, b):
+def area(a : int, b : int):
     '''
     Принимает числа a и b, возвращает площадь прямоугольника со сторонами a и b
 
@@ -9,7 +9,7 @@ def area(a, b):
     return a * b
 
 
-def perimeter(a, b):
+def perimeter(a : int, b : int):
     '''
     Принимает числа a и b, возвращает периметр прямоугольника со сторонами a и b
 

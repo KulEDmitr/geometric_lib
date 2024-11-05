@@ -1,4 +1,4 @@
-def area(a):
+def area(a : int):
     '''
     Принимает число a, возвращает площадь квадрата со стороной n
 
@@ -12,7 +12,7 @@ def area(a):
     return a * a
 
 
-def perimeter(a):
+def perimeter(a : int):
     '''
     Принимает число a, возвращает периметр квадрата со стороной a
 
