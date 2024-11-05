@@ -2,5 +2,5 @@
 *.docx
 *.tmp
 
-src\__pycache__
-tests\triangle
+sr/__pycache__
+tests/__pycache__
