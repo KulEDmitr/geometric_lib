@@ -89,3 +89,7 @@ return 2 * (a + b)
 
 #### [Rectangle has been added](#rectanglepy)
 > commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+
+#### [Tests has been added](#rectanglepy)
+*And also functions had been changed due to tests*
+> 72151de99f61a458e1510abd3fa05bd4c95ecf7c
