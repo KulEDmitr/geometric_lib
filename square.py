@@ -1,6 +1,7 @@
-def area(a : int):
+def area(a: int): 
     '''
-    Принимает число a, возвращает площадь квадрата со стороной n
+    Takes a number a and returns the area of a square with side a.
+    The side length a must be a positive number.
 
     >>> area(3)
     9
@@ -9,12 +10,15 @@ def area(a : int):
     >>> area(10)
     100
     '''
+    if a <= 0:
+        raise ValueError("The side length of the square must be a positive number.")
     return a * a
 
 
-def perimeter(a : int):
+def perimeter(a: int):
     '''
-    Принимает число a, возвращает периметр квадрата со стороной a
+    Takes a number a and returns the perimeter of a square with side a.
+    The side length a must be a positive number.
 
     >>> perimeter(3)
     12
@@ -23,4 +27,6 @@ def perimeter(a : int):
     >>> perimeter(10)
     40
     '''
+    if a <= 0:
+        raise ValueError("The side length of the square must be a positive number.")
     return 4 * a
