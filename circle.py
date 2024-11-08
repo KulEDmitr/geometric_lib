@@ -13,4 +13,3 @@ def perimeter(r):
     Пример: perimetr(2) = 4*pi
     '''
     return 2 * math.pi * r
-
