@@ -1,6 +1,6 @@
 # `Math formulas and function call examples`
 
-## *Circle*
+## [*Circle*](../circle.py)
 
 - **Area**: S = πR²
 
@@ -22,7 +22,7 @@
 > 
 > Output: 62.83185307179586
 
-## *Triangle*
+## [*Triangle*](../triangle.py)
 
 - **Area**: S = a⋅h/2
 
@@ -44,7 +44,7 @@
 > 
 > Output: 36
 
-## *Rectangle*
+## [*Rectangle*](../rectangle.py)
 
 - **Area**: S = a⋅b
 
@@ -66,7 +66,7 @@
 > 
 > Output: 28
 
-## *Square*
+## [*Square*](../square.py)
 
 - **Area**: S = a²
 
@@ -90,11 +90,10 @@
 
 # `Project change history and commit hashes`
 
-- `840e11d` (HEAD -> new_features_466499) Added Project change history and commit hashes
-- `623e552` Added a general description of the solution and a description of each function
-- `013ee62` Triangle file has been changed
-- `b265fd8` (origin/new_features_466499, geometcirc_lib) Добавлены изменения в вычисление периметра
-- `4e63f2b` Добавлен еще один файл
-- `05d3f79` Добавлен новый файл
-- `d078c8d `(origin/main, origin/HEAD, main) L-03: Docs added
-- `8ba9aeb` L-03: Circle and square added
+- [`3a47939`](https://github.com/KulEDmitr/geometric_lib/commit/3a4793914923c53cb6c4cbacbad8a692b43b1b7f) Commit hashes has been changed
+- [`840e11d`](https://github.com/KulEDmitr/geometric_lib/commit/840e11dc684b91ba58614e43eda68963786ec876) (HEAD -> new_features_466499) Added Project change history and commit hashes
+- [`623e552`](https://github.com/KulEDmitr/geometric_lib/commit/623e5528175fa8025f3e67b1fa54f74064dd8841) Added a general description of the solution and a description of each function
+- [`013ee62`](https://github.com/KulEDmitr/geometric_lib/commit/013ee6289774d5b0d8d207df40b2778deae12254) Triangle file has been changed
+- [`b265fd8`](https://github.com/KulEDmitr/geometric_lib/commit/b265fd8060ebe281e102b0ff0265b9270e61b8f6) (origin/new_features_466499, geometcirc_lib) Добавлены изменения в вычисление периметра
+- [`4e63f2b`](https://github.com/KulEDmitr/geometric_lib/commit/4e63f2b4da69b4d118714c7514203a487d5a46b5) Добавлен еще один файл
+- [`05d3f79`](https://github.com/KulEDmitr/geometric_lib/commit/05d3f793a40a9e14f1aea910ec08ce09a124ecba) Добавлен новый файл
