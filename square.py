@@ -1,4 +1,4 @@
-
+from check_value import check_value
 def area(a):
 	'''Находит площадь квадрата.
 	
@@ -7,7 +7,10 @@ def area(a):
 	Пример использования:
 	area(7) #Возвращает 49
 	'''
-	return a * a
+
+	if check_value(a):
+		return a * a
+	return -1
 
 
 def perimeter(a):
@@ -19,4 +22,8 @@ def perimeter(a):
 	Пример использования:
 	area(7) #Возвращает 28
 	'''
-	return 4 * a
+
+
+	if check_value(a):
+		return a * 4
+	return -1
