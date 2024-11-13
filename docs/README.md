@@ -109,13 +109,27 @@ print(a)        #print выведет 18
 
 ## Тесты
 
-Добавлены тесты, которые проверяют работу функций библиотеки geometric_lib
+Добавлены тесты, которые проверяют работу функций библиотеки geometric_lib.
+
+Тесты есть двух типов:
+- Тесты, которые проверяют исключения (неверный тип переменной, неверный ввод и т.п.)
+- Тесты, которые проверяют как работает функция на разных **корректных** значениях
 
 ## Хэши коммитов
+
+### 1-st labwork
 1) 8ba9aeb - L-03: Circle and square added
 2) d078c8d - L-03: Docs added
 3) 239bceb - New file has been added
 4) 61e8c36 - The error was fixed and a new file was added
+
+### 2-nd labwork
 5) 53ac735 - везде добавлены комментарии
 6) 67e862e - Написан файл Readme.md с полной документацией и с примерами вызова
 7) 74f84bb - lb2-Docs
+
+### 4-th labwork
+8) f5f4f77 - labwork4-Unittests              
+9) f60826e - Update README.md
+10) 1002701 - Add files via upload
+
