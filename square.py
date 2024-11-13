@@ -19,3 +19,6 @@ def perimeter(a):
         Возвращаемое значение perimeter (int): 20
     '''
     return 4 * a
+
+
+
