@@ -166,8 +166,8 @@ geometric_lib - библиотека *Python* для вычисления **пл
 ```
 
 ## История изменения проекта
-- `8ba9aeb3` Добавлены модули `circle.py` и `square.py`
-- `d078c8d9` Добавлена первоначальная документация
-- `0e81c400` Добавлен модуль `rectangle.py`
-- `3adefa6f` Исправлена ошибка в модуле `rectangle.py`, добавлен модуль `triangle.py`
+- [`8ba9aeb3`](https://github.com/whyhellis/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460) Добавлены модули `circle.py` и `square.py`
+- [`d078c8d9`](https://github.com/whyhellis/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2) Добавлена первоначальная документация
+- [`0e81c400`](https://github.com/whyhellis/geometric_lib/commit/0e81c40083d80a8edaff038ac4dc0310697fde23) Добавлен модуль `rectangle.py`
+- [`3adefa6f`](https://github.com/whyhellis/geometric_lib/commit/3adefa6f7a785d8f897e9f8e8afa1c39c4893583) Исправлена ошибка в модуле `rectangle.py`, добавлен модуль `triangle.py`
 
