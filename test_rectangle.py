@@ -3,6 +3,9 @@ import unittest
 from rectangle import area, perimeter  # импортируем тестируемые функции
 
 class RectangleTestCase(unittest.TestCase):
+    def test_area_rectangle(self):
+        self.assertEqual(area(5, 10), 50, "Expected area to be 50 for a rectangle 5x10")
+
     def test_area_zero(self):
         self.assertEqual(area(10, 0), 0, "Expected area to be 0 when one side is 0")
 
