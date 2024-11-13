@@ -83,10 +83,6 @@ def perimeter_circle(r):
         perimeter_circle(5) -> 31.41592653589793
 
 
-### Примечание
-В ходе 4 лабораторной работый были доавблены unit тесты в файл rectangle.py
-
-
 ## Хэши
 9458ba7f266c717c49c1fe361882f54b738bae20 Added .idea/workspace.xml to .gitignore
 
@@ -101,3 +97,18 @@ d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added
 - [Удаление папки docks](https://github.com/KulEDmitr/geometric_lib/commit/c28c51815e0fbb8b7bc3a7ec8a5fff9da99792f4)
 - [Добавление новой ветки](https://github.com/KulEDmitr/geometric_lib/commit/3f6df9f8f85d0aa8e7fd782e81edb16f565e2c7e)
 - [Исправление формата readme](https://github.com/KulEDmitr/geometric_lib/commit/04e61aeaed33e0ab0aeb57011cb8c57557c436bd)
+
+# Rectangle Testing
+
+## Описание
+Проект содержит функции для вычисления площади и периметра прямоугольника с набором тестов для проверки корректности работы функций.
+
+## Тестирование
+В тестах проверяется поведение функций на граничных и некорректных данных, включая:
+- Нулевые значения сторон
+- Отрицательные значения
+- Чрезмерно большие значения
+- Некорректные типы данных
+
+## Запуск тестов
+Используйте команду `python -m unittest test_rectangle.py` для запуска тестов.
