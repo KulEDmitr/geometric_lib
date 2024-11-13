@@ -107,6 +107,10 @@ a = perimeter(5, 6, 7)
 print(a)        #print выведет 18
 ``` 
 
+## Тесты
+
+Добавлены тесты, которые проверяют работу функций библиотеки geometric_lib
+
 ## Хэши коммитов
 1) 8ba9aeb - L-03: Circle and square added
 2) d078c8d - L-03: Docs added
