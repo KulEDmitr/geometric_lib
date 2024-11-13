@@ -13,6 +13,12 @@ def area(a, b):
         >>> rectangle.area(5, 3)
         15
     """
+    if not all(isinstance(x, (int, float)) for x in (a, b)):
+        raise TypeError("Длина и ширина должны быть числами")
+
+    if a < 0 or b < 0:
+        raise ValueError("Сторона не может быть отрицательной")
+
     return a * b 
 
 def perimeter(a, b): 
@@ -30,4 +36,10 @@ def perimeter(a, b):
         >>> rectangle.perimeter(5, 3)
         16
     """
+    if not all(isinstance(x, (int, float)) for x in (a, b)):
+        raise TypeError("Длина и ширина должны быть числами")
+
+    if a < 0 or b < 0:
+        raise ValueError("Сторона не может быть отрицательной")
+
     return 2*(a + b)

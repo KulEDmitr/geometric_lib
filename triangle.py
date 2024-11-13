@@ -13,6 +13,12 @@ def area(a, h):
         >>> triangle.area(5, 3)
         7.5
     """
+    if not all(isinstance(x, (int, float)) for x in (a, h)):
+        raise TypeError("Основание и высота должны быть числами")
+
+    if a < 0 or h < 0:
+        raise ValueError("Сторона не может быть отрицательной")
+
     return a * h / 2 
 
 def perimeter(a, b, c): 
@@ -31,4 +37,10 @@ def perimeter(a, b, c):
         >>> triangle.perimeter(3, 4, 5)
         12
     """
+    if not all(isinstance(x, (int, float)) for x in (a, b, c)):
+        raise TypeError("Все стороны треугольника должны быть числами")
+
+    if a < 0 or b < 0 or c < 0:
+        raise ValueError("Сторона не может быть отрицательной")
+
     return a + b + c 
