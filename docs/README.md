@@ -1,9 +1,9 @@
 # Math formulas
 ## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
-- Triangle: S = (a*h)/2
++ Circle: S = πR²
++ Rectangle: S = ab
++ Square: S = a²
++ Triangle: S = (a*h)/2
 
 ## Perimeter
 - Circle: P = 2πR
@@ -31,12 +31,16 @@
 
 **Пример использования:**
 
-from circle import area  
-  
-result = area(5)  
-print(result)  
+```python
+from circle import area
 
----> 78.53981633974483  
+result = area(5)
+print(result)
+
+```
+
+##### Вывод: 78.53981633974483
+
 
 #### Функция `perimeter(r)`
 
@@ -50,12 +54,14 @@ print(result)
 
 **Пример использования:**
 
-from circle import perimeter  
+```python
+from circle import perimeter
 
-result = perimeter(5)  
-print(result)  
+result = perimeter(5)
+print(result)
+```
 
----> 31.41592653589793 
+##### Вывод: 31.41592653589793
 
 
 ### Модуль `square.py`
@@ -72,12 +78,13 @@ print(result)
 
 **Пример использования:**
 
-from square import area  
-  
-result = area(5)  
-print(result)  
+```python
+from square import area
 
---->  25
+result = area(5)
+print(result)
+```
+##### Вывод: 25
 
 #### Функция `perimeter(a)`
 
@@ -89,14 +96,13 @@ print(result)
 **Возвращает:**
 - `float`: Периметр квадрата.
 
-**Пример использования:**
+```python
+from square import perimeter
 
-from square import perimeter  
-
-result = perimeter(5)  
-print(result)  
-
----> 20
+result = perimeter(5)
+print(result)
+```
+#####  Вывод: 20
 
 
 ### Модуль `rectangle.py`
@@ -112,14 +118,13 @@ print(result)
 **Возвращает:**
 - `float`: Площадь прямоугльника.
 
-**Пример использования:**
+```python
+from rectangle import area
 
-from rectangle import area  
-  
-result = area(5, 6)  
-print(result)  
-
----> 30  
+result = area(5, 6)
+print(result)
+```
+#####  Вывод: 30
 
 #### Функция `perimeter(r)`
 
@@ -134,12 +139,13 @@ print(result)
 
 **Пример использования:**
 
-from rectangle import perimeter  
+```python
+from rectangle import perimeter
 
-result = perimeter(5, 6)  
-print(result)  
-
----> 22
+result = perimeter(5, 6)
+print(result)
+```
+##### Вывод: 22
 
 
 ### Модуль `triangle.py`
@@ -157,12 +163,13 @@ print(result)
 
 **Пример использования:**
 
-from triangle import area  
-  
-result = area(5, 2)  
-print(result)  
+```python
+from triangle import area
 
----> 5
+result = area(5, 2)
+print(result)
+```
+#####  Вывод: 5
 
 #### Функция `perimeter(r)`
 
@@ -178,15 +185,16 @@ print(result)
 
 **Пример использования:**
 
-from triangle import perimeter  
+```python
+from triangle import perimeter
 
-result = perimeter(5, 4 ,3)  
-print(result)  
+result = perimeter(5, 4, 3)
+print(result)
+```
+#####  Вывод: 12
 
----> 12
 
-
-## История изменений
+# История изменений
 
 - `ba7d4fd` - Исправлено вычисление периметра в rectangle.py
 - `b52d087` - Добавлены вычисления для треугольника
