@@ -115,7 +115,7 @@ Call example:
 # Tests
 
 | TEST | Testing situation | Requirements | Case | Expected result | Actual result | Date | Verdict |
-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-|
 | TEST_CIRCLE_AREA_1 | return data type| return double | circle_area(4) | double | double | 14.11.24 | OK |
 | TEST_CIRCLE_AREA_2 | return result | return half the area of circle |circle_area(5) | 12.5pi | 25pi | 14.11.24 | Failed(WA)|
 | TEST_CIRCLE_AREA_3 | many arguments | throw exception | circle_area(5,52,7.232,13) | exception | exception | 14.11.24 | OK |
