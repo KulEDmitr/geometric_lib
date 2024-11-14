@@ -97,3 +97,141 @@
 - [`b265fd8`](https://github.com/KulEDmitr/geometric_lib/commit/b265fd8060ebe281e102b0ff0265b9270e61b8f6) (origin/new_features_466499, geometcirc_lib) Добавлены изменения в вычисление периметра
 - [`4e63f2b`](https://github.com/KulEDmitr/geometric_lib/commit/4e63f2b4da69b4d118714c7514203a487d5a46b5) Добавлен еще один файл
 - [`05d3f79`](https://github.com/KulEDmitr/geometric_lib/commit/05d3f793a40a9e14f1aea910ec08ce09a124ecba) Добавлен новый файл
+
+# `Tests`
+
+- [`triangle_tests`](../tests/triangle_tests.py)
+
+> function: test_triangle_area_natural_numbers(self)
+> 
+> >tests if program calculates area of a triangle correctly if input data is natural numbers
+> 
+> function: test_triangle_area_negative_numbers(self)
+> 
+> >tests if program for calculating the area of a triangle correctly displays an error if the input data is negative numbers
+> 
+> function: test_triangle_area_chars(self)
+> 
+> >tests if program for calculating the area of a triangle correctly displays an error if the input data is chars
+>
+> function: test_triangle_area_big_numbers(self)
+> 
+> >tests if program calculates perimeter of a triangle correctly if input data is big numbers
+>
+> function: test_triangle_perimeter_natural_numbers(self)
+> 
+> >tests if program calculates perimeter of a triangle correctly if input data is natural numbers
+>
+> function: test_triangle_perimeter_negative_number(self)
+>
+> >tests if program for calculating the perimeter of a triangle correctly displays an error if the input data is negative numbers
+>
+> function: test_triangle_perimeter_chars(self)
+> 
+> >tests if program for calculating the perimeter of a triangle correctly displays an error if the input data is chars
+>
+> function: test_triangle_perimeter_big_numbers(self)
+> 
+> >tests if program calculates perimeter of a triangle correctly if input data is big numbers
+
+- [`circle_tests`](../tests/circle_tests.py)
+
+> function: test_circle_area_natural_numbers(self)
+> 
+> >tests if program calculates area of a circle correctly if input data is natural numbers
+> 
+> function: test_circle_area_negative_numbers(self)
+> 
+> >tests if program for calculating the area of a circle correctly displays an error if the input data is negative numbers
+> 
+> function: test_circle_area_chars(self)
+> 
+> >tests if program for calculating the area of a circle correctly displays an error if the input data is chars
+>
+> function: test_circle_area_big_numbers(self)
+> 
+> >tests if program calculates perimeter of a circle correctly if input data is big numbers
+>
+> function: test_triangle_circle_natural_numbers(self)
+> 
+> >tests if program calculates perimeter of a circle correctly if input data is natural numbers
+>
+> function: test_circle_perimeter_negative_number(self)
+>
+> >tests if program for calculating the perimeter of a circle correctly displays an error if the input data is negative numbers
+>
+> function: test_circle_perimeter_chars(self)
+> 
+> >tests if program for calculating the perimeter of a circle correctly displays an error if the input data is chars
+>
+> function: test_circle_perimeter_big_numbers(self)
+> 
+> >tests if program calculates perimeter of a circle correctly if input data is big numbers
+
+- [`square_tests`](../tests/square_tests.py)
+
+> function: test_square_area_natural_numbers(self)
+> 
+> >tests if program calculates area of a square correctly if input data is natural numbers
+> 
+> function: test_square_area_negative_numbers(self)
+> 
+> >tests if program for calculating the area of a square correctly displays an error if the input data is negative numbers
+> 
+> function: test_square_area_chars(self)
+> 
+> >tests if program for calculating the area of a square correctly displays an error if the input data is chars
+>
+> function: test_square_area_big_numbers(self)
+> 
+> >tests if program calculates area of a square correctly if input data is big numbers
+>
+> function: test_square_perimeter_natural_numbers(self)
+> 
+> >tests if program calculates perimeter of a square correctly if input data is natural numbers
+>
+> function: test_square_perimeter_negative_number(self)
+>
+> >tests if program for calculating the perimeter of a square correctly displays an error if the input data is negative numbers
+>
+> function: test_square_perimeter_chars(self)
+> 
+> >tests if program for calculating the perimeter of a square correctly displays an error if the input data is chars
+>
+> function: test_square_perimeter_big_numbers(self)
+> 
+> >tests if program calculates perimeter of a square correctly if input data is big numbers
+
+- [`rectangle_tests`](../tests/rectangle_tests.py)
+
+> function: test_rectangle_area_natural_numbers(self)
+> 
+> >tests if program calculates area of a rectangle correctly if input data is natural numbers
+> 
+> function: test_rectangle_area_negative_numbers(self)
+> 
+> >tests if program for calculating the area of a rectangle correctly displays an error if the input data is negative numbers
+> 
+> function: test_rectangle_area_chars(self)
+> 
+> >tests if program for calculating the area of a rectangle correctly displays an error if the input data is chars
+>
+> function: test_rectangle_area_big_numbers(self)
+> 
+> >tests if program calculates area of a rectangle correctly if input data is big numbers
+>
+> function: test_rectangle_perimeter_natural_numbers(self)
+> 
+> >tests if program calculates perimeter of a rectangle correctly if input data is natural numbers
+>
+> function: test_rectangle_perimeter_negative_number(self)
+>
+> >tests if program for calculating the perimeter of a rectangle correctly displays an error if the input data is negative numbers
+>
+> function: test_rectangle_perimeter_chars(self)
+> 
+> >tests if program for calculating the perimeter of a rectangle correctly displays an error if the input data is chars
+>
+> function: test_rectangle_perimeter_big_numbers(self)
+> 
+> >tests if program calculates perimeter of a rectangle correctly if input data is big numbers
