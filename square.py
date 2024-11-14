@@ -10,7 +10,9 @@ def area(a):
         
         Пример:
             area(5) вернет 25
-    ''' 
+    '''
+    if a <= 0:
+        raise ValueError("Side cannot be negative")
     return a * a
 
 
@@ -27,4 +29,6 @@ def perimeter(a):
         Пример:
             perimeter(5) вернет 20
     '''
+    if a <= 0:
+        raise ValueError("Side cannot be negative")
     return 4 * a

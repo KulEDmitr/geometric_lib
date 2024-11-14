@@ -11,7 +11,9 @@ def area(a, h):
         
         Пример:
             area(5, 4) вернет 10
-    ''' 
+    '''
+    if a <= 0 or h <= 0:
+        raise ValueError("Height or side cannot be negative")
     return a * h / 2 
 
 def perimeter(a, b, c):
@@ -29,4 +31,8 @@ def perimeter(a, b, c):
         Пример:
             perimeter(2, 3, 4) вернет 9
     '''
+    if a <= 0 or b <= 0 or c <= 0:
+        raise ValueError("Sides must be positive values")
+    if a + b <= c or a + c <= b or b + c <= a:
+        raise ValueError("Invalid side lengths for a triangle")
     return a + b + c

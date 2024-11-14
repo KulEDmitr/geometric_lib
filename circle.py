@@ -12,7 +12,9 @@ def area(r):
         
         Пример:
             area(3) вернет 28.27
-    ''' 
+    '''
+    if r <= 0:
+        raise ValueError("Radius cannot be negative")
     return math.pi * r * r
 
 def perimeter(r):
@@ -28,4 +30,6 @@ def perimeter(r):
         Пример:
             perimeter(3) вернет 18.85
     '''
+    if r <= 0:
+        raise ValueError("Radius cannot be negative")
     return 2 * math.pi * r
