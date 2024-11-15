@@ -6,6 +6,9 @@ def area(r):
     Принимает число r (радиус круга), возвращает площадь круга
     Площадь круга вычисляется по формуле πr^2
     '''
+    # Проверка на корректность ввода
+    if not isinstance(r, (int, float)) or r < 0 or r > 10**10:
+        return "Incorrect input"
     return math.pi * r * r
 
     '''
@@ -18,6 +21,9 @@ def perimeter(r):
     Принимает число r (радиус круга), возвращает периметр круга'
     Периметр круга по формуле 2πr
     '''
+    # Проверка на корректность ввода
+    if not isinstance(r, (int, float)) or r < 0 or r > 10**10:
+        return "Incorrect input"
     return 2 * math.pi * r
 
     '''
