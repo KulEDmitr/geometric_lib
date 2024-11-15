@@ -2,7 +2,7 @@ import unittest
 import triangle
 
 class TriangleTestCase(unittest.TestCase):
-    # Проверяет, когда стороны равны 0
+    # Проверяет, когда стороны положительные
     def test_area_positive(self):
         self.assertEqual(triangle.area(7, 8), 28)
 
@@ -52,11 +52,11 @@ class TriangleTestCase(unittest.TestCase):
 
     # Проверяет периметр квадрата, когда сторона является символом
     def test_area_string_input(self):
-        self.assertEqual(triangle.area(4, "string"), "Incorrect input")
+        self.assertEqual(triangle.area(4, "abcdef"), "Incorrect input")
 
     # Проверяет периметр квадрата, когда сторона является символом
     def test_perimeter_string_input(self):
-        self.assertEqual(triangle.perimeter(4, "string", 5), "Incorrect input")
+        self.assertEqual(triangle.perimeter(4, "abcdef", 5), "Incorrect input")
 
     # Проверяет, когда сторона слишком большим числом
     def test_area_large_integer(self):

@@ -52,11 +52,11 @@ class SquareTestCase(unittest.TestCase):
 
     # Проверяет площадь квадрата, когда сторона является строкой
     def test_area_string_input(self):
-        self.assertEqual(square.area("string"), "Incorrect input")
+        self.assertEqual(square.area("abcdef"), "Incorrect input")
 
     # Проверяет периметр квадрата, когда сторона является строкой
     def test_perimeter_string_input(self):
-        self.assertEqual(square.perimeter("string"), "Incorrect input")
+        self.assertEqual(square.perimeter("abcdef"), "Incorrect input")
 
     # Проверяет, когда сторона слишком большим числом
     def test_area_large_integer(self):
