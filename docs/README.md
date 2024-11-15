@@ -7,6 +7,8 @@
 - [rectangle.py](#rectanglepy) -- работа с прямоугольником
 - [triangle.py](#trianglepy) -- работа с трекгольником
 - [cquare.py](#circlepy) -- раабота с квадратом
+- [Math formulas](#math-formulas)
+- [История Commits](#история-изменения-проекта)
 
 ## circle.py
 Модуль представляет возможности работы с кругом -- нахождение периметра и площади
@@ -135,3 +137,11 @@
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
+
+## История изменения проекта
+
+- commit dec6e2f970fb7c9463b625e0105430c98977f1af (origin/new_features_280209)
+- commit de6f2c8aa79ef8d223abc553b6a9c172a4938475
+- commit 68f1f40f6682adc4f05c449e94f96d4ff01a2669
+- commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, main)
+- commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
