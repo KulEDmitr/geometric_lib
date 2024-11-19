@@ -3,7 +3,7 @@ name: Run Unit Tests
 on:
   push:
     branches:
-      - new_features_467511  
+      - main
 
 jobs:
   test-ubuntu:
@@ -13,17 +13,18 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Python (или другой язык, который вы используете)
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.10'  
+        python-version: '3.10'  # Укажите нужную версию Python
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt  
+        pip install -r requirements.txt
+
     - name: Run unit tests
       run: |
-        pytest  # Укажите команду для запуска ваших тестов
+        python -m unittest discover -s . -p "test_*.py"
 
   test-windows:
     runs-on: windows-latest
@@ -32,15 +33,15 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Python (или другой язык, который вы используете)
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.10' 
+        python-version: '3.10'  # Укажите нужную версию Python
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt  # Укажите команду для установки зависимостей
+        pip install -r requirements.txt
 
     - name: Run unit tests
       run: |
-        pytest  # Укажите команду для запуска ваших тестов
+        python -m unittest discover -s . -p "test_*.py"
