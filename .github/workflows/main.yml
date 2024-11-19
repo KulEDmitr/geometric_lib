@@ -3,9 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
-      - ci_408111
-
+      - [ci_408111, master]
 jobs:
   ubuntu:
     name: Ubuntu tests
