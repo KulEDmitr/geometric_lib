@@ -9,7 +9,7 @@ def perimeter(r):
 
 class TestCircleFunctions(unittest.TestCase):
 
-    def test_area(self):
+    def test_area(self): 
         self.assertAlmostEqual(area(1), math.pi)
         self.assertAlmostEqual(area(0), 0)
         self.assertAlmostEqual(area(2), 4 * math.pi)
