@@ -14,8 +14,8 @@ def area(r: float) -> float:
          s = area(2)  # В s запишется 12.56
     """
 
-    # if r < 0:
-    #     raise ValueError("Radius cannot be negative")
+    if r < 0:
+        raise ValueError("Radius cannot be negative")
     return math.pi * r * r
 
 
@@ -32,6 +32,6 @@ def perimeter(r):
         p = perimeter(1)  # В p запишется 6.28
     """
 
-    # if r < 0:
-    #     raise ValueError("Radius cannot be negative")
+    if r < 0:
+        raise ValueError("Radius cannot be negative")
     return 2 * math.pi * r
