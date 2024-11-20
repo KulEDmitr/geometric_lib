@@ -15,6 +15,9 @@ def area(r):
         area(2) --> 4pi
     """
 
+    if r <= 0:
+        raise ValueError("radius can't be negative or equal to zero")
+
     return math.pi * r * r
 
 
@@ -32,5 +35,7 @@ def perimeter(r):
         perimeter(2) --> 4pi
     """
 
-    return 2 * math.pi * r
+    if r <= 0:
+        raise ValueError("radius can't be  or equal to zero")
 
+    return 2 * math.pi * r

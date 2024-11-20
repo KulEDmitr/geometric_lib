@@ -13,6 +13,11 @@ def area(a, b):
         area(1, 2) --> 2
     """
 
+    if a <= 0:
+        raise ValueError("length can't be negative or equal to zero")
+    elif b <= 0:
+        raise ValueError("width can't be negative or equal to zero")
+
     return a * b
 
 
@@ -30,5 +35,10 @@ def perimeter(a, b):
         perimeter(3, 5) --> 16
         perimeter(1, 2) --> 6
     """
+
+    if a <= 0:
+        raise ValueError("length can't be negative or equal to zero")
+    elif b <= 0:
+        raise ValueError("width can't be negative or equal to zero")
 
     return (a + b)*2

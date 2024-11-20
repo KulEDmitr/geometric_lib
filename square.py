@@ -13,6 +13,9 @@ def area(a):
         area(2) --> 4
     """
 
+    if a <= 0:
+        raise ValueError("length can't be negative or equal to zero")
+
     return a * a
 
 
@@ -26,7 +29,11 @@ def perimeter(a):
         4 * a (int): периметр квадрата
 
     Примеры:
-        perimeter(5) --> 20
+        perimeter(3) --> 12
         perimeter(2) --> 8
     """
+
+    if a <= 0:
+        raise ValueError("length can't be negative or equal to zero")
+
     return 4 * a
