@@ -1,0 +1,30 @@
+name: Run unittest
+
+on:
+  push:
+    branches:
+      - ci_408111
+      - master
+
+jobs:
+  test:
+    name: Run tests on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Test with unittest
+        run: |
+          python -m unittest discover -s tests
