@@ -176,3 +176,6 @@ The perimeter of triangle with sides 5, 4, 3 is 12
     - 81eaeb5 rectangles added
     - 35fb94b triangle added
     - e84a303 documentation added
+# Requirements
+Все методы на вход принимают только положительные целые числа и возвращают положительное число: периметр или площадь. Если подаются другие числа или не числа должны выбрасываться соответствующие ошибки.
+
