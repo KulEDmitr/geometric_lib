@@ -1,0 +1,29 @@
+[33mcommit 8d8aed3b0a5f8d8af629db6cb236565da14ab1ae[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Egor Zolotarev <egor.zolotarev2408@mail.ru>
+Date:   Tue Oct 15 01:18:23 2024 +0300
+
+    Лаба 2
+
+[33mcommit bbcfb0db0c6c92a5df78a8bb46dc96fed06369d9[m
+Author: Egor Zolotarev <egor.zolotarev2408@mail.ru>
+Date:   Tue Oct 15 00:33:04 2024 +0300
+
+    создан triangle.py, rectangle.py изменен
+
+[33mcommit d0d4fa4cc5beff9df1f981543a2d58e4a85db9a1[m
+Author: Egor Zolotarev <egor.zolotarev2408@mail.ru>
+Date:   Tue Oct 15 00:30:36 2024 +0300
+
+    создан rectangle.py
+
+[33mcommit d078c8d9ee6155f3cb0e577d28d337b791de28e2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+[33mcommit 8ba9aeb3cea847b63a91ac378a2a6db758682460[m
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
