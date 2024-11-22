@@ -67,3 +67,7 @@ Message: ```fix test_area_string in circle.py```
 14. ```commit 51fb1bcb7982dc95fcfb2490f32f1f3394095643``` ```Thu Oct 31 21:15:21 2024 +0300```
 Message: ```updated README.md; add TEST_REPORT.md```
 ***В README добавлена заметка про тесты. Добавлен отчёт о тестах. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/51fb1bcb7982dc95fcfb2490f32f1f3394095643)***
+
+15. ```commit ea307f912c38a52108149da4473c4ed487cf0a1e``` ```Fri Nov 22 16:39:03 2024 +0300```
+Message: ```added requirements, additionally fixed tests and TEST_REPORT.md```
+***Для проекта обозначены чёткие требования, теперь есть тесты, которые эти требования не проходят. Вернее, есть тесты, которые не проходит библиотека, следовательно, есть требования, которым программы не подходят. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/ea307f912c38a52108149da4473c4ed487cf0a1e)***
