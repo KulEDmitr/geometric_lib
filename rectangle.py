@@ -54,8 +54,8 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(res, 5)
 
     def test_area_string(self):
-        res = area(10, 'abc')
-        self.assertEqual(res, 'abcabcabcabcabcabcabcabcabcabc')
+        with self.assertRaises(TypeError):
+            area(10, 'abc')
 
         
     

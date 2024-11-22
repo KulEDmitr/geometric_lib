@@ -83,6 +83,6 @@ class SquareTestCase(unittest.TestCase):
         res = perimeter(0.5, 0.5, 0.5)
         self.assertEqual(res, 1.5)
 
-    def test_perimeter_string(self):
-        res = perimeter('abc', 'abc', 'abc')
-        self.assertEqual(res, 'abcabcabc')
+    def test_area_string(self):
+        with self.assertRaises(TypeError):
+            perimeter('abc', 'abc', 'abc')
