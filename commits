@@ -1,0 +1,75 @@
+full repository
+* 1d67a7980730290f6f88eb9eb5082f6258bee988 (HEAD -> new_features_409445, origin/new_features_409445) Исправление ошибок
+* b3d8e7506d630f8fd74d6cd45a0c6aeb9519ddce Обновление геометрии
+* 1fb859bd99cea022c928e23bd6afdd3fa3dfb3d6 Обновление геометрии
+| * fce9b84ed387a69e3120a38b1cac1b2588b43de4 (refs/stash) On main: !!GitHub_Desktop<main>
+|/|
+| * 6cbca88eb3ada3b85541a211fdfd40e2e94e3852 index on main: d078c8d L-03: Docs added
+|/
+* d078c8d9ee6155f3cb0e577d28d337b791de28e2 (upstream/main, upstream/HEAD, origin/main, origin/HEAD, main) L-03: Docs added
+* 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
+
+only new branch
+* 1d67a7980730290f6f88eb9eb5082f6258bee988 (HEAD -> new_features_409445, origin/new_features_409445) Исправление ошибок
+* b3d8e7506d630f8fd74d6cd45a0c6aeb9519ddce Обновление геометрии
+* 1fb859bd99cea022c928e23bd6afdd3fa3dfb3d6 Обновление геометрии
+
+changes
+commit 1d67a7980730290f6f88eb9eb5082f6258bee988 (HEAD -> new_features_409445, origin/new_features_409445)
+Author: Tolia <seregarash@yandex.ru>
+Date:   Thu Sep 7 10:38:26 2023 +0300
+
+    Исправление ошибок
+
+    Исправлена ошибка в функции вычисления периметра фигуры Прямоугольник
+
+diff --git a/rectangle.py b/rectangle.py
+index 6b7ed43..c5b2252 100644
+--- a/rectangle.py
++++ b/rectangle.py
+@@ -2,4 +2,4 @@ def area(a, b):
+     return a * b
+
+ def perimeter(a, b):
+-    return a + b
++    return (a + b) * 2
+
+commit b3d8e7506d630f8fd74d6cd45a0c6aeb9519ddce
+Author: Tolia <seregarash@yandex.ru>
+Date:   Thu Sep 7 10:29:44 2023 +0300
+
+    Обновление геометрии
+
+    Добавил файл, с вычислениями для фигуры Треугольник
+
+diff --git a/triangle.py b/triangle.py
+new file mode 100644
+index 0000000..8871838
+--- /dev/null
++++ b/triangle.py
+@@ -0,0 +1,5 @@
++def area(a, h):
++    return a * h / 2
++
++def perimeter(a, b, c):
++    return a + b + c
+
+commit 1fb859bd99cea022c928e23bd6afdd3fa3dfb3d6
+Author: Tolia <seregarash@yandex.ru>
+Date:   Thu Sep 7 10:26:56 2023 +0300
+
+    Обновление геометрии
+
+    Добавил файл, с вычислениями для фигуры Прямоугольник
+
+diff --git a/rectangle.py b/rectangle.py
+new file mode 100644
+index 0000000..6b7ed43
+--- /dev/null
++++ b/rectangle.py
+@@ -0,0 +1,5 @@
++def area(a, b):
++    return a * b
++
++def perimeter(a, b):
++    return a + b
