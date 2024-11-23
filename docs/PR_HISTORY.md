@@ -71,3 +71,7 @@ Message: ```updated README.md; add TEST_REPORT.md```
 15. ```commit ea307f912c38a52108149da4473c4ed487cf0a1e``` ```Fri Nov 22 16:39:03 2024 +0300```
 Message: ```added requirements, additionally fixed tests and TEST_REPORT.md```
 ***Для проекта обозначены чёткие требования, теперь есть тесты, которые эти требования не проходят. Вернее, есть тесты, которые не проходит библиотека, следовательно, есть требования, которым программы не подходят. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/ea307f912c38a52108149da4473c4ed487cf0a1e)***
+
+16. ```commit a77e9fbcc608926778949c517f49c8c47d62490e``` ```Sat Nov 23 17:18:53 2024 +0300```
+Message: ```added main.yml workflow file for unit-testing```
+***Создал директорию .github\workflows, куда добавил файл main.yml . При каждом пуше он должен запускать unit-тесты. [Ссылка](https://github.com/KulEDmitr/geometric_lib/commit/a77e9fbcc608926778949c517f49c8c47d62490e)***
