@@ -1,0 +1,29 @@
+name: Unit-testing
+
+on:
+  push:
+
+jobs:
+  test-on-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Run tests on Ubuntu
+        run: |
+          python -m unittest circle.py
+          python -m unittest rectangle.py
+          python -m unittest square.py
+          python -m unittest triangle.py
+
+  test-on-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Run tests on Windows
+        run: |
+          python -m unittest circle.py
+          python -m unittest rectangle.py
+          python -m unittest square.py
+          python -m unittest triangle.py
