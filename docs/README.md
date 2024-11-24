@@ -180,6 +180,7 @@ from triangle import perimeter
 print(perimeter(3, 4, 5))  # Output: 12
 ```
 
+ > Changes 
  > 06.11.2024 Add tests for functions
 
 
@@ -193,7 +194,7 @@ print(perimeter(3, 4, 5))  # Output: 12
     - <g>cafb494 </g> [add files with functions area calculation](https://github.com/KulEDmitr/geometric_lib/commit/cafb494b84e0804b2d138608396301afbfd10950)
     - <g>db6c273</g>  [adding comments in scripts](https://github.com/KulEDmitr/geometric_lib/commit/db6c273a40ccb6d4742f156f2aa7d7458bb5728b)
     - <g>b841306 </g> [change README](https://github.com/KulEDmitr/geometric_lib/commit/b84130616b1cf46f3894aacd21a0faf7130bd970)
-    - <g>b97a920 </g> [add tests]()
+    - <g>b97a920 </g> [add tests](https://github.com/KulEDmitr/geometric_lib/commit/b97a920a337a97721a0fb71abc988bfe0b68db40)
 
 
 <style>
