@@ -1,0 +1,1 @@
+add_library(lib circle.cpp rectangle.cpp square.cpp triangle.cpp)

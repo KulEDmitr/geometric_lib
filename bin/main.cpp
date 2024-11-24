@@ -2,7 +2,7 @@
 #include "../tests/test_circle.cpp"
 #include "../tests/test_rectangle.cpp"
 #include "../tests/test_square.cpp"
-#include "../tests/test_triangle.cpp"
+//#include "../tests/test_triangle.cpp"
 
 int main(){
     std::cout<<"----------------------------------------\n";
@@ -12,8 +12,8 @@ int main(){
     check_rectangle_perimeter();
     check_square_area();
     check_square_perimeter();
-    check_triangle_area();
-    check_triangle_perimeter();
+    //check_triangle_area();
+    //check_triangle_perimeter();
     std::cout<<"------------------------------------------\n";
 
     return 0;

@@ -19,9 +19,9 @@ This library finds square and perimeter of figures
 ### area(r)
 Takes a number r - the radius of the circle, returns the area of ​​the circle
 
-Call example:
-    area(4)
-    Input data: 4
+Call example:<br>
+    area(4)<br>
+    Input data: 4<br>
     Output data: 50.26548245743669
 ### perimetr(r)
 Takes a number r - the radius of the circle, returns the perimeter of the circle
@@ -110,7 +110,7 @@ Call example:
 7. triangle_area: input two arguments(side, height), return area of triangle in float type
 8. triangle_perimeter: input three arguments(sides), return perimeter of triangle  in double type
 9. throw exceptions if not enough or too many arguments
-
+10. don't handle data type overflows and negative numbers
 
 # Tests
 

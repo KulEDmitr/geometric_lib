@@ -1,4 +1,4 @@
-double triangle_area(double a, double h){ 
+int triangle_area(int a, int h){ 
     /*
     Принимает число a - сторону треугольника, на котоорую опущена высота h, возвращает площадь треугольника
     
@@ -9,10 +9,11 @@ double triangle_area(double a, double h){
     */
     return a * h / 2 ;
 }
+
 float triangle_area(float a, float h){ 
     throw 1;
-    //return a*h/2;
 }
+
 template<typename T,typename... Args>
 T triangle_area(T first, Args... argc){
     throw 1;
@@ -29,6 +30,7 @@ int triangle_perimeter(int a, int b, int c){
     */
     return a + b + c;
 }
+
 template<typename T,typename... Args>
 T triangle_perimeter(T first, Args... argc){
     throw 1;

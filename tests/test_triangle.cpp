@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <typeinfo>
+#include "gtest/gtest.h"
 
 void check_triangle_area(){
     try{
@@ -75,4 +76,22 @@ void check_triangle_perimeter(){
     }
 
     return;
+}
+
+TEST(TriangleTestSuite, Area1){
+    ASSERT_DOUBLE_EQ(triangle_area(1.5f,2.3f), 1.725);
+    
+}
+
+TEST(TriangleTestSuite, Area2){
+    ASSERT_ANY_THROW(triangle_area(5.f));
+}
+
+TEST(TriangleTestSuite, Perimeter1){
+    ASSERT_EQ(triangle_perimeter(1,4,5), 10);
+    ASSERT_ANY_THROW(triangle_perimeter(999,1000.f,993));
+}
+
+TEST(TriangleTestSuite, Perimeter2){
+    ASSERT_DOUBLE_EQ(triangle_perimeter(5,5,5), 15.);
 }
