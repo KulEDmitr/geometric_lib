@@ -4,7 +4,7 @@ import unittest
 
 class CircleTestCase(unittest.TestCase):
     def test_area_zero(self):
-        res = circle.area(0)
+        res = circle.area(0
         self.assertEqual(res, 0)
 
     def test_area_negative(self):
