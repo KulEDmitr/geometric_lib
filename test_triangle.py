@@ -35,11 +35,11 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_area_big_value(self):
         res = triangle.area(10**10, 10**5)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 500000000000000.0)
 
     def test_area_small_velue(self):
         res = triangle.area(10 ** - 10, 10 ** 5)
-        self.assertEqual(res, 0)
+        self.assertEqual(res,  5e-06)
 
     def test_perimeter_zero_int(self):
         res = triangle.perimeter(10, 0, 20)

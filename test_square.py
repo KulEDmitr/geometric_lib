@@ -21,11 +21,11 @@ class SquareTestCase(unittest.TestCase):
 
     def test_area_big_value(self):
         res = square.area(10**10)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 100000000000000000000)
 
     def test_area_small_velue(self):
         res = square.area(10 ** - 10)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 1.0000000000000001e-20)
 
     def test_perimeter_zero(self):
         res = square.perimeter(0)

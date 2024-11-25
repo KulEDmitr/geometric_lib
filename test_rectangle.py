@@ -27,11 +27,11 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_area_big_value(self):
         res = rectangle.area(10**10, 10**5)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 1000000000000000 )
 
     def test_area_small_velue(self):
         res = rectangle.area(10 ** - 10, 10 ** 5)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 1e-05)
 
     def test_perimeter_zero(self):
         res = rectangle.perimeter(10, 0)

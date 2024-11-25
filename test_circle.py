@@ -21,11 +21,11 @@ class CircleTestCase(unittest.TestCase):
 
     def test_area_big_value(self):
         res = circle.area(10**10)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 3.1415926535897933e+20 )
 
     def test_area_small_velue(self):
         res = circle.area(10 ** - 10)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 3.1415926535897936e-20)
 
     def test_perimeter_zero(self):
         res = circle.perimeter(0)
