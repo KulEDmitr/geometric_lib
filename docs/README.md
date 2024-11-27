@@ -254,4 +254,6 @@ OK
 - [`26d75c6d`](https://github.com/BeganovR/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460): Add new file rectangle.py
 - [`26d75c6d`](https://github.com/BeganovR/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460): Circle and square added
 
+- [`6e0a2a4f`](https://github.com/BeganovR/geometric_lib/commit/6e0a2a4fdde486236fa7694e5acb5e9c2b218fc5): Add unittests
+
 
