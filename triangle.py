@@ -1,4 +1,4 @@
-def area(a, b): 
+def area(a, h): 
     '''
     Вычисляет площадь прямоугольника с длиной стороны a и шириной b.
 
@@ -13,9 +13,9 @@ def area(a, b):
     result = area(7, 8)
     print(result)  # Вывод: 56
     '''
-    return a * b 
+    return a * h / 2 
 
-def perimeter(a, b): 
+def perimeter(a, b, c): 
     '''
     Вычисляет периметр прямоугольника с длиной стороны a и шириной b.
 
@@ -30,4 +30,4 @@ def perimeter(a, b):
     result = perimeter(7, 8)
     print(result)  # Вывод: 30
     '''
-    return 2 * (a + b)
+    return a + b + c
