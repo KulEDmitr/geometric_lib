@@ -22,11 +22,11 @@ class SquareTestCase(unittest.TestCase):
     # Проверяет, когда сторона равна 10
     def test_4_mul(self):
         result = perimeter_square(10)
-        self.assertEqual(result, 55)
+        self.assertEqual(result, 40)
     # Проверяет, когда сторона равна 17,25
     def test_5_mul(self):
         result = perimeter_square(17.25)
-        self.assertEqual(result, 56)
+        self.assertEqual(result, 69)
 
     
 

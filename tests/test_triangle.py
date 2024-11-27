@@ -14,7 +14,7 @@ class TriangleTestCase(unittest.TestCase):
     # Проверяет, когда стороны равны 7.5 3.5
     def test_2_mul(self):
         result = area_triangle(7.5, 3.5)
-        self.assertEqual(result, 4)
+        self.assertEqual(result, 13.125)
     # Проверяет, когда стороны равны 0 0 0
     def test_3_mul(self):
         result = perimeter_triangle(0, 0,0)

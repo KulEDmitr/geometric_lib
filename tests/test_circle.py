@@ -18,7 +18,7 @@ class CircleTestCase(unittest.TestCase):
      # Проверяет, когда радиус равен 5
     def test_3_mul(self):
         result = perimeter_circle(5)
-        self.assertEqual(result, 15)
+        self.assertEqual(result, 31.41592653589793 )
      # Проверяет, когда радиус равен 10
     def test_4_mul(self):
         result = perimeter_circle(10)
