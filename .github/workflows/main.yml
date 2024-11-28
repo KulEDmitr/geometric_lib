@@ -10,6 +10,7 @@ jobs:
   test:
     runs-on: [ubuntu-latest, windows-latest]
     
-    - name: test
+    steps:
+      - name: test
         uses: |
           ./build/tests/tests
