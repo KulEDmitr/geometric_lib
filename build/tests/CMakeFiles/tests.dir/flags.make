@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/littleking08/ИСРПО/geometric_lib -isystem /home/littleking08/ИСРПО/geometric_lib/build/_deps/googletest-src/googletest/include -isystem /home/littleking08/ИСРПО/geometric_lib/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -g -std=gnu++20
+CXX_FLAGS = -std=gnu++20
 
