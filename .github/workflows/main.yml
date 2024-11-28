@@ -19,4 +19,4 @@ jobs:
           ref: new_features_466737
 
       - name: Execute the file
-        run: gcc ./bin/main
+        run: ./bin/main
