@@ -12,7 +12,7 @@ jobs:
     
     steps:
       - name: Make file executable
-        run: chmod +x ./build/tests/tests.exe
+        run: chmod +x ./build/tests/tests
 
       - name: Execute the file
-        run: ./build/tests/tests.exe
+        run: ./build/tests/tests
