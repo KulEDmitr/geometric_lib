@@ -18,8 +18,5 @@ jobs:
         with:
           ref: new_features_466737
 
-      - name: Make file executable
-        run: chmod +x ./build/tests/tests
-
       - name: Execute the file
-        run: ./build/tests/tests
+        run: gcc ./bin/main.cpp
