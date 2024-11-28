@@ -13,13 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          ref: new_features_466737
-
       - name: Make file executable
-        run: chmod +x ./bin/main.cpp
+        run: chmod +x ./bin/main
 
       - name: Execute the file
-        run: gcc ./bin/main.cpp
+        run: ./bin/main
