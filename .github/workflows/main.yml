@@ -18,5 +18,8 @@ jobs:
         with:
           ref: new_features_466737
 
+      - name: Make file executable
+        run: chmod +x ./bin/main.cpp
+
       - name: Execute the file
-        run: ./bin/main.cpp
+        run: gcc ./bin/main.cpp
