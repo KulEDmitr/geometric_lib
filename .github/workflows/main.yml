@@ -1,0 +1,12 @@
+name: Run_tests
+on: push
+jobs:
+  lint:
+    runs-on: [ubuntu-latest, windows-latest]
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: test
+        uses: build/tests/tests
