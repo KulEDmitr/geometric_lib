@@ -1,27 +1,50 @@
-name: Run_tests
+name: Laba5
 on: push
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, windows-latest]
+    
+    runs-on: ${{ matrix.os }}
     
     steps:
+      - name: Install dependencies
+        if: matrix.os == 'ubuntu-24.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential g++ libstdc++6
+        
+      - name: Install dependencies on Windows
+        if: matrix.os == 'windows-latest'
+        run: choco install msys2 -y
+
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           ref: new_features_466737
   tests:
-    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, windows-latest]
+    
+    runs-on: ${{ matrix.os }}
     
     steps:
+      - name: Install dependencies
+        if: matrix.os == 'ubuntu-24.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential g++ libstdc++6
+        
+      - name: Install dependencies on Windows
+        if: matrix.os == 'windows-latest'
+        run: choco install msys2 -y
+
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           ref: new_features_466737
-    
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential
 
       - name: Make file executable
         run: chmod +x ./build/tests/tests
