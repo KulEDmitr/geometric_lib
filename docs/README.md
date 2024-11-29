@@ -20,6 +20,8 @@
 ## Описание функций
 
 ### Прямоугольник
+[Сслыка](https://github.com/CalrusMagnusen/geometric_lib/blob/new_features_466905/rectangle.py)
+
 - `area(a, b)`: Вычисляет площадь прямоугольника.
   - Пример вызова: `area(5, 3)` вернет `15`.
 
@@ -27,6 +29,7 @@
   - Пример вызова: `perimeter(5, 3)` вернет `16`.
 
 ### Треугольник
+[Ссылка](https://github.com/CalrusMagnusen/geometric_lib/blob/new_features_466905/triangle.py)
 - `area(a, h)`: Вычисляет площадь треугольника.
   - Пример вызова: `area(5, 4)` вернет `10.0`.
 
@@ -34,6 +37,8 @@
   - Пример вызова: `perimeter(3, 4, 5)` вернет `12`.
 
 ### Круг
+[Ссылка](https://github.com/CalrusMagnusen/geometric_lib/blob/new_features_466905/circle.py)
+
 - `area(r)`: Вычисляет площадь круга.
   - Пример вызова: `area(3)` вернет `28.27`.
 
@@ -41,6 +46,8 @@
   - Пример вызова: `perimeter(3)` вернет `18.85`.
 
 ### Квадрат
+[Ссылка](https://github.com/CalrusMagnusen/geometric_lib/blob/new_features_466905/square.py)
+
 - `area(a)`: Вычисляет площадь квадрата.
   - Пример вызова: `area(5)` вернет `25`.
 
