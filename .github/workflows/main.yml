@@ -43,7 +43,7 @@ jobs:
       - name: windows
         if: matrix.os == 'windows-latest'
         run: |
-          ./build/tests/tests.exe
+          ./build/tests/tests
 
 
         
