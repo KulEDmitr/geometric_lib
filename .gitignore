@@ -1,0 +1,23 @@
+# Default ignored files
+
+# Игнорирование каталога shelf
+/shelf/
+
+# Игнорирование файла workspace.xml (конфигурация IDE)
+workspace.xml
+
+# Игнорирование HTTP запросов редактора
+/httpRequests/
+
+# Игнорирование локальных файлов для источников данных
+/dataSources/
+/dataSources.local.xml
+
+# Игнорирование каталога конфигурации IDE
+.idea/
+
+# Игнорирование кэшированных файлов Python
+__pycache__/
+
+# Игнорирование файлов системы macOS
+.DS_Store
