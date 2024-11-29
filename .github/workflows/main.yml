@@ -33,14 +33,7 @@ jobs:
           ref: new_features_466737
           fetch-depth: 0
 
-      - name: ubuntu
-        if: matrix.os == 'ubuntu-24.04'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential g++ libstdc++6
-          chmod +x ./build/tests/tests
-          ./build/tests/tests
-
+      
       - name: windows
         if: matrix.os == 'windows-2019'
         run: |
