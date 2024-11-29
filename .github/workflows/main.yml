@@ -21,7 +21,7 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-24.04, windows-latest]
+        os: [ubuntu-24.04, windows-2022]
     
     runs-on: ${{ matrix.os }}
     
@@ -41,6 +41,6 @@ jobs:
           ./build/tests/tests
 
       - name: windows
-        if: matrix.os == 'windows-latest'
+        if: matrix.os == 'windows-2022'
         run: |
           & '.\\build\\tests\\tests.exe'
