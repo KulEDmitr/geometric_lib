@@ -1,4 +1,4 @@
-//#include <iostream>
+#include <iostream>
 #include "../tests/test_circle.cpp"
 #include "../tests/test_rectangle.cpp"
 #include "../tests/test_square.cpp"
