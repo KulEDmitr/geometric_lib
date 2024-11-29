@@ -1,8 +1,29 @@
 name: Laba5
 on: push
 jobs:
-  ubuntu-tests:
-    runs-on: ubuntu-24.04
+  lint:
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, windows-latest]
+    
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+      - name: Install dependencies
+        if: matrix.os == 'ubuntu-24.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential g++ libstdc++6
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: new_features_466737
+  tests:
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, windows-latest]
+    
+    runs-on: ${{ matrix.os }}
     
     steps:
       - name: Checkout code
@@ -12,56 +33,13 @@ jobs:
           fetch-depth: 0
 
       - name: ubuntu
+        if: matrix.os == 'ubuntu-24.04'
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential g++ libstdc++6
           chmod +x ./build/tests/tests
           ./build/tests/tests
-
-  build-windows:
-    runs-on: windows-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          ref: new_features_466737
-          fetch-depth: 0
-
-      - name: Setup MSBuild
+      - name: windows
+        if: matrix.os == 'windows-latest'
         run: |
-          choco install microsoft-build-from-source --pre
-
-      - name: Build project
-        run: msbuild /t:Build /p:Configuration=Release /p:Platform=x64
-
-      - name: Copy artifacts
-        run: |
-          xcopy /Y /S $(Build.ArtifactStagingDirectory)\Binaries\* $(ArtifactStagingDirectory)\
-          xcopy /Y /S *.* $(Build.StagingDirectory)\
-
-      - name: Publish artifacts
-        run: |
-          dotnet tool install -g DotNetCore.Cli --version 2.1.500
-
-      - name: Upload Artifacts
-        run: |
-          dotnet tool dotnet pack -c Release -o win-x64.zip --included-runtimes win10-x64
-
-      - name: Publish artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: Win-x64
-          path: win-x64.zip
-
-  test-windows:
-    needs: build-windows
-    runs-on: windows-latest
-    
-    steps:
-    - name: windows
-      run: |
-        & '.\\build\\tests\\tests.exe'
-
-
-        
+          & '.\\build\\tests\\tests.exe'
