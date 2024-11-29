@@ -10,7 +10,7 @@ class TestGeometricFunctions(unittest.TestCase):
 
     # Тесты для модуля circle.py
     def test_circle_area_valid(self):
-        self.assertAlmostEqual(circle_area(3), math.pi * 3 ** 2)
+        self.assertAlmostEqual(circle_area(6), math.pi * 3 ** 2)
         self.assertAlmostEqual(circle_area(0.45), math.pi * 0.45 ** 2)
 
     def test_circle_perimeter_valid(self):
@@ -70,4 +70,5 @@ class TestGeometricFunctions(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+
+    unittest.main(failfast=False)
