@@ -27,7 +27,7 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: new_features_466737
           fetch-depth: 0
@@ -39,6 +39,7 @@ jobs:
           sudo apt-get install -y build-essential g++ libstdc++6
           chmod +x ./build/tests/tests
           ./build/tests/tests
+
       - name: windows
         if: matrix.os == 'windows-latest'
         run: |
