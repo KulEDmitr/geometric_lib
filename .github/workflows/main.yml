@@ -30,7 +30,7 @@ jobs:
 
       - name: Setup MSBuild
         run: |
-          choco install microsoft-build-from-source -y
+          choco install microsoft-build-from-source --pre
 
       - name: Build project
         run: msbuild /t:Build /p:Configuration=Release /p:Platform=x64
