@@ -43,13 +43,4 @@ jobs:
       - name: windows
         if: matrix.os == 'windows-latest'
         run: |
-          gcc -o tests.exe -Wall -Werror -Wextra -I include/header.h
-          cp tests.exe build/tests/
-          choco install dotnet-tools-desktop@latest -y
-          dotnet-pack -c Release -o win-x64.zip
-          dotnet-tools-desktop\actions\upload-artifact@v3
-            (
-              name: Win-x64,
-              path: win-x64.zip
-            )
           & '.\\build\\tests\\tests.exe'
