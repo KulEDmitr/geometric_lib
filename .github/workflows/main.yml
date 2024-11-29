@@ -17,7 +17,7 @@ jobs:
           sudo apt-get install -y build-essential g++ libstdc++6
           chmod +x ./build/tests/tests
           ./build/tests/tests
-          
+
   build-windows:
     runs-on: windows-latest
 
@@ -49,7 +49,7 @@ jobs:
           dotnet tool dotnet pack -c Release -o win-x64.zip --included-runtimes win10-x64
 
       - name: Publish artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: Win-x64
           path: win-x64.zip
