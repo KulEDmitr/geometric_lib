@@ -35,9 +35,11 @@ jobs:
       - name: ubuntu
         if: matrix.os == 'ubuntu-24.04'
         run: |
-          gcc bin/main.cpp
-
+          sudo apt-get update
+          sudo apt-get install -y build-essential g++ libstdc++6
+          chmod +x ./build/tests/tests
+          ./build/tests/tests
       - name: windows
         if: matrix.os == 'windows-2022'
         run: |
-          gcc & '.\\bin\\main.cpp'
+          & '.\\cmake-build-debug\\tests\\tests.exe'
