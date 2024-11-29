@@ -7,8 +7,9 @@
 **Функция area принимает один параметр r, который представляет собой радиус круга, и возвращает площадь круга, используя следующую формулу:
 площадь=π×r^2.**
 
-    def area(r):
-        return math.pi * r * r
+    Например:
+        def area(3):
+        return math.pi * 3 * 3 Ответ: 28.2743338823
 
 - Rectangle: S = ab
 
@@ -23,8 +24,9 @@
 
     Площадь прямоугольника с заданной длиной и шириной.
 
-    def area(a, b):
-        return a * b
+    Например:
+        def area(4, 5):
+        return 4 * 5 Ответ: 20
 
 - Square: S = a²
 
@@ -38,8 +40,9 @@
 
     Площадь квадрата с заданной длиной стороны.
 
-    def area(a):
-        return a * a
+    Например:
+        def area(4):
+        return 4 * 4 Ответ: 16
 
 
 - Triangle: S = ½ah
@@ -55,8 +58,9 @@
 
     Площадь треугольника с заданной длиной основания и высотой.
 
-    def area(a, h):
-        return a * h / 2
+    Например:
+        def area(6, 4):
+        return 6 * 4 / 2 Ответ: 12.0
 
 ## Perimeter
 - Circle: P = 2πR
@@ -66,8 +70,9 @@
 **Функция perimeter принимает один параметр r, который представляет радиус окружности, и возвращает длину окружности, используя формулу:
 длина=2×π×r.**
 
-    def perimeter(r):
-        return 2 * math.pi * r
+    Например:
+        def perimeter(3):
+        return 2 * math.pi * 3 Ответ: 18.8495559215
 
 
 - Rectangle: P = 2a + 2b
@@ -83,8 +88,9 @@
 
     Периметр прямоугольника с заданной длиной и шириной.
 
-    def perimeter(a, b):
-        return 2 * (a + b)
+    Например:
+        def perimeter(4, 5):
+        return 2 * (4 + 5) Ответ: 18
 
 - Square: P = 4a
 
@@ -98,8 +104,9 @@
 
     Периметр квадрата с заданной длиной стороны.
 
-    def perimeter(a):
-        return 4 * a
+    Например:
+        def perimeter(4):
+        return 4 * 4 Ответ: 16
 
 - Triangle: P = a + b + c
 
@@ -115,8 +122,9 @@
 
     Периметр треугольника с заданными длинами сторон.
 
-    def perimeter(a, b, c):
-        return a + b + c
+    Например:
+        def perimeter(3, 4, 5):
+        return 3 + 4 + 5 Ответ: 12
 
 
 ## Последние коммиты
@@ -125,3 +133,33 @@
 - **d2775ba**: add new file
 - **d078c8d** (origin/main, origin/HEAD, main): L-03: Docs added
 - **8ba9aeb**: L-03: Circle and square added
+
+commit e294ee73d454e57ab2033df1d977f0da8410515f
+Author: Georgy-Alex <118427017+Georgy-Alex@users.noreply.github.com>
+Date: Wed Oct 30 15:19:27 2024 +0300
+
+full labaWork2
+
+commit 507bf3a83cb906ac9ffe02e80f92340bc4e9dee7
+Author: Georgy-Alex <118427017+Georgy-Alex@users.noreply.github.com>
+Date: Thu Oct 3 00:54:37 2024 +0300
+
+edit math and add new file
+
+commit d2775baa6e8b62b743092185e8dd73755230d8bf
+Author: Georgy-Alex <118427017+Georgy-Alex@users.noreply.github.com>
+Date: Thu Oct 3 00:50:32 2024 +0300
+
+add new file
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
+Author: smartiqa <info@smartiqa.ru>
+Date: Thu Mar 4 14:55:29 2021 +0300
+
+L-03: Docs added
+
+commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date: Thu Mar 4 14:54:08 2021 +0300
+
+L-03: Circle and square added
