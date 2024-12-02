@@ -14,8 +14,7 @@ class CustomTestResult(unittest.TestResult):
         self.test_results.append({
             "Test Case": test._testMethodName,
             "Situation": test.shortDescription() or "No description",
-            "Expected Result": "Success",
-            "Actual Result": "Success",
+            "Result": "Success",
             "Date": self.test_date,
             "Verdict": "OK"
         })
@@ -25,8 +24,7 @@ class CustomTestResult(unittest.TestResult):
         self.test_results.append({
             "Test Case": test._testMethodName,
             "Situation": test.shortDescription() or "No description",
-            "Expected Result": "Success",
-            "Actual Result": str(err[1]),
+            "Result": str(err[1]),
             "Date": self.test_date,
             "Verdict": "NOT OK (High)"
         })
@@ -36,15 +34,14 @@ class CustomTestResult(unittest.TestResult):
         self.test_results.append({
             "Test Case": test._testMethodName,
             "Situation": test.shortDescription() or "No description",
-            "Expected Result": "Success",
-            "Actual Result": str(err[1]),
+            "Result": str(err[1]),
             "Date": self.test_date,
             "Verdict": "ERROR (Critical)"
         })
 
     def printReport(self):
         # Формирование таблицы вручную с динамическими размерами колонок
-        headers = ["Test Case", "Situation", "Expected Result", "Actual Result", "Date", "Verdict"]
+        headers = ["Test Case", "Situation", "Result", "Date", "Verdict"]
         
         # Определение ширины каждой колонки
         col_widths = [max(len(str(row[col])) for row in self.test_results + [dict(zip(headers, headers))]) for col in headers]
@@ -61,8 +58,7 @@ class CustomTestResult(unittest.TestResult):
             print(row_format.format(
                 result["Test Case"],
                 result["Situation"],
-                result["Expected Result"],
-                result["Actual Result"],
+                result["Result"],
                 result["Date"],
                 result["Verdict"]
             ))
