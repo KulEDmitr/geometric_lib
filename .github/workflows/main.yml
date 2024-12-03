@@ -3,7 +3,7 @@ name: Automated tests
 on:
   push
 
-job:
+jobs:
   test:
     runs-on: ubuntu-latest
 
