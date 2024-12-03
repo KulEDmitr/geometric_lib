@@ -1,0 +1,26 @@
+name: Automated tests
+
+on:
+  push
+
+job:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install unittests
+        run: pip install unittest
+      - name: Run rectangle tests
+        run: python.exe -m unittest rectangle.py
+      - name: Run triangle tests
+        run: python.exe -m unittest triangle.py
+      - name: Run circle tests
+        run: python.exe -m unittest circle.py
+      - name: Run square tests
+        run: python.exe -m unittest square.py
