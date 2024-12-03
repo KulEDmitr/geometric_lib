@@ -79,6 +79,8 @@ Raises: TypeErorr if value is not integer and ValueError if it's negative or zer
 There is "tests" directory for your tests and test.py file with 3 basic tests classes, one for each figure
 ### Custom tests runner
 There is "tester.py" file, which contains CustomTestResult and CustomTestRunner classes. By importing test to this file and running it you can get table of tests results with some extra data
+### Now have CI/CD!
+And it runs custom tester on every push on windows and ubuntu.
 
 ## History of changes
 #### [Error in rectangle has been fixed](#rectanglepy)
