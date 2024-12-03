@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ "laba2docs_416735" ]
+  pull_request:
+    branches: [ "laba2docs_416735" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Run tests
+        run: |
+          python3 -m unittest test_rectangle.py
+ 
