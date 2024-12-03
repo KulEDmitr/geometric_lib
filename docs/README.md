@@ -5,9 +5,8 @@ Geomitric_lib is a library for calculating the area and perimeter of different g
 
 # Figures
 
-## Circle
-- [Open in IDE](./circle.py)
-- [Open on GitHub](https://github.com/HuntedDuck/geometric_lib/blob/new_features_%3C465483/circle.py)
+## [Circle](../circle.py)
+
 
 ### Parameters
 - **int r**: size of circle radius  
@@ -28,9 +27,7 @@ Geomitric_lib is a library for calculating the area and perimeter of different g
 
 ---
 
-## Rectangle
-- [Open in IDE](./rectangle.py)
-- [Open on GitHub](https://github.com/HuntedDuck/geometric_lib/blob/new_features_%3C465483/rectangle.py)
+## [Rectangle](../rectangle.py)
 
 ### Parameters
 - **int a, b**: size of rectangle sides  
@@ -51,9 +48,8 @@ Geomitric_lib is a library for calculating the area and perimeter of different g
 
 ---
 
-## Square
-- [Open in IDE](./square.py)
-- [Open on GitHub](https://github.com/HuntedDuck/geometric_lib/blob/new_features_%3C465483/square.py)
+## [Square](../square.py)
+
 
 ### Parameters
 - **int a**: size of square side  
@@ -74,9 +70,7 @@ Geomitric_lib is a library for calculating the area and perimeter of different g
 
 ---
 
-## Triangle
-- [Open in IDE](./triangle.py)
-- [Open on GitHub](https://github.com/HuntedDuck/geometric_lib/blob/new_features_%3C465483/triangle.py)
+## [Triangle](../triangle.py)
 
 ### Parameters
 - **int a, b**: size of triangle sides  
