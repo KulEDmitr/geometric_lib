@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ "new_features_365743_test" ]
+jobs:
+  test-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+
+      - name: Run tests
+        run: |
+          python3 -m unittest discover -s tests -p "tests.py"
+
+  test-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+
+      - name: Run tests
+        run: |
+          python -m unittest discover -s tests -p "tests.py"
