@@ -1,40 +1,23 @@
-# This is a basic workflow to help you get started with Actions
+name: CI/CD
 
-name: CI
-
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+on: 
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test1:
-    # The type of runner that the job will run on
-    name: build-ubuntu-latest
-    runs-on: ubuntu-latest
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v3
-
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
       - name: Run tests
-        run: |
-          UnitTestCircle.py
-          UnitTestRectangle.py
-          UnitTestSquare.py
-          UnitTestTriangle.py
-  test2:
-    name: build-windows-latest
-    runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Run tests
-        run: |
-          UnitTestCircle.py
-          UnitTestRectangle.py
-          UnitTestSquare.py
-          UnitTestTriangle.py
-        
-
-   
+        run: python -m unittest
