@@ -156,3 +156,17 @@ perimeter(52.0, 3.0, 5.0)
 ```
 0
 ```
+## История изменений проекта
+
+* **3cff382** - *added documentation for file functions **rectangle.py***
+* **13fe350** - *added documentation for file functions **rectangle.py***
+* **bb1b73e** - *documented the functions in a file **square.py***
+* **dsa4323** - *added an example of calling each function of the file **circle.py***
+* **6981648** - *added documentation for file functions **circle.py***
+* **cebc63e** - *fixed an error in the formula of the **'perimeter'** function*
+* **cfbf44b** - *create a new **rectangle.py** file*
+* **d078c8d** - *(origin/main, origin/HEAD) L-03: Docs added*
+* **8ba9aeb** - *L-03: Circle and square added*
+
+
+
