@@ -26,6 +26,7 @@ TEST(RectanglePerimetrTest, NegativeTest){
     ASSERT_EQ(RectanglePerimetr(-4, 5), 18);
 }
 
+
 TEST(TriangleSquareTest, NormalTest){
     ASSERT_EQ(TriangleSquare(5, 10), 25);
 }
