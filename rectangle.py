@@ -1,32 +1,15 @@
-def area(a: float, b: float) -> float:
-    '''
-    Вычисляет и возвращает площадь прямоугольника.
-            Параметры:
-                    a (float): ширина прямоугольника, вещественное число
-                    b (float): длина прямоугольника, вещественное число
-            Возвращаемое значение:
-                    r_area (float): площадь прямоугольника, вычесленная по формуле r_area = a * b
-            Пример вызова:
-                Входные данные: 3.0, 5.0 
-                Результат: 15.0
-    '''
 
-    r_area = a * b
-    return r_area
+def area(a, b):
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("Values must be numbers")
+    if a < 0 or b < 0:
+        raise ValueError("Values must be positive")
+    return a * b
 
 
-def perimeter(a: float, b: float) -> float:
-    '''
-    Вычисляет и возвращает периметр прямоугольника.
-            Параметры:
-                    a (float): ширина прямоугольника, вещественное число
-                    b (float): длина прямоугольника, вещественное число
-            Возвращаемое значение:
-                    r_perimeter (float): периметр прямоугольника, вычесленный по формуле r_perimeter = (a + b) * 2
-            Пример вызова:
-                Входные данные: 3.0, 5.0 
-                Результат: 16.0
-    '''
-
-    r_perimeter = (a + b) * 2
-    return r_perimeter
+def perimeter(a, b):
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("Values must be numbers")
+    if a < 0 or b < 0:
+        raise ValueError("Values must be positive")
+    return 2 * a + 2 * b
