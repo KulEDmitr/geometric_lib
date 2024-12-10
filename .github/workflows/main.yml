@@ -1,0 +1,28 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [ "unit_test_405095" ]
+  pull_request:
+    branches: [ "unit_test_405095" ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Run tests
+        run: python unit_test.py
+        continue-on-error: ${{ matrix.os == 'ubuntu-latest' }}
