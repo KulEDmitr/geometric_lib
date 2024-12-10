@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ "labwork4_467771" ]
+  pull_request:
+    branches: [ "labwork4_467771" ]
+  on:
+    workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: [3.12]
+      fail-fast: false
+
+    steps:
+      - name: Check out Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Install Dependencies
+        run: echo "There are no dependencies!"
+
+      - name: Run Unit Tests
+        run: python -m unittest discover -s ./tests -p "test_*.py"
