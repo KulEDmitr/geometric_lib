@@ -22,4 +22,4 @@ jobs:
 
       - name: Run unittests
         run: |
-           python.exe -m unittest -s . -p test.py
+           python3 -m unittest -s . -p test.py
