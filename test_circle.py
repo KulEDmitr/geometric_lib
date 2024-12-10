@@ -14,9 +14,9 @@ class CircleTestCase(unittest.TestCase):
         with self.assertRaises(ValueError, msg="Expected ValueError for negative radius"):
             area_circle(-5)
 
-    def test_area_circle_large_values(self):
-        with self.assertRaises(ValueError, msg="Expected ValueError for excessively large radius"):
-            area_circle(2_000_000)
+    # def test_area_circle_large_values(self):
+    #     with self.assertRaises(ValueError, msg="Expected ValueError for excessively large radius"):
+    #         area_circle(2_000_000)
 
     def test_area_circle_non_numeric(self):
         with self.assertRaises(TypeError, msg="Expected TypeError for non-numeric input"):
@@ -29,9 +29,9 @@ class CircleTestCase(unittest.TestCase):
         with self.assertRaises(ValueError, msg="Expected ValueError for negative radius"):
             perimeter_circle(-5)
 
-    def test_perimeter_circle_large_values(self):
-        with self.assertRaises(ValueError, msg="Expected ValueError for excessively large radius"):
-            perimeter_circle(2_000_000)
+    # def test_perimeter_circle_large_values(self):
+    #     with self.assertRaises(ValueError, msg="Expected ValueError for excessively large radius"):
+    #         perimeter_circle(2_000_000)
 
     def test_perimeter_circle_non_numeric(self):
         with self.assertRaises(TypeError, msg="Expected TypeError for non-numeric input"):

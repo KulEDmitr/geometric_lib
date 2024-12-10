@@ -16,7 +16,7 @@ def area_rectangle(a, b):
         raise TypeError("Both dimensions must be numbers")
     if a < 0 or b < 0:
         raise ValueError("Dimensions must be non-negative")
-    if a > 1_000_000 or b > 1_000_000:
+    if a > 1000000 or b > 1000000:
         raise ValueError("Dimensions are too large")
     return a * b
 
@@ -39,6 +39,6 @@ def perimeter_rectangle(a, b):
         raise TypeError("Both dimensions must be numbers")
     if a < 0 or b < 0:
         raise ValueError("Dimensions must be non-negative")
-    if a > 1_000_000 or b > 1_000_000:
+    if a > 1000000 or b > 1000000:
         raise ValueError("Dimensions are too large")
     return 2 * (a + b)
