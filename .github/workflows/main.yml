@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches-ignore:
+      - 'main'
+      - 'lab_work_2_466894'
+      - 'lab_work_3_466894'
+      - 'lab_work_4_466894'
+  
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Run Unit Tests
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    
+    steps:
+      # parsing the code from the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # python set-up
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      # Running unit-tests
+      - name: Run Unit Tests
+        run: python -m unittest discover
