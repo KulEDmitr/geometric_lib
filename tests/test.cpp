@@ -11,7 +11,7 @@ TEST(RectangleSquareTest, BigDataTest){
 }
 
 TEST(RectangleSquareTest, NegativeTest){
-    ASSERT_EQ(RectangleSquare(-20,1000), 20000);
+    ASSERT_EQ(RectangleSquare(-20, 1000), 20000);
 }
 
 TEST(RectanglePerimetrTest, NormalTest){
