@@ -26,5 +26,5 @@ def perimeter(a):
                 Входные данные: 3.0
                 Результат: 12.0
     '''
-    rerimetr_square = 4 * a
+    perimetr_square = 4 * a
     return perimetr_square
