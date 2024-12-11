@@ -1,4 +1,4 @@
-name: CI/CD
+name: Labvork5
 
 on: 
   push:
@@ -7,10 +7,9 @@ on:
 jobs:
   test:
     runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
+    strategy: 
+      matrix: 
         os: [ubuntu-latest, windows-latest]
-      fail-fast: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
