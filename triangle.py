@@ -14,5 +14,5 @@ def perimeter(a, b, c):
     input: 3 4 5
     output: 12
     """    
-return a + b + c
+    return a + b + c
 

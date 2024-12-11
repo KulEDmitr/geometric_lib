@@ -6,7 +6,7 @@ def area(a, b):
  input: 52 4
  output: 208
  """
-    return a * b
+ return a * b
 
 def perimeter(a, b):
  """
@@ -15,4 +15,4 @@ def perimeter(a, b):
  input: 4 10
  output: 28
  """
-    return 2 * (a + b)
+ return 2 * (a + b)
