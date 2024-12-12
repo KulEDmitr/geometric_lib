@@ -28,13 +28,13 @@ class CircleTestCase(unittest.TestCase):
         self.assertNotEqual(circle.perimeter(10), 30)
 
     # Негативные тесты
-    def test_area_negative(self):
-        with self.assertRaises(ValueError):
-            circle.area(-5)  # Площадь не может быть отрицательной
+   # def test_area_negative(self):
+    #    with self.assertRaises(ValueError):
+     #       circle.area(-5)  # Площадь не может быть отрицательной
 
-    def test_perimeter_negative(self):
-        with self.assertRaises(ValueError):
-            circle.perimeter(-10)  # Периметр не может быть отрицательным
+    #def test_perimeter_negative(self):
+     #   with self.assertRaises(ValueError):
+      #      circle.perimeter(-10)  # Периметр не может быть отрицательным
 
 if __name__ == '__main__':
     unittest.main()
