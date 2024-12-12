@@ -9,6 +9,11 @@ def area(a, h):
         Вывод:
         area=10
     """
+    if not isinstance(a, (int, float)) or not isinstance(h, (int, float)):
+        raise TypeError()
+    if a < 0 or h < 0 or a > 2147483647 or h > 2147483647:
+        raise ValueError()
+    
     return a * h / 2 
 
 def perimeter(a, b, c):
@@ -22,4 +27,9 @@ def perimeter(a, b, c):
         Вывод:
         perimeter=9
     """
-    return a + b + c 
+    if not all(isinstance(x, (int, float)) for x in (a, b, c)):
+        raise TypeError()
+    if a < 0 or b < 0 or c < 0 or  a > 2147483647 or b > 2147483647 or c > 2147483647:
+        raise ValueError()
+    
+    return a + b + c

@@ -102,11 +102,63 @@
 - 7 Коммит(72f9576458ba8443c1ab7fa27d98cb21ab480c73):  *Прбный пуш readme 2*
 
 ## **Общее решение**
-- *Изучил текст лабы*
+- *Изучил текст лабы 2*
 - *Изучил примечание в телеграм*
 - *Изучил [Базовый синтаксис записи и форматирования](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)*
 - *Добавил комментарии в файлы проекта*
 - *Изменил файл README.md: добавил формулы для треугольника, расписал функции, добавил историю изменений*
 
+## **Лаба 4**
+*Добавлен тест для Triangle.py:*
+```
+import unittest
+from triangle import area, perimeter  # Импортируем функции area и perimeter
 
+class TriangleTestCase(unittest.TestCase):
+    #корректные значения
+    def test_area(self):
+        self.assertEqual(area(5, 4), 10)  # Проверяем, area =  10
+        self.assertEqual(area(0, 10), 0)  # Проверяем, area =  0
+        self.assertEqual(area(10, 0), 0)  # Проверяем, area =  0
+        self.assertEqual(area(3, 6), 9)    # Проверяем, area =  9
+
+    def test_perimeter(self):
+        self.assertEqual(perimeter(2, 3, 4), 9)  # Проверяем, perimeter =  9
+        self.assertEqual(perimeter(1, 1, 1), 3)  # Проверяем, perimeter =  3
+        self.assertEqual(perimeter(5, 5, 5), 15)  # Проверяем, perimeter =  15
+        self.assertEqual(perimeter(0, 0, 0), 0)   # Проверяем, perimeter =  0
+
+    # Тестируем некорректные входные данные 
+    def test_invalid_area(self):
+        with self.assertRaises(TypeError):
+            area("5", 4)  # Проверяем, что строка вызывает ошибку
+        with self.assertRaises(TypeError):
+            area(5, "4")  # Проверяем, что строка вызывает ошибку
+        with self.assertRaises(ValueError):
+            area(-5, 4)   # Проверяем, что отрицательное основание вызывает ошибку
+        with self.assertRaises(ValueError):
+            area(5, -4)   # Проверяем, что отрицательная высота вызывает ошибку
+        with self.assertRaises(ValueError):
+            area(1e308, 1e308)  # Проверяем, что слишком большие числа вызывают ошибку
+
+    def test_invalid_perimeter(self):
+        with self.assertRaises(TypeError):
+            perimeter("2", 3, 4)  # Проверяем, что строка вызывает ошибку
+        with self.assertRaises(TypeError):
+            perimeter(2, "3", 4)  # Проверяем, что строка вызывает ошибку
+        with self.assertRaises(TypeError):
+            perimeter(2, 3, "4")  # Проверяем, что строка вызывает ошибку
+        with self.assertRaises(ValueError):
+            perimeter(-2, 3, 4)   # Проверяем, что отрицательная сторона вызывает ошибку
+        with self.assertRaises(ValueError):
+            perimeter(2, -3, 4)   # Проверяем, что отрицательная сторона вызывает ошибку
+        with self.assertRaises(ValueError):
+            perimeter(2, 3, -4)   # Проверяем, что отрицательная сторона вызывает ошибку
+        with self.assertRaises(ValueError):
+            perimeter(1e308, 1e308, 1e308)  # Проверяем, что слишком большие числа вызывают ошибку
+
+if __name__ == '__main__':
+    unittest.main()
+
+```
 
