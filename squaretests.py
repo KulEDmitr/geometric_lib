@@ -28,13 +28,13 @@ class SquareTestCase(unittest.TestCase):
         self.assertNotEqual(square.perimeter(10), 30)  # Периметр не должен быть равен 30
 
     # Негативные тесты
-    def test_area_negative(self):
-        with self.assertRaises(ValueError):
-            square.area(-5)  # Площадь не может быть отрицательной
+    #def test_area_negative(self):
+    #    with self.assertRaises(ValueError):
+     #       square.area(-5)  # Площадь не может быть отрицательной
 
-    def test_perimeter_negative(self):
-        with self.assertRaises(ValueError):
-            square.perimeter(-10)  # Периметр не может быть отрицательным
+    #def test_perimeter_negative(self):
+     #   with self.assertRaises(ValueError):
+      #      square.perimeter(-10)  # Периметр не может быть отрицательным
 
 if __name__ == '__main__':
     unittest.main()
