@@ -93,20 +93,20 @@
 ```
 
 ## **История изменения проекта с хешами комитов**
--1 Комиит(8ba9aeb3cea847b63a91ac378a2a6db758682460): *L-03: Circle and square added*
--2 Комиит(d078c8d9ee6155f3cb0e577d28d337b791de28e2): *L-03: Docs added*
--3 Комиит(83b1514a0981b87a5ae52c2dbd8ca7cf2197201c): *добавлен файл rectangle*
--4 Комиит(e691bddd3847f58264673bdeaf60d7930a2727b2): *Ошибка исправлена*
--5 Коммит(b8d98a82dcb1e6bca25770def8c32bfb5c2284c4):  *Добавление комментариев*
--6 Коммит(351eb9b4246a9342d5d8d15a928570cf6fff986a):  *Пробный пуш readme*
--7 Коммит(72f9576458ba8443c1ab7fa27d98cb21ab480c73):  *Прбный пуш readme 2*
+- 1 Комиит(8ba9aeb3cea847b63a91ac378a2a6db758682460): *L-03: Circle and square added*
+- 2 Комиит(d078c8d9ee6155f3cb0e577d28d337b791de28e2): *L-03: Docs added*
+- 3 Комиит(83b1514a0981b87a5ae52c2dbd8ca7cf2197201c): *добавлен файл rectangle*
+- 4 Комиит(e691bddd3847f58264673bdeaf60d7930a2727b2): *Ошибка исправлена*
+- 5 Коммит(b8d98a82dcb1e6bca25770def8c32bfb5c2284c4):  *Добавление комментариев*
+- 6 Коммит(351eb9b4246a9342d5d8d15a928570cf6fff986a):  *Пробный пуш readme*
+- 7 Коммит(72f9576458ba8443c1ab7fa27d98cb21ab480c73):  *Прбный пуш readme 2*
 
 ## **Общее решение**
--*Изучил текст лабы*
--*Изучил примечание в телеграм*
--*Изучил [Базовый синтаксис записи и форматирования](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)*
--*Добавил комментарии в файлы проекта*
--*Изменил файл README.md: добавил формулы для треугольника, расписал функции, добавил историю изменений*
+- *Изучил текст лабы*
+- *Изучил примечание в телеграм*
+- *Изучил [Базовый синтаксис записи и форматирования](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)*
+- *Добавил комментарии в файлы проекта*
+- *Изменил файл README.md: добавил формулы для треугольника, расписал функции, добавил историю изменений*
 
 
 
