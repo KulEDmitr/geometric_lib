@@ -1,0 +1,30 @@
+{
+    "name": "cpp-io-optimizer",
+    "displayName": "C++ IO Optimizer",
+    "description": "Automatically adds IO optimization settings in main()",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Osaulenko-I/geometric_lib"
+    },
+    "license": "MIT",
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/main.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    }
+}
