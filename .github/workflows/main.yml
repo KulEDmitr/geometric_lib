@@ -2,32 +2,47 @@ name: Run Python Tests
 
 on:
   push:
-    branches:
-      - main 
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main 
+    branches: [ "main" ]
+
+  workflow_dispatch:
 
 jobs:
-  test:
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest] 
-    runs-on: ${{ matrix.os }}
+  ubuntu-test:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11' 
 
-    - name: Install dependencies
+    - name: Run tests
       run: |
-        python -m pip install --upgrade pip
+        python -m unittest circle_tests.py
+        python -m unittest rectangle_tests.py
+        python -m unittest square_tests.py
+        python -m unittest triangle_tests.py
+  
+  test-windows:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
 
     - name: Run tests
       run: |
-        python -m unittest discover -s geometric_lib -p "*_tests.py"
+        python -m unittest circle_tests.py
+        python -m unittest rectangle_tests.py
+        python -m unittest square_tests.py
+        python -m unittest triangle_tests.py
