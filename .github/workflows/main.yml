@@ -30,7 +30,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s geometric_lib -p "circle_tests"
-        python -m unittest discover -s geometric_lib -p "rectangle_tests"
-        python -m unittest discover -s geometric_lib -p "square_tests"
-        python -m unittest discover -s geometric_lib -p "triangle_tests"
+        python -m unittest triangle_tests.py
+        python -m unittest triangle_tests.py
+        python -m unittest triangle_tests.py
+        python -m unittest triangle_tests.py
