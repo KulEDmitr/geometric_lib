@@ -7,12 +7,11 @@ def area(a):
 	 Возвращаемое значение:
 		 a*a(int/float)
     '''
+    if a < 0:
+        return -1
+
     return a * a
-'''
-Пример вышеприведенной функции:
-a = 2 (int)
-area(a) = 4 (int)
-'''
+
 
 def perimeter(a):
     '''
@@ -23,9 +22,7 @@ def perimeter(a):
 	 Возвращаемое значение:
 		 4*a(int/float)
     '''
+    if a < 0:
+        return -1
+
     return 4 * a
-'''
-Пример вышеприведенной функции:
-a = 2 (int)
-perimeter(a) = 8 (int)
-'''

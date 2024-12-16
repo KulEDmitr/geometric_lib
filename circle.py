@@ -1,7 +1,5 @@
 import math
-'''
-Импортируем библиотеку math, для использования числа pi = 3.141592653589793...
-'''
+
 
 def area(r):
     '''
@@ -14,12 +12,10 @@ def area(r):
 	 Возвращаемое значение:
 		 pi*r*r(float) - площадь круга
     '''
+    if r < 0:
+        return -1
+
     return math.pi * r * r
-'''
-Пример вышеприведенной функции:
-r = 10 (int)
-area(r) = 314.1592653589793 (float)
-'''
 
 
 def perimeter(r):
@@ -33,10 +29,7 @@ def perimeter(r):
 	 Возвращаемое значение:
 		 2*pi*r(float) - периметр круга
     '''
-    return 2 * math.pi * r
-'''
-Пример вышеприведенной функции:
-r = 10 (int)
-perimeter(r) = 62.83185307179586 (float)
-'''
+    if r < 0:
+        return -1
 
+    return 2 * math.pi * r
