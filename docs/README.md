@@ -1,151 +1,152 @@
 ## Math formulas
-This repo contains math formulas for the areas and perimeters of : Circle, Rectangle, Square, and Triangle. 
+>This repo contains math formulas for the areas and perimeters of : Circle, Rectangle, Square, and Triangle. 
 
 - **Area**:
-    - Circle: S = πR²
-    - Rectangle: S = ab
-    - Square: S = a²
-    - Triangle: S = a*h/2
+
+    - ___Circle: S = πR²___
+    - ___Rectangle: S = ab___
+    - ___Square: S = a²___
+    - ___Triangle: S = a*h/2___
 
 - **Perimeter**:
-    - Circle: P = 2πR
-    - Rectangle: P = 2a + 2b
-    - Square: P = 4a
-    - Triangle: P = a+b+c
+    - ___Circle: P = 2πR___
+    - ___Rectangle: P = 2a + 2b___
+    - ___Square: P = 4a___
+    - ___Triangle: P = a+b+c___
 
 ## Function Descriptions(Area)
 
 - **Triangle Area**:
-    - def area(A,H):
+    - `def area(A,H)`:
     - Принимает число A(сторону треугольника).
 	- Принимает число H(высоту треугольника).
 	- Возвращает площадь треугольника (сторона треугольника, умноженная на высоту пополам)
 	- *Параметры*:
-		- A(int/float)
-		- H(int/float)
+		- ___A(int/float)___
+		- ___H(int/float)___
     - *Возвращаемое значение*:
-		- A*H/2(int/float) - площадь треугольника
-    - return A*H/2 
+		- ___A*H/2(int/float)___ - площадь треугольника
+    - `return A*H/2` 
 
     - ***Example***
-        - a = 1
-        - h = 5
-        - area(a,h) = 5
+        - `a = 1`
+        - `h = 5`
+        - `area(a,h) = 5`
 
 
 - **Circle Area**:
-    - def area(R):
+    - `def area(R)`:
     - Принимает число R (радиус круга).
     - Возвращает площадь круга (π умноженное на квадрат радиуса).
     - *Параметры*:
-        - R (int/float) — радиус круга
+        - ___R (int/float)___ — радиус круга
     - *Возвращаемое значение*:
-        - π * R² (float) — площадь круга
-    - return math.pi * R²
+        - ___π * R² (float)___ — площадь круга
+    - `return math.pi * R²`
 
     - ***Example***
-        - R = 10
-        - area(R) = 314.1592653589793 
+        - `R = 10`
+        - `area(R) = 314.1592653589793` 
 
 
 - **Rectangle Area**:
-    - def area(a, b):
+    - `def area(a, b)`:
     - Принимает число a (длину прямоугольника).
     - Принимает число b (ширину прямоугольника).
     - Возвращает площадь прямоугольника (длина, умноженная на ширину).
     - *Параметры*:
-        - a (int/float) — длина прямоугольника
-        - b (int/float) — ширина прямоугольника
+        - ___a (int/float)___ — длина прямоугольника
+        - ___b (int/float)___ — ширина прямоугольника
     - *Возвращаемое значение*:
-        - a * b (int/float) — площадь прямоугольника
-    - return a * b
+        - ___a * b (int/float)___ — площадь прямоугольника
+    - `return a * b`
 
     - ***Example***
-        - a = 2
-        - b = 1
-        - area(a,b) = 2
+        - `a = 2`
+        - `b = 1`
+        - `area(a,b) = 2`
 
 - **Square Area**:
-    - def area(a):
+    - `def area(a)`:
     - Принимает число a (сторону квадрата).
     - Возвращает площадь квадрата.
     - *Параметры*:
-        - a (int/float)
+        - ___a (int/float)___
     - *Возвращаемое значение*:
-        - a² (int/float) - площадь квадрата.
-    - return a**2
+        - ___a² (int/float)___ - площадь квадрата.
+    - `return a**2`
 
     - ***Example***
-        - a = 3
-        - area(a) = 9
+        - `a = 3`
+        - `area(a) = 9`
 
 ## Function Descriptions (Perimeter)
 
 - **Triangle Perimeter**:
-    - def perimeter(a, b, c):
+    - `def perimeter(a, b, c)`:
     - Принимает число a (сторона треугольника).
     - Принимает число b (вторая сторона треугольника).
     - Принимает число c (третья сторона треугольника).
     - Возвращает периметр треугольника (сумма всех сторон).
     - *Параметры*:
-        - a (int/float)
-        - b (int/float)
-        - c (int/float)
+        - ___a (int/float)___
+        - ___b (int/float)___
+        - ___c (int/float)___
     - *Возвращаемое значение*:
-        - a + b + c (int/float) - периметр треугольника.
-    - return a + b + c
+        - ___a + b + c (int/float)___ - периметр треугольника.
+    - `return a + b + c`
 
     - ***Example***
-        - a = 1
-        - b = 2
-        - c = 3
-        - perimeter(a,b,c) = 6
+        - `a = 1`
+        - `b = 2`
+        - `c = 3`
+        - `perimeter(a,b,c) = 6`
 
 - **Circle Perimeter**:
-    - def perimeter(R):
+    - `def perimeter(R)`:
     - Принимает число R (радиус круга).
     - Возвращает периметр круга.
     - *Параметры*:
-        - R (int/float)
+        - ___R (int/float)___
     - *Возвращаемое значение*:
-        - 2πR (int/float) - периметр круга.
-    - return 2 * math.pi * R
+        - ___2πR (int/float)___ - периметр круга.
+    - `return 2 * math.pi * R`
 
     - ***Example***
-        - R = 10
-        - perimeter(R) = 62.83185307179586
+        - `R = 10`
+        - `perimeter(R) = 62.83185307179586`
 
 - **Rectangle Perimeter**:
-    - def perimeter(a, b):
+    - `def perimeter(a, b)`:
     - Принимает число a (длину прямоугольника).
     - Принимает число b (ширину прямоугольника).
     - Возвращает периметр прямоугольника.
     - *Параметры*:
-        - a (int/float)
-        - b (int/float)
+        - ___a (int/float)___
+        - ___b (int/float)___
     - *Возвращаемое значение*:
-        - 2a + 2b (int/float) - периметр прямоугольника.
-    - return 2 * a + 2 * b
+        - ___2a + 2b (int/float)___ - периметр прямоугольника.
+    - `return 2 * a + 2 * b`
 
     - ***Example***
-        - a = 2
-        - b = 3
-        - perimeter(a,b) = 10
+        - `a = 2`
+        - `b = 3`
+        - `perimeter(a,b) = 10`
         
 
 - **Square Perimeter**:
-    - def perimeter(a):
+    - `def perimeter(a)`:
     - Принимает число a (сторону квадрата).
     - Возвращает периметр квадрата.
     - *Параметры*:
-        - a (int/float)
+        - ___a (int/float)___
     - *Возвращаемое значение*:
-        - 4a (int/float) - периметр квадрата.
-    - return 4 * a
+        - ___4a (int/float)___ - периметр квадрата.
+    - `return 4 * a`
 
     - ***Example***
-        - a = 2
-        - perimeter(a) = 8
+        - `a = 2`
+        - `perimeter(a) = 8`
         
 ## History of commits
 
