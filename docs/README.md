@@ -4,6 +4,8 @@
 
 >Moreover, There are tests that control the correctness of input/output [You can check link on commits at the end](#history-of-commits)
 
+>In addition, I've used GitHub Actions workflow to start unix tests after every single `push`. You can see more information, [using this link](https://github.com/666mxvbee/geometric_lib/commit/e59bff88621f74baf8e0cfe8973b4f7bee78cc1c)
+
 >Geometric figures:
 1) [Area of the figures](#function-descriptionsarea)
 2) [Perimeter of the figures](#function-descriptions-perimeter)
@@ -190,3 +192,8 @@
     - [64b3a13986985468e69361f6bc48b7eaa8e025d1](https://github.com/KulEDmitr/geometric_lib/commit/64b3a13986985468e69361f6bc48b7eaa8e025d1)
 
     - ___Добавил тесты в проект (каждый файл проверяется на положительный аргумент и на значительно большой ответ, для проверки времени работы кода)___
+
+- **Commit**
+    - [e59bff88621f74baf8e0cfe8973b4f7bee78cc1c](https://github.com/666mxvbee/geometric_lib/commit/e59bff88621f74baf8e0cfe8973b4f7bee78cc1c)
+
+    - ___Добавил `CI/CD - GitHub Actions workflow` main.yml, который запускает автоматически unit тесты, после каждой операции `push`___
