@@ -1,6 +1,14 @@
-## Math formulas
+## Information
+
 >This repo contains math formulas for the areas and perimeters of : Circle, Rectangle, Square, and Triangle. 
 
+>Moreover, There are tests that control the correctness of input/output [You can check link on commits at the end](#history-of-commits)
+
+>Geometric figures:
+1) [Area of the figures](#function-descriptionsarea)
+2) [Perimeter of the figures](#function-descriptions-perimeter)
+
+## Math formulas
 - **Area**:
 
     - ___Circle: S = πR²___
@@ -153,22 +161,32 @@
 - **Commit**
     - [8ba9aeb3cea847b63a91ac378a2a6db758682460](https://github.com/666mxvbee/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460)
 
-    - L-03: Circle and square added
+    - ___L-03: Circle and square added___
 
 
 - **Commit**
     - [d078c8d9ee6155f3cb0e577d28d337b791de28e2](https://github.com/666mxvbee/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2)
 
-    - L-03: Docs added
+    - ___L-03: Docs added___
 
 
 - **Commit**
     - [ee4d8fb3b036550970af14d69b2364b11544db14](https://github.com/666mxvbee/geometric_lib/commit/ee4d8fb3b036550970af14d69b2364b11544db14)
 
-    - был добавлен новый файл rectangle.py
+    - ___был добавлен новый файл rectangle.py___
 
 
 - **Commit**
     - [48ba5f8b377a40e52e4934cdf7d973ca2813fcde](https://github.com/666mxvbee/geometric_lib/commit/48ba5f8b377a40e52e4934cdf7d973ca2813fcde)
 
-    - Был добавлен новый файл triangle.py. Был исправлен файл rectangle.py
+    - ___Был добавлен новый файл triangle.py. Был исправлен файл rectangle.py___
+
+- **Commit**
+    - [1d34184be77d25310e8da702ac675ef65e994f5b](https://github.com/KulEDmitr/geometric_lib/commit/1d34184be77d25310e8da702ac675ef65e994f5b)
+
+    - ___Сделал обработку при отрицательных значений аргументов в функциях (понадобилось для будущей интеграции тестов)___
+
+- **Commit**
+    - [64b3a13986985468e69361f6bc48b7eaa8e025d1](https://github.com/KulEDmitr/geometric_lib/commit/64b3a13986985468e69361f6bc48b7eaa8e025d1)
+
+    - ___Добавил тесты в проект (каждый файл проверяется на положительный аргумент и на значительно большой ответ, для проверки времени работы кода)___
