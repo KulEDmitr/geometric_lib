@@ -1,12 +1,31 @@
 {
-  "name": "cpp-io-optimizer",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "cpp-algorithm",
+    "displayName": "C++ Algorithm",
+    "description": "Comprehensive snippets for C++ algorithms and data structures. Quickly insert optimized algorithms, ready-to-use data structures, and performance-enhancing code snippets.",
+    "version": "0.0.1",
+    "publisher": "IvanOsaulenko",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Osaulenko-I/geometric_lib"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/main.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    }
 }
