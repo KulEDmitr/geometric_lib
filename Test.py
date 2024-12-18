@@ -49,8 +49,6 @@ class TestTriangle(unittest.TestCase):
     def test_perimeter(self):
         self.assertEqual(triangle_perimeter(3, 4, 5), 12) #Тест с целыми числами
         self.assertAlmostEqual(triangle_perimeter(2.5, 3.5, 4.5), 10.5) #Тест с дробными числами
-   #     with self.assertRaises(ValueError): #Тест с невозможным треугольником
-     #       triangle_perimeter(1, 1, 10)
 
 if __name__ == '__main__':
     unittest.main()
