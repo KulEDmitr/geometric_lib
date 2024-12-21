@@ -10,6 +10,10 @@ def area(r):
         Вывод:
         area=12.56
     """
+    if not isinstance(r, (int, float)):
+        raise TypeError()
+    if r < 0 or r > 2147483647 :
+        raise ValueError()
     return math.pi * r * r
     
 
@@ -23,5 +27,9 @@ def perimeter(r):
         Вывод:
         perimeter=25.132
     """
+    if not isinstance(r, (int, float)):
+        raise TypeError()
+    if r < 0 or r > 2147483647:
+        raise ValueError()
     return 2 * math.pi * r
 
