@@ -18,7 +18,7 @@
 - square.py: Модуль для работы с квадратами.
 - triangle.py: Модуль для работы с треугольниками.
 ## Использование
-### [circle.py](https://github.com/tokyoboy0701x/geometric_lib/blob/new_features_467568/circle.py)
+### [circle.py](../blob/new_features_467568/circle.py)
 Модуль `circle.py` предоставляет функции для вычисления площади и периметра круга.
 #### Функции
 - `area(r)`
@@ -40,7 +40,7 @@
             Входные данные: `3`  
             Вывод: `18.8495559215`
 
-### [rectangle.py](https://github.com/tokyoboy0701x/geometric_lib/blob/new_features_467568/rectangle.py)
+### [rectangle.py](../blob/new_features_467568/rectangle.py)
 Модуль `rectangle.py` предоставляет функции для вычисления площади и периметра прямоугольника.
 #### Функции
 - `area(a, b)`
@@ -62,7 +62,7 @@
             Входные данные: `3 2`  
             Вывод: `10`  
 
-### [square.py](https://github.com/tokyoboy0701x/geometric_lib/blob/new_features_467568/square.py)
+### [square.py](../blob/new_features_467568/square.py)
 Модуль `square.py` предоставляет функции для вычисления площади и периметра квадрата.
 #### Функции
 - `area(a)`
@@ -84,7 +84,7 @@
             Входные данные: `3`  
             Вывод: `12`  
 
-### [triangle.py](https://github.com/tokyoboy0701x/geometric_lib/blob/new_features_467568/triangle.py)
+### [triangle.py](../blob/new_features_467568/triangle.py)
 Модуль `triangle.py` предоставляет функции для вычисления площади и периметра треугольника.
 #### Функции
 - `area(a, h)`
