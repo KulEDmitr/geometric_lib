@@ -1,3 +1,5 @@
+## TESTS (4 LAB) - [**The option for viewing perfomance tests**](TESTS.md)
+
 ## Information
 
 >This repo contains math formulas for the areas and perimeters of : Circle, Rectangle, Square, and Triangle. 
