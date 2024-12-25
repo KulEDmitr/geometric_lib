@@ -3,7 +3,6 @@ name: RunUnitTests
 on:
   push:
     branches:
-      - main
       - new_features_465483
   workflow_dispatch:
 
