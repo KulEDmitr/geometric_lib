@@ -5,9 +5,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
-        version: ["3.13.1"]
-        files: [rectangle.py, circle.py, square.py, triangle.py]
+        runner: [ubuntu-latest, windows-latest]
+        python-version: ["3.13.1"]
+        file: [rectangle.py, circle.py, square.py, triangle.py]
       fail-fast: false  
     steps:
       - uses: actions/checkout@v4
