@@ -13,7 +13,7 @@ class CircleTests(unittest.TestCase):
 
     def test_big_nums(self):
         res = square.area(10**20)
-        self.assertEqual(res, 20**20)
+        self.assertEqual(res, 10**40)
 
 
 if __name__ == "__main__":
