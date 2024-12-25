@@ -34,7 +34,7 @@ class TestRectangle(unittest.TestCase):
     def test_perimeter_float(self):
         self.assertAlmostEqual(rectangle_perimeter(1.5, 2.5), 8)  # Тест с дробными числами
     def test_perimeter_zero(self):
-        self.assertEqual(rectangle_perimeter(0, 5), 0)  # Тест с нулевой стороной
+        self.assertEqual(rectangle_perimeter(0, 5), 10)  # Тест с нулевой стороной
 
 
 class TestSquare(unittest.TestCase):
@@ -66,7 +66,7 @@ class TestTriangle(unittest.TestCase):
     def test_perimeter_float(self):
         self.assertEqual(triangle_perimeter(2.5, 3.5, 1.0), 7)  # Тест с дробными числами
     def test_perimeter_zero(self):
-        self.assertEqual(triangle_perimeter(0, 5, 6), 0)  # Тест с нулевой стороной
+        self.assertEqual(triangle_perimeter(0, 5, 6), 11)  # Тест с нулевой стороной
 
 
 if __name__ == '__main__':
