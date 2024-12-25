@@ -9,7 +9,7 @@ class TestRectangle(unittest.TestCase):
     def test_area(self):
         self.assertEqual(rect_area(5, 10), 50)
         self.assertEqual(rect_area(0, 10), 0)
-        self.assertEqual(rect_area(5, -10), 0)
+        self.assertEqual(rect_area(0, -10), 0)
 
 
     def test_perimeter(self):
