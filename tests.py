@@ -10,6 +10,7 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(rect_area(2, 3), 6)
     def test_area_zero(self):
         self.assertEqual(rect_area(0, 8), 0)
+    def test_area_negative(self):
         self.assertEqual(rect_area(5, -10), 0)
 
 
