@@ -23,4 +23,5 @@ def perimeter(r):
         Пример:
             area(4) -> ~(2 * 3 * 4) ~= 24 
     ''' 
+    if r <= 0: return 0
     return 2 * math.pi * r
