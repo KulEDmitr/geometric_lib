@@ -10,6 +10,7 @@ def area(r):
         Пример:
             area(4) -> ~(3 * 4 * 4) ~= 27 
     ''' 
+    if r <= 0 return 0
     return math.pi * r * r
 
 def perimeter(r):
