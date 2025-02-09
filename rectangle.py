@@ -9,7 +9,7 @@ def area(a, b):
         Пример:
             area(4, 5) -> (4 * 5) = 20 
     ''' 
-    if a <= 0 || b <= 0: return 0
+    if a <= 0 or b <= 0: return 0
     return a * b 
 
 def perimeter(a, b): 
@@ -23,5 +23,5 @@ def perimeter(a, b):
         Пример:
             area(4, 5) -> 2 * (4 + 5) = 18 
     '''
-    if a <= 0 || b <= 0: return 0
+    if a <= 0 or b <= 0: return 0
     return 2 * (a + b)
