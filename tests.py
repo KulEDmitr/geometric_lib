@@ -46,11 +46,11 @@ class TestTriangle(unittest.TestCase):
 
 
     def test_perimeter(self):
-        self.assertEqual(triangle_perimeter(3, 4), 12)
+        self.assertEqual(triangle_perimeter(3, 4, 5), 12)
     def test_perimetr_zero(self):
-        self.assertEqual(triangle_perimeter(0, 4), 0)
+        self.assertEqual(triangle_perimeter(0, 4, 0), 0)
     def test_perimetr_negative(self):
-        self.assertEqual(triangle_perimeter(-3, 4), 0)
+        self.assertEqual(triangle_perimeter(-3, 4, 0), 0)
 
 
 
