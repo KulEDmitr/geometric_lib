@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - new_features
+      - new_features_465237
   pull_request:
     branches:
       - main
-      - new_features
+      - new_features_465237
 
 jobs:
   test:
