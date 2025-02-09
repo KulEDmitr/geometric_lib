@@ -15,7 +15,7 @@ class TestRectangle(unittest.TestCase):
 
 
     def test_perimeter(self):
-        self.assertEqual(rect_perimeter(2, 3), 12)
+        self.assertEqual(rect_perimeter(2, 3), 10)
     def test_perimetr_zero(self):
         self.assertEqual(rect_perimeter(0, 10), 0)
         
