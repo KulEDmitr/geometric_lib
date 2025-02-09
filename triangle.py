@@ -24,4 +24,5 @@ def perimeter(a, b, c):
         Пример:
             area(3, 4, 5) -> (3 + 4 + 5) = 12 
     ''' 
+    if a <= 0 or b <= 0 or c <= 0 or (a + b) <= c or (a + c) <= b or (c + b) <= a: return 0
     return a + b + c 
