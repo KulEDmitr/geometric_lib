@@ -9,6 +9,7 @@ def area(a, h):
         Пример:
             area(3, 4) -> (3 * 4 / 2) = 6 
     ''' 
+    if a <= 0 or h <= 0: return 0
     return a * h / 2 
 
 def perimeter(a, b, c): 
